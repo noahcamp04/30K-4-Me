@@ -52378,7 +52378,6 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a30-2cb4-559e-6397"/>
-                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="2cfd-a0d1-a14b-2ab6"/>
               </constraints>
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
@@ -52387,11 +52386,6 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                   </conditions>
                 </modifier>
                 <modifier type="increment" value="1" field="9a30-2cb4-559e-6397">
-                  <repeats>
-                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
-                  </repeats>
-                </modifier>
-                <modifier type="increment" value="1" field="2cfd-a0d1-a14b-2ab6">
                   <repeats>
                     <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
                   </repeats>
