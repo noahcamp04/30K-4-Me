@@ -41942,6 +41942,9 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="b873-8261-f3bb-d5e3"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Magna Combi-weapon" hidden="false" id="0771-5c42-1b41-36bc">
               <entryLinks>
@@ -41950,6 +41953,9 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7948-67b9-de0f-ac8f"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
