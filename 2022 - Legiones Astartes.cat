@@ -52391,7 +52391,11 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                     <condition type="atLeast" value="1" field="selections" scope="force" childId="8247-54dc-9194-948f" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
-                <modifier type="increment" value="30" field="costs"/>
+                <modifier type="increment" value="20" field="d2ee-04cb-5f8a-2642">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="mount" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
               </modifiers>
             </entryLink>
           </entryLinks>
