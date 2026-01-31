@@ -41891,6 +41891,9 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
         <selectionEntryGroup name="Pintle Mount" id="7d54-cf55-9ea5-82c2" hidden="false">
           <entryLinks>
             <entryLink import="true" name="Twin-linked Bolter" hidden="false" id="4096-0108-8598-c222" type="selectionEntry" targetId="e31a-fd70-35c7-8bed">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="b00f-6864-f546-b640"/>
+              </constraints>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
               </costs>
@@ -41899,31 +41902,49 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
               </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8283-3039-a3a4-aa4c"/>
+              </constraints>
             </entryLink>
             <entryLink import="true" name="Magna Combi-weapon" hidden="false" id="7d25-95fd-dceb-ffcb" type="selectionEntry" targetId="4d02-259d-fa50-ef3a">
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="566a-8151-c366-e38c"/>
+              </constraints>
             </entryLink>
             <entryLink import="true" name="Minor Combi-weapon" hidden="false" id="9580-6043-dc68-8404" type="selectionEntry" targetId="53c0-b5d7-f001-b816">
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="129f-ef49-6efe-90ff"/>
+              </constraints>
             </entryLink>
             <entryLink import="true" name="Heavy Bolter" hidden="false" id="86e1-121d-15c5-766a" type="selectionEntry" targetId="07fd-c24a-9235-4206">
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="057b-32fb-bf74-83a3"/>
+              </constraints>
             </entryLink>
             <entryLink import="true" name="Havoc Launcher" hidden="false" id="b5c0-77f9-c406-4737" type="selectionEntry" targetId="bde9-5abf-ec3d-2273">
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
               </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7f9e-7615-07c0-ea14"/>
+              </constraints>
             </entryLink>
             <entryLink import="true" name="Multi-Melta" hidden="false" id="1a4a-7f5e-8136-00a3" type="selectionEntry" targetId="9332-3834-cf3a-56b4">
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
               </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="ffa9-b009-a4b2-d900"/>
+              </constraints>
             </entryLink>
           </entryLinks>
           <constraints>
