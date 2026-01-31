@@ -52290,63 +52290,6 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="1) Hull (Front) Mounted Quad Launcher" hidden="false" id="b8eb-d2c5-fbdc-48f3" collective="false" import="true" defaultSelectionEntryId="beaa-2d73-874a-0897">
-              <profiles>
-                <profile name="Quad Launcher - Frag" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="6a6c-f50d-3bf1-36eb" publicationId="a716-c1c4-7b26-8424" page="129">
-                  <characteristics>
-                    <characteristic name="Range" hidden="false" id="134b-85fd-657a-3da0" typeId="95ba-cda7-b831-6066">12&quot;-60&quot;</characteristic>
-                    <characteristic name="Strength" hidden="false" id="c0f9-c232-435d-9777" typeId="24d9-b8e1-a355-2458">5</characteristic>
-                    <characteristic name="AP" hidden="false" id="6863-af88-2a0b-b8b0" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-                    <characteristic name="Type" hidden="false" id="c96a-d1ee-6636-5e13" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Barrage, Large Blast (5&quot;), Shred</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Quad Launcher - Incendiary" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="34a8-d312-8c5a-fda2" publicationId="a716-c1c4-7b26-8424" page="129">
-                  <characteristics>
-                    <characteristic name="Range" hidden="false" id="69cb-6bb4-7f9c-636c" typeId="95ba-cda7-b831-6066">12&quot;-60&quot;</characteristic>
-                    <characteristic name="Strength" hidden="false" id="e8e4-3e7f-6b10-af17" typeId="24d9-b8e1-a355-2458">4</characteristic>
-                    <characteristic name="AP" hidden="false" id="5b53-9fde-48ab-c911" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-                    <characteristic name="Type" hidden="false" id="694-cfc9-dcdf-603c" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Barrage, Large Blast (5&quot;), Ignores Cover, Pinning, Shred</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Quad Launcher - Shatter" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="5fda-adf1-93c8-353d" publicationId="a716-c1c4-7b26-8424" page="129">
-                  <characteristics>
-                    <characteristic name="Range" hidden="false" id="da00-e9eb-e274-56d1" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
-                    <characteristic name="Strength" hidden="false" id="2933-3c4d-88f0-a737" typeId="24d9-b8e1-a355-2458">8</characteristic>
-                    <characteristic name="AP" hidden="false" id="458b-fd41-df86-7f5" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-                    <characteristic name="Type" hidden="false" id="276c-7c0d-87c6-94a9" typeId="2f86-c8b4-b3b4-3ff9">Heavy 4, Sunder</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Quad Launcher - Splinter" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="5ac0-fdc-9569-5466" publicationId="a716-c1c4-7b26-8424" page="129">
-                  <characteristics>
-                    <characteristic name="Range" hidden="false" id="6e3f-d234-8d73-4edc" typeId="95ba-cda7-b831-6066">12&quot;-36&quot;</characteristic>
-                    <characteristic name="Strength" hidden="false" id="1ffb-7726-6771-8ea2" typeId="24d9-b8e1-a355-2458">2</characteristic>
-                    <characteristic name="AP" hidden="false" id="6197-969a-f6e8-21a4" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-                    <characteristic name="Type" hidden="false" id="ed25-3a58-16cc-615d" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Barrage, Large Blast (5&quot;), Rending (6+), Pinning, Shell Shock (1)</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Ignores Cover" hidden="false" id="e9c4-d708-5842-f4fa" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
-                <infoLink name="Shred" hidden="false" id="b8e0-94ab-2af0-6fa3" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-                <infoLink name="Sunder" hidden="false" id="358c-fe31-9c7d-7251" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
-                <infoLink name="Barrage" hidden="false" id="d949-e127-c93d-aa65" targetId="7255-b5ee-c3f4-3037" type="rule"/>
-                <infoLink name="Pinning" hidden="false" id="2436-34e9-b239-358d" targetId="1c96-205c-59a0-3cf2" type="rule"/>
-                <infoLink name="Rending (X)" hidden="false" id="9c7a-e166-125-b43a" targetId="0ac9-fab7-aef3-de1d" type="rule">
-                  <modifiers>
-                    <modifier type="set" value="Rending (6+)" field="name"/>
-                  </modifiers>
-                </infoLink>
-                <infoLink name="Shell Shock (X)" hidden="false" id="b32d-3a7d-9f8a-f7a7" targetId="46b7-63a1-941c-96a5" type="rule">
-                  <modifiers>
-                    <modifier type="set" value="Shell Shock (1)" field="name"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="19f6-98b3-d9d2-635a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b666-639a-71b1-8102" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-            </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
             <entryLink id="d755-524f-7bb5-19c4" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="0873-34dd-e52d-d33c" type="selectionEntry">
@@ -52359,6 +52302,65 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="290"/>
           </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="1) Hull (Front) Mounted Quad Launcher" hidden="false" id="346b-99c7-2188-3f8d">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ebbf-53ac-7d76-9552" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="84d5-bb98-ebad-5f6a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Quad Launcher - Frag" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="90f3-4bf7-4d9b-7dde" publicationId="a716-c1c4-7b26-8424" page="129">
+                  <characteristics>
+                    <characteristic name="Range" hidden="false" id="4625-4d93-9f0e-e8ec" typeId="95ba-cda7-b831-6066">12&quot;-60&quot;</characteristic>
+                    <characteristic name="Strength" hidden="false" id="b8af-e2f2-0920-1a76" typeId="24d9-b8e1-a355-2458">5</characteristic>
+                    <characteristic name="AP" hidden="false" id="dd47-02a0-4d77-4555" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+                    <characteristic name="Type" hidden="false" id="542c-c706-e197-2484" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Barrage, Large Blast (5&quot;), Shred</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Quad Launcher - Incendiary" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="f080-6428-10c3-a423" publicationId="a716-c1c4-7b26-8424" page="129">
+                  <characteristics>
+                    <characteristic name="Range" hidden="false" id="ea1b-2409-b840-67e7" typeId="95ba-cda7-b831-6066">12&quot;-60&quot;</characteristic>
+                    <characteristic name="Strength" hidden="false" id="5ab2-6c16-e55b-55ea" typeId="24d9-b8e1-a355-2458">4</characteristic>
+                    <characteristic name="AP" hidden="false" id="2d72-3a00-0d68-6721" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+                    <characteristic name="Type" hidden="false" id="862e-5209-7d59-1f2f" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Barrage, Large Blast (5&quot;), Ignores Cover, Pinning, Shred</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Quad Launcher - Shatter" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="dcd0-cc09-9571-f515" publicationId="a716-c1c4-7b26-8424" page="129">
+                  <characteristics>
+                    <characteristic name="Range" hidden="false" id="bde0-6ce2-f1f8-7831" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+                    <characteristic name="Strength" hidden="false" id="a581-7290-2494-94bb" typeId="24d9-b8e1-a355-2458">8</characteristic>
+                    <characteristic name="AP" hidden="false" id="e9d5-3fd5-999e-06f1" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                    <characteristic name="Type" hidden="false" id="b8d0-fed7-679a-1e4d" typeId="2f86-c8b4-b3b4-3ff9">Heavy 4, Sunder</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Quad Launcher - Splinter" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="95e8-b62a-3649-82da" publicationId="a716-c1c4-7b26-8424" page="129">
+                  <characteristics>
+                    <characteristic name="Range" hidden="false" id="2941-7165-c063-ce86" typeId="95ba-cda7-b831-6066">12&quot;-36&quot;</characteristic>
+                    <characteristic name="Strength" hidden="false" id="1415-8731-211f-26c9" typeId="24d9-b8e1-a355-2458">2</characteristic>
+                    <characteristic name="AP" hidden="false" id="3ee8-a9b5-bbcf-76f3" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                    <characteristic name="Type" hidden="false" id="bb77-c1ec-497b-aa47" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Barrage, Large Blast (5&quot;), Rending (6+), Pinning, Shell Shock (1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Barrage" id="a0a8-61db-b2bc-6fe2" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
+                <infoLink name="Ignores Cover" id="f1a3-f4d3-caa2-5fde" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
+                <infoLink name="Rending (X)" id="bd26-e42d-250b-5b94" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+                  <modifiers>
+                    <modifier type="set" value="Rending (6+)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Shell Shock (X)" id="b1e4-f0e5-496f-b700" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
+                  <modifiers>
+                    <modifier type="set" value="Shell Shock (1)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Shred" id="e404-b641-7e8c-8acd" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
+                <infoLink name="Sunder" id="4ab0-0c68-d0e4-66f7" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+                <infoLink name="Pinning" id="5650-565f-65a7-846d" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
