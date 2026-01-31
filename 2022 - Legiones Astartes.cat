@@ -41778,7 +41778,6 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
               </costs>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3df1-fcb0-a6db-3bcc"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b939-9674-d089-a28b"/>
               </constraints>
             </entryLink>
