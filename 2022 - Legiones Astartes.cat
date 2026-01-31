@@ -52619,233 +52619,10 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
         <categoryLink targetId="7031-469a-1aeb-eab0" id="c1ec-a484-7b14-f001" primary="false" name="Heavy Support:"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="e41f-865b-9859-5eea" name="Macharius Heavy Tank" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="c023-8a35-a044-8a5" name="Macharius Heavy Tank" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5314-bf97-4fa1-4028" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba24-e031-d84d-01ea" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="fe18-0b79-f1ac-ccbd" name="Macharius Heavy Tank" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
-              <modifiers>
-                <modifier type="set" field="3614-4a2d-bffb-90e4" value="11*">
-                  <conditions>
-                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e01e-5cdd-e512-8353" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <characteristics>
-                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Reinforced)</characteristic>
-                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
-                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
-                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
-                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">12</characteristic>
-                <characteristic name="HP" typeId="a76c-83b1-602f-9e62">6</characteristic>
-                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
-                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <categoryLinks>
-            <categoryLink id="b72e-0f0e-30be-2ae8" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
-          </categoryLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="310a-5155-b830-e6c2" name="3) May take:" hidden="false" collective="false" import="true">
-              <entryLinks>
-                <entryLink id="18d9-e138-80df-a29f" name="Searchlights" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3577-a99c-cf4d-fe28" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="2a64-02fe-6544-6562" name="Blessed Auto-simulacra" hidden="true" collective="false" import="true" targetId="dc49-518b-0f77-5e3e" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="false">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bfc9-c99c-bf8a-3917" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="b503-12f8-ddf3-582d" name="Armatus Necrotechnika" hidden="true" collective="false" import="true" targetId="9221-0ef3-7962-eda0" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="false">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bfc9-c99c-bf8a-3917" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7517-9de5-e684-0069" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="e8bf-5789-a36e-7174" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" targetId="1bf8-72f8-c331-6900" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="name" value="Hull (Front) Mounted hunter-killer missile"/>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a44-8e3f-7f8d-221b" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="afb7-4f57-fa91-5cc4" name="2) Pintle mounted Weapon:" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6269-a8f0-6117-2f2a" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="24aa-f8b1-5794-a275" name="Twin-linked Bolter" hidden="false" collective="false" import="true" targetId="e31a-fd70-35c7-8bed" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="36d5-4543-61fb-c50f" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="07fd-c24a-9235-4206" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="true">
-                      <conditions>
-                        <condition field="selections" scope="36ed-ca59-0d95-d85c" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="975e-14eb-caed-4b5b" type="greaterThan"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="04e8-0f38-431c-31d7" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="5507-b432-3b4c-df12" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="c4c1-d290-dba9-0c0c" name="Multi-Melta" hidden="false" collective="false" import="true" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="f110-e6d0-a2e0-b017" name="Havoc Launcher" hidden="false" collective="false" import="true" targetId="bde9-5abf-ec3d-2273" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="d480-1b1a-96a7-1e24" name="Dragon&apos;s Breath Heavy Flamer" hidden="false" collective="false" import="true" targetId="1a5c-0c5f-d798-a067" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="574e-9e66-88ac-5db0" name="Heavy Alchem Flamer" hidden="false" collective="false" import="true" targetId="2a3d-a4bb-5326-a16a" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="15b4-7389-ef9a-68b7" name="Minor Combi-Weapon - Alchem Flamer" hidden="false" collective="false" import="true" targetId="b941-687c-c95e-31a6" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="582e-1b01-7284-3127" name="Magna Combi-Weapon - Plasma Gun" hidden="false" collective="false" import="true" targetId="5ed9-1bc3-4d8f-0826" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="2742-11e5-d9d6-5ec5" name="Magna Combi-Weapon - Meltagun" hidden="false" collective="false" import="true" targetId="59c3-2af5-ebe5-d512" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="5454-ebf5-c885-be5e" name="Minor Combi-Weapon - Flamer" hidden="false" collective="false" import="true" targetId="8dee-b436-0afd-c70a" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="c6f5-df3e-fa2e-7fea" name="Minor Combi-Weapon - Grenade Launcher" hidden="false" collective="false" import="true" targetId="dd06-55b3-1c77-1e1d" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="a43d-9fa5-e37f-3f75" name="Minor Combi-Weapon - Volkite Charger" hidden="false" collective="false" import="true" targetId="8720-32c4-0099-63f4" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="5a12-091f-a209-0fa3" name="Shrapnel Cannon" hidden="false" collective="false" import="true" targetId="975e-14eb-caed-4b5b" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="12"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="3d66-c5a2-9382-eb92" name="Iliastus Assault Cannon" hidden="false" collective="false" import="true" targetId="10aa-3c70-2bbe-9509" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="64e6-d0a3-b308-f14b" name="1) Main Cannon" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d4d-d09a-bee1-c87d" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="789c-75b0-2b40-3ca1" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="8a36-af1-29e7-7d81" name="Macharius Battlecannon" hidden="false" collective="false" import="true" targetId="88d5-d893-4635-8331" type="selectionEntry"/>
-                <entryLink id="96a-2d46-7656-c56f" name="Macharius Vanquisher Cannon" hidden="false" collective="false" import="true" targetId="8cd-670f-9284-a723" type="selectionEntry"/>
-                <entryLink id="23a3-e751-f668-695f" name="Macharius Rotary Bolt Cannon" hidden="false" collective="false" import="true" targetId="7d8e-670f-dcd8-2e86" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="6ff7-8141-cbf8-4e6e" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="f227-a61a-3215-932b" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="name" value="Two Sponson Mounted heavy stubbers"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="87d6-0a77-459b-4a49" type="max"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af53-1f4f-7bc3-3535" type="min"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="7e0d-b631-4ce6-2ef7" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="f227-a61a-3215-932b" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="name" value="Hull (Front) Mounted twin-linked heavy stubber"/>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="311b-b850-e82a-9ccc" type="max"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce3a-071c-fa46-a080" type="min"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="1639-8f11-097f-e127" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
-              </infoLinks>
-            </entryLink>
-            <entryLink id="20f8-8cbe-79f7-175e" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="0873-34dd-e52d-d33c" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33c4-adab-ab67-fe69" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0626-0163-70ee-ef8f" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="250"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Armoured Superstructure" hidden="false" id="5cb6-cc70-41e4-8336" type="rule" targetId="fde9-c473-d6c9-0e69"/>
-            <infoLink name="Independent Fire Control" hidden="false" id="726-50f1-d01a-344d" type="rule" targetId="64ca-719e-b563-e3df"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry id="c023-8a35-a044-8a5" name="Additional Macharius Heavy Tank" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ad8b-66ef-d3a9-f2b0" type="max"/>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57c7-a1d2-2485-9124" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ad8b-66ef-d3a9-f2b0" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57c7-a1d2-2485-9124" type="min"/>
           </constraints>
           <profiles>
             <profile id="2bc6-e9d-a69f-8006" name="Macharius Heavy Tank" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
@@ -52888,7 +52665,7 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="e7e9-3a57-e337-fda2" name="3) May take:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="e7e9-3a57-e337-fda2" name="4) May take:" hidden="false" collective="false" import="true">
               <entryLinks>
                 <entryLink id="82d8-ed32-af7-3b0e" name="Searchlights" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
                   <constraints>
@@ -52938,7 +52715,7 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="89f7-6818-80c3-191e" name="2) Pintle mounted Weapon:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="89f7-6818-80c3-191e" name="3) Pintle mounted Weapon:" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6ed-3937-427f-329d" type="max"/>
               </constraints>
@@ -53027,62 +52804,7 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Sponson Mount 1)" id="c494-091f-6b2d-751e" hidden="false">
-              <entryLinks>
-                <entryLink import="true" name="Heavy Stubber" hidden="false" id="048d-85d7-bec0-4aa8" collective="false" targetId="f227-a61a-3215-932b" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" value="Two Sponson Mounted heavy stubbers" field="name"/>
-                  </modifiers>
-                  <profiles>
-                    <profile name="Heavy Stubber" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="791b-c67e-e824-fb13">
-                      <characteristics>
-                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
-                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
-                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
-                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </entryLink>
-                <entryLink import="true" name="Heavy Bolter" hidden="false" id="f62a-0526-89ae-e141" type="selectionEntry" targetId="07fd-c24a-9235-4206">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                  <modifiers>
-                    <modifier type="set" value="Two Sponson Mounted heavy bolters" field="name"/>
-                  </modifiers>
-                  <profiles>
-                    <profile name="Heavy Bolter" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="fc9f-3613-c9b3-5ef8" publicationId="a716-c1c4-7b26-8424" page="130">
-                      <characteristics>
-                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
-                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
-                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 4</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </entryLink>
-                <entryLink import="true" name="Heavy Flamer" hidden="false" id="0c31-608a-e107-5312" type="selectionEntry" targetId="5507-b432-3b4c-df12">
-                  <profiles>
-                    <profile name="Heavy Flamer" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="2ec1-efe9-bb4f-bf14" publicationId="a716-c1c4-7b26-8424" page="132">
-                      <characteristics>
-                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
-                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
-                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <modifiers>
-                    <modifier type="set" value="Two Sponson Mounted heavy flamers" field="name"/>
-                  </modifiers>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Sponson Mount 2)" id="669e-5133-9b1a-e2bb" hidden="false">
+            <selectionEntryGroup name="2) Sponson Mount" id="669e-5133-9b1a-e2bb" hidden="false" defaultSelectionEntryId="ff0a-359d-077f-0e29">
               <entryLinks>
                 <entryLink import="true" name="Heavy Stubber" hidden="false" id="ff0a-359d-077f-0e29" collective="false" targetId="f227-a61a-3215-932b" type="selectionEntry">
                   <modifiers>
@@ -53136,6 +52858,10 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                   </costs>
                 </entryLink>
               </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="112b-58c7-2966-f92a"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="67c6-e17b-fe7f-11da"/>
+              </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
@@ -53147,7 +52873,7 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="250"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="335"/>
           </costs>
           <infoLinks>
             <infoLink name="Independent Fire Control" hidden="false" id="a186-1d0-d21-526c" type="rule" targetId="64ca-719e-b563-e3df"/>
@@ -53173,7 +52899,7 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
         <entryLink id="3dab-3f91-0f4b-6f35" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6bf4-d9b2-127c-d477" name="Legion Minotaur Battery" hidden="false" collective="false" import="true" type="unit">
