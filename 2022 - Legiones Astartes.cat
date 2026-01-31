@@ -52380,7 +52380,7 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
           <entryLinks>
             <entryLink import="true" name="Phosphex Canister Shot (Rapier)" hidden="true" id="cc7b-152b-2ab0-8431" type="selectionEntry" targetId="6fff-9e0a-4068-a02f">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a30-2cb4-559e-6397"/>
