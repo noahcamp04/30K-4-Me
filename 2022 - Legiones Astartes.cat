@@ -41773,6 +41773,15 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Flare Shield" hidden="false" id="0c46-616a-42a9-bc3c" type="selectionEntry" targetId="0e77-6285-22bb-1534">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3df1-fcb0-a6db-3bcc"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b939-9674-d089-a28b"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="3c14-5898-5028-018a" name="3) Sponson Mounted Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="6d4d-2df5-17ab-c84a">
@@ -41878,6 +41887,48 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
               </costs>
             </entryLink>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Pintle Mount" id="7d54-cf55-9ea5-82c2" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Twin-linked Bolter" hidden="false" id="4096-0108-8598-c222" type="selectionEntry" targetId="e31a-fd70-35c7-8bed">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Heavy Flamer" hidden="false" id="9e62-4222-7e60-207d" type="selectionEntry" targetId="aab4-9e33-94f0-5815">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Magna Combi-weapon" hidden="false" id="7d25-95fd-dceb-ffcb" type="selectionEntry" targetId="4d02-259d-fa50-ef3a">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Minor Combi-weapon" hidden="false" id="9580-6043-dc68-8404" type="selectionEntry" targetId="53c0-b5d7-f001-b816">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Heavy Bolter" hidden="false" id="86e1-121d-15c5-766a" type="selectionEntry" targetId="07fd-c24a-9235-4206">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Havoc Launcher" hidden="false" id="b5c0-77f9-c406-4737" type="selectionEntry" targetId="bde9-5abf-ec3d-2273">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Multi-Melta" hidden="false" id="1a4a-7f5e-8136-00a3" type="selectionEntry" targetId="9332-3834-cf3a-56b4">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e815-d89c-6aeb-44ec"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -52650,7 +52701,7 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
             <categoryLink id="2327-4a4f-e393-1b7d" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="d37d-70d7-1638-87da" name="1) Main Cannon" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="d37d-70d7-1638-87da" name="1) Main Cannon" hidden="false" collective="false" import="true" defaultSelectionEntryId="a628-4f10-c36d-d88">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd78-849-aa93-782b" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f578-3eda-ce86-be90" type="max"/>
