@@ -52274,8 +52274,8 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
             </selectionEntryGroup>
             <selectionEntryGroup id="0bc2-d9fb-b33a-fb9c" name="2) Sponson Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="0e00-0f72-05b1-0931">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fdd-2e86-6ef5-2607" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1266-2a61-fb01-f3f4" type="max"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d37d-3e44-bd40-45d4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
               <entryLinks>
                 <entryLink id="cebd-2623-d5ee-f0da" name="Volkite Dual-Culverin" hidden="false" collective="false" import="true" targetId="fead-f3b9-f7c7-1081" type="selectionEntry">
@@ -52342,6 +52342,10 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                   </modifiers>
                 </infoLink>
               </infoLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="19f6-98b3-d9d2-635a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b666-639a-71b1-8102" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
