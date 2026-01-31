@@ -41906,22 +41906,6 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8283-3039-a3a4-aa4c"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Magna Combi-weapon" hidden="false" id="7d25-95fd-dceb-ffcb" type="selectionEntry" targetId="4d02-259d-fa50-ef3a">
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="566a-8151-c366-e38c"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Minor Combi-weapon" hidden="false" id="9580-6043-dc68-8404" type="selectionEntry" targetId="53c0-b5d7-f001-b816">
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="129f-ef49-6efe-90ff"/>
-              </constraints>
-            </entryLink>
             <entryLink import="true" name="Heavy Bolter" hidden="false" id="86e1-121d-15c5-766a" type="selectionEntry" targetId="07fd-c24a-9235-4206">
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
@@ -41950,6 +41934,42 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e815-d89c-6aeb-44ec"/>
           </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Magna Combi-weapon" id="911f-883c-63ba-4b43" hidden="false">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="b48a-6e48-88d2-15bb"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Magna Combi-weapon" hidden="false" id="14c4-0cbd-197f-044d" type="selectionEntry" targetId="4d02-259d-fa50-ef3a">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Magna Combi-weapon" hidden="false" id="4f38-19e8-bfcb-f280" type="selectionEntry" targetId="4d02-259d-fa50-ef3a">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Minor Combi-weapon" id="cdf4-290e-66c2-6a21" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="Minor Combi-weapon" hidden="false" id="60e8-99f2-1615-2cee" type="selectionEntry" targetId="53c0-b5d7-f001-b816">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Minor Combi-weapon" hidden="false" id="b820-d071-901e-51d4" type="selectionEntry" targetId="53c0-b5d7-f001-b816">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="02c1-069f-41d5-9020"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
