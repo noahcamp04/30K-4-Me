@@ -1658,7 +1658,7 @@ Shotgun is in two option lists for Auxilia Breacher Sergeant, you will need to c
       <selectionEntries>
         <selectionEntry type="model" name="Auxilia Veteran" id="6261-126d-4158-a62e" page="148" publicationId="892-6266-f55f-1b9d">
           <profiles>
-            <profile id="c182-5d58-4c58-a0f7" name="Auxilia Veteran" typeId="4bb2-cb95-e6c8-5a21">
+            <profile id="c182-5d58-4c58-a0f7" name="Auxilia Veteran" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
                 <characteristic typeId="893e-2d76-8f04-44e5" name="Move">6</characteristic>
                 <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">3</characteristic>
@@ -1707,12 +1707,10 @@ Shotgun is in two option lists for Auxilia Breacher Sergeant, you will need to c
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="8f9d-bc66-4bdc-96a8" name="Infantry:" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find type or subtype &apos;Close-Order&apos;</comment>
         </selectionEntry>
         <selectionEntry type="model" name="Auxilia Troop Master" id="9871-0354-480e-ae39" page="148" publicationId="892-6266-f55f-1b9d">
           <profiles>
-            <profile id="34d7-fb13-4ffe-a3f1" name="Auxilia Troop Master" typeId="4bb2-cb95-e6c8-5a21">
+            <profile id="34d7-fb13-4ffe-a3f1" name="Auxilia Troop Master" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
                 <characteristic typeId="893e-2d76-8f04-44e5" name="Move">6</characteristic>
                 <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">4</characteristic>
@@ -1751,7 +1749,7 @@ Could not find type or subtype &apos;Close-Order&apos;</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c21-b3d8-4d07-8f8a"/>
               </constraints>
             </entryLink>
-            <entryLink name="Krak Grenades" hidden="false" type="selectionEntry" targetId="3739-1019-344e-761d" id="87f6-bf8a-4720-be49">
+            <entryLink name="Krak Grenades" hidden="false" type="selectionEntry" targetId="3739-1019-344e-761d" id="28f2-ed8e-88b8-c671">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7d95-ff7d-4b5b-aaa0"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="544f-4161-4b9b-b1f8"/>
@@ -1762,13 +1760,15 @@ Could not find type or subtype &apos;Close-Order&apos;</comment>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="7a6d-ebb6-4729-8f5c" name="Infantry:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="21cc-5558-4dd7-bdeb" name="Character" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find type or subtype &apos;Close-Order&apos;</comment>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Artillery Spotters" hidden="false" type="rule" targetId="a373-9d03-0a41-339e" id="acc9-8f6d-4854-815b"/>
         <infoLink name="Tercio" hidden="false" type="rule" targetId="6516-f81d-457b-a2cc" id="4c60-3519-4bed-a538"/>
+        <infoLink name="Close Order" id="ba72-84f1-3e6b-c8bb" hidden="false" type="rule" targetId="3790-0788-e7a9-2054"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Solar Auxilia Pioneer Section" type="unit" id="f72d-5f43-4d86-973f" page="150" publicationId="892-6266-f55f-1b9d">
@@ -4013,7 +4013,7 @@ Could not find wargear Pintle-Mounted Auto-Launcher
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c9af-32a4-4093-a766"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Any Tempestor Land Speeder may replace their Auxilia Tempestor Land Speeder’s Havoc Launcher with one of the following options:" id="1f05-1343-4f20-8209">
+            <selectionEntryGroup name="Any Tempestor Land Speeder may replace their Auxilia Tempestor Land Speeder’s Havoc Launcher with one of the following options:" id="1f05-1343-4f20-8209" defaultSelectionEntryId="6bd6-df7a-cb12-dbab">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ac9-95e8-40b5-b912"/>
               </constraints>
@@ -4026,6 +4026,20 @@ Could not find wargear Twin-Linked Kheres Assault Cannon
 	 Checked under Twin-Linked Kheres Assault Cannon
 Could not find wargear Cyclone Missile Launcher (with Frag, Krak, and Flak missiles)
 	 Checked under Cyclone Missile Launcher (with Frag, Krak, and Flak missiles)</comment>
+              <entryLinks>
+                <entryLink import="true" name="Havoc Launcher" hidden="false" id="6bd6-df7a-cb12-dbab" type="selectionEntry" targetId="bde9-5abf-ec3d-2273"/>
+                <entryLink import="true" name="Multi-Laser" hidden="false" id="6756-1a5d-49b2-185d" type="selectionEntry" targetId="003b-af4b-0094-f5c3">
+                  <modifiers>
+                    <modifier type="prepend" value="Twin-Linked" field="name"/>
+                  </modifiers>
+                  <infoLinks>
+                    <infoLink name="Twin-linked" id="ab4c-0059-5a4e-9a84" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Any Tempestor Land Speeder may select up to two of the following option:" id="b6b2-10c8-4e82-93c2">
               <constraints>
