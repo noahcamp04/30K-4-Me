@@ -681,6 +681,12 @@ A model with this Special Rule can never count as Scoring.</description>
 battlefield, you may re-roll any failed dice roll for determining if a
 Reserve is Disordered.</description>
     </rule>
+    <rule name="Close Order" id="3790-0788-e7a9-2054" hidden="false">
+      <description>The following rules apply to all models with the Close-order Sub-type:
+A unit that includes only models with the Close-order Sub-type has a Unit Coherency range of 1&quot; rather than 2&quot;.
+A unit that includes any models with the Close-order Sub-type may not Run and when making a Movement during a Reaction based on its Initiative Characteristic, reduces the distance moved by -1.
+A unit that includes only models with the Close-order Sub-type may move up to half its Movement Characteristic and make Shooting Attacks using weapons with the Heavy type as if they had remained stationary. Such a unit may also declare a Charge in the same turn they make Shooting Attacks with Heavy or Rapid Fire weapons.</description>
+    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry name="Adrastus Bolt Caliver - Bolt Volley" type="upgrade" id="8c95-14de-426e-a476">
