@@ -4239,8 +4239,6 @@ Veil of Time (Psychic Power)</description>
             </selectionEntry>
             <selectionEntry id="6ac1-bc5a-c38b-1225" name="Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint type="min" value="2" field="selections" scope="self" shared="true" id="46ff-478c-35e9-090d"/>
-                <constraint type="max" value="2" field="selections" scope="self" shared="true" id="718b-2e09-576f-ca52"/>
                 <constraint type="min" value="1" field="selections" scope="f1d9-5c86-f496-61f0" shared="true" id="ad6d-3531-7632-010b-min"/>
                 <constraint type="max" value="1" field="selections" scope="f1d9-5c86-f496-61f0" shared="true" id="ad6d-3531-7632-010b-max"/>
               </constraints>
