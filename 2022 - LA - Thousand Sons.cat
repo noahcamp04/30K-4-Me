@@ -3936,167 +3936,6 @@
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Psychic Powers" hidden="false" id="8f9c-b732-612e-c24c" collective="false">
-              <constraints>
-                <constraint type="min" value="2" field="selections" scope="self" shared="true" id="5574-b3a9-9c6a-cfa7"/>
-                <constraint type="max" value="2" field="selections" scope="self" shared="true" id="9184-639f-a746-d629"/>
-                <constraint type="min" value="1" field="selections" scope="161b-2f2a-8616-9d4f" shared="true" id="0194-d7b3-4f7e-2451-min"/>
-                <constraint type="max" value="1" field="selections" scope="161b-2f2a-8616-9d4f" shared="true" id="0194-d7b3-4f7e-2451-max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Psychic Discipline: Divination" hidden="false" id="82f2-532d-0c04-824f" collective="false" targetId="0c22-a776-e7e3-2981" type="selectionEntry">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac02-12c2-5832-52d9" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Psychic Discipline: Thaumaturgy" hidden="false" id="44c0-874f-073c-7d04" collective="false" targetId="f7ab-1fb2-91b0-028d" type="selectionEntry">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d65-dcc8-8b55-dcfb" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Psychic Discipline: Biomancy" hidden="false" id="2a49-916b-6266-5173" collective="false" targetId="861c-3744-c4ff-ef6c" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="parent" childId="0b6c-5897-3790-2940" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="05d0-97db-bb7b-25ed" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Psychic Discipline: Pyromancy" hidden="false" id="e187-079f-68b5-e174" collective="false" targetId="c73a-8c52-4780-71e1" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditionGroups>
-                        <conditionGroup type="or">
-                          <conditions>
-                            <condition type="equalTo" value="1" field="selections" scope="parent" childId="0b6c-5897-3790-2940" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                            <condition type="equalTo" value="1" field="selections" scope="parent" childId="b625-1cef-3057-156c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5621-fa1a-5923-a95f" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Psychic Discipline: Telekinesis" hidden="false" id="10a5-dd35-a7a0-c21a" collective="false" targetId="2599-31ff-74a5-70ec" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="parent" childId="0b6c-5897-3790-2940" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a5e-d072-1f88-e661" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-              </costs>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Psychic Discipline: Geomancy (Thousand Sons Only)" hidden="true" id="0760-05db-78af-62d7">
-                  <infoLinks>
-                    <infoLink name="Aetheric Lightning" id="624b-1127-5cd8-bc2c" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
-                    <infoLink name="Force" id="3ebf-8d01-eb7a-139a" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
-                    <infoLink name="Psychic Focus" id="8c60-d2eb-d251-6906" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
-                    <infoLink name="Ignores Cover" id="66ee-9978-c61f-4436" hidden="false" type="rule" targetId="fdb5-59e2-c446-1cbc"/>
-                    <infoLink name="Barrage" id="d008-5e21-075f-d706" hidden="false" type="rule" targetId="7255-b5ee-c3f4-3037"/>
-                    <infoLink name="Blast" id="bfad-2507-9263-aa16" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8"/>
-                  </infoLinks>
-                  <profiles>
-                    <profile name="Sundered Earth" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="5cde-34c1-7ee1-f17f">
-                      <characteristics>
-                        <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">24&quot;</characteristic>
-                        <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">5</characteristic>
-                        <characteristic name="AP" typeId="f431-a7b9-d9d0-36c9">4</characteristic>
-                        <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Barrage, Ignores Cover, Massive Blast (7&quot;), Psychic Focus</characteristic>
-                      </characteristics>
-                    </profile>
-                    <profile name="Warp Quake" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power" hidden="false" id="da69-4db7-6d59-fc4d">
-                      <characteristics>
-                        <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Psyker with this Psychic Power may choose to take a Psychic Test. If the test is passed, select a single single
-enemy unit, Building, Ruin, or Fortification within 24”.
-If this unit is a Vehicle, Building, Fortification, or ruin, roll a D6 – on a roll of 1, nothing happens. On a roll of 2-4, it suffers an immediate Glancing
-Hit. On a roll of a 5 or 6, it suffers an immediate Penetrating Hit. Attacks with this weapon have no AP value.
-If the selected unit is not any of the types listed above, each model must take an immediate Initiative Test with a -1 modifier. If they fail, they suffer a
-single wound with an AP value of 4, and the unit they are in is immediately counted as having failed a Pinning Test.
-If the test is failed, then a target unit may not be selected, and the Psyker suffers Perils of the Warp.</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <modifiers>
-                    <modifier type="set" value="false" field="hidden">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="force" childId="21c3-2f28-7820-e51a" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6437-dc6b-a05b-127a" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                  </constraints>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Psychic Discipline: Sinistrum (Thousand Sons Only)" hidden="true" id="f556-444c-955d-3587">
-                  <infoLinks>
-                    <infoLink name="Aetheric Lightning" id="bdc1-67c0-b1ae-e1b7" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
-                    <infoLink name="Psychic Focus" id="9261-1d56-8aa2-9759" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
-                    <infoLink name="Force" id="a925-bbab-7aef-f7ac" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
-                    <infoLink name="Heavy Beam" id="7206-b079-bd9e-2876" hidden="false" type="rule" targetId="24e7-27da-9bf7-f096"/>
-                    <infoLink name="Crawling Fire" id="cfdd-fdd6-067f-711b" hidden="false" type="rule" targetId="8258-a7af-e4df-531d"/>
-                    <infoLink name="Blast" id="2ee1-0e33-945b-25d3" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8"/>
-                  </infoLinks>
-                  <profiles>
-                    <profile name="Ancient Fury" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="7f43-8469-bfbf-3ce3">
-                      <characteristics>
-                        <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">18&quot;</characteristic>
-                        <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">6</characteristic>
-                        <characteristic name="AP" typeId="f431-a7b9-d9d0-36c9">4</characteristic>
-                        <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Heavy Beam, Breaching (5+), Psychic Focus</characteristic>
-                      </characteristics>
-                    </profile>
-                    <profile name="Wrathful Fire" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="e217-ef8f-92b8-e7ae">
-                      <characteristics>
-                        <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">18&quot;</characteristic>
-                        <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">5</characteristic>
-                        <characteristic name="AP" typeId="f431-a7b9-d9d0-36c9">3</characteristic>
-                        <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Blast (3&quot;), Crawling Fire, Psychic Focus</characteristic>
-                      </characteristics>
-                    </profile>
-                    <profile name="Veil of Time" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power" hidden="false" id="11de-e03b-caa5-bb33">
-                      <characteristics>
-                        <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Psyker with this Psychic Power may choose to take a Psychic Test. If the test is passed, select a single friendly
-unit within 6” – this unit gains the Shrouded (5+) and Fleet (2) Special Rules until the start of the Controlling Player’s Next Game Turn. If the test is
-failed, then the target unit gains no benefit and the Psyker suffers Perils of the Warp.</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <rules>
-                    <rule name="Psychic Discipline: Sinistrum" id="0153-b7e1-83f1-f3b5" hidden="false">
-                      <description>A Psyker with this Discipline gains all the listed Powers, weapons and other Special Rules, as well as the Aetheric Lightning Psychic Weapon
-
-Ancient Fury (Psychic Weapon)
-Wrathful Fire (Psychic Weapon)
-Veil of Time (Psychic Power)</description>
-                    </rule>
-                  </rules>
-                  <modifiers>
-                    <modifier type="set" value="false" field="hidden">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="force" childId="21c3-2f28-7820-e51a" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6785-4e0d-420a-d3f5" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                  </constraints>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntry>
           </selectionEntries>
           <entryLinks>
             <entryLink id="a0d2-4fa5-af4b-b0d6" name="Archaeotech Pistol" hidden="false" collective="false" import="true" targetId="c22a-ed4d-af68-bf00" type="selectionEntry">
@@ -4127,6 +3966,164 @@ Veil of Time (Psychic Power)</description>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Psychic Powers" id="a30d-26f6-8dbe-5514" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="Psychic Discipline: Biomancy" hidden="false" id="bc53-5033-ccfb-9c86" collective="false" targetId="861c-3744-c4ff-ef6c" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="parent" childId="0b6c-5897-3790-2940" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1941-bf95-8291-6dd5" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Psychic Discipline: Divination" hidden="false" id="276f-3b8e-4fa5-7818" collective="false" targetId="0c22-a776-e7e3-2981" type="selectionEntry">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3628-1fff-2e54-f075" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Psychic Discipline: Pyromancy" hidden="false" id="78b7-e268-1829-52df" collective="false" targetId="c73a-8c52-4780-71e1" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="parent" childId="0b6c-5897-3790-2940" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                            <condition type="equalTo" value="1" field="selections" scope="parent" childId="b625-1cef-3057-156c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89f1-bbd1-7ad7-4fd5" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Psychic Discipline: Telekinesis" hidden="false" id="3d6c-9ac6-b620-8cdb" collective="false" targetId="2599-31ff-74a5-70ec" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="parent" childId="0b6c-5897-3790-2940" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aac4-da88-d3b8-956b" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Psychic Discipline: Thaumaturgy" hidden="false" id="95d2-2155-6b6d-bbec" collective="false" targetId="f7ab-1fb2-91b0-028d" type="selectionEntry">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9118-9f39-a6d3-337f" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Psychic Discipline: Geomancy (Thousand Sons Only)" hidden="true" id="86f7-2756-e93b-2d71">
+                  <infoLinks>
+                    <infoLink name="Aetheric Lightning" id="8bd8-fb3a-187c-e722" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
+                    <infoLink name="Force" id="ea40-afed-2c33-00bc" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
+                    <infoLink name="Psychic Focus" id="a931-60ea-2e32-1251" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
+                    <infoLink name="Ignores Cover" id="90cc-eacb-0923-4769" hidden="false" type="rule" targetId="fdb5-59e2-c446-1cbc"/>
+                    <infoLink name="Barrage" id="b054-5761-c467-0d68" hidden="false" type="rule" targetId="7255-b5ee-c3f4-3037"/>
+                    <infoLink name="Blast" id="37bd-4609-88ab-baa6" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8"/>
+                  </infoLinks>
+                  <profiles>
+                    <profile name="Sundered Earth" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="60a5-4e56-603b-fbce">
+                      <characteristics>
+                        <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">24&quot;</characteristic>
+                        <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">5</characteristic>
+                        <characteristic name="AP" typeId="f431-a7b9-d9d0-36c9">4</characteristic>
+                        <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Barrage, Ignores Cover, Massive Blast (7&quot;), Psychic Focus</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Warp Quake" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power" hidden="false" id="f230-f6fc-dc5d-6ab8">
+                      <characteristics>
+                        <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Psyker with this Psychic Power may choose to take a Psychic Test. If the test is passed, select a single single
+enemy unit, Building, Ruin, or Fortification within 24”.
+If this unit is a Vehicle, Building, Fortification, or ruin, roll a D6 – on a roll of 1, nothing happens. On a roll of 2-4, it suffers an immediate Glancing
+Hit. On a roll of a 5 or 6, it suffers an immediate Penetrating Hit. Attacks with this weapon have no AP value.
+If the selected unit is not any of the types listed above, each model must take an immediate Initiative Test with a -1 modifier. If they fail, they suffer a
+single wound with an AP value of 4, and the unit they are in is immediately counted as having failed a Pinning Test.
+If the test is failed, then a target unit may not be selected, and the Psyker suffers Perils of the Warp.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="force" childId="21c3-2f28-7820-e51a" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d49-664e-7ddf-3696" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Psychic Discipline: Sinistrum (Thousand Sons Only)" hidden="true" id="c53f-c863-c59b-bf3e">
+                  <infoLinks>
+                    <infoLink name="Aetheric Lightning" id="37b4-eeed-9229-5fab" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
+                    <infoLink name="Psychic Focus" id="08af-40e9-0ae1-de29" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
+                    <infoLink name="Force" id="28f0-49fa-0dac-6120" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
+                    <infoLink name="Heavy Beam" id="4a1b-8b4c-dbac-6514" hidden="false" type="rule" targetId="24e7-27da-9bf7-f096"/>
+                    <infoLink name="Crawling Fire" id="5d96-e68d-5553-2195" hidden="false" type="rule" targetId="8258-a7af-e4df-531d"/>
+                    <infoLink name="Blast" id="d56a-523a-54e4-4b6d" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8"/>
+                  </infoLinks>
+                  <profiles>
+                    <profile name="Ancient Fury" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="2cb6-7783-6d2f-d1ea">
+                      <characteristics>
+                        <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">18&quot;</characteristic>
+                        <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">6</characteristic>
+                        <characteristic name="AP" typeId="f431-a7b9-d9d0-36c9">4</characteristic>
+                        <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Heavy Beam, Breaching (5+), Psychic Focus</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Wrathful Fire" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="3950-8df6-d13e-ba56">
+                      <characteristics>
+                        <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">18&quot;</characteristic>
+                        <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">5</characteristic>
+                        <characteristic name="AP" typeId="f431-a7b9-d9d0-36c9">3</characteristic>
+                        <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Blast (3&quot;), Crawling Fire, Psychic Focus</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Veil of Time" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power" hidden="false" id="7479-7eb8-939f-f302">
+                      <characteristics>
+                        <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Psyker with this Psychic Power may choose to take a Psychic Test. If the test is passed, select a single friendly
+unit within 6” – this unit gains the Shrouded (5+) and Fleet (2) Special Rules until the start of the Controlling Player’s Next Game Turn. If the test is
+failed, then the target unit gains no benefit and the Psyker suffers Perils of the Warp.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule name="Psychic Discipline: Sinistrum" id="8456-d469-dd9a-aa24" hidden="false">
+                      <description>A Psyker with this Discipline gains all the listed Powers, weapons and other Special Rules, as well as the Aetheric Lightning Psychic Weapon
+
+Ancient Fury (Psychic Weapon)
+Wrathful Fire (Psychic Weapon)
+Veil of Time (Psychic Power)</description>
+                    </rule>
+                  </rules>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="force" childId="21c3-2f28-7820-e51a" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e5d3-3ccb-fd21-4108" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="8f1b-04b9-a9ba-21f8"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1d6a-7407-c877-cb5e"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
