@@ -4236,13 +4236,11 @@ Veil of Time (Psychic Power)</description>
               <entryLinks>
                 <entryLink id="fa82-9e65-6ddc-9d49" name="Psychic Discipline: Divination" hidden="false" collective="false" import="true" targetId="0c22-a776-e7e3-2981" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b583-c550-514f-6d2b" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="719e-cec1-56d7-67a7" type="max"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf4a-8cfa-c192-d7d0" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
                 <entryLink id="a8b2-3668-e31b-1f4b" name="Psychic Discipline: Thaumaturgy" hidden="false" collective="false" import="true" targetId="f7ab-1fb2-91b0-028d" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28d6-a835-a562-1201" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8a27-cebf-bf23-3853" type="max"/>
                   </constraints>
                 </entryLink>
@@ -4254,6 +4252,9 @@ Veil of Time (Psychic Power)</description>
                       </conditions>
                     </modifier>
                   </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a1d-7a65-01b1-5de1" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
                 </entryLink>
                 <entryLink import="true" name="Psychic Discipline: Pyromancy" hidden="false" id="8c76-b565-0945-4324" collective="false" targetId="c73a-8c52-4780-71e1" type="selectionEntry">
                   <modifiers>
@@ -4268,6 +4269,9 @@ Veil of Time (Psychic Power)</description>
                       </conditionGroups>
                     </modifier>
                   </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5f8f-6f52-df85-30cf" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
                 </entryLink>
                 <entryLink import="true" name="Psychic Discipline: Telekinesis" hidden="false" id="5c32-3cfa-b1ec-98d7" collective="false" targetId="2599-31ff-74a5-70ec" type="selectionEntry">
                   <modifiers>
@@ -4277,6 +4281,9 @@ Veil of Time (Psychic Power)</description>
                       </conditions>
                     </modifier>
                   </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3777-9275-3136-7ec6" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
                 </entryLink>
               </entryLinks>
               <costs>
@@ -4320,6 +4327,9 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
                       </conditions>
                     </modifier>
                   </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e3eb-8ef7-e95b-d153" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Psychic Discipline: Sinistrum (Thousand Sons Only)" hidden="true" id="dfc2-83f0-fdb0-d70d">
                   <infoLinks>
@@ -4371,6 +4381,9 @@ Veil of Time (Psychic Power)</description>
                       </conditions>
                     </modifier>
                   </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9501-53bc-2bdd-c098" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
