@@ -5311,6 +5311,10 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
                       </conditions>
                     </modifier>
                   </modifiers>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5859-68d7-84c6-df91" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e63e-c32f-fec8-3267" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Psychic Discipline: Sinistrum (Thousand Sons Only)" hidden="true" id="c6d8-520a-0599-28e5">
                   <infoLinks>
@@ -5362,6 +5366,10 @@ Veil of Time (Psychic Power)</description>
                       </conditions>
                     </modifier>
                   </modifiers>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e05a-5863-c2fb-2dbe" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e74d-7252-04fa-dfe7" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
