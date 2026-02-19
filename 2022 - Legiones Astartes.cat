@@ -69145,6 +69145,11 @@ Hit rolls for each attack, for a total of 24 To Hit rolls over the full 6 attack
             <infoLink name="Heavy Beam" id="a11b-eb12-4da4-6cbc" hidden="false" type="rule" targetId="24e7-27da-9bf7-f096"/>
             <infoLink name="Crawling Fire" id="9375-fbf3-1a9c-9a44" hidden="false" type="rule" targetId="8258-a7af-e4df-531d"/>
             <infoLink name="Blast" id="bad7-e346-f3c3-ee3c" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8"/>
+            <infoLink name="Breaching (X)" id="f368-16fb-306c-d610" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+              <modifiers>
+                <modifier type="set" value="Breaching (5+)" field="name"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <profiles>
             <profile name="Ancient Fury" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="8306-9820-5395-329a">

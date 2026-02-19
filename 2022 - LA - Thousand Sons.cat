@@ -4071,6 +4071,11 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
                     <infoLink name="Heavy Beam" id="4a1b-8b4c-dbac-6514" hidden="false" type="rule" targetId="24e7-27da-9bf7-f096"/>
                     <infoLink name="Crawling Fire" id="5d96-e68d-5553-2195" hidden="false" type="rule" targetId="8258-a7af-e4df-531d"/>
                     <infoLink name="Blast" id="d56a-523a-54e4-4b6d" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8"/>
+                    <infoLink name="Breaching (X)" id="5bc1-5dd3-0170-ea56" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+                      <modifiers>
+                        <modifier type="set" value="Breaching (5+)" field="name"/>
+                      </modifiers>
+                    </infoLink>
                   </infoLinks>
                   <profiles>
                     <profile name="Ancient Fury" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="2cb6-7783-6d2f-d1ea">
@@ -4403,6 +4408,11 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
                     <infoLink name="Heavy Beam" id="ed88-27b7-6dcf-9fc8" hidden="false" type="rule" targetId="24e7-27da-9bf7-f096"/>
                     <infoLink name="Crawling Fire" id="6734-2629-31dd-bf0a" hidden="false" type="rule" targetId="8258-a7af-e4df-531d"/>
                     <infoLink name="Blast" id="7efc-e369-384c-3271" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8"/>
+                    <infoLink name="Breaching (X)" id="c387-9eec-fb23-8108" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+                      <modifiers>
+                        <modifier type="set" value="Breaching (5+)" field="name"/>
+                      </modifiers>
+                    </infoLink>
                   </infoLinks>
                   <profiles>
                     <profile name="Ancient Fury" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="c627-14b8-8335-3f23">
@@ -5324,6 +5334,11 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
                     <infoLink name="Heavy Beam" id="a386-061a-803f-48fc" hidden="false" type="rule" targetId="24e7-27da-9bf7-f096"/>
                     <infoLink name="Crawling Fire" id="26fa-d27f-0a32-bfb3" hidden="false" type="rule" targetId="8258-a7af-e4df-531d"/>
                     <infoLink name="Blast" id="2dbb-ebe7-01d2-bb34" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8"/>
+                    <infoLink name="Breaching (X)" id="8ab0-0b14-0a4e-d595" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+                      <modifiers>
+                        <modifier type="set" value="Breaching (5+)" field="name"/>
+                      </modifiers>
+                    </infoLink>
                   </infoLinks>
                   <profiles>
                     <profile name="Ancient Fury" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="c940-d908-8059-02e8">
