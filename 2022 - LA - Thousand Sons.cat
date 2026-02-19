@@ -3940,8 +3940,8 @@
               <constraints>
                 <constraint type="min" value="2" field="selections" scope="self" shared="true" id="5574-b3a9-9c6a-cfa7"/>
                 <constraint type="max" value="2" field="selections" scope="self" shared="true" id="9184-639f-a746-d629"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0194-d7b3-4f7e-2451-min"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0194-d7b3-4f7e-2451-max"/>
+                <constraint type="min" value="1" field="selections" scope="161b-2f2a-8616-9d4f" shared="true" id="0194-d7b3-4f7e-2451-min"/>
+                <constraint type="max" value="1" field="selections" scope="161b-2f2a-8616-9d4f" shared="true" id="0194-d7b3-4f7e-2451-max"/>
               </constraints>
               <entryLinks>
                 <entryLink import="true" name="Psychic Discipline: Divination" hidden="false" id="82f2-532d-0c04-824f" collective="false" targetId="0c22-a776-e7e3-2981" type="selectionEntry">
@@ -4241,8 +4241,8 @@ Veil of Time (Psychic Power)</description>
               <constraints>
                 <constraint type="min" value="2" field="selections" scope="self" shared="true" id="46ff-478c-35e9-090d"/>
                 <constraint type="max" value="2" field="selections" scope="self" shared="true" id="718b-2e09-576f-ca52"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ad6d-3531-7632-010b-min"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad6d-3531-7632-010b-max"/>
+                <constraint type="min" value="1" field="selections" scope="f1d9-5c86-f496-61f0" shared="true" id="ad6d-3531-7632-010b-min"/>
+                <constraint type="max" value="1" field="selections" scope="f1d9-5c86-f496-61f0" shared="true" id="ad6d-3531-7632-010b-max"/>
               </constraints>
               <entryLinks>
                 <entryLink id="fa82-9e65-6ddc-9d49" name="Psychic Discipline: Divination" hidden="false" collective="false" import="true" targetId="0c22-a776-e7e3-2981" type="selectionEntry">
@@ -4397,6 +4397,9 @@ Veil of Time (Psychic Power)</description>
                   </constraints>
                 </selectionEntry>
               </selectionEntries>
+              <modifiers>
+                <modifier type="set" value="1" field="defaultAmount"/>
+              </modifiers>
             </selectionEntry>
             <selectionEntry id="70a8-dba8-78b7-cfb7" name="The Corvidaean Sceptre" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
