@@ -4227,12 +4227,9 @@ Veil of Time (Psychic Power)</description>
             </selectionEntry>
             <selectionEntry id="6ac1-bc5a-c38b-1225" name="Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e102-1c31-164a-6c8e" type="min"/>
-                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8aed-e2ab-6c72-adaa" type="max"/>
+                <constraint type="min" value="2" field="selections" scope="self" shared="true" id="46ff-478c-35e9-090d"/>
+                <constraint type="max" value="2" field="selections" scope="self" shared="true" id="718b-2e09-576f-ca52"/>
               </constraints>
-              <infoLinks>
-                <infoLink id="d4c8-f004-749c-c716" name="Aetheric Lightning" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
-              </infoLinks>
               <entryLinks>
                 <entryLink id="fa82-9e65-6ddc-9d49" name="Psychic Discipline: Divination" hidden="false" collective="false" import="true" targetId="0c22-a776-e7e3-2981" type="selectionEntry">
                   <constraints>
