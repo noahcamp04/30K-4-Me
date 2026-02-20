@@ -6990,7 +6990,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db61-3088-b243-7b3d"/>
+        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="fcce-ce1f-b637-fbdf"/>
       </constraints>
     </selectionEntry>
     <selectionEntry id="dc49-518b-0f77-5e3e" name="Blessed Auto-simulacra" publicationId="817a-6288-e016-7469" page="278" hidden="true" collective="false" import="true" type="upgrade">
