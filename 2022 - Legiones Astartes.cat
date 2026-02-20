@@ -4935,7 +4935,7 @@ When a model has two Raven’s Talons, that model gains +2 Attacks instead of th
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8ea-c68e-02ba-4857" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="843f-efb4-84e1-4415" name="Rhino Transport" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
+            <entryLink id="843f-efb4-84e1-4415" name="Rhino Transport (Choose One)" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -7698,7 +7698,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d942-152e-4a47-dd4a" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="b209-a1e4-dc99-c1e3" name="Rhino Transport" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
+            <entryLink id="b209-a1e4-dc99-c1e3" name="Rhino Transport (Choose One)" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -15252,6 +15252,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
           <categoryLinks>
             <categoryLink id="c616-84d4-9f5c-db27" name="Independent Character" hidden="false" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
             <categoryLink id="42bf-da0d-3cd6-841b" name="Character" hidden="false" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="5aae-40c1-fcdd-8e03" primary="false" name="Infantry:"/>
           </categoryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="a659-c5c9-2a20-a3e0" name="1) Bolt Pistol/Chainsword Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="b65c-f5fa-599c-cba1">
@@ -19694,7 +19695,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed71-e1c9-8fc9-401a" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="051a-87ae-7a7e-036c" name="Rhino Transport" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
+            <entryLink id="051a-87ae-7a7e-036c" name="Rhino Transport (Choose One)" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -22032,7 +22033,7 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="fddd-795e-1b76-31d9" name="Rhino Transport" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
+            <entryLink id="fddd-795e-1b76-31d9" name="Rhino Transport (Choose One)" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -23702,7 +23703,7 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2bf-2ef6-34bf-d990" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="5209-533e-4cca-7837" name="Rhino Transport" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
+            <entryLink id="5209-533e-4cca-7837" name="Rhino Transport (Choose One)" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -26668,7 +26669,7 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="69aa-fe4f-cd55-f848" name="Rhino Transport" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
+            <entryLink id="69aa-fe4f-cd55-f848" name="Rhino Transport (Choose One)" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -28302,7 +28303,7 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2a2-caa4-2d3a-8891" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="cb23-8a6f-a61b-3094" name="Rhino Transport" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
+            <entryLink id="cb23-8a6f-a61b-3094" name="Rhino Transport (Choose One)" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -31856,7 +31857,7 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39ff-b0bc-4bdf-73b3" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="cdfb-494f-fb7f-44ce" name="Rhino Transport" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
+            <entryLink id="cdfb-494f-fb7f-44ce" name="Rhino Transport (Choose One)" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -38318,7 +38319,7 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5ba-77e3-9685-cd64" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="9eec-7413-bebc-2a48" name="Rhino Transport" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
+            <entryLink id="9eec-7413-bebc-2a48" name="Rhino Transport (Choose One)" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -60813,7 +60814,7 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1298-f4b5-29da-6054" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="b44e-5e57-33dc-80d5" name="Rhino Transport" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
+            <entryLink id="b44e-5e57-33dc-80d5" name="Rhino Transport (Choose One)" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -66071,7 +66072,7 @@ If the Psychic check is successful then until that Shooting Attack is resolved, 
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="81ae-208d-a502-79a3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Rhino Transport" hidden="false" id="8c62-ab8-274c-57a7" collective="false" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
+            <entryLink import="true" name="Rhino Transport (Choose One)" hidden="false" id="8c62-ab8-274c-57a7" collective="false" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditionGroups>
