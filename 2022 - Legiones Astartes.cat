@@ -6627,12 +6627,170 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
         <categoryLink id="4048-d50e-f863-8094" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
         <categoryLink id="02a0-025a-fc68-8e2a" name="Transport Sub-type:" hidden="false" targetId="7b0a-a743-a8da-3a39" primary="false"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink import="true" name="Legion Rhino Advancer" hidden="false" id="be4a-ac06-cfc1-5efd" type="selectionEntry" targetId="83d6-bbaa-416c-9de9">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fffa-369b-8a93-c728" name="2) May take:" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="9055-3ef5-c757-f4c6" name="Searchlights" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c7f-59d4-2290-1617" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2544-8803-0a0d-b019" name="Dozer Blade" hidden="false" collective="false" import="true" targetId="42e1-f6cf-1f2b-a492" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16cc-fe3e-517f-ba4c" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink id="69b4-e80f-1656-6002" name="Blessed Auto-simulacra" hidden="true" collective="false" import="true" targetId="dc49-518b-0f77-5e3e" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bfc9-c99c-bf8a-3917" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ea74-a90c-c7d9-f711" name="Armatus Necrotechnika" hidden="true" collective="false" import="true" targetId="9221-0ef3-7962-eda0" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bfc9-c99c-bf8a-3917" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="43a2-c5b5-7e87-098d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2410-7821-12d3-842a" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" targetId="1bf8-72f8-c331-6900" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="name" value="1x Hull (Front) Mounted hunter-killer missile"/>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="509c-4271-a045-9984" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink id="b9ed-13-14c0-a508" name="Preysight" hidden="false" collective="false" import="true" targetId="b905-4d78-c141-4e63" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3acc-b11-9587-f8c3" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="47e5-11c7-4b21-4f29" name="1) Pintle-weaponry" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d03a-7322-5419-26e3"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a27-d42e-6154-e9d6" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4f4f-e906-26f9-2ef9" name="Magna Combi-Weapon - Meltagun" hidden="false" collective="false" import="true" targetId="59c3-2af5-ebe5-d512" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink id="0af1-25d6-76fc-6d2c" name="Magna Combi-Weapon - Plasma Gun" hidden="false" collective="false" import="true" targetId="5ed9-1bc3-4d8f-0826" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink id="3e5b-994e-81a4-2ae9" name="Minor Combi-Weapon - Flamer" hidden="false" collective="false" import="true" targetId="8dee-b436-0afd-c70a" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink id="289a-6cc2-74ea-e602" name="Minor Combi-Weapon - Grenade Launcher" hidden="false" collective="false" import="true" targetId="dd06-55b3-1c77-1e1d" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink id="17c8-df10-e63d-056a" name="Minor Combi-Weapon - Volkite Charger" hidden="false" collective="false" import="true" targetId="8720-32c4-0099-63f4" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink id="a39a-4b68-0bb2-4961" name="Havoc Launcher" hidden="false" collective="false" import="true" targetId="bde9-5abf-ec3d-2273" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink id="b175-5d64-495e-894a" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="5507-b432-3b4c-df12" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink id="4495-b21a-0a28-1da9" name="Multi-Melta" hidden="false" collective="false" import="true" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+            </entryLink>
+            <entryLink id="624f-24ae-2908-600e" name="Twin-linked Bolter" hidden="false" collective="false" import="true" targetId="e31a-fd70-35c7-8bed" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink id="0679-f9b9-27af-ad74" name="Heavy Alchem Flamer" hidden="false" collective="false" import="true" targetId="2a3d-a4bb-5326-a16a" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink id="0dd6-b76b-156a-071d" name="Minor Combi-Weapon - Alchem Flamer" hidden="false" collective="false" import="true" targetId="b941-687c-c95e-31a6" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink id="a88b-55cb-217c-6fb5" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="07fd-c24a-9235-4206" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink id="b1ee-344c-607d-e737" name="Shrapnel Cannon" hidden="false" collective="false" import="true" targetId="975e-14eb-caed-4b5b" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="12"/>
+              </costs>
+            </entryLink>
+            <entryLink id="55ba-6b04-862a-6c82" name="Dragon&apos;s Breath Heavy Flamer" hidden="false" collective="false" import="true" targetId="1a5c-0c5f-d798-a067" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ff44-1c75-7f96-bfe1" name="Iliastus Assault Cannon" hidden="false" collective="false" import="true" targetId="10aa-3c70-2bbe-9509" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a2bb-032d-d9c8-e854" name="Twin-linked Bolter" hidden="false" collective="false" import="true" targetId="e31a-fd70-35c7-8bed" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a27f-7936-804c-339a" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7495-750c-4ef6-7547" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="ad9e-7ba5-c0a9-e590" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="0873-34dd-e52d-d33c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="398f-41bf-e32b-8b4f" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cc8-0b9b-b53b-f40a" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Legion Rhino Advancer" hidden="false" id="be4a-ac06-cfc1-5efd" type="selectionEntry" targetId="83d6-bbaa-416c-9de9"/>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
@@ -6819,9 +6977,6 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
           </constraints>
         </selectionEntry>
       </selectionEntries>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="67f7-644f-c70e-5aa0"/>
-      </constraints>
     </selectionEntry>
     <selectionEntry id="dc49-518b-0f77-5e3e" name="Blessed Auto-simulacra" publicationId="817a-6288-e016-7469" page="278" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -70068,6 +70223,5 @@ When included in a Shattered Legions Detachment, this model must represent the L
     <catalogueLink id="e123-456e-507c-5tra" name="Daemons - Bound Daemons" targetId="d114-c205-18d5-4e95" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="8b20-7569-6f4a-44f9" name="Daemons - Daemons of the Ruinstorm" targetId="724d-13c4-628c-f642" type="catalogue" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Panoptica Library" id="9647-7a63-6bbb-0ce1" targetId="69b7-3f60-9f7f-8ce5"/>
-    <catalogueLink type="catalogue" name="[Centura] Legiones Astartes" id="3884-a5a1-ad32-99bd" targetId="d76-4e81-2fef-caa1"/>
   </catalogueLinks>
 </catalogue>
