@@ -6605,7 +6605,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
         <categoryLink id="02a0-025a-fc68-8e2a" name="Transport Sub-type:" hidden="false" targetId="7b0a-a743-a8da-3a39" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
       <selectionEntries>
         <selectionEntry type="unit" import="true" name="Legion Rhino Transport" hidden="false" id="e1ab-0d8e-ca14-8db0">
@@ -6799,6 +6799,9 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="473c-9275-9a73-7840"/>
           </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+          </costs>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Legion Rhino Advancer" hidden="false" id="4381-69d6-5889-30fb" page="30" publicationId="3970-79bb-bdc6-9599">
           <categoryLinks>
@@ -6986,6 +6989,9 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
           </constraints>
         </selectionEntry>
       </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db61-3088-b243-7b3d"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry id="dc49-518b-0f77-5e3e" name="Blessed Auto-simulacra" publicationId="817a-6288-e016-7469" page="278" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
