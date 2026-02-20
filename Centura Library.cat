@@ -15706,7 +15706,6 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
     <entryLink import="true" name="Legion Novicii Squad*" hidden="false" id="8565-2301-8c3f-cde5" targetId="7322-a79c-4ce8-8b16" type="selectionEntry"/>
     <entryLink import="true" name="Legion Orthrus Destroyer Squadron" hidden="false" id="9646-5212-589f-a31d" targetId="4b16-34fb-4262-95a2" type="selectionEntry"/>
     <entryLink import="true" name="Legion Rhino Advancer" hidden="false" id="4bc1-aad5-46c7-6a07" targetId="83d6-bbaa-416c-9de9" type="selectionEntry"/>
-    <entryLink import="true" name="Legion Servo-Automata Maniple" hidden="false" id="51a5-f65d-4e91-ecbf" targetId="6c47-ea09-4079-82bb" type="selectionEntry"/>
     <entryLink import="true" name="Legion Sicaran Incinerator Squadron" hidden="false" id="dad5-dc24-0035-4705" targetId="bb59-1d00-42d4-aaa7" type="selectionEntry"/>
     <entryLink import="true" name="Legion Sky-Seeker Squadron" hidden="false" id="7b00-a3da-f8de-3fb0" targetId="c0a1-df5f-4e38-89e8" type="selectionEntry"/>
     <entryLink import="true" name="Legion Storm Eagle Transporter" hidden="false" id="c119-d191-55eb-1e15" targetId="e88e-ed4c-45bf-b30a" type="selectionEntry"/>

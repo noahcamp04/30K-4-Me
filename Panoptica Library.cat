@@ -11590,7 +11590,4 @@ A unit which passes suffers no negative penalty, and in addition may react as no
   <catalogueLinks>
     <catalogueLink id="5f24-4242-71c3-0547" name="Mech Library" targetId="7265-8b7a-50ae-51ec" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
-  <entryLinks>
-    <entryLink import="true" name="Legion Saturnine Terminator Armor" hidden="false" id="0acb-f3e0-a825-d7e8" targetId="5400-c5f5-fff9-26fd" type="selectionEntry"/>
-  </entryLinks>
 </catalogue>
