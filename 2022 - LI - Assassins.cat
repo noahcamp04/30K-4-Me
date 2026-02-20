@@ -1150,7 +1150,7 @@ Note that weapons selected to fire in this manner must still follow the rules a
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="130"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fe13-4a8f-b2af-1e40" name="Davinite Lodge Priest" publicationId="3fc0-bf46-1f1-eff9" page="2" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="fe13-4a8f-b2af-1e40" name="Davinite Lodge Priest" publicationId="3fc0-bf46-1f1-eff9" page="2" hidden="true" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="d64e-6627-e31b-2078" name="Character" hidden="false" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
         <categoryLink id="c8f3-eaeb-92cd-5ce7" name="Independent Character" hidden="false" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
