@@ -23802,6 +23802,221 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
               </modifiers>
             </entryLink>
           </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="unit" import="true" name="Legion Whispercutter" hidden="false" id="27dc-63ef-2c42-a4a6" page="31" publicationId="3970-79bb-bdc6-9599">
+              <categoryLinks>
+                <categoryLink name="Unit:" hidden="false" id="f29d-2fb7-a3ac-4fe4" targetId="36c3-e85e-97cc-c503" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="75"/>
+              </costs>
+              <selectionEntries>
+                <selectionEntry type="model" import="true" name="Legion Whispercutter" hidden="false" id="0f18-aaa5-143f-140b" page="31" publicationId="3970-79bb-bdc6-9599">
+                  <profiles>
+                    <profile name="Legion Whispercutter" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="0f93-3ece-0fba-c04a">
+                      <characteristics>
+                        <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Cavalry (Antigrav, Heavy, Transport*)</characteristic>
+                        <characteristic typeId="893e-2d76-8f04-44e5" name="Move">16</characteristic>
+                        <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">4</characteristic>
+                        <characteristic typeId="74ae-c840-0036-d244" name="BS">4</characteristic>
+                        <characteristic typeId="e478-41d4-a092-48a8" name="S">4</characteristic>
+                        <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">6</characteristic>
+                        <characteristic typeId="57ee-1126-32a9-5672" name="W">3</characteristic>
+                        <characteristic typeId="62d3-22d7-2d49-52dc" name="I">4</characteristic>
+                        <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">2</characteristic>
+                        <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">8</characteristic>
+                        <characteristic typeId="e593-6b3c-f169-04f0" name="Save">3+</characteristic>
+                      </characteristics>
+                      <modifiers>
+                        <modifier type="append" value="(Psyker)" field="ddd7-6f5c-a939-b69e">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="force" childId="21c3-2f28-7820-e51a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="append" value="(Corrupted)" field="ddd7-6f5c-a939-b69e">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="equalTo" value="1" field="selections" scope="27dc-63ef-2c42-a4a6" childId="555f-3998-a06e-f415" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                <condition type="equalTo" value="1" field="selections" scope="27dc-63ef-2c42-a4a6" childId="f783-f0ea-fe35-cdeb" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2a8d-2799-e908-1d31"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="faa9-9a6e-6d55-5cca"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Searchlights" hidden="false" id="41f5-7e40-707d-86ac" type="selectionEntry" targetId="a280-c496-4014-aca3">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="36c8-9612-d989-1ff2"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="627e-d630-d9c5-a372"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="A Legion Whispercutter may replace its Heavy Bolter with a:" id="db12-a46f-f8b3-b7f6" hidden="false" defaultSelectionEntryId="c52d-0e72-54e2-ffa8">
+                      <entryLinks>
+                        <entryLink import="true" name="Heavy Flamer" hidden="false" id="5caf-57ee-2859-81f7" type="selectionEntry" targetId="aab4-9e33-94f0-5815">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d77e-c46e-d3ab-94e8"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Havoc Launcher" hidden="false" id="25a7-5f4a-3f16-deec" type="selectionEntry" targetId="bde9-5abf-ec3d-2273">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="12a8-e156-9408-2c56"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Volkite Culverin" hidden="false" id="28a2-c1d9-0264-dc20" type="selectionEntry" targetId="170d-44e0-455c-8207">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4daf-5a01-0b97-91ad"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Æther-Fire Cannon" hidden="false" id="e43e-abe1-6dcb-9868" type="selectionEntry" targetId="0139-b673-7b21-0470">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d6fa-7fe0-dfa4-686d"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Graviton Gun" hidden="false" id="9c95-8110-f650-acb8" type="selectionEntry" targetId="5303-5a3e-de51-1707">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="76b6-79f3-c1cf-b2a1"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Multi-Melta" hidden="false" id="71f8-311e-cc41-06d1" type="selectionEntry" targetId="9332-3834-cf3a-56b4">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f4db-4694-f48d-95ff"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Plasma Cannon" hidden="false" id="cf2c-6ea9-8760-5c99" type="selectionEntry" targetId="bdc7-3f9b-4c67-8641">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66dd-0585-5f28-49c1"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Heavy Bolter" hidden="false" id="6d03-4a12-8259-ea59" type="selectionEntry" targetId="6024-6953-b8f4-ce63">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="60ca-0f06-2a12-f764"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f17-e351-56f8-777d"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c17-21f8-4a01-f17d"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="A Legion Whispercutter may take up to two:" id="6b5a-e4ac-6797-14f3" hidden="false">
+                      <constraints>
+                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="876b-678e-999e-97ed"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="81b3-da13-7280-982d" type="selectionEntry" targetId="1bf8-72f8-c331-6900">
+                          <constraints>
+                            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0552-e7fe-4c74-ae49"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <categoryLinks>
+                    <categoryLink name="Antigrav Sub-type" hidden="false" id="f81f-a02c-0a15-8e28" targetId="4303-1348-cce4-9501" primary="false"/>
+                    <categoryLink name="Heavy Sub-type:" hidden="false" id="c01f-6e55-f027-3cc1" targetId="9231-183c-b97b-63f9" primary="false"/>
+                    <categoryLink name="Transport Sub-type:" hidden="false" id="55d9-dea7-852e-f1ef" targetId="7b0a-a743-a8da-3a39" primary="false"/>
+                  </categoryLinks>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Whispercutter Dedicated Transport:" hidden="false" id="5bad-13c1-9716-277c">
+                      <profiles>
+                        <profile name="Whispercutter Dedicated Transport:" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="2049-e6ef-8b7c-e925">
+                          <characteristics>
+                            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">● A Legion Whispercutter has a Transport Capacity of 6 models. It may only carry models
+with both the Infantry Unit Type and the Skirmish Sub-type.
+A Legion Whispercutter may be purchased as a Dedicated Transport any unit with both
+the Infantry Unit Type and the Skirmish Sub-type, composed of 5 models.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b0f9-0064-3f1c-83a5"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cbdf-0e52-1329-0d7e"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Whispercutter Access Points" hidden="false" id="e45b-ffce-1c32-cfe9">
+                      <profiles>
+                        <profile name="Whispercutter Access Points" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="771d-cb80-cff7-d6da">
+                          <characteristics>
+                            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Legion Whispercutter counts its entire hull as an access point.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cc65-282d-b400-916f"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef97-4525-61d1-e4e9"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+              </selectionEntries>
+              <infoLinks>
+                <infoLink name="Legiones Astartes (X)" id="931a-d78c-9ac4-479e" hidden="false" type="rule" targetId="ffcb-13b4-9b4c-84da"/>
+                <infoLink name="Transport Skiff" id="ce55-892f-fb67-ce38" hidden="false" type="rule" targetId="19f6-375e-4962-a6f2">
+                  <modifiers>
+                    <modifier type="set" value="Transport Skiff*" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Deep Strike" id="4f7a-8a47-9168-e9fd" hidden="false" type="rule" targetId="f1e1-986f-c783-ca9e"/>
+                <infoLink name="Outflank" id="146a-2452-a95b-ad23" hidden="false" type="rule" targetId="bfbf-e75c-49a2-0285"/>
+                <infoLink name="Assault Vehicle" id="92d2-13c3-af47-f600" hidden="false" type="rule" targetId="aa61-11f6-2bb5-7c0e"/>
+                <infoLink name="Open-Topped (X)" id="4a7b-bfbc-e8d0-d09d" hidden="false" type="rule" targetId="d976-d66b-49de-ac4b">
+                  <modifiers>
+                    <modifier type="set" value="Open-Topped (5)" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="lessThan" value="5" field="selections" scope="parent" childId="model" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <rules>
+                <rule name="Dedicated Transport (Legion Whispercutter)" id="642d-6d25-fe2f-5f1f" hidden="false">
+                  <description>A Legion Whispercutter has a Transport Capacity of 6 models. It may only carry models
+with both the Infantry Unit Type and the Skirmish Sub-type.
+
+
+A Legion Whispercutter may be purchased as a Dedicated Transport any unit with both
+the Infantry Unit Type and the Skirmish Sub-type, composed of 5 models.
+
+
+A Legion Whispercutter counts its entire hull as an access point.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="7fa7-8ca5-d4be-f2af" name="2) Legiones Unit Upgrades:" hidden="false" collective="false" import="true">
           <entryLinks>
@@ -23854,21 +24069,6 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
               </constraints>
             </entryLink>
           </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Dedicated Transport" id="1e2e-44c5-ba0a-18ce" hidden="false">
-          <entryLinks>
-            <entryLink import="true" name="Legion Whispercutter" hidden="false" id="1f17-bee2-9341-d2d3" type="selectionEntry" targetId="b176-b2c5-477c-9200"/>
-          </entryLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="127c-5e02-7d25-2243"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -24808,9 +25008,221 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
               </conditions>
             </modifier>
           </modifiers>
-          <entryLinks>
-            <entryLink import="true" name="Legion Whispercutter" hidden="false" id="0246-b107-6cdf-74c4" type="selectionEntry" targetId="b176-b2c5-477c-9200"/>
-          </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="unit" import="true" name="Legion Whispercutter" hidden="false" id="8a97-22b8-b818-fc60" page="31" publicationId="3970-79bb-bdc6-9599">
+              <categoryLinks>
+                <categoryLink name="Unit:" hidden="false" id="d8af-176e-59e2-05c3" targetId="36c3-e85e-97cc-c503" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="75"/>
+              </costs>
+              <selectionEntries>
+                <selectionEntry type="model" import="true" name="Legion Whispercutter" hidden="false" id="befe-bf69-ea68-47ed" page="31" publicationId="3970-79bb-bdc6-9599">
+                  <profiles>
+                    <profile name="Legion Whispercutter" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="5f3b-289b-1c46-1f19">
+                      <characteristics>
+                        <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Cavalry (Antigrav, Heavy, Transport*)</characteristic>
+                        <characteristic typeId="893e-2d76-8f04-44e5" name="Move">16</characteristic>
+                        <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">4</characteristic>
+                        <characteristic typeId="74ae-c840-0036-d244" name="BS">4</characteristic>
+                        <characteristic typeId="e478-41d4-a092-48a8" name="S">4</characteristic>
+                        <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">6</characteristic>
+                        <characteristic typeId="57ee-1126-32a9-5672" name="W">3</characteristic>
+                        <characteristic typeId="62d3-22d7-2d49-52dc" name="I">4</characteristic>
+                        <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">2</characteristic>
+                        <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">8</characteristic>
+                        <characteristic typeId="e593-6b3c-f169-04f0" name="Save">3+</characteristic>
+                      </characteristics>
+                      <modifiers>
+                        <modifier type="append" value="(Psyker)" field="ddd7-6f5c-a939-b69e">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="force" childId="21c3-2f28-7820-e51a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="append" value="(Corrupted)" field="ddd7-6f5c-a939-b69e">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="equalTo" value="1" field="selections" scope="8a97-22b8-b818-fc60" childId="555f-3998-a06e-f415" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                <condition type="equalTo" value="1" field="selections" scope="8a97-22b8-b818-fc60" childId="f783-f0ea-fe35-cdeb" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3c1d-3462-c467-c629"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a28-353c-974b-dd81"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Searchlights" hidden="false" id="296f-6aa3-20da-2177" type="selectionEntry" targetId="a280-c496-4014-aca3">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c682-97f0-282b-7c9c"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7eab-7953-bab3-f9fc"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="A Legion Whispercutter may replace its Heavy Bolter with a:" id="5249-817b-6e14-55c5" hidden="false" defaultSelectionEntryId="c52d-0e72-54e2-ffa8">
+                      <entryLinks>
+                        <entryLink import="true" name="Heavy Flamer" hidden="false" id="8901-0673-b957-e327" type="selectionEntry" targetId="aab4-9e33-94f0-5815">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d19a-d253-655b-6f01"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Havoc Launcher" hidden="false" id="ebdd-62b9-c96d-9313" type="selectionEntry" targetId="bde9-5abf-ec3d-2273">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea28-1838-7257-8fd6"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Volkite Culverin" hidden="false" id="8483-d244-7222-1589" type="selectionEntry" targetId="170d-44e0-455c-8207">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f5b9-d2b7-6abe-1d0e"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Æther-Fire Cannon" hidden="false" id="eb1c-2a60-e29d-acb5" type="selectionEntry" targetId="0139-b673-7b21-0470">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df18-7069-74bc-ef1e"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Graviton Gun" hidden="false" id="9ce3-20e5-e308-49b3" type="selectionEntry" targetId="5303-5a3e-de51-1707">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d3bb-2b2a-f5ea-be16"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Multi-Melta" hidden="false" id="4619-c4b7-878a-4de7" type="selectionEntry" targetId="9332-3834-cf3a-56b4">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7609-a571-3632-3336"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Plasma Cannon" hidden="false" id="9141-6c1a-8ae1-c62f" type="selectionEntry" targetId="bdc7-3f9b-4c67-8641">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0693-37b5-f533-8cbc"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Heavy Bolter" hidden="false" id="5fc0-0323-0075-49c0" type="selectionEntry" targetId="6024-6953-b8f4-ce63">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="608e-afab-cfc5-012c"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="034a-2d2f-9076-a10b"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04d9-230c-b851-f83a"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="A Legion Whispercutter may take up to two:" id="3867-6ee5-e25a-b5ce" hidden="false">
+                      <constraints>
+                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="cbe9-6de5-bdd9-3b19"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="d1e8-e5b1-8577-4c51" type="selectionEntry" targetId="1bf8-72f8-c331-6900">
+                          <constraints>
+                            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="750d-7195-8289-217b"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <categoryLinks>
+                    <categoryLink name="Antigrav Sub-type" hidden="false" id="374a-ce4e-83ae-ad40" targetId="4303-1348-cce4-9501" primary="false"/>
+                    <categoryLink name="Heavy Sub-type:" hidden="false" id="9f52-e1fe-3f54-aefe" targetId="9231-183c-b97b-63f9" primary="false"/>
+                    <categoryLink name="Transport Sub-type:" hidden="false" id="d7e2-3b9d-4163-9e50" targetId="7b0a-a743-a8da-3a39" primary="false"/>
+                  </categoryLinks>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Whispercutter Dedicated Transport:" hidden="false" id="0ee5-20e1-d858-82f8">
+                      <profiles>
+                        <profile name="Whispercutter Dedicated Transport:" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="c1be-4e13-749f-8429">
+                          <characteristics>
+                            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">● A Legion Whispercutter has a Transport Capacity of 6 models. It may only carry models
+with both the Infantry Unit Type and the Skirmish Sub-type.
+A Legion Whispercutter may be purchased as a Dedicated Transport any unit with both
+the Infantry Unit Type and the Skirmish Sub-type, composed of 5 models.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eb35-7f23-08f0-312e"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94b9-39c3-e998-483c"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Whispercutter Access Points" hidden="false" id="f6c0-d251-c55f-daab">
+                      <profiles>
+                        <profile name="Whispercutter Access Points" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="4150-0eb3-d1ea-ea08">
+                          <characteristics>
+                            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Legion Whispercutter counts its entire hull as an access point.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="678a-4a30-5967-f2e1"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3884-d7e6-a76f-e1a2"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+              </selectionEntries>
+              <infoLinks>
+                <infoLink name="Legiones Astartes (X)" id="8ed0-1a7b-4053-e41f" hidden="false" type="rule" targetId="ffcb-13b4-9b4c-84da"/>
+                <infoLink name="Transport Skiff" id="abc3-a7ee-badd-2e65" hidden="false" type="rule" targetId="19f6-375e-4962-a6f2">
+                  <modifiers>
+                    <modifier type="set" value="Transport Skiff*" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Deep Strike" id="940f-877c-f3d3-bd48" hidden="false" type="rule" targetId="f1e1-986f-c783-ca9e"/>
+                <infoLink name="Outflank" id="7ec6-7191-1ece-d656" hidden="false" type="rule" targetId="bfbf-e75c-49a2-0285"/>
+                <infoLink name="Assault Vehicle" id="06a9-8d71-1180-6dbb" hidden="false" type="rule" targetId="aa61-11f6-2bb5-7c0e"/>
+                <infoLink name="Open-Topped (X)" id="3a2e-b281-e292-bf41" hidden="false" type="rule" targetId="d976-d66b-49de-ac4b">
+                  <modifiers>
+                    <modifier type="set" value="Open-Topped (5)" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="lessThan" value="5" field="selections" scope="parent" childId="model" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <rules>
+                <rule name="Dedicated Transport (Legion Whispercutter)" id="87fb-e9de-2133-ce34" hidden="false">
+                  <description>A Legion Whispercutter has a Transport Capacity of 6 models. It may only carry models
+with both the Infantry Unit Type and the Skirmish Sub-type.
+
+
+A Legion Whispercutter may be purchased as a Dedicated Transport any unit with both
+the Infantry Unit Type and the Skirmish Sub-type, composed of 5 models.
+
+
+A Legion Whispercutter counts its entire hull as an access point.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -31536,8 +31948,222 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Legion Whispercutter" hidden="false" id="8f2e-d3d7-8a3f-4e0f" type="selectionEntry" targetId="b176-b2c5-477c-9200"/>
           </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="unit" import="true" name="Legion Whispercutter" hidden="false" id="885e-79b3-7d92-faef" page="31" publicationId="3970-79bb-bdc6-9599">
+              <categoryLinks>
+                <categoryLink name="Unit:" hidden="false" id="a838-b833-f7ee-6799" targetId="36c3-e85e-97cc-c503" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="75"/>
+              </costs>
+              <selectionEntries>
+                <selectionEntry type="model" import="true" name="Legion Whispercutter" hidden="false" id="1df3-c9a2-bad5-2cc4" page="31" publicationId="3970-79bb-bdc6-9599">
+                  <profiles>
+                    <profile name="Legion Whispercutter" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="5cee-b74b-6150-e6dd">
+                      <characteristics>
+                        <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Cavalry (Antigrav, Heavy, Transport*)</characteristic>
+                        <characteristic typeId="893e-2d76-8f04-44e5" name="Move">16</characteristic>
+                        <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">4</characteristic>
+                        <characteristic typeId="74ae-c840-0036-d244" name="BS">4</characteristic>
+                        <characteristic typeId="e478-41d4-a092-48a8" name="S">4</characteristic>
+                        <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">6</characteristic>
+                        <characteristic typeId="57ee-1126-32a9-5672" name="W">3</characteristic>
+                        <characteristic typeId="62d3-22d7-2d49-52dc" name="I">4</characteristic>
+                        <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">2</characteristic>
+                        <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">8</characteristic>
+                        <characteristic typeId="e593-6b3c-f169-04f0" name="Save">3+</characteristic>
+                      </characteristics>
+                      <modifiers>
+                        <modifier type="append" value="(Psyker)" field="ddd7-6f5c-a939-b69e">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="force" childId="21c3-2f28-7820-e51a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="append" value="(Corrupted)" field="ddd7-6f5c-a939-b69e">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="equalTo" value="1" field="selections" scope="885e-79b3-7d92-faef" childId="555f-3998-a06e-f415" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                                <condition type="equalTo" value="1" field="selections" scope="885e-79b3-7d92-faef" childId="f783-f0ea-fe35-cdeb" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ba56-746e-9de0-35fa"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ec9-f89d-dd45-c6a4"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Searchlights" hidden="false" id="1587-8e73-29c2-1d1e" type="selectionEntry" targetId="a280-c496-4014-aca3">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4844-8310-9763-94d3"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ff2-5ac0-f2b9-7775"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="A Legion Whispercutter may replace its Heavy Bolter with a:" id="267c-c035-ed5d-a532" hidden="false" defaultSelectionEntryId="c52d-0e72-54e2-ffa8">
+                      <entryLinks>
+                        <entryLink import="true" name="Heavy Flamer" hidden="false" id="5788-d66a-8e75-8e44" type="selectionEntry" targetId="aab4-9e33-94f0-5815">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="424c-87bb-01ff-ca16"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Havoc Launcher" hidden="false" id="fd28-3f78-1c61-a1f6" type="selectionEntry" targetId="bde9-5abf-ec3d-2273">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7f1-1357-c4b7-ef3a"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Volkite Culverin" hidden="false" id="1b74-bfdc-5174-d08b" type="selectionEntry" targetId="170d-44e0-455c-8207">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d99b-4b35-2c2d-2d43"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Æther-Fire Cannon" hidden="false" id="7da7-2d49-9f04-71af" type="selectionEntry" targetId="0139-b673-7b21-0470">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="07a8-0a61-ae51-ca58"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Graviton Gun" hidden="false" id="ff48-3c30-0de5-7428" type="selectionEntry" targetId="5303-5a3e-de51-1707">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="54b5-6ace-2ab0-580d"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Multi-Melta" hidden="false" id="ad47-52a9-8ebc-09ec" type="selectionEntry" targetId="9332-3834-cf3a-56b4">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba03-97e7-10ca-3450"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Plasma Cannon" hidden="false" id="fb73-9475-1e03-81d9" type="selectionEntry" targetId="bdc7-3f9b-4c67-8641">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bfdf-8ee3-b956-8b28"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Heavy Bolter" hidden="false" id="c92f-136d-8cf7-e5de" type="selectionEntry" targetId="6024-6953-b8f4-ce63">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fdd9-3055-26c8-3406"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e5e6-5b0e-cc7e-1b27"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2bd3-bf00-f445-1d49"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="A Legion Whispercutter may take up to two:" id="0299-20be-513a-d2a3" hidden="false">
+                      <constraints>
+                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="13fd-c063-ed57-1e9f"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="263b-50e7-6c65-a6ba" type="selectionEntry" targetId="1bf8-72f8-c331-6900">
+                          <constraints>
+                            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5cfd-99be-ce63-9655"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <categoryLinks>
+                    <categoryLink name="Antigrav Sub-type" hidden="false" id="ce21-ea9a-22db-71e1" targetId="4303-1348-cce4-9501" primary="false"/>
+                    <categoryLink name="Heavy Sub-type:" hidden="false" id="3b8e-8f46-3a22-e7ee" targetId="9231-183c-b97b-63f9" primary="false"/>
+                    <categoryLink name="Transport Sub-type:" hidden="false" id="9be4-73cf-d0e0-d7df" targetId="7b0a-a743-a8da-3a39" primary="false"/>
+                  </categoryLinks>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Whispercutter Dedicated Transport:" hidden="false" id="95cf-dcb7-e1d3-b4a2">
+                      <profiles>
+                        <profile name="Whispercutter Dedicated Transport:" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="295f-c2af-50f1-76a4">
+                          <characteristics>
+                            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">● A Legion Whispercutter has a Transport Capacity of 6 models. It may only carry models
+with both the Infantry Unit Type and the Skirmish Sub-type.
+A Legion Whispercutter may be purchased as a Dedicated Transport any unit with both
+the Infantry Unit Type and the Skirmish Sub-type, composed of 5 models.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="80aa-eced-c875-cf0f"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8dd3-f218-0f2f-dbf2"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Whispercutter Access Points" hidden="false" id="9b23-7352-824c-17dc">
+                      <profiles>
+                        <profile name="Whispercutter Access Points" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="37d1-8e64-2c33-d103">
+                          <characteristics>
+                            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Legion Whispercutter counts its entire hull as an access point.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fadc-3c1d-98cc-ae95"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="62d4-c7f6-77c3-db13"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+              </selectionEntries>
+              <infoLinks>
+                <infoLink name="Legiones Astartes (X)" id="51b3-d9fc-a5d1-2eda" hidden="false" type="rule" targetId="ffcb-13b4-9b4c-84da"/>
+                <infoLink name="Transport Skiff" id="fe9f-7cf9-949f-bcbf" hidden="false" type="rule" targetId="19f6-375e-4962-a6f2">
+                  <modifiers>
+                    <modifier type="set" value="Transport Skiff*" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Deep Strike" id="ed99-8aa2-f175-6f1e" hidden="false" type="rule" targetId="f1e1-986f-c783-ca9e"/>
+                <infoLink name="Outflank" id="2097-a9c5-13c2-2110" hidden="false" type="rule" targetId="bfbf-e75c-49a2-0285"/>
+                <infoLink name="Assault Vehicle" id="dee5-aa33-7ccb-a572" hidden="false" type="rule" targetId="aa61-11f6-2bb5-7c0e"/>
+                <infoLink name="Open-Topped (X)" id="fe14-ed39-6602-138e" hidden="false" type="rule" targetId="d976-d66b-49de-ac4b">
+                  <modifiers>
+                    <modifier type="set" value="Open-Topped (5)" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="lessThan" value="5" field="selections" scope="parent" childId="model" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <rules>
+                <rule name="Dedicated Transport (Legion Whispercutter)" id="fdc5-19b3-6881-a82f" hidden="false">
+                  <description>A Legion Whispercutter has a Transport Capacity of 6 models. It may only carry models
+with both the Infantry Unit Type and the Skirmish Sub-type.
+
+
+A Legion Whispercutter may be purchased as a Dedicated Transport any unit with both
+the Infantry Unit Type and the Skirmish Sub-type, composed of 5 models.
+
+
+A Legion Whispercutter counts its entire hull as an access point.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>

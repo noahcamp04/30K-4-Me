@@ -10198,7 +10198,7 @@ the Infantry Unit Type and the Skirmish Sub-type, composed of 5 models.</charact
         </infoLink>
       </infoLinks>
       <modifiers>
-        <modifier type="set" value="false" field="hidden">
+        <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="lessThan" value="5" field="selections" scope="parent" childId="model" shared="true"/>
           </conditions>
