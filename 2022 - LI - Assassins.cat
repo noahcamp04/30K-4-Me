@@ -977,7 +977,7 @@ Note that weapons selected to fire in this manner must still follow the rules a
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4a00-03d4-a850-884b" name="Cults Abominatio" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4a00-03d4-a850-884b" name="Cults Abominatio" hidden="true" collective="false" import="true" type="upgrade">
       <entryLinks>
         <entryLink id="90ca-7c43-61f4-4e5e" name="Cults Abominatio" hidden="false" collective="false" import="true" targetId="79ec-ea14-0c62-9dd0" type="selectionEntryGroup"/>
       </entryLinks>
@@ -1270,7 +1270,7 @@ Note that weapons selected to fire in this manner must still follow the rules a
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ce53-e40c-65b6-4d3a" name="Expeditionary Navigator" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ce53-e40c-65b6-4d3a" name="Expeditionary Navigator" hidden="true" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="dc64-e9e2-d847-5412" name="Character" hidden="false" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
         <categoryLink id="2719-41d2-0b7e-3d7c" name="Independent Character" hidden="false" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
