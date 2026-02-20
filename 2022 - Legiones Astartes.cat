@@ -23916,7 +23916,6 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                         </entryLink>
                         <entryLink import="true" name="Heavy Bolter" hidden="false" id="6d03-4a12-8259-ea59" type="selectionEntry" targetId="6024-6953-b8f4-ce63">
                           <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="60ca-0f06-2a12-f764"/>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f17-e351-56f8-777d"/>
                           </constraints>
                         </entryLink>
@@ -25122,7 +25121,6 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                         </entryLink>
                         <entryLink import="true" name="Heavy Bolter" hidden="false" id="5fc0-0323-0075-49c0" type="selectionEntry" targetId="6024-6953-b8f4-ce63">
                           <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="608e-afab-cfc5-012c"/>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="034a-2d2f-9076-a10b"/>
                           </constraints>
                         </entryLink>
@@ -32063,7 +32061,6 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                         </entryLink>
                         <entryLink import="true" name="Heavy Bolter" hidden="false" id="c92f-136d-8cf7-e5de" type="selectionEntry" targetId="6024-6953-b8f4-ce63">
                           <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fdd9-3055-26c8-3406"/>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e5e6-5b0e-cc7e-1b27"/>
                           </constraints>
                         </entryLink>

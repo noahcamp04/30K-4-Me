@@ -10118,7 +10118,6 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                 </entryLink>
                 <entryLink import="true" name="Heavy Bolter" hidden="false" id="c52d-0e72-54e2-ffa8" type="selectionEntry" targetId="6024-6953-b8f4-ce63">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fb93-190b-d0a4-d4da"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ca8-e8eb-7113-89d9"/>
                   </constraints>
                 </entryLink>
