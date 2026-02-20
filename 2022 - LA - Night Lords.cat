@@ -3735,6 +3735,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Legion Whispercutter" hidden="false" id="bba0-4a9e-f7bc-c987" type="selectionEntry" targetId="b176-b2c5-477c-9200"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="d8a1-97ef-defe-e30c" name="Legiones Unit Upgrades:" hidden="false" collective="false" import="true">
@@ -4400,6 +4401,21 @@
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
               </costs>
             </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Dedicated Transport" id="ec63-7203-d830-f2a7" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="715c-1848-c6b6-b796"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Legion Whispercutter" hidden="false" id="4f63-cd76-e565-917d" type="selectionEntry" targetId="b176-b2c5-477c-9200"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>

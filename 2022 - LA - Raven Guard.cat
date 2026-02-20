@@ -3460,6 +3460,7 @@ This model counts as having a LegionWarhawk Jump Pack for rules and interaction
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Legion Whispercutter" hidden="false" id="c478-7bc4-423f-0ef4" type="selectionEntry" targetId="b176-b2c5-477c-9200"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="3042-c514-6b16-0c3c" name="1) Mor Deythan Shade" hidden="false" collective="false" import="true" defaultSelectionEntryId="0554-c445-7a20-b683">

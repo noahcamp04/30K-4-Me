@@ -10197,6 +10197,26 @@ the Infantry Unit Type and the Skirmish Sub-type, composed of 5 models.</charact
           </modifiers>
         </infoLink>
       </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="5" field="selections" scope="parent" childId="model" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule name="Dedicated Transport (Legion Whispercutter)" id="d3fc-5a72-8031-53ad" hidden="false">
+          <description>A Legion Whispercutter has a Transport Capacity of 6 models. It may only carry models
+with both the Infantry Unit Type and the Skirmish Sub-type.
+
+
+A Legion Whispercutter may be purchased as a Dedicated Transport any unit with both
+the Infantry Unit Type and the Skirmish Sub-type, composed of 5 models.
+
+
+A Legion Whispercutter counts its entire hull as an access point.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry name="Mutated Spawn" type="unit" id="d20c-e065-4357-b70c" page="36" publicationId="3970-79bb-bdc6-9599">
       <categoryLinks>
@@ -15705,22 +15725,16 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
     <entryLink import="true" name="Legion Land Raider Tartaros" hidden="false" id="58eb-96ae-444f-4756" targetId="9919-c7b2-474e-bb78" type="selectionEntry"/>
     <entryLink import="true" name="Legion Novicii Squad*" hidden="false" id="8565-2301-8c3f-cde5" targetId="7322-a79c-4ce8-8b16" type="selectionEntry"/>
     <entryLink import="true" name="Legion Orthrus Destroyer Squadron" hidden="false" id="9646-5212-589f-a31d" targetId="4b16-34fb-4262-95a2" type="selectionEntry"/>
-    <entryLink import="true" name="Legion Rhino Advancer" hidden="false" id="4bc1-aad5-46c7-6a07" targetId="83d6-bbaa-416c-9de9" type="selectionEntry"/>
     <entryLink import="true" name="Legion Sicaran Incinerator Squadron" hidden="false" id="dad5-dc24-0035-4705" targetId="bb59-1d00-42d4-aaa7" type="selectionEntry"/>
     <entryLink import="true" name="Legion Sky-Seeker Squadron" hidden="false" id="7b00-a3da-f8de-3fb0" targetId="c0a1-df5f-4e38-89e8" type="selectionEntry"/>
     <entryLink import="true" name="Legion Storm Eagle Transporter" hidden="false" id="c119-d191-55eb-1e15" targetId="e88e-ed4c-45bf-b30a" type="selectionEntry"/>
     <entryLink import="true" name="Legion Tartaros Heavy Destroyer Squad" hidden="false" id="3ec8-a8fd-75cd-5c0e" targetId="32a8-5aa5-4636-9115" type="selectionEntry"/>
     <entryLink import="true" name="Legion Terminator Saturnine Squad" hidden="false" id="efbc-5ce5-8286-8caf" targetId="77f4-7d9e-429c-9101" type="selectionEntry"/>
     <entryLink import="true" name="Legion Vindicator Thunderer Squadron" hidden="false" id="2c8a-ce33-f75a-b9cc" targetId="0154-d7ea-4dcf-8db1" type="selectionEntry"/>
-    <entryLink import="true" name="Legion Whispercutter" hidden="false" id="3eb3-ff01-0ab3-4814" targetId="b176-b2c5-477c-9200" type="selectionEntry"/>
     <entryLink import="true" name="Mutated Spawn" hidden="false" id="f824-0556-39b6-47fa" targetId="d20c-e065-4357-b70c" type="selectionEntry"/>
     <entryLink import="true" name="Possessed Legionnaires" hidden="false" id="703c-9f61-0bdb-46da" targetId="f928-6ae6-4699-ba2b" type="selectionEntry"/>
     <entryLink import="true" name="Legion Indomitus Centurion" hidden="false" id="bde0-4cfc-9e50-7b4c" targetId="4d40-5fee-4219-8354" type="selectionEntry"/>
-    <entryLink import="true" name="Legion Saturnine Centurion" hidden="false" id="edf5-8d2d-4f87-d709" targetId="3e29-1bf1-48c9-b302" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink targetId="4f85-eb33-30c9-8f51" id="3d19-7a13-4890-e2e8" primary="false" name="HQ:"/>
-      </categoryLinks>
-    </entryLink>
+    <entryLink import="true" name="Legion Saturnine Centurion" hidden="false" id="edf5-8d2d-4f87-d709" targetId="3e29-1bf1-48c9-b302" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Pater Consularis" id="b93b-ea03-1f8f-654b" hidden="false" defaultSelectionEntryId="9d66-295a-5af3-4e38">

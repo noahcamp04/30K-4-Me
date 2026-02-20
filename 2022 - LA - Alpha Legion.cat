@@ -6436,6 +6436,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Legion Whispercutter" hidden="false" id="c9d0-54a8-3e32-9e78" type="selectionEntry" targetId="b176-b2c5-477c-9200"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -7130,6 +7131,21 @@ A weapon with this special rule may not be used to make Shooting Attacks as part
               </costs>
             </entryLink>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Dedicated Transport" id="a695-22eb-8c85-bfff" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Legion Whispercutter" hidden="false" id="59b8-3d75-dae3-3f69" type="selectionEntry" targetId="b176-b2c5-477c-9200"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52e4-a32f-252a-68c5"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>

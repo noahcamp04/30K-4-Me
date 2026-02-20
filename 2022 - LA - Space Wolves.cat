@@ -4546,6 +4546,7 @@
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de2d-4f1e-c53c-e771" type="min"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Legion Whispercutter" hidden="false" id="9383-48e9-daa4-c7bc" type="selectionEntry" targetId="b176-b2c5-477c-9200"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="7eed-7c35-10cb-c1dd" name="1) Grey Slayers" hidden="false" collective="false" import="true" defaultSelectionEntryId="3817-4281-fe35-c72e">
@@ -5596,6 +5597,7 @@
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="845d-0701-7370-da5a" type="min"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Legion Whispercutter" hidden="false" id="f267-9cfa-df40-9510" type="selectionEntry" targetId="b176-b2c5-477c-9200"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="8394-4c83-24a2-e0ca" name="2) The entire unit may take one of the following options:" hidden="false" collective="false" import="true">

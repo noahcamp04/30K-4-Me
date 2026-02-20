@@ -3315,6 +3315,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="85c2-ae14-65c4-d607" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Legion Whispercutter" hidden="false" id="2588-ddea-47fb-9d50" type="selectionEntry" targetId="b176-b2c5-477c-9200"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>

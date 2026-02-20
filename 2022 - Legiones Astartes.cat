@@ -6555,7 +6555,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="03f1-8ed9-9867-8d18" name="Rhino Transport" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
+    <selectionEntry id="03f1-8ed9-9867-8d18" name="Rhino Transport (Choose One)" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
       <modifiers>
         <modifier type="add" field="category" value="6d0b-fe0e-911e-486f">
           <conditions>
@@ -6815,15 +6815,15 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
               <profiles>
                 <profile name="Legion Rhino Advancer" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="39dc-99aa-0c44-7b08">
                   <characteristics>
-                    <characteristic typeId="e555-4aed-dfcc-c0b4" name="Unit Type">Vehicle (Transport)</characteristic>
-                    <characteristic typeId="3614-4a2d-bffb-90e4" name="Move">14</characteristic>
-                    <characteristic typeId="51fb-b7d9-aa59-863d" name="BS">4</characteristic>
-                    <characteristic typeId="0ef8-a648-01d0-08ee" name="Front">11</characteristic>
-                    <characteristic typeId="f150-c0dc-c192-9cb3" name="Side">11</characteristic>
-                    <characteristic typeId="8d4e-2aea-fffc-d556" name="Rear">10</characteristic>
-                    <characteristic typeId="a76c-83b1-602f-9e62" name="HP">4</characteristic>
-                    <characteristic typeId="0c90-79e2-f768-e547" name="Transport Capacity">22</characteristic>
-                    <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e"/>
+                    <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Transport)</characteristic>
+                    <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">14</characteristic>
+                    <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
+                    <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">11</characteristic>
+                    <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
+                    <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+                    <characteristic name="HP" typeId="a76c-83b1-602f-9e62">4</characteristic>
+                    <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">22</characteristic>
+                    <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">A Legion Rhino Advancer counts its entire hull as an access point.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6989,9 +6989,6 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
           </constraints>
         </selectionEntry>
       </selectionEntries>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="fcce-ce1f-b637-fbdf"/>
-      </constraints>
     </selectionEntry>
     <selectionEntry id="dc49-518b-0f77-5e3e" name="Blessed Auto-simulacra" publicationId="817a-6288-e016-7469" page="278" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -23858,6 +23855,21 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Dedicated Transport" id="1e2e-44c5-ba0a-18ce" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Legion Whispercutter" hidden="false" id="1f17-bee2-9341-d2d3" type="selectionEntry" targetId="b176-b2c5-477c-9200"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="127c-5e02-7d25-2243"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="ee17-8bff-817f-77dd" name="Power Armour" hidden="false" collective="false" import="true" targetId="2d9d-480e-7c14-1a6f" type="selectionEntry">
@@ -24783,6 +24795,21 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7823-a6f0-85b7-d26a" type="max"/>
               </constraints>
             </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Dedicated Transport" id="0d9a-65f7-8d13-0f84" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1648-c259-c232-1eff"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Legion Whispercutter" hidden="false" id="0246-b107-6cdf-74c4" type="selectionEntry" targetId="b176-b2c5-477c-9200"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -31509,6 +31536,7 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Legion Whispercutter" hidden="false" id="8f2e-d3d7-8a3f-4e0f" type="selectionEntry" targetId="b176-b2c5-477c-9200"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>

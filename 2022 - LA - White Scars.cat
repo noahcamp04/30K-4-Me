@@ -4195,6 +4195,21 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Dedicated Transport" id="0de2-9b9e-e4e8-ac16" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Legion Whispercutter" hidden="false" id="f79d-a6bd-223e-7565" type="selectionEntry" targetId="b176-b2c5-477c-9200"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="54a2-783b-8a92-dc7c"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="7b69-bf2f-4547-e83b" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="5c1c-7d94-a2c5-246e" name="Scout Armour" hidden="false" collective="false" import="true" targetId="b282-55aa-d1e2-ebe7" type="selectionEntry">
