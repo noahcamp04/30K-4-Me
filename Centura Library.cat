@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="d76-4e81-2fef-caa1" name="[Centura] Legiones Astartes" gameSystemId="66e4-4610-1d0e-3c25" gameSystemRevision="2001" revision="1" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntries>
-    <selectionEntry name="Legion Indomitus Praetor" type="unit" id="0293-aa91-4e32-bd5f" page="6" publicationId="3970-79bb-bdc6-9599">
+    <selectionEntry name="Praetor, Indomitus" type="unit" id="0293-aa91-4e32-bd5f" page="6" publicationId="3970-79bb-bdc6-9599">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="8714-684d-4098-aa01"/>
         <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="7c40-c676-42ad-a0d4" name="HQ:"/>
@@ -199,7 +199,7 @@
         <infoLink name="independent character" id="a983-2aac-135f-270f" hidden="false" type="rule" targetId="65ab-8a7c-23fc-c108"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Legion Indomitus Centurion" type="unit" id="4d40-5fee-4219-8354" page="7" publicationId="3970-79bb-bdc6-9599">
+    <selectionEntry name="Centurion, Indomitus" type="unit" id="4d40-5fee-4219-8354" page="7" publicationId="3970-79bb-bdc6-9599">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="db10-a8ac-4d16-88aa"/>
         <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="1d7d-6b6e-45a6-87f5" name="HQ:"/>
@@ -224,6 +224,156 @@
                 <characteristic typeId="e593-6b3c-f169-04f0" name="Save">2+</characteristic>
                 <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Character, Heavy)</characteristic>
               </characteristics>
+              <modifiers>
+                <modifier type="increment" value="1" field="cc42-7ed5-7092-5c84">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="05a2-a69e-0c9e-1544" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="6f69-f2bd-fe7e-12c4" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="c874-37cf-6177-057d" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="10" field="e8a6-1da9-d384-8727">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="6f69-f2bd-fe7e-12c4" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="4831-6948-851c-3925" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="e9ab-2cc5-4507-eded" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="Infantry (Character, Psyker)" field="ddd7-6f5c-a939-b69e">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="d332-0e64-7ecf-6c35" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="d71e-10a6-216f-d796" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="8846-2f93-a2be-18dc" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="force" childId="21c3-2f28-7820-e51a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="b625-1cef-3057-156c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="ef1b-65a4-e516-99d3" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="Infantry (Character, Corrupted, Psyker)" field="ddd7-6f5c-a939-b69e">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="4e1a-275e-e691-5b92" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" value="(Skirmish)" field="ddd7-6f5c-a939-b69e">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="b1c4-f1e2-2f66-6d38" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="f111-2ce5-dd12-d6b0">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="93af-e204-255b-b095" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="8*" field="893e-2d76-8f04-44e5">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="e01e-5cdd-e512-8353" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" value="(Corrupted)" field="ddd7-6f5c-a939-b69e">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="f783-f0ea-fe35-cdeb" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <comment>Set Name to (X)</comment>
+                  <modifiers>
+                    <modifier type="set" value="Phoenix Warden" field="name">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="5aff-6654-f53b-c5ac" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Champion" field="name">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="05a2-a69e-0c9e-1544" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Chaplain" field="name">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="4831-6948-851c-3925" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Delegatus" field="name">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="35d4-0dcd-f7d2-a6da" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Esoterist" field="name">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="d332-0e64-7ecf-6c35" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Forge Lord" field="name">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="62c8-8f27-9673-8450" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Herald" field="name">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="b6d0-40f1-d82f-c01e" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Librarian" field="name">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="8846-2f93-a2be-18dc" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Mortificator" field="name">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="368d-0cdc-5ce6-eb38" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Primus Medicae" field="name">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="7df3-04e8-c056-47cb" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Siege Breaker" field="name">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="9335-7da8-087e-30de" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Warmonger" field="name">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="d6cc-2e7f-16e3-e66c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="remove" value="8b4f-bfe2-ce7b-f1b1" field="category">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="force" childId="be5b-1edf-8b27-2e1e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="remove" value="6d79-a3e4-381f-7b0f" field="category">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="force" childId="be5b-1edf-8b27-2e1e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="add" value="d8ab-8e21-e193-63ba" field="category">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="force" childId="be5b-1edf-8b27-2e1e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <comment>The Flesh Is Weak</comment>
+                </modifierGroup>
+              </modifierGroups>
             </profile>
           </profiles>
           <constraints>
@@ -268,6 +418,22 @@
                   </costs>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1638-2836-466c-a2a8"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Magna Combi-Weapon" hidden="false" id="32c3-a64d-3981-5bba" type="selectionEntry" targetId="e5b1-83e5-7272-a59e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cba0-dfa5-7b3d-b4b5"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Minor Combi-Weapon" hidden="false" id="9322-f72b-534e-a674" type="selectionEntry" targetId="605e-1b86-ca08-9226">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c266-3d00-70f9-82f2"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -365,6 +531,7 @@
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Indomitus Terminator Armour" hidden="false" id="46e9-496a-da78-60ae" type="selectionEntry" targetId="5a55-baa5-1602-7223"/>
+            <entryLink import="true" name="Consul Additional Wargear and Options" hidden="false" id="9769-6468-e7c2-dd8c" collective="false" targetId="244a-2a7c-1349-94e7" type="selectionEntryGroup"/>
           </entryLinks>
           <infoLinks>
             <infoLink name="Independent Character" id="b0a4-beb8-67d4-8bf3" hidden="false" targetId="4f07-3d45-4f28-a0c6"/>
@@ -610,8 +777,76 @@
       <entryLinks>
         <entryLink import="true" name="Legiones Consularis" hidden="false" id="9aa8-f286-4b27-bf8d" collective="false" targetId="3cbf-9466-2558-2c22" type="selectionEntryGroup"/>
       </entryLinks>
+      <modifiers>
+        <modifier type="add" value="db6f-0311-834c-e6ff" field="category">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="force" childId="9c83-69fb-8066-a773" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="8a58-5cef-b04f-30c5" field="category">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="7a43-6793-013b-1af6" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="05a2-a69e-0c9e-1544" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="5aff-6654-f53b-c5ac" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="c874-37cf-6177-057d" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="add" value="ef11-665c-c1c4-b8f0" field="category">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="b23c-e41d-1ffe-1a38" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="35ac-992e-97a7-1612" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="remove" value="f823-8c1d-6a87-26a1" field="category">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="force" childId="7857-5f9d-6c9e-50c1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="9055-7410-8ffd-b8e7" field="category">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="f783-f0ea-fe35-cdeb" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="4e1a-275e-e691-5b92" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="remove" value="11f2-472f-c1d1-9ae9" field="category">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="268b-74a8-395f-6f27" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="add" value="d684-5b63-caa7-adc4" field="category">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="268b-74a8-395f-6f27" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
-    <selectionEntry name="Legion Saturnine Centurion" type="unit" id="3e29-1bf1-48c9-b302" page="8" publicationId="3970-79bb-bdc6-9599">
+    <selectionEntry name="Centurion, Saturnine" type="unit" id="3e29-1bf1-48c9-b302" page="8" publicationId="3970-79bb-bdc6-9599">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="cfa1-3f32-4938-9a35"/>
         <categoryLink targetId="4f85-eb33-30c9-8f51" id="74c0-465d-4d60-fe7d" primary="true" name="HQ:"/>
@@ -836,6 +1071,14 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6836-43d4-43cf-a3a1"/>
                   </constraints>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="a5a2-8243-f465-2636" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a4e-bfb8-d86a-9ad6"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <constraints>
@@ -3020,6 +3263,14 @@
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5203-e4ae-43bb-387f"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="aa9e-3d9f-2e94-2bb6" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="cbfd-cff3-f403-34f2"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="71cc-e224-7c2b-9995"/>
@@ -3490,6 +3741,17 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Meltagun" hidden="false" id="1157-3651-ba85-c1ce" type="selectionEntry" targetId="ef88-6d6b-346f-dc5c">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="33d6-33ea-5a7a-8318"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c36-fb60-40d6-864b"/>
@@ -3747,6 +4009,17 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
                 <entryLink import="true" name="Minor Combi-weapon" hidden="false" id="276c-8f68-126f-eec0" type="selectionEntry" targetId="53c0-b5d7-f001-b816">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="fb6d-dcbd-3ce6-b5c7" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e80-e5ef-659b-6d0e"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -4021,6 +4294,14 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea1d-1479-4c95-998f"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="b6f3-2ddf-7259-f99e" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d09-971b-ee44-3fe2"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="424f-9d4d-45b0-88b9"/>
@@ -4221,6 +4502,14 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60c7-53ed-4ebe-abf7"/>
                   </constraints>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="4417-7750-11e5-c8dd" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de7d-487e-125c-dc95"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <constraints>
@@ -4543,6 +4832,14 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
                   </costs>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1962-9251-4f32-b4d2"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Meltagun" hidden="true" id="4d80-7b01-c5be-fbb8" type="selectionEntry" targetId="ef88-6d6b-346f-dc5c">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8102-6e31-28ba-580c"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -5332,6 +5629,14 @@ Could not find wargear In-built Meltagun
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8398-a406-a9da-04c2"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Meltagun" hidden="true" id="fc90-5689-6299-2569" type="selectionEntry" targetId="ef88-6d6b-346f-dc5c">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9103-56a2-23e4-9033"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cec1-d747-9d6d-3a74"/>
@@ -5872,6 +6177,14 @@ Could not find wargear In-built Meltagun
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca88-200c-c127-a72d"/>
                   </constraints>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="51eb-e59a-a933-85c6" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="22aa-de15-5b03-0c45"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <constraints>
@@ -8741,6 +9054,11 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                           </costs>
                         </entryLink>
+                        <entryLink import="true" name="Conflaguration Meltagun" hidden="false" id="e2c1-26e0-e32c-0514" type="selectionEntry" targetId="ef88-6d6b-346f-dc5c">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                          </costs>
+                        </entryLink>
                       </entryLinks>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
@@ -9948,6 +10266,17 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                     <modifier type="prepend" value="Pintle Mounted " field="name" join=""/>
                   </modifiers>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="bbb6-3586-cb63-9965" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6293-9b56-c04d-1f91"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="41a9-54cd-45f2-8414"/>
@@ -10120,6 +10449,14 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ca8-e8eb-7113-89d9"/>
                   </constraints>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="dd6f-44c5-f285-0fd9" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="41e1-9a14-0fbb-01bf"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <constraints>
@@ -10683,6 +11020,17 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="c9cf-0f31-6f79-fe03" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cad3-d46d-ad64-e91d"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5fde-84e0-4106-9fce"/>
@@ -10938,6 +11286,17 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="d75c-e2c1-b6f9-8abf" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cab2-2d43-1357-4964"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
               <constraints>
@@ -11434,6 +11793,11 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
                   </costs>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="640a-9e38-4e63-9305"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Meltagun" hidden="true" id="a68d-61b8-1546-2ee3" type="selectionEntry" targetId="ef88-6d6b-346f-dc5c">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5287-a818-0a9e-9a01"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -15109,6 +15473,17 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="8aa4-4b12-8d65-25ac" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="6067-68dd-d16e-8025"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="43e6-a1eb-4167-8ca0"/>
@@ -15286,6 +15661,17 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="04ae-b8d2-a681-8a56" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5045-f9b0-8483-7056"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
               <constraints>
@@ -15581,6 +15967,17 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
                   </costs>
                   <modifiers>
                     <modifier type="prepend" value="Pintle Mounted " field="name" join=""/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="3720-f6dd-d9d8-cabc" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bad4-1223-742c-890f"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
                   </modifiers>
                 </entryLink>
               </entryLinks>

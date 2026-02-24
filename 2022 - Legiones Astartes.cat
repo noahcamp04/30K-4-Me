@@ -6704,6 +6704,11 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="15b0-6b5b-b0ec-1000" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="2) May take:" id="9353-f675-29ae-03e5" hidden="false" collective="false" import="true">
@@ -6926,6 +6931,17 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                       </constraints>
                       <modifiers>
                         <modifier type="prepend" value="Pintle Mounted " field="name" join=""/>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="ffe9-b650-39fb-a708" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d4f8-43fa-edd8-ab0a"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                      </costs>
+                      <modifiers>
+                        <modifier type="prepend" value="Pintle Mounted" field="name"/>
                       </modifiers>
                     </entryLink>
                   </entryLinks>
@@ -7682,6 +7698,11 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
             <entryLink import="true" name="Xenos Deathlock" hidden="false" id="1d3e-ba4d-ffa8-f759" type="selectionEntry" targetId="2c50-304f-b74a-33da">
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Conflaguration Meltagun" hidden="false" id="2d79-6872-df2d-6a20" type="selectionEntry" targetId="ef88-6d6b-346f-dc5c">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -9630,6 +9651,14 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="1349-8020-d58a-6613" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -15001,6 +15030,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                       <conditions>
                         <condition field="selections" scope="25a2-7a52-632a-6b2c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6f69-f2bd-fe7e-12c4" type="equalTo"/>
                         <condition field="selections" scope="25a2-7a52-632a-6b2c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="05a2-a69e-0c9e-1544" type="equalTo"/>
+                        <condition type="equalTo" value="1" field="selections" scope="25a2-7a52-632a-6b2c" childId="c874-37cf-6177-057d" shared="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -15124,6 +15154,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                       <conditions>
                         <condition field="selections" scope="25a2-7a52-632a-6b2c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6f69-f2bd-fe7e-12c4" type="equalTo"/>
                         <condition field="selections" scope="25a2-7a52-632a-6b2c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="05a2-a69e-0c9e-1544" type="equalTo"/>
+                        <condition type="equalTo" value="1" field="selections" scope="25a2-7a52-632a-6b2c" childId="c874-37cf-6177-057d" shared="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -15930,6 +15961,48 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                 <entryLink import="true" name="Xenos Deathlock" hidden="false" id="ca2f-9fb8-d879-4914" type="selectionEntry" targetId="2c50-304f-b74a-33da">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Magna Combi-Weapon" hidden="true" id="8ff2-1e5e-100e-85bf" collective="false" targetId="e5b1-83e5-7272-a59e" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="25a2-7a52-632a-6b2c" childId="35ac-992e-97a7-1612" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="25a2-7a52-632a-6b2c" childId="c874-37cf-6177-057d" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Minor Combi-Weapon" hidden="true" id="7149-d075-e6e4-f0e8" collective="false" targetId="605e-1b86-ca08-9226" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="25a2-7a52-632a-6b2c" childId="35ac-992e-97a7-1612" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="25a2-7a52-632a-6b2c" childId="c874-37cf-6177-057d" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -20779,6 +20852,14 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                           </costs>
                         </entryLink>
+                        <entryLink import="true" name="Conflaguration Meltagun" hidden="false" id="7429-c7af-ad27-e9f3" type="selectionEntry" targetId="ef88-6d6b-346f-dc5c">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0afe-757a-84ea-18c4"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                          </costs>
+                        </entryLink>
                       </entryLinks>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
@@ -22518,6 +22599,11 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                           </costs>
                         </entryLink>
                         <entryLink id="526d-6ddd-491b-7efc" name="Graviton Shredder" hidden="false" collective="false" import="true" targetId="0849-b63b-0b1b-fd4f" type="selectionEntry" sortIndex="7">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Conflaguration Meltagun" hidden="false" id="3507-2c40-9482-b512" type="selectionEntry" targetId="ef88-6d6b-346f-dc5c">
                           <costs>
                             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                           </costs>
@@ -27041,6 +27127,7 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                       <conditions>
                         <condition field="selections" scope="3766-ea98-0aa7-62d0" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="05a2-a69e-0c9e-1544" type="equalTo"/>
                         <condition field="selections" scope="3766-ea98-0aa7-62d0" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6f69-f2bd-fe7e-12c4" type="equalTo"/>
+                        <condition type="equalTo" value="1" field="selections" scope="3766-ea98-0aa7-62d0" childId="c874-37cf-6177-057d" shared="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -27298,6 +27385,30 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
+                </entryLink>
+                <entryLink import="true" name="Minor Combi-Weapon" hidden="true" id="cc6b-e2a5-ef5a-4329" collective="false" targetId="605e-1b86-ca08-9226" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="3766-ea98-0aa7-62d0" childId="c874-37cf-6177-057d" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Magna Combi-Weapon" hidden="true" id="bf75-6f30-3b52-308e" collective="false" targetId="e5b1-83e5-7272-a59e" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="3766-ea98-0aa7-62d0" childId="c874-37cf-6177-057d" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -29025,6 +29136,11 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                     <entryLink import="true" name="Xenos Deathlock" hidden="false" id="427c-637b-b36e-25d6" type="selectionEntry" targetId="2c50-304f-b74a-33da">
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Conflaguration Meltagun" hidden="false" id="8137-fde3-cffd-96ce" type="selectionEntry" targetId="ef88-6d6b-346f-dc5c">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                       </costs>
                     </entryLink>
                   </entryLinks>
@@ -32615,6 +32731,11 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Meltagun" hidden="false" id="4a4d-8450-fb83-5a16" type="selectionEntry" targetId="ef88-6d6b-346f-dc5c">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Xenos Doomlock" hidden="true" id="3e74-14af-1aa9-6bd4" publicationId="d882-d2a-5da1-92c4">
@@ -33462,6 +33583,7 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                       <conditions>
                         <condition field="selections" scope="f806-8a4e-d0d6-beaa" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="05a2-a69e-0c9e-1544" type="equalTo"/>
                         <condition field="selections" scope="f806-8a4e-d0d6-beaa" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6f69-f2bd-fe7e-12c4" type="equalTo"/>
+                        <condition type="equalTo" value="1" field="selections" scope="f806-8a4e-d0d6-beaa" childId="c874-37cf-6177-057d" shared="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -33675,6 +33797,30 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
+                </entryLink>
+                <entryLink import="true" name="Minor Combi-Weapon" hidden="true" id="ae0a-1680-ecfa-cadb" collective="false" targetId="605e-1b86-ca08-9226" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="f806-8a4e-d0d6-beaa" childId="c874-37cf-6177-057d" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Magna Combi-Weapon" hidden="true" id="69cf-39ba-9f11-9dba" collective="false" targetId="e5b1-83e5-7272-a59e" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="f806-8a4e-d0d6-beaa" childId="c874-37cf-6177-057d" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -38306,6 +38452,32 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
               </costs>
             </entryLink>
           </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Conflaguration Multi-Melta w/ Suspensor Web" hidden="false" id="f97b-c906-4267-fe3d">
+              <profiles>
+                <profile name="Conflaguration Multi-Melta w/ Suspensor Web" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="ccba-2da7-927a-a8ee">
+                  <characteristics>
+                    <characteristic name="Range" typeId="95ba-cda7-b831-6066">30&quot;</characteristic>
+                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                    <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Armourbane (Melta), Twin-Linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Armourbane (X)" id="a6f2-72ab-4988-6ce8" hidden="false" type="rule" targetId="cb59-f920-f071-7cd4">
+                  <modifiers>
+                    <modifier type="set" value="Armourbane (Melta)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Twin-linked" id="99fa-f303-b30e-4f33" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
+                <infoLink name="Suspensor Web" id="babf-370a-ddce-245c" hidden="false" publicationId="9fab-fea7-a93c-2074" page="120" targetId="733b-dd18-cf6a-a256" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="f20c-0dc7-e4bd-d795" name="2) Dedicated Transport:" hidden="false" collective="false" import="true">
           <modifiers>
@@ -68465,6 +68637,35 @@ Hit rolls for each attack, for a total of 24 To Hit rolls over the full 6 attack
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Pyre Guard" hidden="false" id="c874-37cf-6177-057d">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Master-crafted" id="7a1a-2221-d3c0-d2ea" hidden="false" type="rule" targetId="6de0-55b0-bf21-48b9"/>
+          </infoLinks>
+          <rules>
+            <rule name="Never Back Down" id="d570-b393-7812-8a2d" hidden="false">
+              <description>If possible, a unit that includes a model with this special rule must issue a Challenge when Engaged in combat, and if an enemy player issues a Challenge to a unit including one or more models with special rule then a model with this special rule must accept. In addition, during any Assault phase where this model begins the Fight sub-phase Engaged in a Challenge, or enters into a Challenge with an enemy model, this model and all friendly models in the same combat gain the Fearless special rule until the end of that Assault phase.</description>
+            </rule>
+            <rule name="Master-Crafted: Melee" id="a870-0be9-c762-e046" hidden="false">
+              <description>The Pyre Guard may apply the Master-Crafted Special Rule to a single Melee Weapon they are armed with at no additional points cost.</description>
+            </rule>
+          </rules>
+          <entryLinks>
+            <entryLink import="true" name="Iron Halo" hidden="false" id="290e-21cd-12aa-7058" type="selectionEntry" targetId="b081-bf3c-f43d-4bd5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ca0a-ec45-c183-7b32-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca0a-ec45-c183-7b32-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Dragonscale Shield" hidden="false" id="3db2-21cf-85c3-2ddb" type="selectionEntry" targetId="489d-88d0-a0d8-b3e6">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>

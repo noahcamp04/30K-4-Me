@@ -2412,6 +2412,17 @@
           </modifiers>
         </entryLink>
       </entryLinks>
+      <infoLinks>
+        <infoLink name="Heart of the Legion" id="b2fd-1179-aa7f-c3a0" hidden="true" type="rule" targetId="c0dd-9002-2ebd-f96d">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="41b5-73f0-cdc9-1f83" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </entryLink>
     <entryLink id="e182-b167-658c-777d" name="Tarantula Sentry Gun Battery" hidden="true" collective="false" import="false" targetId="124f-0ced-9231-bba4" type="selectionEntry">
       <comment>template_id_ef14-da3d-4b92-99ea</comment>
@@ -3682,7 +3693,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dd0-1194-98b8-06e4" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="58de-afbd-b0ab-1e6c" name="Rhino Transport" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
+            <entryLink id="58de-afbd-b0ab-1e6c" name="Rhino Transport (Choose One)" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -4725,7 +4736,15 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="3ff8-33dd-994d-aa18" name="Support Squad" hidden="false" targetId="768e-56d6-ca52-24ae" type="rule"/>
+        <infoLink id="3ff8-33dd-994d-aa18" name="Support Squad" hidden="false" targetId="768e-56d6-ca52-24ae" type="rule">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="41b5-73f0-cdc9-1f83" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
         <infoLink id="2bcc-61f5-0e33-9acf" name="Relentless" hidden="false" targetId="7adf-ac9a-5035-522d" type="rule"/>
         <infoLink id="ecbf-faf3-7146-a8c4" name="Feel No Pain (X)" hidden="false" targetId="ec46-ff29-32e0-c2aa" type="rule">
           <modifiers>
@@ -4749,6 +4768,11 @@
                 <modifier type="set" field="e593-6b3c-f169-04f0" value="2+">
                   <conditions>
                     <condition field="selections" scope="78d3-3a4b-65dc-7a3b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="583e-62cb-53f1-f952" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" value="(Line)" field="ddd7-6f5c-a939-b69e">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="41b5-73f0-cdc9-1f83" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4878,6 +4902,13 @@
                     <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
                     <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
                   </characteristics>
+                  <modifiers>
+                    <modifier type="append" value="(Line)" field="ddd7-6f5c-a939-b69e">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="41b5-73f0-cdc9-1f83" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </profile>
               </profiles>
               <entryLinks>
@@ -4932,7 +4963,15 @@
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
               </costs>
               <infoLinks>
-                <infoLink id="23cb-44fa-04e8-df73" name="Adherent" targetId="0d19-141f-7ffc-3a99" type="profile"/>
+                <infoLink id="23cb-44fa-04e8-df73" name="Adherent" targetId="0d19-141f-7ffc-3a99" type="profile">
+                  <modifiers>
+                    <modifier type="append" value="(Line)" field="ddd7-6f5c-a939-b69e">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="41b5-73f0-cdc9-1f83" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <categoryLinks>
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="1434-771a-4a35-923f" name="Infantry:" primary="false"/>
@@ -4967,7 +5006,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="453a-db99-6a13-5f2a" name="Rhino Transport" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
+            <entryLink id="453a-db99-6a13-5f2a" name="Rhino Transport (Choose One)" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -5070,6 +5109,13 @@
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
       </costs>
+      <modifiers>
+        <modifier type="add" value="6399-5c65-7833-1025" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="41b5-73f0-cdc9-1f83" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="137e-3854-bc30-1829" name="Dragon&apos;s Breath Combi-Flamer" publicationId="d13e-e1ff-5dc7-b84b" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -5351,6 +5397,8 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Rhino Transport (Choose One)" hidden="false" id="f9eb-538e-02ca-accd" type="selectionEntry" targetId="03f1-8ed9-9867-8d18"/>
+            <entryLink import="true" name="Termite Assault Drill" hidden="false" id="9901-3999-8f8d-fe43" type="selectionEntry" targetId="cb30-307a-f0d7-3b13"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="2) Sanctifiers" hidden="false" id="fbdd-ec6a-968d-cd06" defaultSelectionEntryId="ab5f-798e-465a-e01f">

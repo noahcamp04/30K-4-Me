@@ -11699,6 +11699,91 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
         <infoLink name="Ejector Blowout" id="9919-73d4-4e52-f9be" hidden="false" type="rule" targetId="6946-62a9-d0b2-f23f"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Conflaguration Meltagun" hidden="true" id="ef88-6d6b-346f-dc5c">
+      <profiles>
+        <profile name="Conflaguration Meltagun" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="f326-4817-fdf6-3df5">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Amourbane (Melta)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane (X)" id="5ffa-1431-7453-4d2a" hidden="false" type="rule" targetId="cb59-f920-f071-7cd4">
+          <modifiers>
+            <modifier type="set" value="Amourbane (Melta)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="c805-ca3a-ff93-5e2f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Conflaguration Multi-Melta" hidden="true" id="f933-1660-4555-62dd">
+      <profiles>
+        <profile name="Conflaguration Multi-Melta" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="880e-e721-7efa-7f8a">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">30&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Armourbane (Melta), Twin-Linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane (X)" id="7bec-0af2-3184-e3ff" hidden="false" type="rule" targetId="cb59-f920-f071-7cd4">
+          <modifiers>
+            <modifier type="set" value="Armourbane (Melta)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Twin-linked" id="a1c4-e83d-4b6c-af66" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Conflaguration Melta Cannon" hidden="true" id="1fa7-4219-6580-4bc8">
+      <profiles>
+        <profile name="Conflaguration Melta Cannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="d11a-c385-ee4c-a957">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">30&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Armourbane (Melta), Twin-Linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane (X)" id="0d37-7364-11a5-fc5e" hidden="false" type="rule" targetId="cb59-f920-f071-7cd4">
+          <modifiers>
+            <modifier type="set" value="Armourbane (Melta)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Twin-linked" id="ee99-1c07-235f-9b39" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Conflaguration Melta Lance" hidden="true" id="d58e-8ff0-fe70-437b">
+      <profiles>
+        <profile name="Conflaguration Melta Lance" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="e270-a26c-e17f-0554">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 4, Armourbane (Melta)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane (X)" id="bfd4-1ff0-7cb1-7a9c" hidden="false" type="rule" targetId="cb59-f920-f071-7cd4">
+          <modifiers>
+            <modifier type="set" value="Armourbane (Melta)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4a48-4935-246d-0c2e" name="Legion" hidden="false" collective="false" import="true">
