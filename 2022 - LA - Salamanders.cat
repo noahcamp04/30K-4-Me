@@ -3393,6 +3393,12 @@
         <categoryLink targetId="4f85-eb33-30c9-8f51" id="5350-9d87-ab42-f452" primary="true" name="HQ:"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Infernus Strike-Clade Squad" hidden="false" id="0340-e175-c0a7-f178" targetId="528c-77a1-5c23-61d9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="20ef-cd01-a8da-376e" id="176a-ba91-811e-5cc8" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="a8fc-cd44-54f5-0b16" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="8c74-40b1-5019-f4d4" name="Vulkan" hidden="false" collective="false" import="true" type="unit">
@@ -5780,13 +5786,13 @@
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Artellus Numeon" hidden="true" id="cd54-44ee-6aee-e531">
+    <selectionEntry type="unit" import="true" name="Artellus Numeon" hidden="true" id="cd54-44ee-6aee-e531">
       <categoryLinks>
         <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="0b8d-8bea-623a-bd65" primary="false" name="Infantry:"/>
         <categoryLink targetId="11f2-472f-c1d1-9ae9" id="b950-a17b-ddbc-c013" primary="false" name="Legiones Astartes"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Artellus Numeon" hidden="false" id="28b4-9af5-5734-f306">
+        <selectionEntry type="model" import="true" name="Artellus Numeon" hidden="false" id="28b4-9af5-5734-f306">
           <profiles>
             <profile name="Artellus Numeon" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="926d-d710-5b83-c7d5">
               <characteristics>
@@ -5933,9 +5939,9 @@ In addition, an army with Artellus Numeon as its Warlord may make an additional 
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Infernus Strike-Clade Squad" hidden="false" id="528c-77a1-5c23-61d9">
+    <selectionEntry type="unit" import="true" name="Infernus Strike-Clade Squad" hidden="false" id="528c-77a1-5c23-61d9">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Firehost" hidden="false" id="e4e9-a6cb-fbba-5a7c">
+        <selectionEntry type="model" import="true" name="Firehost" hidden="false" id="e4e9-a6cb-fbba-5a7c">
           <entryLinks>
             <entryLink import="true" name="Melta Bomb" hidden="false" id="9f56-40a4-7124-cc2b" type="selectionEntry" targetId="e55d-d31b-46a9-aeb6">
               <constraints>
@@ -6033,12 +6039,15 @@ In addition, an army with Artellus Numeon as its Warlord may make an additional 
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="67e3-1043-cf53-b99c-min"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="67e3-1043-cf53-b99c-max"/>
           </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="Strike Clade" id="2021-c16c-dfc9-db34" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Strike-Clades" hidden="false" id="4c2c-9b01-26de-d4a5">
+            <selectionEntry type="model" import="true" name="Strike-Clades" hidden="false" id="4c2c-9b01-26de-d4a5">
               <entryLinks>
                 <entryLink import="true" name="Power Armour" hidden="false" id="4fa3-a3e0-d670-e75a" type="selectionEntry" targetId="2d9d-480e-7c14-1a6f"/>
                 <entryLink import="true" name="Melta Bomb" hidden="false" id="4657-e766-c759-699d" type="selectionEntry" targetId="e55d-d31b-46a9-aeb6">
@@ -6077,8 +6086,11 @@ In addition, an army with Artellus Numeon as its Warlord may make an additional 
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+              </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Strike-Clades w/ Options" hidden="false" id="0df2-5ac4-5bbb-7056">
+            <selectionEntry type="model" import="true" name="Strike-Clades w/ Options" hidden="false" id="0df2-5ac4-5bbb-7056">
               <constraints>
                 <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="66b7-dde4-93fa-c533"/>
               </constraints>
@@ -6142,6 +6154,9 @@ In addition, an army with Artellus Numeon as its Warlord may make an additional 
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -6211,6 +6226,11 @@ In addition, an army with Artellus Numeon as its Warlord may make an additional 
         <infoLink name="Stubborn" id="1fab-3f8b-6de0-aa6e" hidden="false" type="rule" targetId="7989-1f2c-a43d-82ae"/>
         <infoLink name="Infiltrate" id="8339-bd84-16c6-199e" hidden="false" type="rule" targetId="0e32-5b92-a95a-8464"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="59a4-7b61-600a-c457" id="c185-9327-848c-4ef9" primary="false" name="Skirmish Sub-type:"/>
+        <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="0dca-4426-80b3-af7e" primary="false" name="Infantry:"/>
+        <categoryLink targetId="11f2-472f-c1d1-9ae9" id="4917-91f2-4600-b55a" primary="false" name="Legiones Astartes"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
