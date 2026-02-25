@@ -6315,6 +6315,10 @@ In addition, an army with Artellus Numeon as its Warlord may make an additional 
               </constraints>
             </entryLink>
           </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a165-21ab-040e-4b56-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a165-21ab-040e-4b56-max"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
