@@ -6289,12 +6289,19 @@ In addition, an army with Artellus Numeon as its Warlord may make an additional 
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6a88-01fe-dc0f-f450-min"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a88-01fe-dc0f-f450-max"/>
               </constraints>
-            </entryLink>
-            <entryLink import="true" name="Dragon&apos;s Breath Heavy Flamer" hidden="false" id="dafc-c6d6-2932-93b2" type="selectionEntry" targetId="1a5c-0c5f-d798-a067">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c58b-8386-52be-3bdd-min"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c58b-8386-52be-3bdd-max"/>
-              </constraints>
+              <profiles>
+                <profile name="Dragon&apos;s Breath Heavy Flamer" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="7c81-b08e-acaf-cb07" publicationId="817a-6288-e016-7469" page="312">
+                  <characteristics>
+                    <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+                    <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Dragon&apos;s Breath</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <modifiers>
+                <modifier type="prepend" value="Two" field="name"/>
+              </modifiers>
             </entryLink>
             <entryLink import="true" name="Artificer Armour" hidden="false" id="b2ff-1c0c-21bd-f543" type="selectionEntry" targetId="583e-62cb-53f1-f952">
               <constraints>
