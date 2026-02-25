@@ -4,7 +4,7 @@
     <selectionEntry name="Custodian Host-Master" type="unit" id="c9d0-c3e7-4175-a227" page="60" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="342a-32a7-4fd5-949c"/>
-        <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="754b-540a-4d93-90f4" name="HQ"/>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="754b-540a-4d93-90f4" name="HQ:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="150"/>
@@ -158,9 +158,9 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="e8a9-a7d9-42fc-a316" name="Infantry" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="e8a9-a7d9-42fc-a316" name="Infantry:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="ffa2-0201-4626-92b4" name="Character" primary="false"/>
-            <categoryLink targetId="59a4-7b61-600a-c457" id="b9ac-20f6-4d14-8048" name="Skirmish" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="b9ac-20f6-4d14-8048" name="Skirmish Sub-type:" primary="false"/>
             <categoryLink targetId="4f07-3d45-4f28-a0c6" id="a3b7-3388-79d8-2d3" primary="false" name="Independent Character"/>
           </categoryLinks>
         </selectionEntry>
@@ -198,7 +198,7 @@
     <selectionEntry name="Custodian Agamatii Shield Captain" type="unit" id="4b7d-b45e-4a10-adec" page="61" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="6fe9-fbc4-4488-ae60"/>
-        <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="412b-8602-424d-b1ed" name="HQ"/>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="412b-8602-424d-b1ed" name="HQ:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="235"/>
@@ -368,8 +368,8 @@
           </selectionEntryGroups>
           <categoryLinks>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="492a-db35-4ae3-8862" name="Character" primary="false"/>
-            <categoryLink targetId="4303-1348-cce4-9501" id="8990-8326-43a2-9cec" name="Antigrav" primary="false"/>
-            <categoryLink targetId="59a4-7b61-600a-c457" id="dd63-50e9-4221-8859" name="Skirmish" primary="false"/>
+            <categoryLink targetId="4303-1348-cce4-9501" id="8990-8326-43a2-9cec" name="Antigrav Sub-type" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="dd63-50e9-4221-8859" name="Skirmish Sub-type:" primary="false"/>
             <categoryLink targetId="4f07-3d45-4f28-a0c6" id="424d-f935-7d71-b6ed" primary="false" name="Independent Character"/>
             <categoryLink targetId="6d79-a3e4-381f-7b0f" id="9630-f36c-4586-99d3" primary="false" name="Cavalry Unit-type:"/>
           </categoryLinks>
@@ -402,7 +402,7 @@
     <selectionEntry name="Custodian Vertoii Shield Captain" type="unit" id="466a-3759-4ec7-8464" page="62" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="0cbc-70d4-4a73-8bcc"/>
-        <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="b0d6-2fd8-4612-92de" name="HQ"/>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="b0d6-2fd8-4612-92de" name="HQ:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="235"/>
@@ -572,8 +572,8 @@ Could not find wargear Salvo Launcher
           </selectionEntryGroups>
           <categoryLinks>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="69d7-8be2-42cd-834b" name="Character" primary="false"/>
-            <categoryLink targetId="4303-1348-cce4-9501" id="3ddb-37ff-42dd-8665" name="Antigrav" primary="false"/>
-            <categoryLink targetId="59a4-7b61-600a-c457" id="1341-5b3f-4a2a-b543" name="Skirmish" primary="false"/>
+            <categoryLink targetId="4303-1348-cce4-9501" id="3ddb-37ff-42dd-8665" name="Antigrav Sub-type" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="1341-5b3f-4a2a-b543" name="Skirmish Sub-type:" primary="false"/>
             <categoryLink targetId="4f07-3d45-4f28-a0c6" id="f662-f73a-edd7-7ea3" primary="false" name="Independent Character"/>
             <categoryLink targetId="6d79-a3e4-381f-7b0f" id="6cb3-128d-897a-1505" primary="false" name="Cavalry Unit-type:"/>
           </categoryLinks>
@@ -603,7 +603,7 @@ Could not find wargear Salvo Launcher
     <selectionEntry name="Custodian Allarii Shield Captain" type="unit" id="8cd5-94f6-4dff-b64f" page="63" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="7f3e-3038-4b52-8dbb"/>
-        <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="e379-f585-453d-8967" name="HQ"/>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="e379-f585-453d-8967" name="HQ:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="235"/>
@@ -804,9 +804,9 @@ Could not find wargear Salvo Launcher
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="396e-9033-4e89-971f" name="Infantry" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="396e-9033-4e89-971f" name="Infantry:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="486f-cd6f-4d21-a536" name="Character" primary="false"/>
-            <categoryLink targetId="59a4-7b61-600a-c457" id="5089-e48d-4533-af82" name="Skirmish" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="5089-e48d-4533-af82" name="Skirmish Sub-type:" primary="false"/>
             <categoryLink targetId="4f07-3d45-4f28-a0c6" id="1d02-14a2-12c6-da43" primary="false" name="Independent Character"/>
           </categoryLinks>
         </selectionEntry>
@@ -836,7 +836,7 @@ Could not find wargear Salvo Launcher
     <selectionEntry name="Custodian Aquilus Shield Captain" type="unit" id="3cbf-3566-43db-af30" page="64" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="2577-12ff-4480-ad1c"/>
-        <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="8ad8-3d4d-4923-af4a" name="HQ"/>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="8ad8-3d4d-4923-af4a" name="HQ:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="250"/>
@@ -1008,10 +1008,10 @@ Could not find wargear Salvo Launcher
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="02bb-c1a4-49db-a150" name="Infantry" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="02bb-c1a4-49db-a150" name="Infantry:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="9b8d-cb27-46d6-b9a7" name="Character" primary="false"/>
-            <categoryLink targetId="59a4-7b61-600a-c457" id="02c2-d061-4e98-bb6a" name="Skirmish" primary="false"/>
-            <categoryLink targetId="9231-183c-b97b-63f9" id="3ba8-6eb3-4e82-8433" name="Heavy" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="02c2-d061-4e98-bb6a" name="Skirmish Sub-type:" primary="false"/>
+            <categoryLink targetId="9231-183c-b97b-63f9" id="3ba8-6eb3-4e82-8433" name="Heavy Sub-type:" primary="false"/>
             <categoryLink targetId="4f07-3d45-4f28-a0c6" id="c501-6c0-4556-e229" primary="false" name="Independent Character"/>
           </categoryLinks>
         </selectionEntry>
@@ -1035,7 +1035,7 @@ Could not find wargear Salvo Launcher
     <selectionEntry name="Custodian Venataris Shield Captain" type="unit" id="f63b-3c42-40d6-96cb" page="65" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="a329-69ee-4bdf-8215"/>
-        <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="c76e-2d5f-4018-91fa" name="HQ"/>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="c76e-2d5f-4018-91fa" name="HQ:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="225"/>
@@ -1223,9 +1223,9 @@ Could not find wargear Salvo Launcher
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="a4aa-4a7d-40d7-8126" name="Infantry" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="a4aa-4a7d-40d7-8126" name="Infantry:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="fb66-76f6-4376-85c8" name="Character" primary="false"/>
-            <categoryLink targetId="59a4-7b61-600a-c457" id="1917-2933-4a68-96cf" name="Skirmish" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="1917-2933-4a68-96cf" name="Skirmish Sub-type:" primary="false"/>
             <categoryLink targetId="4f07-3d45-4f28-a0c6" id="40d8-e3c1-3728-74b3" primary="false" name="Independent Character"/>
           </categoryLinks>
         </selectionEntry>
@@ -1255,7 +1255,7 @@ Could not find wargear Salvo Launcher
     <selectionEntry name="Allarus Terminator Squad" type="unit" id="1d06-28fe-4a53-8aa0" page="68" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="7768-c6eb-47c2-b7ab"/>
-        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="7db0-577f-4707-8a6a" name="Elites"/>
+        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="7db0-577f-4707-8a6a" name="Elites:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
@@ -1438,8 +1438,8 @@ Could not find wargear Pytherite Spear
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="cf27-822e-4281-a657" name="Infantry" primary="false"/>
-            <categoryLink targetId="59a4-7b61-600a-c457" id="e454-6f53-4ed9-8e28" name="Skirmish" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="cf27-822e-4281-a657" name="Infantry:" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="e454-6f53-4ed9-8e28" name="Skirmish Sub-type:" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
@@ -1514,7 +1514,7 @@ Could not find wargear Pytherite Spear
     <selectionEntry name="Contemptor-Moritiax Dreadnought Talon" type="unit" id="d60c-b9aa-42c7-8f23" page="69" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="fa13-fd95-48e8-8847"/>
-        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="0ffc-1337-4b6a-ba80" name="Elites"/>
+        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="0ffc-1337-4b6a-ba80" name="Elites:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -1685,7 +1685,7 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
     <selectionEntry name="Dawneagle Jetbike Squadron" type="unit" id="d69b-b38e-4158-a1dc" page="78" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="5001-f95b-4c47-9627"/>
-        <categoryLink targetId="20ef-cd01-a8da-376e" primary="true" id="291c-07c4-4ff0-b38f" name="Fast Attack"/>
+        <categoryLink targetId="20ef-cd01-a8da-376e" primary="true" id="291c-07c4-4ff0-b38f" name="Fast Attack:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
@@ -1720,7 +1720,7 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5f50-a77a-4dac-8b84"/>
               </constraints>
             </entryLink>
-            <entryLink name="Auric Demi-Plate" hidden="false" type="selectionEntry" targetId="e22b-48fd-2586-75d4" id="92e9-13b2-4803-b1ca">
+            <entryLink name="Auric Demi-plate" hidden="false" type="selectionEntry" targetId="e22b-48fd-2586-75d4" id="92e9-13b2-4803-b1ca">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8630-3051-4f83-bd97"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="258b-f327-432e-a23a"/>
@@ -1777,15 +1777,13 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="4303-1348-cce4-9501" id="2d62-a8cc-4c8d-9912" name="Antigrav" primary="false"/>
-            <categoryLink targetId="59a4-7b61-600a-c457" id="c851-15bf-4458-9981" name="Skirmish" primary="false"/>
+            <categoryLink targetId="4303-1348-cce4-9501" id="2d62-a8cc-4c8d-9912" name="Antigrav Sub-type" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="c851-15bf-4458-9981" name="Skirmish Sub-type:" primary="false"/>
             <categoryLink targetId="6d79-a3e4-381f-7b0f" id="cbc2-a250-fdfa-c3ab" primary="false" name="Cavalry Unit-type:"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="90"/>
           </costs>
-          <comment>
-</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -1813,7 +1811,7 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
     <selectionEntry name="Custodian Land Raider Carrier Squadron" type="unit" id="6118-da03-4069-aa27" page="82" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="1e25-1770-4bf3-afe7"/>
-        <categoryLink targetId="7031-469a-1aeb-eab0" primary="true" id="f4e1-9bae-4053-96f1" name="Heavy Support"/>
+        <categoryLink targetId="7031-469a-1aeb-eab0" primary="true" id="f4e1-9bae-4053-96f1" name="Heavy Support:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
@@ -1821,7 +1819,7 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
       <selectionEntries>
         <selectionEntry type="model" name="Custodes Land Raider" id="b5de-8f67-4de8-8737" page="82" publicationId="892-6266-f55f-1b9d">
           <profiles>
-            <profile id="ea8a-f9dc-40c6-b957" name="Custodes Land Raider" typeId="2fae-b053-3f78-e7b2">
+            <profile id="ea8a-f9dc-40c6-b957" name="Custodes Land Raider" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
               <characteristics>
                 <characteristic typeId="3614-4a2d-bffb-90e4" name="Move">12</characteristic>
                 <characteristic typeId="51fb-b7d9-aa59-863d" name="BS">5</characteristic>
@@ -1869,9 +1867,9 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
             </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink targetId="e2b6-b770-784c-9e95" id="98ad-790b-4a7d-a878" name="Vehicle" primary="false"/>
-            <categoryLink targetId="7b0a-a743-a8da-3a39" id="9111-c4f7-4849-80f5" name="Transport" primary="false"/>
-            <categoryLink targetId="9b0d-738c-10e4-4ec1" id="8353-66a3-4010-b45d" name="Reinforced" primary="false"/>
+            <categoryLink targetId="e2b6-b770-784c-9e95" id="98ad-790b-4a7d-a878" name="Vehicle:" primary="false"/>
+            <categoryLink targetId="7b0a-a743-a8da-3a39" id="9111-c4f7-4849-80f5" name="Transport Sub-type:" primary="false"/>
+            <categoryLink targetId="9b0d-738c-10e4-4ec1" id="8353-66a3-4010-b45d" name="Reinforced Sub-type:" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="May exchange its Hull (Front) Mounted Twin-Linked Lastrum Bolt Cannon:" id="31a4-2b11-b846-125" hidden="false" defaultSelectionEntryId="c9f0-26c5-d23a-2ede">
@@ -2037,7 +2035,7 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
     <selectionEntry name="Custodian Grav-Raider Carrier" type="unit" id="c417-19ae-4a3d-80ab" page="83" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="c7c6-8cc4-4d74-bca4"/>
-        <categoryLink targetId="7031-469a-1aeb-eab0" primary="true" id="5359-6a55-4b03-be36" name="Heavy Support"/>
+        <categoryLink targetId="7031-469a-1aeb-eab0" primary="true" id="5359-6a55-4b03-be36" name="Heavy Support:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="325"/>
@@ -2079,7 +2077,7 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
           <selectionEntryGroups>
             <selectionEntryGroup name="May exchange its Hull (Front) Mounted Twin-Linked Lastrum Bolt Cannon for one of the following options:" id="25d0-ca51-43ab-b027" defaultSelectionEntryId="5d6a-f33a-bce4-b7bd">
               <entryLinks>
-                <entryLink name="Twin-Linked Lascannon" hidden="false" type="selectionEntry" targetId="3adf-7150-9ee6-b2de" id="33d5-652e-49b7-b3b4">
+                <entryLink name="Twin-linked Lascannon" hidden="false" type="selectionEntry" targetId="3adf-7150-9ee6-b2de" id="33d5-652e-49b7-b3b4">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
@@ -2243,10 +2241,10 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="e2b6-b770-784c-9e95" id="8d6a-c21a-43f6-ada8" name="Vehicle" primary="false"/>
-            <categoryLink targetId="7b0a-a743-a8da-3a39" id="9b54-eaa6-46dd-b21e" name="Transport" primary="false"/>
-            <categoryLink targetId="9b0d-738c-10e4-4ec1" id="115e-d653-4d02-906e" name="Reinforced" primary="false"/>
-            <categoryLink targetId="4303-1348-cce4-9501" id="0f27-20f3-4c82-a79b" name="Antigrav" primary="false"/>
+            <categoryLink targetId="e2b6-b770-784c-9e95" id="8d6a-c21a-43f6-ada8" name="Vehicle:" primary="false"/>
+            <categoryLink targetId="7b0a-a743-a8da-3a39" id="9b54-eaa6-46dd-b21e" name="Transport Sub-type:" primary="false"/>
+            <categoryLink targetId="9b0d-738c-10e4-4ec1" id="115e-d653-4d02-906e" name="Reinforced Sub-type:" primary="false"/>
+            <categoryLink targetId="4303-1348-cce4-9501" id="0f27-20f3-4c82-a79b" name="Antigrav Sub-type" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -2262,7 +2260,7 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
     <selectionEntry name="Custodian Land Raider Spartan Assault Tank" type="unit" id="bd80-b2da-457a-97c8" page="84" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="1fbf-1984-4783-9eee"/>
-        <categoryLink targetId="7031-469a-1aeb-eab0" primary="true" id="324d-b4b8-4049-bab3" name="Heavy Support"/>
+        <categoryLink targetId="7031-469a-1aeb-eab0" primary="true" id="324d-b4b8-4049-bab3" name="Heavy Support:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="415"/>
@@ -2318,9 +2316,9 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
             </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink targetId="e2b6-b770-784c-9e95" id="80c3-19bc-44c5-8f66" name="Vehicle" primary="false"/>
-            <categoryLink targetId="7b0a-a743-a8da-3a39" id="48de-d8ad-4d0a-9c91" name="Transport" primary="false"/>
-            <categoryLink targetId="9b0d-738c-10e4-4ec1" id="eb61-8c96-4731-a6ed" name="Reinforced" primary="false"/>
+            <categoryLink targetId="e2b6-b770-784c-9e95" id="80c3-19bc-44c5-8f66" name="Vehicle:" primary="false"/>
+            <categoryLink targetId="7b0a-a743-a8da-3a39" id="48de-d8ad-4d0a-9c91" name="Transport Sub-type:" primary="false"/>
+            <categoryLink targetId="9b0d-738c-10e4-4ec1" id="eb61-8c96-4731-a6ed" name="Reinforced Sub-type:" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="May exchange its Hull (Front) Mounted Twin-Linked Lastrum Bolt Cannon:" id="ef95-c4ed-2215-9687" hidden="false" defaultSelectionEntryId="c9f0-26c5-d23a-2ede">
@@ -2483,7 +2481,7 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
     <selectionEntry name="Custodian Grav-Spartan Assault Tank" type="unit" id="b902-f466-40e1-be82" page="85" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="0c7a-740e-43f5-ac08"/>
-        <categoryLink targetId="7031-469a-1aeb-eab0" primary="true" id="5b89-0186-4e82-a9b7" name="Heavy Support"/>
+        <categoryLink targetId="7031-469a-1aeb-eab0" primary="true" id="5b89-0186-4e82-a9b7" name="Heavy Support:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="450"/>
@@ -2679,10 +2677,10 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="e2b6-b770-784c-9e95" id="145c-9587-431f-a453" name="Vehicle" primary="false"/>
-            <categoryLink targetId="7b0a-a743-a8da-3a39" id="d198-dba9-482b-8bbc" name="Transport" primary="false"/>
-            <categoryLink targetId="9b0d-738c-10e4-4ec1" id="99f8-3ed7-423c-9846" name="Reinforced" primary="false"/>
-            <categoryLink targetId="4303-1348-cce4-9501" id="02c9-cae5-41bb-981b" name="Antigrav" primary="false"/>
+            <categoryLink targetId="e2b6-b770-784c-9e95" id="145c-9587-431f-a453" name="Vehicle:" primary="false"/>
+            <categoryLink targetId="7b0a-a743-a8da-3a39" id="d198-dba9-482b-8bbc" name="Transport Sub-type:" primary="false"/>
+            <categoryLink targetId="9b0d-738c-10e4-4ec1" id="99f8-3ed7-423c-9846" name="Reinforced Sub-type:" primary="false"/>
+            <categoryLink targetId="4303-1348-cce4-9501" id="02c9-cae5-41bb-981b" name="Antigrav Sub-type" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -3137,22 +3135,22 @@ A Custodian Guard Squad selected in this manner must exchange their Guardian Spe
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Hykanatoi" hidden="false" id="4776-81dc-5c7-684c">
           <infoLinks>
-            <infoLink name="CotGH: Hykanatoi" hidden="false" id="c999-5765-38d9-8571" type="rule" targetId="9653-4707-9adc-e64d"/>
+            <infoLink name="Chamber of the Hykanatoi" hidden="false" id="c999-5765-38d9-8571" type="rule" targetId="9653-4707-9adc-e64d"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Tharanatoi" hidden="false" id="6063-595e-5a53-3dd6">
           <infoLinks>
-            <infoLink name="CotGH: Tharanatoi" hidden="false" id="c2d9-297c-664c-27" type="rule" targetId="da7c-e08b-334-e799"/>
+            <infoLink name="Chamber of the Tharanatoi" hidden="false" id="c2d9-297c-664c-27" type="rule" targetId="da7c-e08b-334-e799"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Kataphraktoi" hidden="false" id="65-3f8d-2acc-110c">
           <infoLinks>
-            <infoLink name="CotGH: Kataphraktoi" hidden="false" id="1624-9068-ee44-d0e4" type="rule" targetId="f5ad-3786-721e-cd39"/>
+            <infoLink name="Chamber of the Kataphraktoi" hidden="false" id="1624-9068-ee44-d0e4" type="rule" targetId="f5ad-3786-721e-cd39"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Moritoi" hidden="false" id="ccda-14ba-4f17-160b">
           <infoLinks>
-            <infoLink name="CotGH: Moritoi" hidden="false" id="d32c-8ddd-add1-7b20" type="rule" targetId="de91-4395-31e-2b6"/>
+            <infoLink name="Chamber of the Moritoi" hidden="false" id="d32c-8ddd-add1-7b20" type="rule" targetId="de91-4395-31e-2b6"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>

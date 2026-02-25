@@ -4,7 +4,7 @@
     <selectionEntry name="Sikari Dar" type="unit" id="f04b-e2e9-4b55-bc0c" page="92" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="411e-7b9d-4714-b716"/>
-        <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="bf40-acf3-4b70-9be1" name="HQ"/>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" primary="true" id="bf40-acf3-4b70-9be1" name="HQ:"/>
         <categoryLink targetId="aa94-5c65-d1f1-46a4" id="a551-d23c-9b77-4236" primary="false" name="Unique Sub-type"/>
         <categoryLink targetId="bff2-ae16-74a8-8712" id="fc7f-dfe6-5622-2b46" primary="false" name="Light Sub-type:"/>
         <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="16b2-8481-e2e9-2b6a" primary="false" name="Character"/>
@@ -76,11 +76,11 @@
             </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="321f-1160-4467-a9ef" name="Infantry" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="321f-1160-4467-a9ef" name="Infantry:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="f698-6813-435e-a9ba" name="Character" primary="false"/>
-            <categoryLink targetId="bff2-ae16-74a8-8712" id="2c6c-28d4-4521-bbb6" name="Light" primary="false"/>
-            <categoryLink targetId="32ee-6da0-41d1-8016" id="c2bc-d055-4bee-bb9d" name="Anathema" primary="false"/>
-            <categoryLink targetId="aa94-5c65-d1f1-46a4" id="72da-a7bf-4577-86e9" name="Unique" primary="false"/>
+            <categoryLink targetId="bff2-ae16-74a8-8712" id="2c6c-28d4-4521-bbb6" name="Light Sub-type:" primary="false"/>
+            <categoryLink targetId="32ee-6da0-41d1-8016" id="c2bc-d055-4bee-bb9d" name="Anathema Unit Sub-Type:" primary="false"/>
+            <categoryLink targetId="aa94-5c65-d1f1-46a4" id="72da-a7bf-4577-86e9" name="Unique Sub-type" primary="false"/>
             <categoryLink targetId="4f07-3d45-4f28-a0c6" id="5e4d-ac7f-966c-efd6" primary="false" name="Independent Character"/>
           </categoryLinks>
           <selectionEntries>
@@ -188,7 +188,7 @@ In addition, an army that has Sikari Dar as its Warlord increases its Reaction A
     <selectionEntry name="Knight Ensign Covenant" type="unit" id="9ecd-64c7-40d6-bc88" page="96" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="056a-b4fe-4ff4-a902"/>
-        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="9060-e280-48e0-97ea" name="Elites"/>
+        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="9060-e280-48e0-97ea" name="Elites:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -370,10 +370,10 @@ In addition, an army that has Sikari Dar as its Warlord increases its Reaction A
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="63b3-6827-4af2-8359" name="Infantry" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="63b3-6827-4af2-8359" name="Infantry:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="d5c4-a60f-4bc9-a9ec" name="Character" primary="false"/>
-            <categoryLink targetId="bff2-ae16-74a8-8712" id="d0bd-94eb-4641-affa" name="Light" primary="false"/>
-            <categoryLink targetId="32ee-6da0-41d1-8016" id="7d33-ee44-4496-b4f0" name="Anathema" primary="false"/>
+            <categoryLink targetId="bff2-ae16-74a8-8712" id="d0bd-94eb-4641-affa" name="Light Sub-type:" primary="false"/>
+            <categoryLink targetId="32ee-6da0-41d1-8016" id="7d33-ee44-4496-b4f0" name="Anathema Unit Sub-Type:" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
@@ -408,7 +408,7 @@ In addition, an army that has Sikari Dar as its Warlord increases its Reaction A
     <selectionEntry name="Indictor Cadre" type="unit" id="fb8d-fea0-4822-b1bc" page="97" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="6399-f16f-45d1-a925"/>
-        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="1a67-cf7f-4d87-8c70" name="Elites"/>
+        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="1a67-cf7f-4d87-8c70" name="Elites:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
@@ -475,7 +475,7 @@ In addition, an army that has Sikari Dar as its Warlord increases its Reaction A
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="76a2-40fe-46db-8ffe"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Proteus Neuro-Lash" hidden="false" type="selectionEntry" targetId="d130-4af2-1ea4-e18d" id="ec4d-2634-490f-9f38">
+                <entryLink name="Proteus Neuro-lash" hidden="false" type="selectionEntry" targetId="d130-4af2-1ea4-e18d" id="ec4d-2634-490f-9f38">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c907-737f-4b91-80cf"/>
                   </constraints>
@@ -493,9 +493,9 @@ In addition, an army that has Sikari Dar as its Warlord increases its Reaction A
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="3d46-3246-40dd-963e" name="Infantry" primary="false"/>
-            <categoryLink targetId="9231-183c-b97b-63f9" id="0be5-9b93-4c09-a5d8" name="Heavy" primary="false"/>
-            <categoryLink targetId="32ee-6da0-41d1-8016" id="ee14-861d-4af6-bc05" name="Anathema" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="3d46-3246-40dd-963e" name="Infantry:" primary="false"/>
+            <categoryLink targetId="9231-183c-b97b-63f9" id="0be5-9b93-4c09-a5d8" name="Heavy Sub-type:" primary="false"/>
+            <categoryLink targetId="32ee-6da0-41d1-8016" id="ee14-861d-4af6-bc05" name="Anathema Unit Sub-Type:" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
@@ -611,10 +611,10 @@ In addition, an army that has Sikari Dar as its Warlord increases its Reaction A
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="8773-ab77-466d-a2e2" name="Infantry" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="8773-ab77-466d-a2e2" name="Infantry:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="3fc7-bcd9-45fd-bd3a" name="Character" primary="false"/>
-            <categoryLink targetId="9231-183c-b97b-63f9" id="22a6-2981-439d-9bb5" name="Heavy" primary="false"/>
-            <categoryLink targetId="32ee-6da0-41d1-8016" id="a30d-6e74-4060-8b13" name="Anathema" primary="false"/>
+            <categoryLink targetId="9231-183c-b97b-63f9" id="22a6-2981-439d-9bb5" name="Heavy Sub-type:" primary="false"/>
+            <categoryLink targetId="32ee-6da0-41d1-8016" id="a30d-6e74-4060-8b13" name="Anathema Unit Sub-Type:" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -704,7 +704,7 @@ In addition, an army that has Sikari Dar as its Warlord increases its Reaction A
     <selectionEntry name="Perditor Cadre" type="unit" id="4e44-12b3-4b55-8a43" page="98" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="473d-349a-48de-9302"/>
-        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="583a-036f-4f99-bf8f" name="Elites"/>
+        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="583a-036f-4f99-bf8f" name="Elites:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
@@ -781,10 +781,10 @@ In addition, an army that has Sikari Dar as its Warlord increases its Reaction A
             </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="451f-b0e2-4019-85b4" name="Infantry" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="451f-b0e2-4019-85b4" name="Infantry:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="35dd-d96f-4cae-9e89" name="Character" primary="false"/>
-            <categoryLink targetId="bff2-ae16-74a8-8712" id="8900-f7dc-4069-9301" name="Light" primary="false"/>
-            <categoryLink targetId="32ee-6da0-41d1-8016" id="adbb-3e7a-445b-86c2" name="Anathema" primary="false"/>
+            <categoryLink targetId="bff2-ae16-74a8-8712" id="8900-f7dc-4069-9301" name="Light Sub-type:" primary="false"/>
+            <categoryLink targetId="32ee-6da0-41d1-8016" id="adbb-3e7a-445b-86c2" name="Anathema Unit Sub-Type:" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="May take one of the following:" hidden="false" id="b2ab-8965-4b56-29ad">
@@ -1392,7 +1392,7 @@ In addition, an army that has Sikari Dar as its Warlord increases its Reaction A
     <selectionEntry name="Repressor Automata Maniple" type="unit" id="56a7-d94d-4fc4-a7a7" page="100" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="8108-dc79-4674-9de3"/>
-        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="1b1d-499a-4126-a1ac" name="Elites"/>
+        <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="1b1d-499a-4126-a1ac" name="Elites:"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="model" name="Repressor Automata" id="64d6-844a-44e5-b59b" page="100" publicationId="892-6266-f55f-1b9d">
@@ -1444,8 +1444,8 @@ In addition, an army that has Sikari Dar as its Warlord increases its Reaction A
             </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink targetId="3480-b6fb-4e0e-9f09" id="1ddb-8b9d-47e8-bd57" name="Sycophantica" primary="false"/>
-            <categoryLink targetId="32ee-6da0-41d1-8016" id="758d-c07d-4061-97fb" name="Anathema" primary="false"/>
+            <categoryLink targetId="3480-b6fb-4e0e-9f09" id="1ddb-8b9d-47e8-bd57" name="Sycophantica Unit Sub-Type:" primary="false"/>
+            <categoryLink targetId="32ee-6da0-41d1-8016" id="758d-c07d-4061-97fb" name="Anathema Unit Sub-Type:" primary="false"/>
             <categoryLink targetId="d8ab-8e21-e193-63ba" id="66fe-6553-d328-1d69" primary="false" name="Automata Unit-type:"/>
           </categoryLinks>
           <costs>
@@ -1584,9 +1584,9 @@ In addition, an army that has Sikari Dar as its Warlord increases its Reaction A
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="40bb-080e-475b-81ed" name="Infantry" primary="false"/>
-            <categoryLink targetId="bff2-ae16-74a8-8712" id="eafc-973c-496f-820c" name="Light" primary="false"/>
-            <categoryLink targetId="32ee-6da0-41d1-8016" id="9ce8-5054-43fa-8e3c" name="Anathema" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="40bb-080e-475b-81ed" name="Infantry:" primary="false"/>
+            <categoryLink targetId="bff2-ae16-74a8-8712" id="eafc-973c-496f-820c" name="Light Sub-type:" primary="false"/>
+            <categoryLink targetId="32ee-6da0-41d1-8016" id="9ce8-5054-43fa-8e3c" name="Anathema Unit Sub-Type:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="45ef-3b64-4ee5-9c67" name="Character" primary="false"/>
           </categoryLinks>
           <costs>
@@ -1651,7 +1651,7 @@ In addition, an army that has Sikari Dar as its Warlord increases its Reaction A
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4399-8d17-4126-a7d2"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Twin-Linked Bolter" hidden="false" type="selectionEntry" targetId="e31a-fd70-35c7-8bed" id="80b2-8b64-4f01-bf27">
+            <entryLink name="Twin-linked Bolter" hidden="false" type="selectionEntry" targetId="e31a-fd70-35c7-8bed" id="80b2-8b64-4f01-bf27">
               <modifiers>
                 <modifier type="set" field="name" value="Pintle Mounted Twin-Linked Bolter"/>
               </modifiers>
@@ -1668,8 +1668,8 @@ In addition, an army that has Sikari Dar as its Warlord increases its Reaction A
             </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink targetId="e2b6-b770-784c-9e95" id="afb5-277d-4676-9c7b" name="Vehicle" primary="false"/>
-            <categoryLink targetId="7b0a-a743-a8da-3a39" id="4326-bf49-45fb-af57" name="Transport" primary="false"/>
+            <categoryLink targetId="e2b6-b770-784c-9e95" id="afb5-277d-4676-9c7b" name="Vehicle:" primary="false"/>
+            <categoryLink targetId="7b0a-a743-a8da-3a39" id="4326-bf49-45fb-af57" name="Transport Sub-type:" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="May take one of the following:" id="4652-c997-b5f-f9ba" hidden="false">
@@ -1842,7 +1842,7 @@ In addition, an army that has Sikari Dar as its Warlord increases its Reaction A
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="93b8-58d6-44a6-8c03"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Twin-Linked Bolter" hidden="false" type="selectionEntry" targetId="e31a-fd70-35c7-8bed" id="ea46-8770-41c2-b332">
+            <entryLink name="Twin-linked Bolter" hidden="false" type="selectionEntry" targetId="e31a-fd70-35c7-8bed" id="ea46-8770-41c2-b332">
               <modifiers>
                 <modifier type="set" field="name" value="Pintle Mounted Twin-Linked Bolter"/>
               </modifiers>
@@ -1859,9 +1859,9 @@ In addition, an army that has Sikari Dar as its Warlord increases its Reaction A
             </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink targetId="e2b6-b770-784c-9e95" id="4c49-6823-4bf5-9c88" name="Vehicle" primary="false"/>
-            <categoryLink targetId="7b0a-a743-a8da-3a39" id="6e27-ebf4-404a-8ad4" name="Transport" primary="false"/>
-            <categoryLink targetId="4303-1348-cce4-9501" id="6db6-7722-4b10-aac4" name="Antigrav" primary="false"/>
+            <categoryLink targetId="e2b6-b770-784c-9e95" id="4c49-6823-4bf5-9c88" name="Vehicle:" primary="false"/>
+            <categoryLink targetId="7b0a-a743-a8da-3a39" id="6e27-ebf4-404a-8ad4" name="Transport Sub-type:" primary="false"/>
+            <categoryLink targetId="4303-1348-cce4-9501" id="6db6-7722-4b10-aac4" name="Antigrav Sub-type" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="May take any of the following:" id="d75d-14d2-747f-f97d" hidden="false">
@@ -2009,7 +2009,7 @@ In addition, an army that has Sikari Dar as its Warlord increases its Reaction A
     <selectionEntry name="Shrike Cadre" type="unit" id="a7fc-1ed1-47b8-8b6d" page="108" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="eac3-e58c-476e-97e4"/>
-        <categoryLink targetId="20ef-cd01-a8da-376e" primary="true" id="341c-6a8d-453f-af51" name="Fast Attack"/>
+        <categoryLink targetId="20ef-cd01-a8da-376e" primary="true" id="341c-6a8d-453f-af51" name="Fast Attack:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
@@ -2121,10 +2121,10 @@ In addition, an army that has Sikari Dar as its Warlord increases its Reaction A
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="588e-ca67-4515-97e9" name="Infantry" primary="false"/>
-            <categoryLink targetId="bff2-ae16-74a8-8712" id="9599-86bc-4608-a7d6" name="Light" primary="false"/>
-            <categoryLink targetId="59a4-7b61-600a-c457" id="78d8-fcc7-45ba-9413" name="Skirmish" primary="false"/>
-            <categoryLink targetId="32ee-6da0-41d1-8016" id="005a-7d13-43fb-b702" name="Anathema" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="588e-ca67-4515-97e9" name="Infantry:" primary="false"/>
+            <categoryLink targetId="bff2-ae16-74a8-8712" id="9599-86bc-4608-a7d6" name="Light Sub-type:" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="78d8-fcc7-45ba-9413" name="Skirmish Sub-type:" primary="false"/>
+            <categoryLink targetId="32ee-6da0-41d1-8016" id="005a-7d13-43fb-b702" name="Anathema Unit Sub-Type:" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
@@ -2267,11 +2267,11 @@ In addition, an army that has Sikari Dar as its Warlord increases its Reaction A
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="4ec7-db39-4aef-ad77" name="Infantry" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="4ec7-db39-4aef-ad77" name="Infantry:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="49be-6477-466e-b7c0" name="Character" primary="false"/>
-            <categoryLink targetId="bff2-ae16-74a8-8712" id="a6b1-5ff6-4f71-8268" name="Light" primary="false"/>
-            <categoryLink targetId="59a4-7b61-600a-c457" id="f0f4-1d0f-41c7-ba13" name="Skirmish" primary="false"/>
-            <categoryLink targetId="32ee-6da0-41d1-8016" id="8cbf-fac8-442d-98e9" name="Anathema" primary="false"/>
+            <categoryLink targetId="bff2-ae16-74a8-8712" id="a6b1-5ff6-4f71-8268" name="Light Sub-type:" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="f0f4-1d0f-41c7-ba13" name="Skirmish Sub-type:" primary="false"/>
+            <categoryLink targetId="32ee-6da0-41d1-8016" id="8cbf-fac8-442d-98e9" name="Anathema Unit Sub-Type:" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -2378,7 +2378,7 @@ In addition, an army that has Sikari Dar as its Warlord increases its Reaction A
     <selectionEntry name="Impetor Cadre" type="unit" id="f693-efbd-469b-8d78" page="109" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="d324-5f22-427e-b372"/>
-        <categoryLink targetId="20ef-cd01-a8da-376e" primary="true" id="5532-1910-40f4-ac05" name="Fast Attack"/>
+        <categoryLink targetId="20ef-cd01-a8da-376e" primary="true" id="5532-1910-40f4-ac05" name="Fast Attack:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
@@ -2423,7 +2423,7 @@ In addition, an army that has Sikari Dar as its Warlord increases its Reaction A
           <selectionEntryGroups>
             <selectionEntryGroup name="Any model in the unit may replace their Alkonost Combat Bike’s Twin-Linked Vratine Bolter with one of the following options:" id="6b36-100d-4834-b933" defaultSelectionEntryId="76be-98d7-b16b-1f69">
               <entryLinks>
-                <entryLink name="Twin-Linked Flamer" hidden="false" type="selectionEntry" targetId="7fb8-b43b-5c5b-1128" id="71aa-64db-4b89-9895">
+                <entryLink name="Twin-linked Flamer" hidden="false" type="selectionEntry" targetId="7fb8-b43b-5c5b-1128" id="71aa-64db-4b89-9895">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f2f-873c-4941-bb05"/>
                   </constraints>
@@ -2556,8 +2556,8 @@ Could not find wargear Twin-Linked Vratine Grenade Launcher
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="59a4-7b61-600a-c457" id="cf3e-f81b-4c55-952f" name="Skirmish" primary="false"/>
-            <categoryLink targetId="32ee-6da0-41d1-8016" id="cee5-cfbe-4cda-b65c" name="Anathema" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="cf3e-f81b-4c55-952f" name="Skirmish Sub-type:" primary="false"/>
+            <categoryLink targetId="32ee-6da0-41d1-8016" id="cee5-cfbe-4cda-b65c" name="Anathema Unit Sub-Type:" primary="false"/>
             <categoryLink targetId="6d79-a3e4-381f-7b0f" id="cfbf-f400-1f0c-d56b" primary="false" name="Cavalry Unit-type:"/>
           </categoryLinks>
           <costs>
@@ -2750,8 +2750,8 @@ Could not find wargear Twin-Linked Vratine Grenade Launcher
           </selectionEntryGroups>
           <categoryLinks>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="03cf-fc6b-4612-8682" name="Character" primary="false"/>
-            <categoryLink targetId="59a4-7b61-600a-c457" id="81db-49d5-4576-a08c" name="Skirmish" primary="false"/>
-            <categoryLink targetId="32ee-6da0-41d1-8016" id="c20d-a2a1-4fb3-8f20" name="Anathema" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="81db-49d5-4576-a08c" name="Skirmish Sub-type:" primary="false"/>
+            <categoryLink targetId="32ee-6da0-41d1-8016" id="c20d-a2a1-4fb3-8f20" name="Anathema Unit Sub-Type:" primary="false"/>
             <categoryLink targetId="6d79-a3e4-381f-7b0f" id="1c6c-dc93-799e-a842" primary="false" name="Cavalry Unit-type:"/>
           </categoryLinks>
         </selectionEntry>
@@ -2808,7 +2808,7 @@ Could not find wargear Twin-Linked Vratine Grenade Launcher
     <selectionEntry name="Otos Transport Craft" type="unit" id="d407-5a3f-41c9-9780" page="110" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="f92f-a985-4139-b8fb"/>
-        <categoryLink targetId="20ef-cd01-a8da-376e" primary="true" id="3649-76c9-41ee-8d04" name="Fast Attack"/>
+        <categoryLink targetId="20ef-cd01-a8da-376e" primary="true" id="3649-76c9-41ee-8d04" name="Fast Attack:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="125"/>
@@ -2869,11 +2869,11 @@ Could not find wargear Twin-Linked Vratine Grenade Launcher
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="e2b6-b770-784c-9e95" id="d48b-035a-44f9-a007" name="Vehicle" primary="false"/>
-            <categoryLink targetId="4e84-2d57-4986-2b23" id="a17d-7d83-41ed-9454" name="Flyer" primary="false"/>
-            <categoryLink targetId="3a7a-8bb7-b0d3-e2e7" id="ec51-c106-4a6b-8993" name="Hover" primary="false"/>
-            <categoryLink targetId="7b0a-a743-a8da-3a39" id="6ea5-0686-42c4-a0af" name="Transport" primary="false"/>
-            <categoryLink targetId="9b0d-738c-10e4-4ec1" id="10f4-247f-44ec-910f" name="Reinforced" primary="false"/>
+            <categoryLink targetId="e2b6-b770-784c-9e95" id="d48b-035a-44f9-a007" name="Vehicle:" primary="false"/>
+            <categoryLink targetId="4e84-2d57-4986-2b23" id="a17d-7d83-41ed-9454" name="Flyer Sub-type:" primary="false"/>
+            <categoryLink targetId="3a7a-8bb7-b0d3-e2e7" id="ec51-c106-4a6b-8993" name="Hover Sub-type" primary="false"/>
+            <categoryLink targetId="7b0a-a743-a8da-3a39" id="6ea5-0686-42c4-a0af" name="Transport Sub-type:" primary="false"/>
+            <categoryLink targetId="9b0d-738c-10e4-4ec1" id="10f4-247f-44ec-910f" name="Reinforced Sub-type:" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -2895,7 +2895,7 @@ Could not find wargear Twin-Linked Vratine Grenade Launcher
     <selectionEntry name="Aymhari Interceptor" type="unit" id="146e-e4af-45fa-be7b" page="111" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="ae38-9928-4f59-a891"/>
-        <categoryLink targetId="20ef-cd01-a8da-376e" primary="true" id="605a-f476-40c9-a0e2" name="Fast Attack"/>
+        <categoryLink targetId="20ef-cd01-a8da-376e" primary="true" id="605a-f476-40c9-a0e2" name="Fast Attack:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="190"/>
@@ -2964,8 +2964,8 @@ Could not find wargear Twin-Linked Vratine Grenade Launcher
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="e2b6-b770-784c-9e95" id="d50a-f881-4d52-8b17" name="Vehicle" primary="false"/>
-            <categoryLink targetId="4e84-2d57-4986-2b23" id="8fe0-3724-4dab-aaac" name="Flyer" primary="false"/>
+            <categoryLink targetId="e2b6-b770-784c-9e95" id="d50a-f881-4d52-8b17" name="Vehicle:" primary="false"/>
+            <categoryLink targetId="4e84-2d57-4986-2b23" id="8fe0-3724-4dab-aaac" name="Flyer Sub-type:" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -2984,7 +2984,7 @@ Could not find wargear Twin-Linked Vratine Grenade Launcher
     <selectionEntry name="Arbiter Cadre" type="unit" id="8e1e-8837-4fd2-82ca" page="112" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="d3c0-ee9d-4d3d-b139"/>
-        <categoryLink targetId="20ef-cd01-a8da-376e" primary="true" id="5058-825c-40a4-80f6" name="Fast Attack"/>
+        <categoryLink targetId="20ef-cd01-a8da-376e" primary="true" id="5058-825c-40a4-80f6" name="Fast Attack:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -3066,9 +3066,9 @@ Could not find wargear Twin-Linked Vratine Grenade Launcher
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="4303-1348-cce4-9501" id="e71c-df2d-4cb0-b578" name="Antigrav" primary="false"/>
-            <categoryLink targetId="59a4-7b61-600a-c457" id="0ea7-3d10-4bad-9bfc" name="Skirmish" primary="false"/>
-            <categoryLink targetId="32ee-6da0-41d1-8016" id="440c-e5b1-4365-a549" name="Anathema" primary="false"/>
+            <categoryLink targetId="4303-1348-cce4-9501" id="e71c-df2d-4cb0-b578" name="Antigrav Sub-type" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="0ea7-3d10-4bad-9bfc" name="Skirmish Sub-type:" primary="false"/>
+            <categoryLink targetId="32ee-6da0-41d1-8016" id="440c-e5b1-4365-a549" name="Anathema Unit Sub-Type:" primary="false"/>
             <categoryLink targetId="6d79-a3e4-381f-7b0f" id="b0c9-a8d9-28d-6217" primary="true" name="Cavalry Unit-type:"/>
           </categoryLinks>
           <costs>
@@ -3105,7 +3105,7 @@ Could not find wargear Twin-Linked Vratine Grenade Launcher
     <selectionEntry name="Caedecius Exoframe Cadre" type="unit" id="d9bd-1049-4dbd-8613" page="116" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="0eae-2cf8-430a-b3bd"/>
-        <categoryLink targetId="7031-469a-1aeb-eab0" primary="true" id="fe1e-9376-40ef-88cf" name="Heavy Support"/>
+        <categoryLink targetId="7031-469a-1aeb-eab0" primary="true" id="fe1e-9376-40ef-88cf" name="Heavy Support:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -3340,7 +3340,7 @@ Could not find wargear Twin-Linked Vratine Grenade Launcher
     <selectionEntry name="Stymphalia Attack Craft" type="unit" id="72f9-5272-4855-8a6f" page="117" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="aaa5-6d4f-4db3-996f"/>
-        <categoryLink targetId="7031-469a-1aeb-eab0" primary="true" id="a181-684b-4737-8068" name="Heavy Support"/>
+        <categoryLink targetId="7031-469a-1aeb-eab0" primary="true" id="a181-684b-4737-8068" name="Heavy Support:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="225"/>
@@ -3412,10 +3412,10 @@ Could not find wargear Centreline Mounted Twin-Linked Spiculus Bolt Launcher
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
-            <categoryLink targetId="e2b6-b770-784c-9e95" id="5581-ad93-480e-820a" name="Vehicle" primary="false"/>
-            <categoryLink targetId="4e84-2d57-4986-2b23" id="6526-7cdd-4d6e-836c" name="Flyer" primary="false"/>
-            <categoryLink targetId="3a7a-8bb7-b0d3-e2e7" id="74ce-4191-4994-8f80" name="Hover" primary="false"/>
-            <categoryLink targetId="9b0d-738c-10e4-4ec1" id="e916-4db9-45a1-9d8c" name="Reinforced" primary="false"/>
+            <categoryLink targetId="e2b6-b770-784c-9e95" id="5581-ad93-480e-820a" name="Vehicle:" primary="false"/>
+            <categoryLink targetId="4e84-2d57-4986-2b23" id="6526-7cdd-4d6e-836c" name="Flyer Sub-type:" primary="false"/>
+            <categoryLink targetId="3a7a-8bb7-b0d3-e2e7" id="74ce-4191-4994-8f80" name="Hover Sub-type" primary="false"/>
+            <categoryLink targetId="9b0d-738c-10e4-4ec1" id="e916-4db9-45a1-9d8c" name="Reinforced Sub-type:" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>

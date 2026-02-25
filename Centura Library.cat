@@ -3590,6 +3590,14 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c6c7-1730-4ea1-aaf0"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="85c6-2bae-310e-5bdc" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a27d-c734-c53d-82f5"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="The Legion Land Raider Dionysus may exchange its Two Sponson Mounted Gravis Heavy Bolter Batteries for one of the following:" id="71c3-7a3f-4b49-82e2">
@@ -3604,6 +3612,16 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="28b7-a7e5-472d-966f"/>
                   </constraints>
+                  <profiles>
+                    <profile name="Volkite Dual-Culverin" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="ce3f-fa17-c99f-cf69" publicationId="a716-c1c4-7b26-8424" page="134">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">45&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 6, Deflagrate, Twin-linked</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
                 </entryLink>
                 <entryLink name="Gravis Melta Cannon" hidden="false" type="selectionEntry" targetId="ef6c-f656-171a-03e1" id="70ad-3c40-4790-80df">
                   <costs>
@@ -3615,6 +3633,16 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6eca-ca57-4b56-b6d4"/>
                   </constraints>
+                  <profiles>
+                    <profile name="Gravis Melta Cannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="4b15-58a9-7d39-43da" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Armourbane (Melta), Twin-linked</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
                 </entryLink>
                 <entryLink name="Gravis Lascannon" hidden="false" type="selectionEntry" targetId="1fe0-7c96-5200-0e39" id="8e78-13fe-4f54-ada9">
                   <costs>
@@ -3626,28 +3654,16 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b623-f912-482a-bf1d"/>
                   </constraints>
-                </entryLink>
-                <entryLink name="Volkite Dual-Culverin" hidden="false" type="selectionEntry" targetId="015f-ee1b-46c1-8937" id="61ee-29c5-481d-b64d">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                  <modifiers>
-                    <modifier type="set" field="name" value="Two Sponson Mounted Volkite Dual-Culverins"/>
-                  </modifiers>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ee1-a5ca-4c3c-9de6"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Gravis Melta Cannon" hidden="false" type="selectionEntry" targetId="65cc-0f51-4f63-b463" id="76d8-0941-4fde-ab10">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                  <modifiers>
-                    <modifier type="set" field="name" value="Two Sponson Mounted Gravis Melta Cannons"/>
-                  </modifiers>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cca2-e0ea-467e-ac0c"/>
-                  </constraints>
+                  <profiles>
+                    <profile name="Gravis Lascannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="9537-b3d4-e691-1083" publicationId="a716-c1c4-7b26-8424" page="132">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Sunder</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
                 </entryLink>
                 <entryLink import="true" name="Gravis Heavy Bolter Battery" hidden="false" id="4e83-2343-f7ff-d6f2" type="selectionEntry" targetId="a160-9267-67ac-4546">
                   <costs>
@@ -3659,6 +3675,37 @@
                   <modifiers>
                     <modifier type="set" value="Two Sponson Mounted Heavy Bolter Batteries" field="name"/>
                   </modifiers>
+                  <profiles>
+                    <profile name="Gravis Heavy Bolter Battery" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="46ce-41a2-38d3-847e" publicationId="a716-c1c4-7b26-8424" page="130">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 8, Twin-linked</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Melta Cannon" hidden="false" id="9c04-0395-e87c-83bd" type="selectionEntry" targetId="1fa7-4219-6580-4bc8">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7dc8-ff04-9fad-6510"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="prepend" value="Two Sponson Mounted" field="name"/>
+                  </modifiers>
+                  <profiles>
+                    <profile name="Conflaguration Melta Cannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="342f-afe7-2aab-c2f2">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">30&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Armourbane (Melta), Twin-Linked</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <constraints>
@@ -3815,7 +3862,7 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
       <selectionEntries>
         <selectionEntry type="model" name="Legion Land Raider Tartaros" id="5fbb-9647-45ee-bb59" page="13" publicationId="3970-79bb-bdc6-9599">
           <profiles>
-            <profile id="eab8-2fc4-40a3-a2eb" name="Legion Land Raider Tartaros" typeId="2fae-b053-3f78-e7b2">
+            <profile id="eab8-2fc4-40a3-a2eb" name="Legion Land Raider Tartaros" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
               <characteristics>
                 <characteristic typeId="3614-4a2d-bffb-90e4" name="Move">12</characteristic>
                 <characteristic typeId="51fb-b7d9-aa59-863d" name="BS">4</characteristic>
@@ -3850,6 +3897,14 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d072-3829-4b3e-b7a4"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="26d2-09f9-48dc-8b35"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="4b64-ffd0-2206-2709" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58f6-09f2-cc3c-9cd7"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
@@ -3933,13 +3988,31 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
                     </profile>
                   </profiles>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Melta Cannon" hidden="false" id="00c2-453c-ed85-6ca4" type="selectionEntry" targetId="1fa7-4219-6580-4bc8">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="44f8-da75-5e22-b661"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="prepend" value="Two Sponson Mounted" field="name"/>
+                  </modifiers>
+                  <profiles>
+                    <profile name="Conflaguration Melta Cannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="a797-791b-3b9f-a68b">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">30&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Armourbane (Melta), Twin-Linked</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="570d-e5ea-4ded-9ff4"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
-	 Checked under Gravis Heavy Bolter Batterie</comment>
             </selectionEntryGroup>
             <selectionEntryGroup name="The Legion Land Raider Tartaros may take one of the following:" id="b8d9-4d4f-4b59-93bd">
               <entryLinks>
@@ -10185,6 +10258,14 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b60-5acb-499d-b87f"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="6572-41d5-5c9e-bed4" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0572-b292-aacc-055f"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="The Legion Rhino Advancer may take one of the following:" id="1767-503e-4100-8ec4">
@@ -10820,6 +10901,16 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
             <categoryLink targetId="3a7a-8bb7-b0d3-e2e7" id="89dc-55e5-4250-a2b5" name="Hover Sub-type" primary="false"/>
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="c2f2-ef14-4559-a613" name="Transport Sub-type:" primary="false"/>
           </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="5684-60f8-aa55-bde8" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5787-c763-b227-5dca"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Legion Storm Eagle Transporter Access Points" hidden="false" id="b055-c957-ba8e-c944">
           <profiles>
@@ -10857,7 +10948,7 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
       <selectionEntries>
         <selectionEntry type="model" name="Legion Sicaran Incinerator" id="1888-d95b-4806-a93c" page="42" publicationId="3970-79bb-bdc6-9599">
           <profiles>
-            <profile id="6de0-456d-49b3-a82e" name="Legion Sicaran Incinerator" typeId="2fae-b053-3f78-e7b2">
+            <profile id="6de0-456d-49b3-a82e" name="Legion Sicaran Incinerator" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
               <characteristics>
                 <characteristic typeId="3614-4a2d-bffb-90e4" name="Move">16</characteristic>
                 <characteristic typeId="51fb-b7d9-aa59-863d" name="BS">4</characteristic>
@@ -10880,6 +10971,14 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6999-a46a-48c3-b0c5"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="11b6-78d8-4e96-8abc"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="6d65-a320-fccc-4f89" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3acf-6bf0-e2aa-263b"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
@@ -11106,7 +11205,7 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
       <selectionEntries>
         <selectionEntry type="model" name="Legion Vindicator Thunderer" id="2813-4472-4a06-b7eb" page="43" publicationId="3970-79bb-bdc6-9599">
           <profiles>
-            <profile id="dad7-a5e6-4ee6-89f4" name="Legion Vindicator Thunderer" typeId="2fae-b053-3f78-e7b2">
+            <profile id="dad7-a5e6-4ee6-89f4" name="Legion Vindicator Thunderer" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
               <characteristics>
                 <characteristic typeId="3614-4a2d-bffb-90e4" name="Move">12</characteristic>
                 <characteristic typeId="51fb-b7d9-aa59-863d" name="BS">4</characteristic>
@@ -11138,6 +11237,14 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b8f8-e63a-4291-8a5b"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="079f-71bc-48b1-b102"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="d29b-a44d-bef4-2c9e" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6079-6adf-baff-fde3"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
@@ -11362,7 +11469,7 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
       <selectionEntries>
         <selectionEntry type="model" name="Legion Fire Raptor Destroyer" id="ec19-1f52-40ae-9c37" page="44" publicationId="3970-79bb-bdc6-9599">
           <profiles>
-            <profile id="4fc6-aa96-4949-8626" name="Legion Fire Raptor Destroyer" typeId="2fae-b053-3f78-e7b2">
+            <profile id="4fc6-aa96-4949-8626" name="Legion Fire Raptor Destroyer" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
               <characteristics>
                 <characteristic typeId="3614-4a2d-bffb-90e4" name="Move">18</characteristic>
                 <characteristic typeId="51fb-b7d9-aa59-863d" name="BS">4</characteristic>
@@ -11388,6 +11495,14 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ef62-fc46-4993-9d3b"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="85af-635b-43d8-9bb9"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="b291-c588-3d23-8b22" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e56-67c9-2986-bee5"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
@@ -15315,6 +15430,14 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc94-1953-4157-bea3"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="82f5-136f-df94-91b8" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c92-966d-b8a6-f080"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="A Legion Banesword may elect to exchange its Hull (Front) Mounted Twin Linked Heavy Bolter for:" id="e4e6-c0eb-4504-8d13" defaultSelectionEntryId="9b64-a357-71d8-86a1">
@@ -15570,6 +15693,14 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d6f9-c2dd-4aec-ae24"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="e7bb-7219-2583-48be" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab6a-cedc-6d73-9bf0"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="A Legion Doomhammer may elect to exchange its Hull (Front) Mounted Twin Linked Heavy Bolter for:" id="2374-d581-4e04-a6c9">
@@ -15784,7 +15915,7 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
       <selectionEntries>
         <selectionEntry type="model" name="Legion Orthrus Destroyer" id="8f89-9009-4930-846a" page="56" publicationId="3970-79bb-bdc6-9599">
           <profiles>
-            <profile id="c521-2ce0-447f-9b49" name="Legion Orthrus Destroyer" typeId="2fae-b053-3f78-e7b2">
+            <profile id="c521-2ce0-447f-9b49" name="Legion Orthrus Destroyer" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
               <characteristics>
                 <characteristic typeId="3614-4a2d-bffb-90e4" name="Move">10</characteristic>
                 <characteristic typeId="51fb-b7d9-aa59-863d" name="BS">4</characteristic>
@@ -15822,6 +15953,14 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7f51-0d38-49bd-aa59"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c736-d76a-4f17-a271"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="7eec-7360-bb6b-742d" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf9e-7ee6-bfd8-be40"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
@@ -16103,7 +16242,7 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
     <catalogueLink id="2f60-4242-e6ed-8574" name="Legions Astartes" targetId="25e4-c9e5-8165-1337" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
   <entryLinks>
-    <entryLink import="true" name="Legion Indomitus Praetor" hidden="false" id="39a8-2d8b-f8cf-c8e7" type="selectionEntry" targetId="0293-aa91-4e32-bd5f"/>
+    <entryLink import="true" name="Praetor, Indomitus" hidden="false" id="39a8-2d8b-f8cf-c8e7" type="selectionEntry" targetId="0293-aa91-4e32-bd5f"/>
     <entryLink import="true" name="Legion Indomitus Command Squad" hidden="true" id="25bc-d368-378c-9ed1" targetId="10a1-9ca0-40bd-81fd" type="selectionEntry"/>
     <entryLink import="true" name="Basilisk Anti-Air Emplacement Battery" hidden="false" id="e08e-f74c-57c3-cf3c" targetId="ca32-4dab-4bf6-b3ed" type="selectionEntry"/>
     <entryLink import="true" name="Early Great Crusade Havoc Squad" hidden="false" id="a474-8d1c-2172-0331" targetId="e112-e4d2-45f7-b5bd" type="selectionEntry"/>
@@ -16129,8 +16268,8 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
     <entryLink import="true" name="Legion Vindicator Thunderer Squadron" hidden="false" id="2c8a-ce33-f75a-b9cc" targetId="0154-d7ea-4dcf-8db1" type="selectionEntry"/>
     <entryLink import="true" name="Mutated Spawn" hidden="false" id="f824-0556-39b6-47fa" targetId="d20c-e065-4357-b70c" type="selectionEntry"/>
     <entryLink import="true" name="Possessed Legionnaires" hidden="false" id="703c-9f61-0bdb-46da" targetId="f928-6ae6-4699-ba2b" type="selectionEntry"/>
-    <entryLink import="true" name="Legion Indomitus Centurion" hidden="false" id="bde0-4cfc-9e50-7b4c" targetId="4d40-5fee-4219-8354" type="selectionEntry"/>
-    <entryLink import="true" name="Legion Saturnine Centurion" hidden="false" id="edf5-8d2d-4f87-d709" targetId="3e29-1bf1-48c9-b302" type="selectionEntry"/>
+    <entryLink import="true" name="Centurion, Indomitus" hidden="false" id="bde0-4cfc-9e50-7b4c" targetId="4d40-5fee-4219-8354" type="selectionEntry"/>
+    <entryLink import="true" name="Centurion, Saturnine" hidden="false" id="edf5-8d2d-4f87-d709" targetId="3e29-1bf1-48c9-b302" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Pater Consularis" id="b93b-ea03-1f8f-654b" hidden="false" defaultSelectionEntryId="9d66-295a-5af3-4e38">

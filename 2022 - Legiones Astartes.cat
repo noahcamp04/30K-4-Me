@@ -6622,6 +6622,14 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                 <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="1c5b-ebd1-e55b-cf5c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="a9d4-e99b-4634-34d2" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cff0-8820-9ab2-f632"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="1) Pintle-weaponry" id="75c9-f886-0f16-4cb3" hidden="false" collective="false" import="true">
@@ -6851,6 +6859,14 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c5f9-48b4-0a4d-7cc6"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="19e0-7874-bb17-c15d"/>
                   </constraints>
+                </entryLink>
+                <entryLink import="true" name="Magma Plating" hidden="false" id="2267-ffad-45fc-1e9a" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c0e-3992-923c-61f6"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <selectionEntryGroups>
@@ -9304,6 +9320,14 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46af-3870-3bab-fa46" type="min"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="d2ef-0d1e-0d9f-6e56" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7600-dfd6-fe92-5ef3"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="215"/>
@@ -9771,6 +9795,14 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
               </constraints>
             </entryLink>
             <entryLink id="9488-be0a-84b0-3ea1" name="Legion Decurions" hidden="false" collective="false" import="true" targetId="8763-74b0-d57f-ebab" type="selectionEntryGroup"/>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="7ffa-69a3-bd8e-e3bd" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5062-ac66-beff-54fb"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="175"/>
@@ -9982,6 +10014,14 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="4595-7ece-40eb-edad" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="1c3a-856e-cf5a-feab" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f759-c669-fe0b-7207"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="280"/>
@@ -10496,6 +10536,11 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="e3c9-a3f2-7025-5c25" type="selectionEntry" targetId="f933-1660-4555-62dd">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="5d76-d30e-72d4-6385" name="2) May take:" hidden="false" collective="false" import="true">
@@ -10603,6 +10648,14 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fff3-9a89-54dd-3f21" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0930-d375-2ad9-70c5" type="max"/>
           </constraints>
+        </entryLink>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="ddd0-19ab-b34d-e427" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9838-321c-aff3-a884"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
         </entryLink>
       </entryLinks>
       <costs>
@@ -10768,6 +10821,14 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="9e35-4c87-b72b-306a" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="da24-fdb5-d862-2ee9" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d3e-e51d-4a4d-8fab"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
@@ -10909,6 +10970,16 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
+          <entryLinks>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="2409-29d6-7b74-3d6a" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17ad-60c0-67e0-cef6"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -11334,6 +11405,11 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Melta Cannon" hidden="false" id="c24d-d561-b9bc-a215" type="selectionEntry" targetId="1fa7-4219-6580-4bc8">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="21fb-114c-112f-8aa2" name="2) Weapon Option 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="d51b-8b7b-4a23-fa59">
@@ -11420,6 +11496,11 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                 <entryLink id="fae3-c1ab-7419-42b7" name="Warpfire Cannon" hidden="false" collective="false" import="true" targetId="2d54-6e68-4830-4ef3" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Melta Cannon" hidden="false" id="1391-2de9-b317-faf9" type="selectionEntry" targetId="1fa7-4219-6580-4bc8">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -12008,6 +12089,14 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
               </constraints>
             </entryLink>
             <entryLink id="67c4-a81a-4db3-ae36" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="b1d4-f840-e686-c38f" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d9c-6d9a-a849-a58d"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="350"/>
@@ -24006,6 +24095,14 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f17-e351-56f8-777d"/>
                           </constraints>
                         </entryLink>
+                        <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="6f43-4785-9a00-1940" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21b4-7455-3b26-19e7"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                          </costs>
+                        </entryLink>
                       </entryLinks>
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c17-21f8-4a01-f17d"/>
@@ -25211,9 +25308,17 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="034a-2d2f-9076-a10b"/>
                           </constraints>
                         </entryLink>
+                        <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="c49e-8374-3ff8-e19a" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="627d-ec8f-6af5-8db1"/>
+                          </constraints>
+                        </entryLink>
                       </entryLinks>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04d9-230c-b851-f83a"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b44-0692-0bd4-152e"/>
                       </constraints>
                     </selectionEntryGroup>
                     <selectionEntryGroup name="A Legion Whispercutter may take up to two:" id="3867-6ee5-e25a-b5ce" hidden="false">
@@ -32181,6 +32286,14 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e5e6-5b0e-cc7e-1b27"/>
                           </constraints>
                         </entryLink>
+                        <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="153c-f36b-f3c9-54a5" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="38a9-adbd-4bd6-ff62"/>
+                          </constraints>
+                        </entryLink>
                       </entryLinks>
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2bd3-bf00-f445-1d49"/>
@@ -33340,6 +33453,14 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                           </costs>
                         </entryLink>
+                        <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="56b7-5bf4-1238-a4ab" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d1c6-fb00-ef82-79c9"/>
+                          </constraints>
+                        </entryLink>
                       </entryLinks>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1bb-1944-feea-705d"/>
@@ -34335,6 +34456,11 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Melta Lance" hidden="false" id="727d-10db-dd5e-a405" type="selectionEntry" targetId="d58e-8ff0-fe70-437b">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="1e4a-80d4-7ad9-78c4" name="2) Weapon Option 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="48c0-5a26-c6e5-eccb">
@@ -34362,6 +34488,11 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                 <entryLink id="03c6-ed15-62df-d13f" name="Leviathan Storm Cannon" hidden="false" collective="false" import="true" targetId="7b60-94de-1d33-8317" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Melta Lance" hidden="false" id="b182-6fd0-6d35-671a" type="selectionEntry" targetId="d58e-8ff0-fe70-437b">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -35133,6 +35264,11 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="53c1-bbf1-5ecb-811e" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -35144,6 +35280,14 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
               </constraints>
             </entryLink>
             <entryLink id="569a-1320-c610-6cd6" name="Legion Decurions" hidden="false" collective="false" import="true" targetId="8763-74b0-d57f-ebab" type="selectionEntryGroup"/>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="d976-c732-df61-0db3" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f1f-622a-693b-e763"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="105"/>
@@ -35449,6 +35593,14 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="632b-1f59-3dde-cbe5" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fcd-b553-45ad-452d" type="max"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="e16d-a10f-9ea4-9a59" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a155-a546-3204-f3cd"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <costs>
@@ -35838,6 +35990,14 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="a8c5-831c-f72c-1aed" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="8dab-15d2-4e55-1edd" name="1) Hull (Front) Mounted Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="d767-0996-53c4-e05f">
@@ -35884,6 +36044,14 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
               </constraints>
             </entryLink>
             <entryLink id="2726-060e-bd9c-7cb8" name="Legion Decurions" hidden="false" collective="false" import="true" targetId="8763-74b0-d57f-ebab" type="selectionEntryGroup"/>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="9011-6132-16c1-c2ca" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b46e-1ab1-19f1-007b"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="175"/>
@@ -36159,6 +36327,14 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="404f-0d4e-b0e6-5621" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="8496-d19e-c2e9-0418" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a41-790f-8ec4-a827"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="185"/>
@@ -36394,6 +36570,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="dd26-0095-43ca-0d39" type="selectionEntry" targetId="f933-1660-4555-62dd">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+              <modifiers>
+                <modifier type="prepend" value="Pintle Mounted" field="name"/>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="f02d-7136-fcde-c18f" name="1) May take one:" hidden="false" collective="false" import="true">
@@ -36530,6 +36714,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18b4-8a42-233d-06e1" type="max"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a4a-faf1-4fdd-c019" type="min"/>
           </constraints>
+        </entryLink>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="d376-c70a-6763-6ab3" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95b8-1733-698d-d8e7"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
         </entryLink>
       </entryLinks>
       <costs>
@@ -36830,6 +37022,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="2472-14c7-f55e-f543" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -36845,6 +37045,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e81-57c8-2c60-8b40" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31a8-ddc0-894c-f22a" type="max"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="f906-87cd-1529-a33b" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5fc1-6acb-ec81-d03a"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <costs>
@@ -37120,6 +37328,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="ad69-8eec-31e8-05f7" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="948c-f0e5-1280-beac" name="3) May take:" hidden="false" collective="false" import="true">
@@ -37176,6 +37392,16 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="185"/>
           </costs>
+          <entryLinks>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="dca0-8b53-5ed6-3f3b" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7336-946e-5bea-41c2"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -37857,6 +38083,16 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
+          <entryLinks>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="450a-886c-6ad5-561a" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="80d4-41c9-b86e-d9b1"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -39137,6 +39373,11 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="be5c-a91a-b510-6087" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="e167-4993-a586-4f51" name="3) Pintle-Mounted Weapon" hidden="false" collective="false" import="true">
@@ -39243,6 +39484,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3531-00e6-4c77-7303" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bde-9ad5-68f1-fb51" type="max"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="d9cf-dd04-905e-9883" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d8e4-4b04-b5c2-164b"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <costs>
@@ -39452,6 +39701,11 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                   </costs>
                 </entryLink>
                 <entryLink id="0345-160b-f523-152d" name="Dragon&apos;s Breath Heavy Flamer" hidden="false" collective="false" import="true" targetId="1a5c-0c5f-d798-a067" type="selectionEntry"/>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="d6ee-4581-33b5-6e2f" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="1d53-74dd-b1c1-1c7c" name="3) Pistol Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="e103-cab9-9570-72ba">
@@ -39837,6 +40091,11 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                   </costs>
                 </entryLink>
                 <entryLink id="134e-aee9-fec1-7c5e" name="Dragon&apos;s Breath Heavy Flamer" hidden="false" collective="false" import="true" targetId="1a5c-0c5f-d798-a067" type="selectionEntry"/>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="2cfd-0ea3-44c6-0623" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="b11f-3568-5f5c-2f47" name="3) Pistol Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="6571-3e97-2a87-7cd5">
@@ -40113,6 +40372,11 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Conflaguration Melta Cannon" hidden="false" id="3805-6787-358c-5a8d" type="selectionEntry" targetId="1fa7-4219-6580-4bc8">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="5cc4-976e-f5c1-49d9" name="2) Wing Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="96da-5850-ce9e-180d">
@@ -40194,6 +40458,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
       <entryLinks>
         <entryLink id="8070-b3d7-4c99-8389" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
         <entryLink id="ae47-edd4-00c6-4d25" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="abd8-7bda-5396-8a8d" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab32-2a9f-0a7e-c701"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="210"/>
@@ -40341,6 +40613,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
       <entryLinks>
         <entryLink id="f94d-3e07-7468-8026" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
         <entryLink id="dc95-4296-cdee-5316" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="a355-b7e7-21e2-4325" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c9d-5317-1d06-32d1"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="145"/>
@@ -40519,6 +40799,11 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="d965-ea91-afda-a832" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="07ba-e7d7-5bd8-c0a5" name="4) Hunter-Killer Missiles" hidden="false" collective="false" import="true">
@@ -40601,6 +40886,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="a307-89ef-5aa5-d6c4" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -40878,6 +41171,11 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <entryLink id="1dce-e017-c60f-0383" name="Shrapnel Cannon" hidden="false" collective="false" import="true" targetId="975e-14eb-caed-4b5b" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="2193-6928-221f-200a" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -41379,6 +41677,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="2357-1c4b-4952-490e" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -41400,6 +41706,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57cb-025b-151c-08e4" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8f5-de26-eca6-cc8a" type="max"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="56cb-c65a-f746-68dd" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="858f-2af3-634b-b0fb"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <costs>
@@ -41646,6 +41960,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="ab1c-920e-3e8d-9555" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="2b83-1bab-9c24-8b89" name="1) Sponson Mounted Weapons:" hidden="false" collective="false" import="true" defaultSelectionEntryId="5fc0-626d-cf47-0e3f">
@@ -41732,6 +42054,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="110b-0946-6d9d-98a3" type="max"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3df-73c5-94fa-d73f" type="min"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="78e9-db6a-be98-9618" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c5d-5bb3-b557-c09d"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <costs>
@@ -42039,6 +42369,17 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="7c5c-499c-3920-74ff" type="selectionEntry" targetId="f933-1660-4555-62dd">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+              <modifiers>
+                <modifier type="prepend" value="Pintle Mounted" field="name"/>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="2f19-5b59-5f2c-a0ce" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="ae7a-d184-328c-516a" name="1) Hull Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="5f29-269b-8f8e-aeaf">
@@ -42083,6 +42424,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
           </constraints>
         </entryLink>
         <entryLink id="094c-f7a4-5641-78db" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="bcfa-5711-ae20-f168" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d6b9-7007-8c62-ede2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="650"/>
@@ -42291,6 +42640,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7713-0b24-fb08-f1a1" type="max"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e42-3f79-d773-2cec" type="min"/>
           </constraints>
+        </entryLink>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="e9b7-c0a6-7ab0-97b1" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6414-1367-84ed-c592"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
         </entryLink>
       </entryLinks>
       <costs>
@@ -42598,6 +42955,17 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="8fdb-6574-43ac-b789" type="selectionEntry" targetId="f933-1660-4555-62dd">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+              <modifiers>
+                <modifier type="prepend" value="Pintle Mounted" field="name"/>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="2d1d-c774-d74b-0964" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -42628,6 +42996,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
           </constraints>
         </entryLink>
         <entryLink id="2cdb-cbf5-4e51-606a" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="4fdb-6924-4050-516b" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a83-08ac-bb8f-9a10"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="650"/>
@@ -42951,6 +43327,17 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="ffa9-b009-a4b2-d900"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="02a2-6969-c210-0b4b" type="selectionEntry" targetId="f933-1660-4555-62dd">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+              <modifiers>
+                <modifier type="prepend" value="Pintle Mounted" field="name"/>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1518-8274-bfd2-ad71" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e815-d89c-6aeb-44ec"/>
@@ -43004,6 +43391,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cbd-63e0-08da-349f" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9172-ebd2-9a87-d915" type="max"/>
           </constraints>
+        </entryLink>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="97cc-767d-bcce-5b4d" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d6d-a195-5f5a-5715"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
         </entryLink>
       </entryLinks>
       <costs>
@@ -43309,6 +43704,17 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="c828-4508-82f5-d830" type="selectionEntry" targetId="f933-1660-4555-62dd">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+              <modifiers>
+                <modifier type="prepend" value="Pintle Mounted" field="name"/>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e4e9-0d00-c0f9-b2e7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -43321,6 +43727,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
         </entryLink>
         <entryLink id="4746-a6c5-e646-18f0" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
         <entryLink id="b0b2-e4e6-4eb0-2f88" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="0362-82e3-661c-5cbd" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f36b-40d2-a8fb-9a25"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="650"/>
@@ -43512,6 +43926,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
           </constraints>
         </entryLink>
         <entryLink id="01f7-3840-a6f4-b38d" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="bca0-57b3-7b1c-9c90" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24f7-548f-a49b-6884"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="850"/>
@@ -43810,6 +44232,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="8667-83d5-6984-49f0" type="selectionEntry" targetId="f933-1660-4555-62dd">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+              <modifiers>
+                <modifier type="prepend" value="Pintle Mounted" field="name"/>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -43840,6 +44270,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
           </constraints>
         </entryLink>
         <entryLink id="b031-3409-ff82-a945" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="4dfc-e870-9dab-d1ae" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9cf3-d51f-f7dc-402f"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="500"/>
@@ -44079,6 +44517,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
               </costs>
+            </entryLink>
+            <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="0dc5-8e7d-ca3d-e910" type="selectionEntry" targetId="f933-1660-4555-62dd">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+              <modifiers>
+                <modifier type="prepend" value="Pintle Mounted" field="name"/>
+              </modifiers>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -45554,6 +46000,11 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Melta Cannon" hidden="false" id="7d1e-b0f2-e26f-6395" type="selectionEntry" targetId="1fa7-4219-6580-4bc8">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="d276-79d0-2989-80dd" name="2) Weapon Option 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="0f35-46b7-e7fb-9d8d">
@@ -45659,6 +46110,11 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                   </modifiers>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Melta Cannon" hidden="false" id="2f9c-0be2-472f-210d" type="selectionEntry" targetId="1fa7-4219-6580-4bc8">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -47303,6 +47759,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="708b-61ad-a08a-6243" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -47330,6 +47794,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bad4-8e42-35c8-4277" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="98c7-b6de-0947-ca41" type="max"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="d912-e652-a703-499d" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cabc-80a5-39aa-0403"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <costs>
@@ -47728,6 +48200,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="c7e6-c244-3613-4e43" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="8b76-4169-1cec-296f" name="5) May take:" hidden="false" collective="false" import="true">
@@ -47811,6 +48291,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
               </constraints>
             </entryLink>
             <entryLink id="f8ec-6097-895c-4599" name="Legion Decurions" hidden="false" collective="false" import="true" targetId="8763-74b0-d57f-ebab" type="selectionEntryGroup"/>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="8c74-e6de-e2f1-ecb0" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="138f-ffe7-f4ab-2016"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="285"/>
@@ -48106,6 +48594,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
       <entryLinks>
         <entryLink id="e569-bad8-2a28-dcf0" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
         <entryLink id="2213-4382-aea6-3861" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="b220-dffb-ba56-6e6a" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d8d9-4a44-2fc3-eb20"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="235"/>
@@ -48235,6 +48731,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da1a-8790-17b0-4d85" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23ee-f39f-9ce-e417" type="max"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="ca3f-34d2-4b5e-74d4" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a975-4d93-be92-6dc3"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <costs>
@@ -48525,6 +49029,11 @@ An Argyrum Pattern Boarding Shield counts as a Boarding Shield for all intents 
             <entryLink import="true" name="Volkite Dual-Culverin" hidden="false" id="b2b4-2933-9e72-3d01" type="selectionEntry" targetId="015f-ee1b-46c1-8937">
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="38a6-975b-9956-57c6" type="selectionEntry" targetId="f933-1660-4555-62dd">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -49096,6 +49605,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="175a-6c8e-44eb-5bf2" type="selectionEntry" targetId="f933-1660-4555-62dd">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+              <modifiers>
+                <modifier type="prepend" value="Pintle Mounted" field="name"/>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="410f-3853-c19c-61db" name="1) Hull (Front) Mounted Weapon:" hidden="false" collective="false" import="true" defaultSelectionEntryId="b5cf-2510-0f89-1223">
@@ -49178,6 +49695,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
         </entryLink>
         <entryLink id="f160-bcb7-f48f-af46" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
         <entryLink id="8c81-a3e6-9add-ed99" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="b245-ba18-e61a-d043" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fec7-1611-6b3f-ec9a"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="500"/>
@@ -49409,6 +49934,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="abac-f109-e75c-d841" type="selectionEntry" targetId="f933-1660-4555-62dd">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+              <modifiers>
+                <modifier type="prepend" value="Pintle Mounted" field="name"/>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="5f64-6d1d-32e4-c5d9" name="1) Hull (Front) Mounted Weapon:" hidden="false" collective="false" import="true" defaultSelectionEntryId="55d6-6b21-1616-8718">
@@ -49509,6 +50042,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
         </entryLink>
         <entryLink id="a1d5-142c-ffd3-c0dd" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
         <entryLink id="cce3-dd36-7ffb-f2f5" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="0c8e-31f1-ba88-ad85" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36e2-da2f-2dbe-ca21"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="475"/>
@@ -49722,6 +50263,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="8c7a-115d-2f1e-f284" type="selectionEntry" targetId="f933-1660-4555-62dd">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+              <modifiers>
+                <modifier type="prepend" value="Pintle Mounted" field="name"/>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="fc33-e1d6-ff6b-74ce" name="1) Sponson Mounted Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="152c-f74a-dc1e-3121">
@@ -49774,6 +50323,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
           <modifiers>
             <modifier type="set" value="Hull (Front) Mounted Heavy Bolter" field="name"/>
           </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="944b-54e4-f4d6-bcda" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="56f6-d5c6-cb69-ef85"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
         </entryLink>
       </entryLinks>
       <costs>
@@ -49995,6 +50552,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="e4eb-4f81-8ce3-4b84" type="selectionEntry" targetId="f933-1660-4555-62dd">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+              <modifiers>
+                <modifier type="prepend" value="Pintle Mounted" field="name"/>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="2ba8-5e85-d339-ef42" name="1) Hull (Front) Mounted Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="dc34-51e7-3434-7064">
@@ -50058,6 +50623,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
         </entryLink>
         <entryLink id="11a4-b72c-373a-c964" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
         <entryLink id="9422-7df5-f3f2-1a1f" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="2b14-df94-524b-d6a8" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa79-131f-1bd5-3042"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="475"/>
@@ -50300,6 +50873,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="0aab-dac8-4808-becb" type="selectionEntry" targetId="f933-1660-4555-62dd">
+              <modifiers>
+                <modifier type="prepend" value="Pintle Mounted" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="3fe2-aa67-3d11-d01a" name="2) Sponson Mounted Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="71b9-6f0a-aa76-6869">
@@ -50348,6 +50929,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
         </entryLink>
         <entryLink id="d274-bc79-ecb1-04df" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
         <entryLink id="6f4f-67ff-c119-b133" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="6a8a-504a-89ee-05df" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="67c7-b9e4-c2bb-7fd2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="650"/>
@@ -50500,6 +51089,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="177e-d989-0565-c48b" type="selectionEntry" targetId="f933-1660-4555-62dd">
+              <modifiers>
+                <modifier type="prepend" value="Pintle Mounted" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="eac6-b980-bd35-60c7" name="May take:" hidden="false" collective="false" import="true">
@@ -50562,6 +51159,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e684-093a-81ec-4793" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="285b-65ea-06cc-2e6a" type="max"/>
           </constraints>
+        </entryLink>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="d41e-35ba-e335-48fe" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d641-1b35-392b-bc20"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
         </entryLink>
       </entryLinks>
       <costs>
@@ -50873,6 +51478,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="a9a2-14a8-e15b-c97d" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -50897,6 +51510,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dafd-5dc1-b01b-849e" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89f3-3b6c-2160-e465" type="max"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="8c71-a280-bcd1-461e" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b4b8-1222-49ec-01f1"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <costs>
@@ -51229,6 +51850,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="59f9-0f01-17dc-a6c8" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -51253,6 +51882,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5835-dbdd-3c1e-7da2" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cc2-795c-eb7a-693d" type="max"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="9cee-987a-2f24-f863" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5996-28b9-8980-5c5f"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <costs>
@@ -51421,6 +52058,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
           </constraints>
         </entryLink>
         <entryLink id="e68d-a41b-474e-dba7" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="0fba-b299-17b5-ab8c" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd9c-f231-2c05-05e7"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="150"/>
@@ -51612,6 +52257,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
       <entryLinks>
         <entryLink id="f627-1aa5-c267-0157" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
         <entryLink id="31be-2662-f382-c65f" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="8c08-6ad8-a7e1-998a" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04ce-4954-1b53-7776"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="150"/>
@@ -51932,6 +52585,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
         </entryLink>
         <entryLink id="eefa-b3cb-fd5f-cdf4" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
         <entryLink id="9474-a9de-224b-b8e6" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="f211-8a1e-474a-e880" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c2d-0475-ee76-391f"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="170"/>
@@ -53003,6 +53664,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="dbba-b7d1-45c7-d629" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="6d0a-5b19-c8b0-b435" name="3) May take:" hidden="false" collective="false" import="true">
@@ -53107,6 +53776,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a181-2e72-5aa0-8573" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d315-7123-79a6-d073" type="max"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="c415-0723-b2f1-936d" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e7a3-7e51-ddde-b231"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <costs>
@@ -53321,6 +53998,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="cbfd-c1c5-3799-eee7" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="3ee7-225f-6e2e-e270" name="4) May take:" hidden="false" collective="false" import="true">
@@ -53383,11 +54068,49 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                   <modifiers>
                     <modifier type="set" field="name" value="2x Sponson Mounted Volkite dual-culverins"/>
                   </modifiers>
+                  <profiles>
+                    <profile name="Volkite Dual-Culverin" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="d3cf-da09-5804-d73a" publicationId="a716-c1c4-7b26-8424" page="134">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">45&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 6, Deflagrate, Twin-linked</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
                 </entryLink>
                 <entryLink id="0e00-0f72-05b1-0931" name="Gravis Melta Cannon" hidden="false" collective="false" import="true" targetId="ef6c-f656-171a-03e1" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="name" value="2x Sponson Mounted Gravis melta cannons"/>
                   </modifiers>
+                  <profiles>
+                    <profile name="Gravis Melta Cannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="2b3c-74ab-fbc3-b157" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Armourbane (Melta), Twin-linked</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Melta Cannon" hidden="false" id="c275-f02d-c01f-3d9d" type="selectionEntry" targetId="1fa7-4219-6580-4bc8">
+                  <modifiers>
+                    <modifier type="prepend" value="2x Sponson Mounted" field="name"/>
+                  </modifiers>
+                  <profiles>
+                    <profile name="Conflaguration Melta Cannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="ee74-4da6-d6f9-1f73">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">30&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Armourbane (Melta), Twin-Linked</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -53398,6 +54121,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4bd-c152-560b-7837" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4523-ece6-1512-688d" type="max"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="4795-4392-a83d-660a" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ade-e936-fcf7-ed33"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <costs>
@@ -53670,6 +54401,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
             <modifier type="set" field="name" value="Centreline-mounted Magna-Melta Cannon"/>
           </modifiers>
         </entryLink>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="9be2-1be5-c854-f27a" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b67-ab12-de20-67f8"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="350"/>
@@ -53847,6 +54586,16 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
+                  <entryLinks>
+                    <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="6b3d-59c9-3223-98be" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                      <modifiers>
+                        <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                      </modifiers>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
                 </entryLink>
                 <entryLink id="ec3d-896c-298e-7a01" name="Havoc Launcher" hidden="false" collective="false" import="true" targetId="bde9-5abf-ec3d-2273" type="selectionEntry">
                   <costs>
@@ -53901,6 +54650,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <entryLink id="4e0c-97c6-f410-46e1" name="Iliastus Assault Cannon" hidden="false" collective="false" import="true" targetId="10aa-3c70-2bbe-9509" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="5e11-784a-cc69-1799" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -53971,6 +54728,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfd4-4cff-398-7565" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30ce-35d1-cbff-2a33" type="max"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="ffbe-6c9f-e8bd-789a" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2640-ddd8-d1ca-9747"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <costs>
@@ -54175,6 +54940,11 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="3cad-1c92-22a6-9ee4" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3209-475a-6433-79c7"/>
@@ -54196,6 +54966,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b2c-2a32-97e6-f799" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2808-69c5-46c3-ded1" type="max"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="1133-32de-4de9-feb5" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="569a-e0e6-a0b6-760d"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <costs>
@@ -54573,6 +55351,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6971-eaa9-71c7-9a52" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2092-8665-610b-df92" type="max"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="6dfa-1a28-9765-1586" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd57-134e-8772-317e"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <costs>
@@ -61171,6 +61957,7 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
         <infoLink id="bed9-dfc6-fc05-2fd5" name="Dragon&apos;s Breath Pistol" hidden="false" targetId="c4ff-6453-7bc3-1832" type="profile"/>
         <infoLink id="a870-8fa1-8bbf-a0d6" name="Template Weapons" hidden="false" targetId="5e0e-88e6-db81-5a70" type="rule"/>
         <infoLink id="2ca0-5cf2-881d-b514" name="Dragon&apos;s Breath" hidden="false" targetId="655c-988f-74b5-7e17" type="rule"/>
+        <infoLink name="Dragon&apos;s Breath Pistol" id="1e1d-47b0-0a89-4a25" hidden="false" targetId="c4ff-6453-7bc3-1832" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -61467,6 +62254,11 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Conflaguration Melta Cannon" hidden="false" id="acb6-7c20-bc59-c600" type="selectionEntry" targetId="1fa7-4219-6580-4bc8">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="6ab5-36c7-ca64-eeeb" name="2) Weapon Option 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="6cdb-a5c9-3886-eeca">
@@ -61551,6 +62343,11 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
               </costs>
             </entryLink>
             <entryLink id="74e5-acb9-eb09-8c18" name="Warpfire Cannon" hidden="false" collective="false" import="true" targetId="2d54-6e68-4830-4ef3" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Conflaguration Melta Cannon" hidden="false" id="39c7-8886-aa92-0c67" type="selectionEntry" targetId="1fa7-4219-6580-4bc8">
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
               </costs>
@@ -61938,6 +62735,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="3427-3e7a-1218-bfc0" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="0859-74f2-7519-00ca" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="deea-fa58-3a66-2fe8"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="500"/>
@@ -62096,6 +62901,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
           </constraints>
         </entryLink>
         <entryLink id="3cc1-b7fd-3d68-968c" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="54f9-edd6-3dbf-6550" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="86fd-5c7f-dd98-bdec"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="450"/>
@@ -62273,6 +63086,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
           </constraints>
         </entryLink>
         <entryLink id="c88c-5157-e99f-4e37" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="b11c-bed9-6495-eb8e" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="700e-5243-06bd-88a7"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="400"/>
@@ -62539,6 +63360,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="1853-4fde-9a14-f659" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="6683-dd17-c9a9-31f8" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5543-f9ae-1c42-6ef2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="300"/>
@@ -62788,6 +63617,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="3817-2a6b-c4ec-597c" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="4e04-ce83-96e3-6d9f" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52a8-1f87-8493-5489"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="475"/>
@@ -62955,6 +63792,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
           </constraints>
         </entryLink>
         <entryLink id="4d19-dd5c-2aaa-965b" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Magma Plating" hidden="false" id="756e-6638-7294-5513" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0aa0-c43f-e29b-e2d5"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="450"/>
@@ -63211,6 +64056,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                       </costs>
                     </entryLink>
+                    <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="b691-420f-bb6e-5b92" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                      <modifiers>
+                        <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                      </modifiers>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="a46e-d3ec-52d7-ddc8" name="1) Hull (Front) Mounted Weapon:" hidden="false" collective="false" import="true" defaultSelectionEntryId="a38a-d2cc-1ee7-216d">
@@ -63303,6 +64156,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                   </constraints>
                 </entryLink>
                 <entryLink id="0d41-721f-8537-3fb1" name="Legion Decurions" hidden="false" collective="false" import="true" targetId="8763-74b0-d57f-ebab" type="selectionEntryGroup"/>
+                <entryLink import="true" name="Magma Plating" hidden="false" id="3069-0912-ab33-200e" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82dd-b76d-3223-b83d"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="190"/>
@@ -63656,6 +64517,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                       </costs>
                     </entryLink>
+                    <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="ca50-f8d0-676a-a902" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                      <modifiers>
+                        <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                      </modifiers>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -63667,6 +64536,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                   </constraints>
                 </entryLink>
                 <entryLink id="03b8-edfa-ac1a-32ff" name="Legion Decurions" hidden="false" collective="false" import="true" targetId="8763-74b0-d57f-ebab" type="selectionEntryGroup"/>
+                <entryLink import="true" name="Magma Plating" hidden="false" id="032e-1559-489a-95e7" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb59-ef83-d605-6088"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="120"/>
@@ -64148,6 +65025,11 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Conflaguration Melta Cannon" hidden="false" id="cf0d-2959-e54a-1a4a" type="selectionEntry" targetId="1fa7-4219-6580-4bc8">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="af8e-bdad-6a5b-a5fd" name="2) Weapon Option 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="5bee-009c-57ae-f21e">
@@ -64232,6 +65114,11 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
               </costs>
             </entryLink>
             <entryLink id="61cd-2874-b7c1-51a9" name="Warpfire Cannon" hidden="false" collective="false" import="true" targetId="2d54-6e68-4830-4ef3" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Conflaguration Melta Cannon" hidden="false" id="67f0-80f7-de6a-f310" type="selectionEntry" targetId="1fa7-4219-6580-4bc8">
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
               </costs>
@@ -66816,6 +67703,14 @@ A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="218b-1e29-6d69-6fef" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted" field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="May take:" id="a7b3-2e90-64ef-334f" hidden="false" collective="false" import="true">
@@ -66878,6 +67773,14 @@ A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1701-6f6f-6083-bbba" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e91d-0f54-a820-7d57" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="cc38-02dd-fde1-2f36" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e172-a895-fc99-22f6"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <costs>
@@ -69826,6 +70729,17 @@ Hit rolls for each attack, for a total of 24 To Hit rolls over the full 6 attack
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
               </costs>
+            </entryLink>
+            <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="80c0-bbce-4ac3-5369" type="selectionEntry" targetId="f933-1660-4555-62dd">
+              <modifiers>
+                <modifier type="append" value="(master-crafted)" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Master-crafted" id="e98c-86a1-83f6-8058" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule"/>
+              </infoLinks>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>

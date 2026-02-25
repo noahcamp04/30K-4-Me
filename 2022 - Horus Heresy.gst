@@ -11725,7 +11725,7 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Conflaguration Multi-Melta" hidden="true" id="f933-1660-4555-62dd">
+    <selectionEntry type="upgrade" import="true" name="Conflaguration Multi-Melta" hidden="false" id="f933-1660-4555-62dd">
       <profiles>
         <profile name="Conflaguration Multi-Melta" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="880e-e721-7efa-7f8a">
           <characteristics>
@@ -11744,8 +11744,15 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
         </infoLink>
         <infoLink name="Twin-linked" id="a1c4-e83d-4b6c-af66" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="c805-ca3a-ff93-5e2f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Conflaguration Melta Cannon" hidden="true" id="1fa7-4219-6580-4bc8">
+    <selectionEntry type="upgrade" import="true" name="Conflaguration Melta Cannon" hidden="false" id="1fa7-4219-6580-4bc8">
       <profiles>
         <profile name="Conflaguration Melta Cannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="d11a-c385-ee4c-a957">
           <characteristics>
@@ -11764,8 +11771,15 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
         </infoLink>
         <infoLink name="Twin-linked" id="ee99-1c07-235f-9b39" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="c805-ca3a-ff93-5e2f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Conflaguration Melta Lance" hidden="true" id="d58e-8ff0-fe70-437b">
+    <selectionEntry type="upgrade" import="true" name="Conflaguration Melta Lance" hidden="false" id="d58e-8ff0-fe70-437b">
       <profiles>
         <profile name="Conflaguration Melta Lance" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="e270-a26c-e17f-0554">
           <characteristics>
@@ -11783,6 +11797,30 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
           </modifiers>
         </infoLink>
       </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="c805-ca3a-ff93-5e2f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Magma Plating" hidden="false" id="c8d2-418f-5e23-1d6a">
+      <profiles>
+        <profile name="Magma Plating" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="f6f6-a391-e9f4-c821">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Models equipped with Magma Plating gain a 5+ Invulnerable Save against any Hull Points of damage inflicted by a weapon of the Flamer, Plasma,
+Melta, or Volkite Types.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="c805-ca3a-ff93-5e2f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
