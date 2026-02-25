@@ -6049,7 +6049,12 @@ In addition, an army with Artellus Numeon as its Warlord may make an additional 
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Strike-Clades" hidden="false" id="4c2c-9b01-26de-d4a5">
               <entryLinks>
-                <entryLink import="true" name="Power Armour" hidden="false" id="4fa3-a3e0-d670-e75a" type="selectionEntry" targetId="2d9d-480e-7c14-1a6f"/>
+                <entryLink import="true" name="Power Armour" hidden="false" id="4fa3-a3e0-d670-e75a" type="selectionEntry" targetId="2d9d-480e-7c14-1a6f">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ba1c-2f6d-f47c-cddb-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba1c-2f6d-f47c-cddb-max"/>
+                  </constraints>
+                </entryLink>
                 <entryLink import="true" name="Melta Bomb" hidden="false" id="4657-e766-c759-699d" type="selectionEntry" targetId="e55d-d31b-46a9-aeb6">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0dad-21d8-3878-130d-min"/>
@@ -6097,12 +6102,17 @@ In addition, an army with Artellus Numeon as its Warlord may make an additional 
               <modifiers>
                 <modifier type="increment" value="1" field="66b7-dde4-93fa-c533">
                   <repeats>
-                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+                    <repeat value="5" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
               <entryLinks>
-                <entryLink import="true" name="Power Armour" hidden="false" id="fc65-4614-4fb0-1ccf" type="selectionEntry" targetId="2d9d-480e-7c14-1a6f"/>
+                <entryLink import="true" name="Power Armour" hidden="false" id="fc65-4614-4fb0-1ccf" type="selectionEntry" targetId="2d9d-480e-7c14-1a6f">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dfe3-d7c7-f085-11fc-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dfe3-d7c7-f085-11fc-max"/>
+                  </constraints>
+                </entryLink>
                 <entryLink import="true" name="Melta Bomb" hidden="false" id="b53c-28ed-a73c-d3d1" type="selectionEntry" targetId="e55d-d31b-46a9-aeb6">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2284-1652-66f0-3fbc-min"/>
