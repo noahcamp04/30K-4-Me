@@ -6097,6 +6097,9 @@ In addition, an army with Artellus Numeon as its Warlord may make an additional 
               <constraints>
                 <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="4b72-8d96-c33b-42a6"/>
               </constraints>
+              <modifiers>
+                <modifier type="set" value="4" field="defaultAmount"/>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Strike-Clades w/ Options" hidden="false" id="0df2-5ac4-5bbb-7056">
               <constraints>
