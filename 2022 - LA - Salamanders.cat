@@ -5796,6 +5796,9 @@
       <categoryLinks>
         <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="0b8d-8bea-623a-bd65" primary="false" name="Infantry:"/>
         <categoryLink targetId="11f2-472f-c1d1-9ae9" id="b950-a17b-ddbc-c013" primary="false" name="Legiones Astartes"/>
+        <categoryLink targetId="4f07-3d45-4f28-a0c6" id="ded2-8af7-319f-bcd7" primary="false" name="Independent Character"/>
+        <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="3f95-525b-7481-627d" primary="false" name="Character"/>
+        <categoryLink targetId="aa94-5c65-d1f1-46a4" id="05b8-0a66-d274-5917" primary="false" name="Unique Sub-type"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Artellus Numeon" hidden="false" id="28b4-9af5-5734-f306">
