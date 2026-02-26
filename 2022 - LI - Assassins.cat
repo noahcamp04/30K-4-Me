@@ -984,9 +984,6 @@ Note that weapons selected to fire in this manner must still follow the rules a
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
-      <categoryLinks>
-        <categoryLink targetId="4f85-eb33-30c9-8f51" id="1f07-5f0a-2d5f-508e" primary="true" name="HQ:"/>
-      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="b8de-b7ae-55b8-9e17" name="Wraithskin" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
