@@ -3411,6 +3411,12 @@
         <categoryLink targetId="7031-469a-1aeb-eab0" id="a68a-3ee3-2220-8000" primary="true" name="Heavy Support:"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Infernus Predator Squad " hidden="false" id="f9f5-5adb-9d59-525d" targetId="fbb8-429e-ceef-458a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="797b-0771-f9a4-46e9" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="c626-b256-7b8f-d0ef" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="8c74-40b1-5019-f4d4" name="Vulkan" hidden="false" collective="false" import="true" type="unit">
@@ -6642,6 +6648,261 @@ In addition, an army with Artellus Numeon as its Warlord may make an additional 
       </costs>
       <infoLinks>
         <infoLink name="Move Through Cover" id="ce9b-4307-c666-172f" hidden="false" type="rule" targetId="2b6f-bfec-759e-1746"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Infernus Predator Squad " hidden="false" id="fbb8-429e-ceef-458a">
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="e2b6-b770-784c-9e95" id="95de-f803-31cd-b08e" primary="false" name="Vehicle:"/>
+        <categoryLink targetId="11f2-472f-c1d1-9ae9" id="6715-f373-e78b-3319" primary="false" name="Legiones Astartes"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Infernus Predator" hidden="false" id="8090-b30a-1616-b895">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="140"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="166b-b8c5-6766-91b0"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="4979-bd76-a5d1-ac98"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink targetId="e2b6-b770-784c-9e95" id="f783-cd82-e88f-3a37" primary="false" name="Vehicle:"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="3a3f-41eb-4352-820b" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="32c8-838e-dba9-44ab"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5485-763f-3788-5167"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Smoke Launchers" hidden="false" id="583e-70da-d9e5-c1d7" type="selectionEntry" targetId="0873-34dd-e52d-d33c">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7a03-9a74-2cfa-feaa"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f4c0-c46f-e413-7303"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Any Infernus Predator may take any of the following:" id="2bef-58e9-f99d-598f" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="Searchlights" hidden="false" id="3b74-869b-abbe-be74" type="selectionEntry" targetId="4ae3-79b4-6051-505e">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d211-b281-2b42-a314"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="509e-a7cd-755a-54e4" type="selectionEntry" targetId="1bf8-72f8-c331-6900">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da22-7806-134d-0aaa"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="prepend" value="One Hull (Front) Mounted" field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Any Infernus Predator may exchange both of their Sponson Mounted Dragon&apos;s Breath Heavy Flamer for one of the following options:" id="f833-2e17-55e8-89dc" hidden="false" defaultSelectionEntryId="a616-21f0-c2a1-41fa">
+              <entryLinks>
+                <entryLink import="true" name="Dragon&apos;s Breath Heavy Flamer" hidden="false" id="a616-21f0-c2a1-41fa" type="selectionEntry" targetId="1a5c-0c5f-d798-a067">
+                  <modifiers>
+                    <modifier type="prepend" value="Two Sponson Mounted " field="name"/>
+                  </modifiers>
+                  <profiles>
+                    <profile name="Dragon&apos;s Breath Heavy Flamer" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="efe1-eaa3-0e9c-360e" publicationId="817a-6288-e016-7469" page="312">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Dragon&apos;s Breath</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </entryLink>
+                <entryLink import="true" name="Autocannon" hidden="false" id="afc8-f0d8-e7ca-2e0e" type="selectionEntry" targetId="56b3-de09-9fea-deb6">
+                  <modifiers>
+                    <modifier type="prepend" value="Two Sponson Mounted " field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Autocannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="9c83-135d-3824-9392" publicationId="a716-c1c4-7b26-8424" page="128">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Rending (6+)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </entryLink>
+                <entryLink import="true" name="Volkite Culverin" hidden="false" id="4cb1-db26-d4ad-f59d" type="selectionEntry" targetId="170d-44e0-455c-8207">
+                  <modifiers>
+                    <modifier type="prepend" value="Two Sponson Mounted " field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Volkite Culverin" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="7b1b-0032-aa8f-7ce0" publicationId="a716-c1c4-7b26-8424" page="134">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">45&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 5, Deflagrate</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </entryLink>
+                <entryLink import="true" name="Lascannon" hidden="false" id="aa37-7021-70d8-8075" type="selectionEntry" targetId="b252-5a86-6e0f-218b">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="prepend" value="Two Sponson Mounted " field="name"/>
+                  </modifiers>
+                  <profiles>
+                    <profile name="Lascannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="a702-4001-d5c5-f45c" publicationId="a716-c1c4-7b26-8424" page="132">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="9ef2-1cf5-6afa-f716" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <modifiers>
+                    <modifier type="prepend" value="Two Sponson Mounted " field="name"/>
+                  </modifiers>
+                  <profiles>
+                    <profile name="Conflaguration Multi-Melta" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="e8a8-7459-5053-1fef">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">30&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Armourbane (Melta), Twin-Linked</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5b6a-048b-0d4c-ed23"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a68-fa1c-4993-3c7d"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Any Infernus Predator may take one of the following:" id="0cd6-d1c7-219f-b219" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="Twin-linked Bolter" hidden="false" id="c1d4-8ec1-e5b0-5369" type="selectionEntry" targetId="e31a-fd70-35c7-8bed">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted " field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Dragon&apos;s Breath Heavy Flamer" hidden="false" id="face-03fa-7457-0ed2" type="selectionEntry" targetId="1a5c-0c5f-d798-a067">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted " field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Magna Combi-weapon" hidden="false" id="df6e-a14a-e470-6949" type="selectionEntry" targetId="4d02-259d-fa50-ef3a">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted " field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Minor Combi-weapon" hidden="false" id="a8f6-80f1-143b-db50" type="selectionEntry" targetId="53c0-b5d7-f001-b816">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted " field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Heavy Bolter" hidden="false" id="5eb1-1421-ddc5-cf3e" type="selectionEntry" targetId="07fd-c24a-9235-4206">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted " field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Havoc Launcher" hidden="false" id="b408-24e0-74a0-8c96" type="selectionEntry" targetId="bde9-5abf-ec3d-2273">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted " field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="c733-4954-cceb-9bd8" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted " field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61b7-e4dc-c118-cdf1"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Magna Dragonstorm Cannon" hidden="false" id="7c99-c28f-3788-9bfd">
+              <profiles>
+                <profile name="Magna Dragonstorm Cannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="9181-6469-64f4-31bb">
+                  <characteristics>
+                    <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+                    <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Breaching (6+), Torrent (18&quot;), Pinning, Dragon&apos;s Breath</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="25d7-b1ed-6c02-4703-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="25d7-b1ed-6c02-4703-max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Breaching (X)" id="0dc8-2eae-0190-1586" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+                  <modifiers>
+                    <modifier type="set" value="Breaching (6+)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Torrent (X)" id="4eaf-71c2-5828-dc1b" hidden="false" type="rule" targetId="5cfb-fc94-e6db-43b8">
+                  <modifiers>
+                    <modifier type="set" value="Torrent (18&quot;)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Pinning" id="f64e-b271-da8c-3d4a" hidden="false" type="rule" targetId="1c96-205c-59a0-3cf2"/>
+                <infoLink name="Dragon&apos;s Breath" id="14d3-5531-30f9-ec7a" hidden="false" type="rule" targetId="655c-988f-74b5-7e17"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Move Through Cover" id="a65f-5e65-b7b7-d968" hidden="false" type="rule" targetId="2b6f-bfec-759e-1746"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
