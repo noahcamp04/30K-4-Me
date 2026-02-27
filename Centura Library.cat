@@ -246,6 +246,7 @@
                         <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="6f69-f2bd-fe7e-12c4" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                         <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="4831-6948-851c-3925" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                         <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="e9ab-2cc5-4507-eded" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="3faa-2b82-bb51-ce89" shared="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -352,6 +353,16 @@
                     <modifier type="set" value="Warmonger" field="name">
                       <conditions>
                         <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="d6cc-2e7f-16e3-e66c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Lodge Master" field="name">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="3faa-2b82-bb51-ce89" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Terran-Born Crusader" field="name">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="1022-f14c-9e20-cd96" shared="true"/>
                       </conditions>
                     </modifier>
                   </modifiers>

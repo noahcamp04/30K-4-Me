@@ -14673,7 +14673,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="25a2-7a52-632a-6b2c" name="Centurion" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="25a2-7a52-632a-6b2c" name="Centurion" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="7e1a-0f0a-6d7f-1f19" value="1">
           <conditionGroups>
@@ -15061,6 +15061,16 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                     <condition field="selections" scope="25a2-7a52-632a-6b2c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="368d-0cdc-5ce6-eb38" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" value="Lodge Master" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="25a2-7a52-632a-6b2c" childId="3faa-2b82-bb51-ce89" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Terran-Born Crusader" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="25a2-7a52-632a-6b2c" childId="1022-f14c-9e20-cd96" shared="true"/>
+                  </conditions>
+                </modifier>
               </modifiers>
             </modifierGroup>
             <modifierGroup type="and">
@@ -15131,6 +15141,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                         <condition field="selections" scope="25a2-7a52-632a-6b2c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6f69-f2bd-fe7e-12c4" type="equalTo"/>
                         <condition field="selections" scope="25a2-7a52-632a-6b2c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4831-6948-851c-3925" type="equalTo"/>
                         <condition field="selections" scope="25a2-7a52-632a-6b2c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e9ab-2cc5-4507-eded" type="equalTo"/>
+                        <condition type="equalTo" value="1" field="selections" scope="25a2-7a52-632a-6b2c" childId="3faa-2b82-bb51-ce89" shared="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -15255,6 +15266,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                         <condition field="selections" scope="25a2-7a52-632a-6b2c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6f69-f2bd-fe7e-12c4" type="equalTo"/>
                         <condition field="selections" scope="25a2-7a52-632a-6b2c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4831-6948-851c-3925" type="equalTo"/>
                         <condition field="selections" scope="25a2-7a52-632a-6b2c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e9ab-2cc5-4507-eded" type="equalTo"/>
+                        <condition type="equalTo" value="1" field="selections" scope="25a2-7a52-632a-6b2c" childId="3faa-2b82-bb51-ce89" shared="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -27196,6 +27208,16 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                     <condition field="selections" scope="3766-ea98-0aa7-62d0" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d6cc-2e7f-16e3-e66c" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" value="Lodge Master" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="3766-ea98-0aa7-62d0" childId="3faa-2b82-bb51-ce89" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Terran-Born Crusader" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="3766-ea98-0aa7-62d0" childId="1022-f14c-9e20-cd96" shared="true"/>
+                  </conditions>
+                </modifier>
               </modifiers>
             </modifierGroup>
             <modifierGroup type="and">
@@ -27245,6 +27267,7 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                         <condition field="selections" scope="3766-ea98-0aa7-62d0" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4831-6948-851c-3925" type="equalTo"/>
                         <condition field="selections" scope="3766-ea98-0aa7-62d0" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e9ab-2cc5-4507-eded" type="equalTo"/>
                         <condition type="equalTo" value="1" field="selections" scope="3766-ea98-0aa7-62d0" childId="d71e-10a6-216f-d796" shared="true" includeChildSelections="true"/>
+                        <condition type="equalTo" value="1" field="selections" scope="3766-ea98-0aa7-62d0" childId="3faa-2b82-bb51-ce89" shared="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -33668,6 +33691,16 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                     <condition field="selections" scope="f806-8a4e-d0d6-beaa" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d6cc-2e7f-16e3-e66c" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" value="Lodge Master" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="f806-8a4e-d0d6-beaa" childId="3faa-2b82-bb51-ce89" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Terran-Born Crusader" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="f806-8a4e-d0d6-beaa" childId="1022-f14c-9e20-cd96" shared="true"/>
+                  </conditions>
+                </modifier>
               </modifiers>
             </modifierGroup>
             <modifierGroup type="and">
@@ -33716,6 +33749,7 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                         <condition field="selections" scope="f806-8a4e-d0d6-beaa" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6f69-f2bd-fe7e-12c4" type="equalTo"/>
                         <condition field="selections" scope="f806-8a4e-d0d6-beaa" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4831-6948-851c-3925" type="equalTo"/>
                         <condition field="selections" scope="f806-8a4e-d0d6-beaa" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e9ab-2cc5-4507-eded" type="equalTo"/>
+                        <condition type="equalTo" value="1" field="selections" scope="f806-8a4e-d0d6-beaa" childId="3faa-2b82-bb51-ce89" shared="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -69569,6 +69603,92 @@ Hit rolls for each attack, for a total of 24 To Hit rolls over the full 6 attack
               </costs>
             </entryLink>
           </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Terran-Born Crusader" hidden="true" id="1022-f14c-9e20-cd96">
+          <categoryLinks>
+            <categoryLink targetId="4171-e276-e90d-b8e5" id="5aa4-9998-65a3-75a5" primary="false" name="Legion Consularis:"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="f9c0-0c5a-3e24-58c7" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Master-crafted" id="20bb-fd1b-80da-b2ae" hidden="false" type="rule" targetId="6de0-55b0-bf21-48b9">
+              <modifiers>
+                <modifier type="prepend" value="The Terran-Born Crusader may grant the Master-Crafted Special Rule to a single weapon they are armed with at no additional points cost.
+
+" field="description"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Preferred Enemy (X)" id="7cb4-63d6-9120-2dbb" hidden="false" type="rule" targetId="37ab-d4db-891a-de8c">
+              <modifiers>
+                <modifier type="set" value="Preferred Enemy (Traitor)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Stubborn" id="11fe-ab89-6c80-5848" hidden="false" type="rule" targetId="7989-1f2c-a43d-82ae"/>
+            <infoLink name="Adamantium Will (X+)" id="5e8f-6e28-d826-b302" hidden="false" type="rule" targetId="4380-44a5-f01a-d964">
+              <modifiers>
+                <modifier type="set" value="Adamantium Will (5+)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <rules>
+            <rule name="Blood of a Thousand Worlds" id="6e3b-429b-49cf-24be" hidden="false">
+              <description>The Terran-Born Crusader, and any unit he joins, gain the Preferred Enemy (Traitor) and Stubborn Special Rules.</description>
+            </rule>
+            <rule name="In the Light of the Emperor" id="46d4-c80a-6354-e617" hidden="false">
+              <description>The Terran-Born Crusader gains the Adamantium Will (5+) Special Rule. When any unit with either the Corrupted or Daemon Unit Sub-types is
+within 12” of the Terran-Born Crusader, that unit receives a -1 penalty to its Leadership for all Morale tests it takes. In addition, when determining
+what bonuses or penalties a unit with the Daemon Sub-type receives as a result of the current Game Turn, any unit within 12” of the Terran-Born
+Crusader counts the turn counter as one higher than its true value.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Lodge Master" hidden="true" id="3faa-2b82-bb51-ce89">
+          <categoryLinks>
+            <categoryLink targetId="4171-e276-e90d-b8e5" id="26ff-c218-6f27-eafd" primary="false" name="Legion Consularis:"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="f9c0-0c5a-3e24-58c7" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink name="Preferred Enemy (X)" id="9516-d1d4-e220-f0ce" hidden="false" type="rule" targetId="37ab-d4db-891a-de8c">
+              <modifiers>
+                <modifier type="set" value="Preferred Enemy (Loyalists)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <rules>
+            <rule name="Exemplar of Treason" id="256d-b052-67e8-b9da" hidden="false">
+              <description>The Lodge Master has a Leadership Characteristic of 10. In addition, the Lodge Master and any unit they have joined automatically pass any
+Leadership Tests they are required to make.</description>
+            </rule>
+            <rule name="I Can&apos;t Say" id="52ba-e788-7249-551f" hidden="false">
+              <description>Before the game begins, a Detachment which contains a Lodge Master must select a secret objective from the list below. This should be noted down,
+and only revealed to your opponent after the game ends. If at the end of the game, this objective has not been achieved, your opponent gains
+1 Victory Point.
+● Mentor to All - Select a friendly Independent Character from the same Detachment as the Lodge Master (note this cannot be the Lodge Master
+himself). If that model survives the game, you gain 1 Victory Point.
+● Hand of the Warmaster – At the end of the game, whilst totalling up Victory Points, the Lodge Master is counted as having the Line Sub-type for
+the purposes of determining whether they are controlling Objectives. If the Lodge Master is holding an Objective outside of your deployment
+zone at the end of the game, you gain 1 Victory Point.
+● Killer of Gods and Kings – If an enemy model with the Primarch Unit type is slain by a model with the same Legiones Astartes (X) Special Rule as
+the Lodge Master, you gain 1 Victory Point.</description>
+            </rule>
+          </rules>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
