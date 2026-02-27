@@ -3405,6 +3405,12 @@
         <categoryLink targetId="36c3-e85e-97cc-c503" id="33a8-b7b5-2794-37b0" primary="false" name="Unit:"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Firestorm Bombard Squadron" hidden="false" id="dbde-0cb6-c992-582f" targetId="cd8a-a052-9898-60b1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="b54e-ef15-cd5e-21e8" primary="false" name="Unit:"/>
+        <categoryLink targetId="7031-469a-1aeb-eab0" id="a68a-3ee3-2220-8000" primary="true" name="Heavy Support:"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="8c74-40b1-5019-f4d4" name="Vulkan" hidden="false" collective="false" import="true" type="unit">
@@ -6051,6 +6057,11 @@ In addition, an army with Artellus Numeon as its Warlord may make an additional 
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
           </costs>
+          <categoryLinks>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="1f7f-f54c-0349-ea92" primary="false" name="Infantry:"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="d82c-bfc0-478e-2e59" primary="false" name="Skirmish Sub-type:"/>
+            <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="3b10-a2fd-2cc4-fe3b" primary="false" name="Character"/>
+          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -6109,6 +6120,10 @@ In addition, an army with Artellus Numeon as its Warlord may make an additional 
               <modifiers>
                 <modifier type="set" value="4" field="defaultAmount"/>
               </modifiers>
+              <categoryLinks>
+                <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="8d40-72f8-6c02-c78a" primary="false" name="Infantry:"/>
+                <categoryLink targetId="59a4-7b61-600a-c457" id="7cb8-95d0-f9b2-a75d" primary="false" name="Skirmish Sub-type:"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Strike-Clades w/ Options" hidden="false" id="0df2-5ac4-5bbb-7056">
               <constraints>
@@ -6182,6 +6197,10 @@ In addition, an army with Artellus Numeon as its Warlord may make an additional 
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
               </costs>
+              <categoryLinks>
+                <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="0331-2db2-0ead-33ec" primary="false" name="Infantry:"/>
+                <categoryLink targetId="59a4-7b61-600a-c457" id="9366-f5be-d9ee-85da" primary="false" name="Skirmish Sub-type:"/>
+              </categoryLinks>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -6355,6 +6374,269 @@ In addition, an army with Artellus Numeon as its Warlord may make an additional 
         <categoryLink targetId="aa94-5c65-d1f1-46a4" id="ab9c-c188-9a22-d4c8" primary="false" name="Unique Sub-type"/>
         <categoryLink targetId="11f2-472f-c1d1-9ae9" id="5d91-7973-ef16-8d97" primary="false" name="Legiones Astartes"/>
       </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Firestorm Bombard Squadron" hidden="false" id="cd8a-a052-9898-60b1">
+      <categoryLinks>
+        <categoryLink targetId="d5df-57ac-8f3c-097b" id="8b50-5c5b-77e7-30e0" primary="false" name="Bombard Sub-type:"/>
+        <categoryLink targetId="e2b6-b770-784c-9e95" id="09bf-57a4-ef8c-e533" primary="false" name="Vehicle:"/>
+        <categoryLink targetId="11f2-472f-c1d1-9ae9" id="d751-5d76-9d96-038a" primary="false" name="Legiones Astartes"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Firestorm Bombard" hidden="false" id="96e3-bf53-e3f0-96ce">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c71a-8fb7-6196-44ac"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="32d9-d1c1-d0e0-72cb"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="210"/>
+          </costs>
+          <profiles>
+            <profile name="Firestorm Bombard" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="8e93-a759-f4f8-c688">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Bombard)</characteristic>
+                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4"/>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d"/>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee"/>
+                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3"/>
+                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556"/>
+                <characteristic name="HP" typeId="a76c-83b1-602f-9e62"/>
+                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547"/>
+                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Smoke Launchers" hidden="false" id="a239-a80d-d27e-e697" type="selectionEntry" targetId="0873-34dd-e52d-d33c">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3faf-822c-ae37-897a-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3faf-822c-ae37-897a-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Magma Plating" hidden="false" id="004f-40ba-38e8-cd00" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6cd2-2311-96d1-b8a8-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6cd2-2311-96d1-b8a8-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <categoryLinks>
+            <categoryLink targetId="e2b6-b770-784c-9e95" id="2c32-54c0-2a1e-9afd" primary="false" name="Vehicle:"/>
+            <categoryLink targetId="d5df-57ac-8f3c-097b" id="d7c6-ed40-c18e-4283" primary="false" name="Bombard Sub-type:"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Centerline Mounted Firestorm Canister Launcher" hidden="false" id="4638-1267-2d6a-cd2b">
+              <profiles>
+                <profile name="Centerline Mounted Firestorm Canister Launcher" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="adbb-5563-e69a-d279">
+                  <characteristics>
+                    <characteristic name="Range" typeId="95ba-cda7-b831-6066">8-36&quot;</characteristic>
+                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+                    <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Crawling Fire, Lingering Death, Breaching (5+)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3ebe-31fa-7808-1bff-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ebe-31fa-7808-1bff-max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Blast" id="17ae-06f4-a46a-1674" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8">
+                  <modifiers>
+                    <modifier type="set" value="Large Blast (5&quot;)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Crawling Fire" id="8bf5-6942-e24d-cd7e" hidden="false" type="rule" targetId="8258-a7af-e4df-531d"/>
+                <infoLink name="Lingering Death" id="85fb-a665-1f31-e189" hidden="false" type="rule" targetId="be87-f0e5-7446-972b"/>
+                <infoLink name="Breaching (X)" id="9c6f-5f21-45d3-abb5" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+                  <modifiers>
+                    <modifier type="set" value="Breaching (5+)" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Any Firestorm Bombard may exchange both of their Sponson Mounted Heavy Bolters for one of the following options:" id="9208-bd99-7231-ddc5" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="Heavy Bolter" hidden="false" id="daf0-db78-922f-ff20" type="selectionEntry" targetId="07fd-c24a-9235-4206">
+                  <modifiers>
+                    <modifier type="prepend" value="Two Sponson Mounted " field="name"/>
+                  </modifiers>
+                  <profiles>
+                    <profile name="Heavy Bolter" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="3a63-ad5c-1c64-69b4" publicationId="a716-c1c4-7b26-8424" page="130">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 4</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </entryLink>
+                <entryLink import="true" name="Dragon&apos;s Breath Heavy Flamer" hidden="false" id="f61b-5b5c-5046-0804" type="selectionEntry" targetId="1a5c-0c5f-d798-a067">
+                  <modifiers>
+                    <modifier type="prepend" value="Two Sponson Mounted " field="name"/>
+                  </modifiers>
+                  <profiles>
+                    <profile name="Dragon&apos;s Breath Heavy Flamer" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="9239-a9ed-e5d9-4b0f" publicationId="817a-6288-e016-7469" page="312">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Dragon&apos;s Breath</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </entryLink>
+                <entryLink import="true" name="Autocannon" hidden="false" id="fa6e-a8a5-2f16-94c5" type="selectionEntry" targetId="56b3-de09-9fea-deb6">
+                  <modifiers>
+                    <modifier type="prepend" value="Two Sponson Mounted " field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Autocannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="f4e0-1c86-267b-b413" publicationId="a716-c1c4-7b26-8424" page="128">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Rending (6+)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </entryLink>
+                <entryLink import="true" name="Volkite Culverin" hidden="false" id="3500-4a8b-12c3-79c0" type="selectionEntry" targetId="170d-44e0-455c-8207">
+                  <modifiers>
+                    <modifier type="prepend" value="Two Sponson Mounted " field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Volkite Culverin" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="d53d-9ccb-6f7f-365f" publicationId="a716-c1c4-7b26-8424" page="134">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">45&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 5, Deflagrate</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </entryLink>
+                <entryLink import="true" name="Lascannon" hidden="false" id="e889-3f4d-44da-9076" type="selectionEntry" targetId="b252-5a86-6e0f-218b">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="prepend" value="Two Sponson Mounted " field="name"/>
+                  </modifiers>
+                  <profiles>
+                    <profile name="Lascannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="9bed-ef72-015d-b68f" publicationId="a716-c1c4-7b26-8424" page="132">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="27e5-2ba8-31b0-374f-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="27e5-2ba8-31b0-374f-max"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Any Firestorm Bombard may take one of the following:" id="bf46-69d0-9e82-f721" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="Twin-linked Bolter" hidden="false" id="c880-8f6f-ecf2-404a" type="selectionEntry" targetId="e31a-fd70-35c7-8bed">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted " field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Dragon&apos;s Breath Heavy Flamer" hidden="false" id="0232-9e59-658b-5900" type="selectionEntry" targetId="1a5c-0c5f-d798-a067">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted " field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Magna Combi-weapon" hidden="false" id="4174-ed59-56da-69b8" type="selectionEntry" targetId="4d02-259d-fa50-ef3a">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted " field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Minor Combi-weapon" hidden="false" id="8c93-fc9b-4593-866a" type="selectionEntry" targetId="53c0-b5d7-f001-b816">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted " field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Heavy Bolter" hidden="false" id="59ba-3705-0582-8591" type="selectionEntry" targetId="07fd-c24a-9235-4206">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted " field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Havoc Launcher" hidden="false" id="5f8a-c3a5-5f6d-3ebb" type="selectionEntry" targetId="bde9-5abf-ec3d-2273">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted " field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="c976-fd2c-582a-0515" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                  <modifiers>
+                    <modifier type="prepend" value="Pintle Mounted " field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f25d-a9b6-1c01-efd6"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Any Firestorm Bombard may take any of the following:" id="9ac4-262c-4b4b-0bd8" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="Searchlights" hidden="false" id="7734-2bcd-d4ee-34de" type="selectionEntry" targetId="4ae3-79b4-6051-505e">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4dcd-e004-8a1d-c704"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="2afc-e2ad-1226-47d2" type="selectionEntry" targetId="1bf8-72f8-c331-6900">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e633-1b70-05c0-b804"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="prepend" value="One Hull (Front) Mounted" field="name"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Move Through Cover" id="ce9b-4307-c666-172f" hidden="false" type="rule" targetId="2b6f-bfec-759e-1746"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
