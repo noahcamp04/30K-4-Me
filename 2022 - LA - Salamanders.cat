@@ -6394,14 +6394,14 @@ In addition, an army with Artellus Numeon as its Warlord may make an additional 
             <profile name="Firestorm Bombard" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="8e93-a759-f4f8-c688">
               <characteristics>
                 <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Bombard)</characteristic>
-                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4"/>
-                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d"/>
-                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee"/>
-                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3"/>
-                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556"/>
-                <characteristic name="HP" typeId="a76c-83b1-602f-9e62"/>
-                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547"/>
-                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e"/>
+                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">8&quot;</characteristic>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">12</characteristic>
+                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
+                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+                <characteristic name="HP" typeId="a76c-83b1-602f-9e62">5</characteristic>
+                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
+                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6456,7 +6456,7 @@ In addition, an army with Artellus Numeon as its Warlord may make an additional 
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Any Firestorm Bombard may exchange both of their Sponson Mounted Heavy Bolters for one of the following options:" id="9208-bd99-7231-ddc5" hidden="false">
+            <selectionEntryGroup name="Any Firestorm Bombard may exchange both of their Sponson Mounted Heavy Bolters for one of the following options:" id="9208-bd99-7231-ddc5" hidden="false" defaultSelectionEntryId="daf0-db78-922f-ff20">
               <entryLinks>
                 <entryLink import="true" name="Heavy Bolter" hidden="false" id="daf0-db78-922f-ff20" type="selectionEntry" targetId="07fd-c24a-9235-4206">
                   <modifiers>
@@ -6617,6 +6617,9 @@ In addition, an army with Artellus Numeon as its Warlord may make an additional 
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4dcd-e004-8a1d-c704"/>
                   </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
                 </entryLink>
                 <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="2afc-e2ad-1226-47d2" type="selectionEntry" targetId="1bf8-72f8-c331-6900">
                   <constraints>
@@ -6625,6 +6628,9 @@ In addition, an army with Artellus Numeon as its Warlord may make an additional 
                   <modifiers>
                     <modifier type="prepend" value="One Hull (Front) Mounted" field="name"/>
                   </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
