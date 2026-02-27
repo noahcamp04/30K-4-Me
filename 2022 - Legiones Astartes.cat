@@ -69575,7 +69575,7 @@ Hit rolls for each attack, for a total of 24 To Hit rolls over the full 6 attack
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Pyre Guard" hidden="false" id="c874-37cf-6177-057d">
+        <selectionEntry type="upgrade" import="true" name="Pyre Guard" hidden="true" id="c874-37cf-6177-057d">
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
           </costs>
@@ -69603,6 +69603,16 @@ Hit rolls for each attack, for a total of 24 To Hit rolls over the full 6 attack
               </costs>
             </entryLink>
           </entryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="c805-ca3a-ff93-5e2f" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink targetId="4171-e276-e90d-b8e5" id="61ea-f5a3-80e7-30bb" primary="false" name="Legion Consularis:"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Terran-Born Crusader" hidden="true" id="1022-f14c-9e20-cd96">
           <categoryLinks>
@@ -69611,7 +69621,7 @@ Hit rolls for each attack, for a total of 24 To Hit rolls over the full 6 attack
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="f9c0-0c5a-3e24-58c7" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="d0b6-712f-0b12-a308" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -69660,7 +69670,7 @@ Crusader counts the turn counter as one higher than its true value.</description
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="f9c0-0c5a-3e24-58c7" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="f9c0-0c5a-3e24-58c7" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
