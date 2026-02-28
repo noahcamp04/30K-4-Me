@@ -2129,6 +2129,7 @@
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="df4f-2f97-4b6d-9894" name="Infantry:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="5e8d-3aef-41ca-afcd" name="Character" primary="false"/>
             <categoryLink targetId="9231-183c-b97b-63f9" id="ac71-13c2-4c29-be5f" name="Heavy Sub-type:" primary="false"/>
+            <categoryLink targetId="4f07-3d45-4f28-a0c6" id="ed7c-3e3b-ad2a-ab3f" primary="false" name="Independent Character"/>
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Legion Saturnine Terminator Armor" hidden="false" id="86cf-e071-75f2-0ea7" type="selectionEntry" targetId="5400-c5f5-fff9-26fd">
