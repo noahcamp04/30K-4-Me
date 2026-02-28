@@ -3022,6 +3022,24 @@
         <categoryLink name="Heavy Support:" hidden="false" id="702a-290e-81f-db5e" targetId="7031-469a-1aeb-eab0" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Cults Abominatio" hidden="false" id="24ac-58f8-adaf-edc8" collective="false" targetId="4a00-03d4-a850-884b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="f9c0-0c5a-3e24-58c7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="9a27-97d3-a06-ef35" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Unit:" hidden="false" id="0af6-41bc-30aa-873a" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink name="HQ:" hidden="false" id="1792-97c8-14d3-a209" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="a35d-8563-eb47-e985" name="Roboute Guilliman" hidden="false" collective="false" import="true" type="unit">
@@ -3247,7 +3265,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Rhino Transport" hidden="false" id="ddde-493f-3422-d43a" type="selectionEntry" targetId="03f1-8ed9-9867-8d18"/>
+            <entryLink import="true" name="Rhino Transport (Choose One)" hidden="false" id="ddde-493f-3422-d43a" type="selectionEntry" targetId="03f1-8ed9-9867-8d18"/>
             <entryLink import="true" name="Termite Assault Drill" hidden="false" id="5470-2f45-4576-1a23" type="selectionEntry" targetId="cb30-307a-f0d7-3b13"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -3694,7 +3712,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Rhino Transport" hidden="false" id="7504-ff65-a8a0-84c8" type="selectionEntry" targetId="03f1-8ed9-9867-8d18"/>
+            <entryLink import="true" name="Rhino Transport (Choose One)" hidden="false" id="7504-ff65-a8a0-84c8" type="selectionEntry" targetId="03f1-8ed9-9867-8d18"/>
             <entryLink import="true" name="Termite Assault Drill" hidden="false" id="f5f-1766-2ba2-3bfe" type="selectionEntry" targetId="cb30-307a-f0d7-3b13"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -4947,7 +4965,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0956-6f9d-0c0b-478f" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="81b4-e8bd-3602-ac4a" name="Rhino Transport" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
+            <entryLink id="81b4-e8bd-3602-ac4a" name="Rhino Transport (Choose One)" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>

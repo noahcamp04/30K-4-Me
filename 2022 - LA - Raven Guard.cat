@@ -3002,6 +3002,24 @@
         <categoryLink name="Heavy Support:" hidden="false" id="b975-8fd6-7ad-caa5" targetId="7031-469a-1aeb-eab0" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Cults Abominatio" hidden="false" id="2e92-b9cf-9593-65d4" collective="false" targetId="4a00-03d4-a850-884b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="f9c0-0c5a-3e24-58c7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="9a27-97d3-a06-ef35" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Unit:" hidden="false" id="1c76-26b8-6c87-9a63" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink name="HQ:" hidden="false" id="bb3f-14b6-3cad-dce1" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="5be0-17a1-bb08-670f" name="Moritat-Prime Kaedes Nex" hidden="false" collective="false" import="true" type="unit">
@@ -3372,7 +3390,7 @@ This model counts as having a LegionWarhawk Jump Pack for rules and interaction
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb69-1f8d-29e8-0d97" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="acbb-746b-c25c-b7a0" name="Rhino Transport" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
+            <entryLink id="acbb-746b-c25c-b7a0" name="Rhino Transport (Choose One)" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>

@@ -3417,6 +3417,24 @@
         <categoryLink targetId="36c3-e85e-97cc-c503" id="c626-b256-7b8f-d0ef" primary="false" name="Unit:"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Cults Abominatio" hidden="false" id="4ff9-39da-4245-75b4" collective="false" targetId="4a00-03d4-a850-884b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="f9c0-0c5a-3e24-58c7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="9a27-97d3-a06-ef35" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Unit:" hidden="false" id="a157-5732-a6fd-7c7c" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink name="HQ:" hidden="false" id="4beb-cb25-a185-9569" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="8c74-40b1-5019-f4d4" name="Vulkan" hidden="false" collective="false" import="true" type="unit">

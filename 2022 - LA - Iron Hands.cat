@@ -3038,6 +3038,24 @@
         <categoryLink name="Heavy Support:" hidden="false" id="48d4-2d5d-2722-749a" targetId="7031-469a-1aeb-eab0" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Cults Abominatio" hidden="false" id="1392-3045-67ca-07f2" collective="false" targetId="4a00-03d4-a850-884b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="f9c0-0c5a-3e24-58c7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="9a27-97d3-a06-ef35" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Unit:" hidden="false" id="e051-094c-cc52-8318" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink name="HQ:" hidden="false" id="7c9b-38d7-ae8a-3790" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="ea50-6315-7a52-f560" name="Gorgon Terminator Squad" publicationId="817a-6288-e016-7469" page="282" hidden="false" collective="false" import="true" type="unit">
@@ -3750,7 +3768,7 @@
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="220"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Rhino Transport" hidden="false" id="7bc4-6e99-ef79-d803" type="selectionEntry" targetId="03f1-8ed9-9867-8d18"/>
+            <entryLink import="true" name="Rhino Transport (Choose One)" hidden="false" id="7bc4-6e99-ef79-d803" type="selectionEntry" targetId="03f1-8ed9-9867-8d18"/>
             <entryLink import="true" name="Termite Assault Drill" hidden="false" id="aeb0-776b-a425-f38a" type="selectionEntry" targetId="cb30-307a-f0d7-3b13"/>
           </entryLinks>
         </selectionEntryGroup>

@@ -3227,6 +3227,24 @@
         <categoryLink name="Heavy Support:" hidden="false" id="70dc-921e-c894-b723" targetId="7031-469a-1aeb-eab0" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Cults Abominatio" hidden="false" id="bf16-5fd0-9f31-0e0d" collective="false" targetId="4a00-03d4-a850-884b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="f9c0-0c5a-3e24-58c7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="9a27-97d3-a06-ef35" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Unit:" hidden="false" id="9986-12b9-f400-44fc" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink name="HQ:" hidden="false" id="36d4-cdc5-adb5-b638" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="d2ce-94c1-242d-2a7f" name="Sevatar" publicationId="09c5-eeae-f398-b653" hidden="false" collective="false" import="true" type="unit">
@@ -3646,7 +3664,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83aa-4896-ce36-dde6" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="e8da-f2f2-d054-b378" name="Rhino Transport" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
+            <entryLink id="e8da-f2f2-d054-b378" name="Rhino Transport (Choose One)" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
