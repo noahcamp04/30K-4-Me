@@ -3328,24 +3328,6 @@
         <categoryLink targetId="20ef-cd01-a8da-376e" id="6497-7506-4ba6-b332" primary="true" name="Fast Attack:"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Cults Abominatio" hidden="false" id="7e2f-da4e-63ce-1efd" collective="false" targetId="4a00-03d4-a850-884b" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="equalTo" value="0" field="selections" scope="force" childId="f9c0-0c5a-3e24-58c7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                <condition type="equalTo" value="1" field="selections" scope="force" childId="9a27-97d3-a06-ef35" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink name="Unit:" hidden="false" id="cfe0-97f8-8c96-4324" targetId="36c3-e85e-97cc-c503" primary="false"/>
-        <categoryLink name="HQ:" hidden="false" id="d0d2-0b64-5baf-90e2" targetId="4f85-eb33-30c9-8f51" primary="true"/>
-      </categoryLinks>
-    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="1d55-faa7-caa5-a132" name="Golden Keshig Squadron" hidden="false" collective="false" import="true" type="unit">

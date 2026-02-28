@@ -3118,24 +3118,6 @@
         <categoryLink targetId="7031-469a-1aeb-eab0" id="f55d-5798-7a3d-fd1a" primary="true" name="Heavy Support:"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Cults Abominatio" hidden="false" id="772d-63d4-0d7a-78fe" collective="false" targetId="4a00-03d4-a850-884b" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="equalTo" value="0" field="selections" scope="force" childId="f9c0-0c5a-3e24-58c7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                <condition type="equalTo" value="1" field="selections" scope="force" childId="9a27-97d3-a06-ef35" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink name="Unit:" hidden="false" id="3ec9-2d2e-0144-fd0d" targetId="36c3-e85e-97cc-c503" primary="false"/>
-        <categoryLink name="HQ:" hidden="false" id="2cf6-28c7-9496-2145" targetId="4f85-eb33-30c9-8f51" primary="true"/>
-      </categoryLinks>
-    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="0de5-8b3c-74a0-858e" name="Fulgrim" hidden="false" collective="false" import="true" type="unit">

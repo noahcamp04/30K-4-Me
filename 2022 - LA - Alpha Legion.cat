@@ -5404,24 +5404,6 @@
         <categoryLink name="Heavy Support:" hidden="false" id="f9a2-c854-4433-9f1" targetId="7031-469a-1aeb-eab0" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Cults Abominatio" hidden="false" id="e6b0-a8c1-7d86-bb41" collective="false" targetId="4a00-03d4-a850-884b" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="equalTo" value="0" field="selections" scope="force" childId="f9c0-0c5a-3e24-58c7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                <condition type="equalTo" value="1" field="selections" scope="force" childId="9a27-97d3-a06-ef35" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink name="Unit:" hidden="false" id="4516-34d2-441f-8ce0" targetId="36c3-e85e-97cc-c503" primary="false"/>
-        <categoryLink name="HQ:" hidden="false" id="27d7-532b-0dc2-046d" targetId="4f85-eb33-30c9-8f51" primary="true"/>
-      </categoryLinks>
-    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="6161-d387-f086-0958" name="Lernaean Terminator Squad" publicationId="09c5-eeae-f398-b653" page="338" hidden="false" collective="false" import="true" type="unit">
