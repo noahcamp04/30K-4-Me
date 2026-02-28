@@ -3043,6 +3043,13 @@
         <categoryLink name="Heavy Support:" hidden="false" id="c36-d912-e401-3360" targetId="7031-469a-1aeb-eab0" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Centurion, Saturnine" hidden="false" id="2f2a-e6f7-2ca3-bd63" type="selectionEntry" targetId="3e29-1bf1-48c9-b302">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="f298-323a-afed-5752" primary="true" name="HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="8166-78e2-c9df-0bdf" primary="false" name="Unit:"/>
+        <categoryLink targetId="f823-8c1d-6a87-26a1" id="c79a-fb54-d1f3-a3e2" primary="false" name="Compulsory HQ:"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink import="false" name="Khenetai Isirian Cabal" hidden="false" id="a7e9-90d7-8633-f468" targetId="aa13-b1d7-3b16-7ad5" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" id="2060-ee2d-6a7b-6261" primary="false" name="Unit:"/>
