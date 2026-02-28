@@ -326,19 +326,25 @@ Could not find rule: Warlord: Master of the Battlefield</comment>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce97-761e-40a7-8245"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Melta Bomb" hidden="false" id="bffd-40a6-10a3-935c" type="selectionEntry" targetId="e55d-d31b-46a9-aeb6">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee0e-d287-7210-dcb5"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36f2-61f6-4087-8165"/>
               </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Melta Bombs
-	 Checked under Melta Bombs</comment>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="43f6-da9f-45d6-bba4" name="Infantry:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="5aeb-ee12-44b0-9793" name="Character" primary="false"/>
             <categoryLink targetId="6e0c-29ba-a445-8321" id="7ad3-6090-4296-8e9d" name="Psyker:" primary="false"/>
+            <categoryLink targetId="4f07-3d45-4f28-a0c6" id="ee6e-9997-b1ed-de16" primary="false" name="Independent Character"/>
           </categoryLinks>
           <comment>!BSC Errors from 20240406-1603
 Could not find wargear in An Auxilia Battle Psyker may select any of the following options:</comment>
@@ -349,8 +355,6 @@ Could not find wargear in An Auxilia Battle Psyker may select any of the followi
         <infoLink name="Field Officer" hidden="false" type="rule" targetId="14d8-69c5-4a46-8cce" id="4cb0-5384-4fc8-bc96"/>
         <infoLink name="Support Squad" hidden="false" type="rule" targetId="768e-56d6-ca52-24ae" id="6782-2c57-41d7-9410"/>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Independent Character</comment>
     </selectionEntry>
     <selectionEntry name="Solar Auxilia Furibundus Dreadnought Talon" type="unit" id="2266-8662-4610-adab" page="136" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
