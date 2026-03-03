@@ -32453,7 +32453,7 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
             <conditionGroup type="and">
               <conditions>
                 <condition type="equalTo" value="1" field="selections" scope="force" childId="373b-ce5a-ddc5-cf8f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                <condition type="equalTo" value="0" field="selections" scope="force" childId="d39f-99d5-f7a4-7b86" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="c30e-4af9-f2ed-e8d6" shared="true" includeChildSelections="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
