@@ -49017,69 +49017,6 @@ An Argyrum Pattern Boarding Shield counts as a Boarding Shield for all intents 
         <categoryLink id="1256-af1a-9a11-bd3b" name="Cavalry Unit-type:" hidden="false" targetId="6d79-a3e4-381f-7b0f" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="cc7e-d36d-d4ee-25ee" name="1) Spatha Combat Bike Weaponry." hidden="false" collective="false" import="true" defaultSelectionEntryId="da06-7115-9200-c8b0">
-          <modifiers>
-            <modifier type="increment" field="929d-7e0e-c2ea-d4b6" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="8386-7110-6341-04e6" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="8386-7110-6341-04e6" value="1"/>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="929d-7e0e-c2ea-d4b6" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8386-7110-6341-04e6" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="ea58-34cc-521a-b079" name="Iliastus Assault Cannon" hidden="false" collective="false" import="true" targetId="10aa-3c70-2bbe-9509" type="selectionEntry">
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-              </costs>
-            </entryLink>
-            <entryLink id="da06-7115-9200-c8b0" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="07fd-c24a-9235-4206" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="4d72-1cc1-8bee-aa88" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="975e-14eb-caed-4b5b" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="f7bc-6a0b-b856-0611" name="Autocannon" hidden="false" collective="false" import="true" targetId="56b3-de09-9fea-deb6" type="selectionEntry">
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-              </costs>
-            </entryLink>
-            <entryLink id="419d-bad9-4d79-8bd6" name="Multi-Melta" hidden="false" collective="false" import="true" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
-              </costs>
-            </entryLink>
-            <entryLink id="f74a-5170-5a72-22a2" name="Shrapnel Cannon" hidden="false" collective="false" import="true" targetId="975e-14eb-caed-4b5b" type="selectionEntry">
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
-              </costs>
-            </entryLink>
-            <entryLink id="3c0f-883a-0088-f61e" name="Heavy Alchem Flamer" hidden="false" collective="false" import="true" targetId="2a3d-a4bb-5326-a16a" type="selectionEntry"/>
-            <entryLink id="5933-0e86-c10f-5f07" name="Dragon&apos;s Breath Heavy Flamer" hidden="false" collective="false" import="true" targetId="1a5c-0c5f-d798-a067" type="selectionEntry"/>
-            <entryLink id="4dec-b767-c96b-fdbb" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="5507-b432-3b4c-df12" type="selectionEntry"/>
-            <entryLink import="true" name="Volkite Dual-Culverin" hidden="false" id="b2b4-2933-9e72-3d01" type="selectionEntry" targetId="015f-ee1b-46c1-8937">
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-              </costs>
-            </entryLink>
-            <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="38a6-975b-9956-57c6" type="selectionEntry" targetId="f933-1660-4555-62dd">
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
         <selectionEntryGroup id="ba75-6e7b-fc74-f866" name="0) Legion-specific upgrades" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="d1a6-5f3f-ec17-59f9" name="Preysight" hidden="false" collective="false" import="true" targetId="b905-4d78-c141-4e63" type="selectionEntry">
@@ -49097,46 +49034,6 @@ An Argyrum Pattern Boarding Shield counts as a Boarding Shield for all intents 
               </constraints>
               <costs>
                 <cost name="Pts" hidden="false" id="bc37-a66-e6c9-cc37" typeId="d2ee-04cb-5f8a-2642" value="25"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="17e4-41b2-ab13-65be" name="2) Bolt Pistol Options:" hidden="false" collective="false" import="true" defaultSelectionEntryId="d861-d2fc-5945-51a0">
-          <modifiers>
-            <modifier type="increment" field="7d03-782f-d1df-8809" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="5395-860a-bf8c-54df" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="5395-860a-bf8c-54df" value="1"/>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d03-782f-d1df-8809" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5395-860a-bf8c-54df" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="17cf-dd72-b1e9-9ce2" name="Asphyx Bolt Pistol" hidden="false" collective="false" import="true" targetId="07f7-c486-f597-a1b9" type="selectionEntry">
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
-              </costs>
-            </entryLink>
-            <entryLink id="d861-d2fc-5945-51a0" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="e5ae-6872-37aa-8600" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="4d72-1cc1-8bee-aa88" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7d72-7f6d-6330-6871" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="6390-0fd0-15ae-4b31" name="Shrapnel Pistol" hidden="false" collective="false" import="true" targetId="7d72-7f6d-6330-6871" type="selectionEntry">
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -49165,9 +49062,9 @@ An Argyrum Pattern Boarding Shield counts as a Boarding Shield for all intents 
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Legion Spatha Attack Bike" id="76ed-3d6c-54c4-f4a5" hidden="false">
+        <selectionEntryGroup name="Legion Spatha Attack Bike" id="76ed-3d6c-54c4-f4a5" hidden="false" defaultSelectionEntryId="04a6-589b-4f3b-7f12">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Legion Spatha Attack Bike" hidden="false" id="04a6-589b-4f3b-7f12" collective="false">
+            <selectionEntry type="model" import="true" name="Legion Spatha Attack Bike" hidden="false" id="04a6-589b-4f3b-7f12" collective="false" defaultAmount="1">
               <profiles>
                 <profile name="Legion Spatha Attack Bike" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="cb01-9bcb-2a60-9f64">
                   <characteristics>
@@ -49282,6 +49179,98 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                   </constraints>
                 </entryLink>
               </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="1) Spatha Combat Bike Weaponry." id="f365-91ca-358a-1896" hidden="false" collective="false" import="true" defaultSelectionEntryId="da06-7115-9200-c8b0">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7582-845d-8fec-e46f-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7582-845d-8fec-e46f-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Iliastus Assault Cannon" hidden="false" id="ab30-5975-16a0-ab6b" collective="false" targetId="10aa-3c70-2bbe-9509" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Heavy Bolter" hidden="false" id="8d42-7325-bebd-ec0b" collective="false" targetId="07fd-c24a-9235-4206" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="greaterThan" value="0" field="selections" scope="4d72-1cc1-8bee-aa88" childId="975e-14eb-caed-4b5b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Autocannon" hidden="false" id="e775-81fe-4973-a548" collective="false" targetId="56b3-de09-9fea-deb6" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Multi-Melta" hidden="false" id="5bde-77b0-b518-5681" collective="false" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Shrapnel Cannon" hidden="false" id="49e7-8cab-528c-502a" collective="false" targetId="975e-14eb-caed-4b5b" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Heavy Alchem Flamer" hidden="false" id="9379-c982-e6d2-d85b" collective="false" targetId="2a3d-a4bb-5326-a16a" type="selectionEntry"/>
+                    <entryLink import="true" name="Dragon&apos;s Breath Heavy Flamer" hidden="false" id="4a45-eb58-930b-51bf" collective="false" targetId="1a5c-0c5f-d798-a067" type="selectionEntry"/>
+                    <entryLink import="true" name="Heavy Flamer" hidden="false" id="35fb-b866-f948-a53a" collective="false" targetId="5507-b432-3b4c-df12" type="selectionEntry"/>
+                    <entryLink import="true" name="Volkite Dual-Culverin" hidden="false" id="4a61-4bc6-fa88-105a" type="selectionEntry" targetId="015f-ee1b-46c1-8937">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="d6bb-481b-63ed-d1d0" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="2) Bolt Pistol Options:" id="ccaf-2cd1-4a38-09ac" hidden="false" collective="false" import="true" defaultSelectionEntryId="d861-d2fc-5945-51a0">
+                  <modifiers>
+                    <modifier type="increment" value="1" field="f62d-2bf5-848d-0d66">
+                      <repeats>
+                        <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="increment" value="1" field="4a36-575d-adc1-42e0">
+                      <repeats>
+                        <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="decrement" value="1" field="4a36-575d-adc1-42e0"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="f62d-2bf5-848d-0d66" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4a36-575d-adc1-42e0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Asphyx Bolt Pistol" hidden="false" id="0f30-93ea-c8e9-13aa" collective="false" targetId="07f7-c486-f597-a1b9" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Bolt Pistol" hidden="false" id="2254-f014-0103-7059" collective="false" targetId="e5ae-6872-37aa-8600" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="4d72-1cc1-8bee-aa88" childId="7d72-7f6d-6330-6871" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Shrapnel Pistol" hidden="false" id="560e-2105-5065-c72e" collective="false" targetId="7d72-7f6d-6330-6871" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Legion Spatha Attack Bike Sergeant" hidden="false" id="4b03-1bb6-8a30-3bc2" collective="false">
               <constraints>
@@ -49401,6 +49390,98 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                   </conditions>
                 </modifier>
               </modifiers>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="1) Spatha Combat Bike Weaponry." id="bd0c-3345-7f24-fd08" hidden="false" collective="false" import="true" defaultSelectionEntryId="da06-7115-9200-c8b0">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="05fd-0d8f-34d8-43b7-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="05fd-0d8f-34d8-43b7-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Iliastus Assault Cannon" hidden="false" id="4892-0597-2c0a-6d5d" collective="false" targetId="10aa-3c70-2bbe-9509" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Heavy Bolter" hidden="false" id="5305-3d29-42be-b9ae" collective="false" targetId="07fd-c24a-9235-4206" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="greaterThan" value="0" field="selections" scope="4d72-1cc1-8bee-aa88" childId="975e-14eb-caed-4b5b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Autocannon" hidden="false" id="37c1-8bf7-7194-1931" collective="false" targetId="56b3-de09-9fea-deb6" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Multi-Melta" hidden="false" id="1f9f-7fd9-e832-e84b" collective="false" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Shrapnel Cannon" hidden="false" id="212c-cfed-6ba4-b380" collective="false" targetId="975e-14eb-caed-4b5b" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Heavy Alchem Flamer" hidden="false" id="5593-032c-a9da-9612" collective="false" targetId="2a3d-a4bb-5326-a16a" type="selectionEntry"/>
+                    <entryLink import="true" name="Dragon&apos;s Breath Heavy Flamer" hidden="false" id="3fce-5765-4b71-f6df" collective="false" targetId="1a5c-0c5f-d798-a067" type="selectionEntry"/>
+                    <entryLink import="true" name="Heavy Flamer" hidden="false" id="60c7-cd21-85ed-321c" collective="false" targetId="5507-b432-3b4c-df12" type="selectionEntry"/>
+                    <entryLink import="true" name="Volkite Dual-Culverin" hidden="false" id="bfa4-d557-919e-e2fa" type="selectionEntry" targetId="015f-ee1b-46c1-8937">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Conflaguration Multi-Melta" hidden="false" id="2793-8ee1-64a9-3649" type="selectionEntry" targetId="f933-1660-4555-62dd">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="2) Bolt Pistol Options:" id="e123-1c61-ccd0-0f33" hidden="false" collective="false" import="true" defaultSelectionEntryId="d861-d2fc-5945-51a0">
+                  <modifiers>
+                    <modifier type="increment" value="1" field="9aa4-85b1-f79a-cf57">
+                      <repeats>
+                        <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="increment" value="1" field="99b2-793a-a4e7-76ae">
+                      <repeats>
+                        <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="decrement" value="1" field="99b2-793a-a4e7-76ae"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="9aa4-85b1-f79a-cf57" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="99b2-793a-a4e7-76ae" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Asphyx Bolt Pistol" hidden="false" id="3956-da11-3d0a-f656" collective="false" targetId="07f7-c486-f597-a1b9" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Bolt Pistol" hidden="false" id="dde4-aae6-3646-dfe1" collective="false" targetId="e5ae-6872-37aa-8600" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="4d72-1cc1-8bee-aa88" childId="7d72-7f6d-6330-6871" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink import="true" name="Shrapnel Pistol" hidden="false" id="2f59-122b-ef7c-e7d7" collective="false" targetId="7d72-7f6d-6330-6871" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
           <constraints>
