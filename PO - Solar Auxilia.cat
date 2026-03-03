@@ -582,12 +582,12 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
             <categoryLink targetId="e69c-24ba-4ef9-8679" id="9f69-553d-459c-8393" name="Corrupted Unit Sub-Type:" primary="false"/>
           </categoryLinks>
           <constraints>
-            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="2fbc-cbaf-9ec3-b700"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="0e6e-7ce1-9223-1c92"/>
           </constraints>
           <modifiers>
-            <modifier type="increment" value="1" field="2fbc-cbaf-9ec3-b700">
+            <modifier type="increment" value="1" field="0e6e-7ce1-9223-1c92">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="067a-b938-c96f-6b47" childId="model" shared="true" roundUp="false"/>
+                <repeat value="5" repeats="1" field="selections" scope="067a-b938-c96f-6b47" childId="model" shared="true" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -846,6 +846,16 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="11"/>
               </costs>
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="bfb8-5ace-5f87-1bd7"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="bfb8-5ace-5f87-1bd7">
+                  <repeats>
+                    <repeat value="5" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Possessed Auxilia w/Options" hidden="false" id="4319-4a2d-e47d-3ba9">
               <profiles>
@@ -950,6 +960,16 @@ Checked under Power Fist and Laspistol</comment>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="11"/>
               </costs>
+              <modifiers>
+                <modifier type="increment" value="1" field="30b0-4413-f715-d929">
+                  <repeats>
+                    <repeat value="5" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="30b0-4413-f715-d929"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
