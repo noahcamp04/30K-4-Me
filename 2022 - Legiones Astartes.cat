@@ -44840,7 +44840,7 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6de-b256-c752-5800" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="4b49-fbfe-8078-cae8" name="Rapier Battery" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="4b49-fbfe-8078-cae8" name="Rapier Battery" hidden="false" collective="false" import="true" type="unit" subType="unit-group">
               <infoLinks>
                 <infoLink id="6958-6025-8929-03fe" name="Legion Artillerists" hidden="false" targetId="f268-05e5-8fc5-be12" type="rule"/>
               </infoLinks>
