@@ -11062,6 +11062,9 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Termite Assault Drill" id="61e1-1a22-16fd-ef47" hidden="false" type="profile" targetId="502f-3ae3-b1ce-455a"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry id="91e5-fac5-5295-75dd" name="Show Subterranean Assault rule (it&apos;s really long)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
