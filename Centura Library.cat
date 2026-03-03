@@ -12,7 +12,7 @@
       <selectionEntries>
         <selectionEntry type="model" name="Legion Indomitus Praetor" id="c0a8-a1c0-45f3-8aaf" page="6" publicationId="3970-79bb-bdc6-9599">
           <profiles>
-            <profile id="947e-2af6-496c-9224" name="Legion Indomitus Praetor" typeId="4bb2-cb95-e6c8-5a21">
+            <profile id="947e-2af6-496c-9224" name="Legion Indomitus Praetor" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
                 <characteristic typeId="893e-2d76-8f04-44e5" name="Move">6</characteristic>
                 <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">6</characteristic>
@@ -251,7 +251,7 @@
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
-                <modifier type="set" value="Infantry (Character, Psyker)" field="ddd7-6f5c-a939-b69e">
+                <modifier type="set" value="Infantry (Character, Heavy, Psyker)" field="ddd7-6f5c-a939-b69e">
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
@@ -265,7 +265,7 @@
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
-                <modifier type="set" value="Infantry (Character, Corrupted, Psyker)" field="ddd7-6f5c-a939-b69e">
+                <modifier type="set" value="Infantry (Character, Heavy, Corrupted, Psyker)" field="ddd7-6f5c-a939-b69e">
                   <conditions>
                     <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="4e1a-275e-e691-5b92" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                   </conditions>
