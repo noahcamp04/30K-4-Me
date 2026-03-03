@@ -3432,87 +3432,35 @@
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="95"/>
           </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="63bd-b91e-cade-bf5a" name="Any model may replace its Æther-Fire Cannon with:" hidden="false" collective="false" import="true" defaultSelectionEntryId="113d-a1c0-2555-4291">
-          <modifiers>
-            <modifier type="increment" field="6b41-8040-8cec-7482" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="add3-5d43-600f-02ed" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="6b41-8040-8cec-7482" value="1"/>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6b41-8040-8cec-7482" type="min"/>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="add3-5d43-600f-02ed" type="max"/>
-          </constraints>
           <entryLinks>
-            <entryLink id="113d-a1c0-2555-4291" name="Æther-Fire Cannon" hidden="false" collective="false" import="true" targetId="0139-b673-7b21-0470" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false"/>
-              </modifiers>
+            <entryLink import="true" name="Asphyx Bolter" hidden="false" id="debd-10d5-77b4-9557" collective="false" targetId="88c0-4623-9da3-f2b5" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aa91-418d-e233-95a8" type="max"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4dc9-50b6-be49-dbe1-min" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4dc9-50b6-be49-dbe1-max" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </constraints>
             </entryLink>
-            <entryLink id="f165-991b-2f99-75ff" name="Asphyx Bolt Cannon" hidden="false" collective="false" import="true" targetId="ebce-ebc9-8ff7-d42d" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false"/>
-              </modifiers>
+            <entryLink import="true" name="Achea Force Claw" hidden="false" id="4370-7590-9b37-71dd" collective="false" targetId="ecf4-e882-7893-5a67" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="51d5-e5bc-1fae-c7b6" type="max"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eecc-7c17-732b-a19a-min" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eecc-7c17-732b-a19a-max" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </constraints>
             </entryLink>
           </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Any model may replace its Æther-Fire Cannon with:" id="f905-4de2-9e0d-b006" hidden="false" collective="false" import="true" defaultSelectionEntryId="113d-a1c0-2555-4291">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="654d-5dcc-e59e-05cd-min" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="654d-5dcc-e59e-05cd-max" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Æther-Fire Cannon" hidden="false" id="88a7-0716-beb8-620e" collective="false" targetId="0139-b673-7b21-0470" type="selectionEntry"/>
+                <entryLink import="true" name="Asphyx Bolt Cannon" hidden="false" id="4f9a-c3d9-f28a-c4f8" collective="false" targetId="ebce-ebc9-8ff7-d42d" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
-        <entryLink id="2b7a-993c-d297-9c3f" name="Achea Force Claw" hidden="false" collective="false" import="true" targetId="ecf4-e882-7893-5a67" type="selectionEntry">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="20b1-533c-e6e8-266c" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="ae7c-2ab4-d518-55a7" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-          </constraints>
-          <modifiers>
-            <modifier type="increment" value="1" field="20b1-533c-e6e8-266c">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" value="1" field="ae7c-2ab4-d518-55a7">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" value="1" field="20b1-533c-e6e8-266c"/>
-          </modifiers>
-        </entryLink>
-        <entryLink id="58a8-96b6-6424-ca65" name="Asphyx Bolter" hidden="false" collective="false" import="true" targetId="88c0-4623-9da3-f2b5" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false"/>
-            <modifier type="increment" value="1" field="b3fc-794d-df2c-309a">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" value="1" field="e09b-e692-16a6-aa98">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" value="1" field="e09b-e692-16a6-aa98"/>
-          </modifiers>
-          <constraints>
-            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="b3fc-794d-df2c-309a" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e09b-e692-16a6-aa98" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-          </constraints>
-        </entryLink>
         <entryLink id="79e1-fb19-9ccf-e317" name="Atomantic Deflector" hidden="false" collective="false" import="true" targetId="38fb-9a0b-edef-a497" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1359-acba-3971-4c46" type="min"/>
