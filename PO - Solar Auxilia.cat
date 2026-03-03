@@ -570,24 +570,6 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink name="Frag Grenades" hidden="false" type="selectionEntry" targetId="4fd8-9e1f-ae28-3004" id="3ac7-fa0b-4820-99a1">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a909-0324-4a04-af8e"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c55-4d47-4660-8131"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Krak Grenades" hidden="false" type="selectionEntry" targetId="3739-1019-344e-761d" id="d680-1fd5-4c2d-ac67">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="be36-540d-4533-b682"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e81-61e1-4bf7-9153"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Void Armour" hidden="false" type="selectionEntry" targetId="499b-b86b-3a44-17c6" id="2d60-77ac-4cdc-8a69">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e98a-87a5-49c0-9f58"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e642-3364-4ac6-b6a6"/>
-              </constraints>
-            </entryLink>
             <entryLink import="true" name="Mutated Appendages" hidden="false" id="4070-d0e5-e362-833f" type="selectionEntry" targetId="8bbc-551e-4181-aeb1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d06d-d305-071d-b4b3-min"/>
@@ -651,29 +633,9 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
         </modifier>
       </modifiers>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Possessed Auxilia" id="0b70-95ee-53ae-9493" hidden="false">
-          <entryLinks>
-            <entryLink import="true" name="Frag Grenades" hidden="false" id="5df6-8440-d3d8-1ab6" type="selectionEntry" targetId="4fd8-9e1f-ae28-3004">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a607-ec33-06ae-6a84"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1441-a8af-0dfc-eec3"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Krak Grenades" hidden="false" id="a267-dd66-c10f-6f46" type="selectionEntry" targetId="3739-1019-344e-761d">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="98a3-a596-d746-e23c"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="788f-3c2e-fd05-121c"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Void Armour" hidden="false" id="91e9-261d-0bc4-b822" type="selectionEntry" targetId="499b-b86b-3a44-17c6">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="37a8-872b-5019-b699"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb7a-7f3a-9e43-57de"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
+        <selectionEntryGroup name="Possessed Auxilia" id="0b70-95ee-53ae-9493" hidden="false" defaultSelectionEntryId="003a-b61f-933f-07b4">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Possessed Auxilia" hidden="false" id="003a-b61f-933f-07b4">
+            <selectionEntry type="model" import="true" name="Possessed Auxilia" hidden="false" id="003a-b61f-933f-07b4" defaultAmount="10">
               <profiles>
                 <profile name="Possessed Auxilia" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="b3ce-275a-7f82-4fb4">
                   <characteristics>
@@ -996,6 +958,26 @@ Checked under Power Fist and Laspistol</comment>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Frag Grenades" hidden="false" id="74ef-44a4-3d13-6de9" type="selectionEntry" targetId="4fd8-9e1f-ae28-3004">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5d4c-4296-0faf-bb87"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf3c-e17b-640f-be2a"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Krak Grenades" hidden="false" id="08f7-be69-3325-b972" type="selectionEntry" targetId="3739-1019-344e-761d">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ac05-5537-5a0e-1fdb"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="12fa-fe74-3354-02ce"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Void Armour" hidden="false" id="fe49-c244-31fd-eb98" type="selectionEntry" targetId="499b-b86b-3a44-17c6">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d7c0-ecd4-b097-fdb3"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="641e-8767-2cfa-faa2"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry name="Solar Auxilia Extremis Boarding Rig Section" type="unit" id="c9f5-c244-40bc-9cb1" page="138" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
