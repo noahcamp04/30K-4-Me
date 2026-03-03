@@ -346,8 +346,6 @@ Could not find rule: Warlord: Master of the Battlefield</comment>
             <categoryLink targetId="6e0c-29ba-a445-8321" id="7ad3-6090-4296-8e9d" name="Psyker:" primary="false"/>
             <categoryLink targetId="4f07-3d45-4f28-a0c6" id="ee6e-9997-b1ed-de16" primary="false" name="Independent Character"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear in An Auxilia Battle Psyker may select any of the following options:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -553,9 +551,9 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" name="Possessed Auxilia" id="da69-fbe8-4fac-aa5d" page="137" publicationId="892-6266-f55f-1b9d">
+        <selectionEntry type="unit" name="Possessed Auxilia" id="da69-fbe8-4fac-aa5d" page="137" publicationId="892-6266-f55f-1b9d" subType="unit-group">
           <profiles>
-            <profile id="3745-7964-4eab-b52e" name="Possessed Auxilia" typeId="4bb2-cb95-e6c8-5a21">
+            <profile id="3745-7964-4eab-b52e" name="Possessed Auxilia" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
                 <characteristic typeId="893e-2d76-8f04-44e5" name="Move">6</characteristic>
                 <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">3</characteristic>
@@ -595,140 +593,6 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
               </constraints>
             </entryLink>
           </entryLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="For every five models in the unit, one Possessed Auxilia may be upgraded to a:" id="1c5a-5f2e-4ab1-a1bc">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db6d-a65e-47de-a294"/>
-              </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Greater Possessed Auxilia
-	 Checked under Greater Possessed Auxilia</comment>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Any Possessed Auxilia with a Lasrifle may take:" id="9b55-0fb8-4d92-ad17">
-              <entryLinks>
-                <entryLink name="Bayonet" hidden="false" type="selectionEntry" targetId="8413-55c8-60ce-e9bf" id="d510-06ea-4241-9066">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9864-e71f-4c3d-91e3"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ccc8-08a4-4f32-8abb"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Any Possessed Auxilia may exchange their Lasrifle for one of the following options:" id="1d97-7eb2-41fa-acac">
-              <entryLinks>
-                <entryLink name="Lasrifle" hidden="false" type="selectionEntry" targetId="2449-dc45-3441-b471" id="c701-7c5f-4e6e-8a6b">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="beaa-aa4f-44d9-8727"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Close Combat Weapon" hidden="false" type="selectionEntry" targetId="19ab-4d64-f6a7-9f81" id="8e12-bcf8-4d15-8d4d">
-                  <modifiers>
-                    <modifier type="set" field="name" value="Two Close Combat Weapons"/>
-                  </modifiers>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="64c2-d730-455f-81c0"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Shotgun" hidden="false" type="selectionEntry" targetId="2dba-5646-1049-c134" id="76ed-b4d9-49a8-a37a">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="75b7-ce28-466b-8228"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Volkite Charger" hidden="false" type="selectionEntry" targetId="5c82-c306-9c5c-5908" id="8797-a377-4472-8a1f">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2493-698b-4bb5-bd2f"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Storm Axe" hidden="false" type="selectionEntry" targetId="c305-a3f1-5c2f-ae37" id="2cff-148b-4912-a746">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9847-ee97-4b36-a1df"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da7d-a251-49f7-83db"/>
-              </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Laspistol and Close Combat Weapon
-	 Checked under Laspistol and Close Combat Weapon
-Could not find wargear Chainsword and Laspistol
-	 Checked under Chainsword and Laspistol
-Could not find wargear Mutated Appendage
-	 Checked under Mutated Appendage</comment>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="For every five models in the unit, one Possessed Auxilia may exchange their Lasrifle with one of the following options:" id="97ba-adf6-4fb4-acde">
-              <entryLinks>
-                <entryLink name="Flamer" hidden="false" type="selectionEntry" targetId="f0d1-c88b-4f7a-a4ae" id="ae19-5b6b-4e6b-b695">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f00c-d482-446e-a600"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd0a-94c3-4506-96b2"/>
-              </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Power Weapon and Laspistol
-	 Checked under Power Weapon and Laspistol
-Could not find wargear Grenade Launcher (with Frag and Krak Rounds)
-	 Checked under Grenade Launcher (with Frag and Krak Rounds)
-Could not find wargear Power Fist and Laspistol
-	 Checked under Power Fist and Laspistol</comment>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="For every five models in the unit, one Possessed Auxilia may exchange a Laspistol with one of the following options:" id="3cc3-066b-496e-a9e8">
-              <entryLinks>
-                <entryLink name="Blast Pistol" hidden="false" type="selectionEntry" targetId="2460-375d-31f4-4bdf" id="15fa-c2ea-447a-b20c">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="791b-0c2e-4f7a-8e4a"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Needle Pistol" hidden="false" type="selectionEntry" targetId="fd59-e665-136c-1172" id="edee-4ab1-4f54-8aba">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8808-0485-451d-a297"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Hand Flamer" hidden="false" type="selectionEntry" targetId="6b5f-d62d-7568-38b6" id="08db-ca3b-4768-9bc5">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="42f8-eeeb-4993-9d82"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Plasma Pistol" hidden="false" type="selectionEntry" targetId="1a7b-4418-8346-66a7" id="b2ad-23b7-432f-b914">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6b6-81d7-46fc-a04c"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21d4-e071-4037-9d62"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="9ed5-5fb9-40a1-a850" name="Infantry:" primary="false"/>
             <categoryLink targetId="e69c-24ba-4ef9-8679" id="44ef-0306-49ac-a8bc" name="Corrupted Unit Sub-Type:" primary="false"/>
@@ -736,20 +600,319 @@ Could not find wargear Power Fist and Laspistol
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="11"/>
           </costs>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Mutated Appendage (Greater Possessed Auxilia Only)
-	 Checked under Mutated Appendage (Greater Possessed Auxilia Only)
-Could not find wargear in For every five models in the unit, one Possessed Auxilia may be upgraded to a:
-Could not find wargear in Any Possessed Auxilia may exchange their Lasrifle for one of the following options:
-Could not find wargear in Any Possessed Auxilia may exchange their Lasrifle for one of the following options:
-Could not find wargear in Any Possessed Auxilia may exchange their Lasrifle for one of the following options:
-Could not find wargear in For every five models in the unit, one Possessed Auxilia may exchange their Lasrifle with one of the following options:
-Could not find wargear in For every five models in the unit, one Possessed Auxilia may exchange their Lasrifle with one of the following options:
-Could not find wargear in For every five models in the unit, one Possessed Auxilia may exchange their Lasrifle with one of the following options:</comment>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Possessed Auxilia" hidden="false" id="4b3e-5ac2-1a6c-536e">
+              <profiles>
+                <profile name="Possessed Auxilia" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="3b76-0cf1-ce1c-baa5">
+                  <characteristics>
+                    <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Corrupted)</characteristic>
+                    <characteristic typeId="893e-2d76-8f04-44e5" name="Move">6</characteristic>
+                    <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">3</characteristic>
+                    <characteristic typeId="74ae-c840-0036-d244" name="BS">2</characteristic>
+                    <characteristic typeId="e478-41d4-a092-48a8" name="S">4</characteristic>
+                    <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">4</characteristic>
+                    <characteristic typeId="57ee-1126-32a9-5672" name="W">2</characteristic>
+                    <characteristic typeId="62d3-22d7-2d49-52dc" name="I">3</characteristic>
+                    <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">2</characteristic>
+                    <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">7</characteristic>
+                    <characteristic typeId="e593-6b3c-f169-04f0" name="Save">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="e0bc-c1a5-7c5a-133d" primary="false" name="Infantry:"/>
+                <categoryLink targetId="9055-7410-8ffd-b8e7" id="015d-f47e-2c84-40bf" primary="false" name="Corrupted Sub-type:"/>
+              </categoryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Any Possessed Auxilia may exchange their Lasrifle for one of the following options:" id="6c0f-4939-1705-926d" hidden="false" defaultSelectionEntryId="c701-7c5f-4e6e-8a6b">
+                  <entryLinks>
+                    <entryLink import="true" name="Lasrifle" hidden="false" id="028b-b056-6321-0e67" type="selectionEntry" targetId="2449-dc45-3441-b471">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f1e-d378-7c7a-da1d"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Close Combat Weapon" hidden="false" id="2c41-1d4f-e08b-ecb4" type="selectionEntry" targetId="19ab-4d64-f6a7-9f81">
+                      <modifiers>
+                        <modifier type="set" value="Two Close Combat Weapons" field="name"/>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e2d-a4e1-3b88-60ef"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Close Combat Weapon" id="7e36-2d46-d3f9-8da9" hidden="false" targetId="e28e-91f4-86a4-15a6" type="profile"/>
+                      </infoLinks>
+                    </entryLink>
+                    <entryLink import="true" name="Shotgun" hidden="false" id="07c9-350b-763b-1b96" type="selectionEntry" targetId="2dba-5646-1049-c134">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="977c-8808-3b04-88ec"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Volkite Charger" hidden="false" id="9f92-5243-5c3d-4469" type="selectionEntry" targetId="5c82-c306-9c5c-5908">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0da4-41dd-7793-8714"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Storm Axe" hidden="false" id="9a57-b762-2d90-22d1" type="selectionEntry" targetId="c305-a3f1-5c2f-ae37">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7717-24ba-0f81-5e8b"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Mutated Appendages" hidden="false" id="4d00-ce04-f4d0-3585" type="selectionEntry" targetId="8bbc-551e-4181-aeb1">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5c52-ab3a-40ae-45be"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b800-5de6-e2e5-fce4"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Chainsword and Laspistol" hidden="false" id="d6e9-92ce-2e91-dc77">
+                      <entryLinks>
+                        <entryLink import="true" name="Chainsword" hidden="false" id="6fb2-b0e4-4095-b767" type="selectionEntry" targetId="06e7-a6ae-ed1c-eb03">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d5db-1baa-e909-157c"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbed-9732-d267-e5be"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Laspistol" hidden="false" id="fffa-1543-9f1f-106e" type="selectionEntry" targetId="654d-be88-b0a8-7ae5">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3830-6f47-dde0-20a7"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ccc2-1b6f-fdfb-f368"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Laspistol and Close Combat Weapon" hidden="false" id="6cbf-3351-69a8-fae3">
+                      <entryLinks>
+                        <entryLink import="true" name="Laspistol" hidden="false" id="e585-955a-b652-6904" type="selectionEntry" targetId="654d-be88-b0a8-7ae5">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dcd4-d370-f7da-2fea"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="07a1-af46-7a0f-cae0"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Close Combat Weapon" hidden="false" id="ddff-0fd0-8f2d-a0fc" type="selectionEntry" targetId="3d50-2f85-06ff-6aee">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df2a-4413-1ad2-2f5d"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61c6-e25f-f396-84dd"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Any Possessed Auxilia with a Lasrifle may take:" id="a05c-46ba-c21a-ee57" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="Bayonet" hidden="false" id="3aee-f8d1-e893-d15c" type="selectionEntry" targetId="8413-55c8-60ce-e9bf">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="326b-358c-fcaf-ee52"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="491c-6610-3b7b-42e6"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Possessed Auxilia w/ Laspistol w/Options" hidden="false" id="6a3b-7d8a-e02f-0a2b">
+              <profiles>
+                <profile name="Possessed Auxilia" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="b9a8-171b-60d6-0299">
+                  <characteristics>
+                    <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Corrupted)</characteristic>
+                    <characteristic typeId="893e-2d76-8f04-44e5" name="Move">6</characteristic>
+                    <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">3</characteristic>
+                    <characteristic typeId="74ae-c840-0036-d244" name="BS">2</characteristic>
+                    <characteristic typeId="e478-41d4-a092-48a8" name="S">4</characteristic>
+                    <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">4</characteristic>
+                    <characteristic typeId="57ee-1126-32a9-5672" name="W">2</characteristic>
+                    <characteristic typeId="62d3-22d7-2d49-52dc" name="I">3</characteristic>
+                    <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">2</characteristic>
+                    <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">7</characteristic>
+                    <characteristic typeId="e593-6b3c-f169-04f0" name="Save">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="For every five models in the unit, one Possessed Auxilia may exchange a Laspistol with one of the following options:" id="6e14-9411-b3d3-c29c" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="Blast Pistol" hidden="false" id="c005-3e3a-d20a-e73f" type="selectionEntry" targetId="2460-375d-31f4-4bdf">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="35e3-7b81-2f42-8186"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Needle Pistol" hidden="false" id="5eb8-cc75-7e03-dd80" type="selectionEntry" targetId="fd59-e665-136c-1172">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fdff-bf91-f0f7-9f87"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Hand Flamer" hidden="false" id="21ef-c689-64e5-08e2" type="selectionEntry" targetId="6b5f-d62d-7568-38b6">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a23-647b-1135-b973"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Plasma Pistol" hidden="false" id="7e95-9ee5-596f-a162" type="selectionEntry" targetId="1a7b-4418-8346-66a7">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b5a-9f71-bc95-93c8"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e272-a6eb-628b-f7d5-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e272-a6eb-628b-f7d5-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Melee Weapon" id="1060-f0fb-2f22-9c81" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="Close Combat Weapon" hidden="false" id="108c-e4e8-4b3a-e66d" type="selectionEntry" targetId="3d50-2f85-06ff-6aee"/>
+                    <entryLink import="true" name="Chainsword" hidden="false" id="6b96-b31c-f592-a9d6" type="selectionEntry" targetId="06e7-a6ae-ed1c-eb03">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ef59-e155-84f6-3f51-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef59-e155-84f6-3f51-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <categoryLinks>
+                <categoryLink targetId="9055-7410-8ffd-b8e7" id="8fd8-a979-5c09-8cb1" primary="false" name="Corrupted Sub-type:"/>
+                <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="555c-663d-7207-da09" primary="false" name="Infantry:"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Possessed Auxilia w/Options" hidden="false" id="96e6-24c3-d744-9da3">
+              <profiles>
+                <profile name="Possessed Auxilia" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="2fa3-2523-a313-294d">
+                  <characteristics>
+                    <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Corrupted)</characteristic>
+                    <characteristic typeId="893e-2d76-8f04-44e5" name="Move">6</characteristic>
+                    <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">3</characteristic>
+                    <characteristic typeId="74ae-c840-0036-d244" name="BS">2</characteristic>
+                    <characteristic typeId="e478-41d4-a092-48a8" name="S">4</characteristic>
+                    <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">4</characteristic>
+                    <characteristic typeId="57ee-1126-32a9-5672" name="W">2</characteristic>
+                    <characteristic typeId="62d3-22d7-2d49-52dc" name="I">3</characteristic>
+                    <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">2</characteristic>
+                    <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">7</characteristic>
+                    <characteristic typeId="e593-6b3c-f169-04f0" name="Save">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="For every five models in the unit, one Possessed Auxilia may exchange their Lasrifle with one of the following options:" id="740f-980d-76a3-c5e2" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="Flamer" hidden="false" id="e3f4-4f41-3af9-f2d8" type="selectionEntry" targetId="f0d1-c88b-4f7a-a4ae">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3ec-aba3-c93c-d9b1"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Grenade Launcher" hidden="false" id="9028-b61a-5844-3809" type="selectionEntry" targetId="e0f3-3743-a9d0-f5f1">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b027-09ff-3de8-d8b1-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b027-09ff-3de8-d8b1-max"/>
+                  </constraints>
+                  <comment>!BSC Errors from 20240406-1603
+Could not find wargear Power Weapon and Laspistol
+Checked under Power Weapon and Laspistol
+Could not find wargear Power Fist and Laspistol
+Checked under Power Fist and Laspistol</comment>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Power Weapon and Laspistol" hidden="false" id="ab5b-f1d7-a3dc-448f">
+                      <entryLinks>
+                        <entryLink import="true" name="Power Weapon" hidden="false" id="4d67-89ea-3b12-5407" type="selectionEntry" targetId="d2db-7598-f55f-86fe"/>
+                        <entryLink import="true" name="Laspistol" hidden="false" id="93ba-986d-a412-5631" type="selectionEntry" targetId="654d-be88-b0a8-7ae5">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1c5f-948c-c831-df7c-min"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c5f-948c-c831-df7c-max"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Fist and Laspistol" hidden="false" id="21ee-e9be-6037-08e8">
+                      <entryLinks>
+                        <entryLink import="true" name="Power Fist" hidden="false" id="a88d-58a4-cb40-0c34" type="selectionEntry" targetId="768d-b89b-7328-d749">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="559b-4e31-9805-27b4-min"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="559b-4e31-9805-27b4-max"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Laspistol" hidden="false" id="d586-ee93-6a3d-2ab2" type="selectionEntry" targetId="654d-be88-b0a8-7ae5">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0b1a-e93f-ec97-4963-min"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b1a-e93f-ec97-4963-max"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Any Possessed Auxilia with a Lasrifle may take:" id="4b11-a1ab-e81b-3d6d" hidden="false">
+                  <entryLinks>
+                    <entryLink import="true" name="Bayonet" hidden="false" id="0c3c-bfb8-30cd-f8d8" type="selectionEntry" targetId="8413-55c8-60ce-e9bf">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="042c-8a20-5386-dc26"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="835e-5aed-0a47-75a2"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <categoryLinks>
+                <categoryLink name="Corrupted Sub-type:" hidden="false" id="9f6b-8ce7-e314-fecd" targetId="9055-7410-8ffd-b8e7" primary="false"/>
+                <categoryLink name="Infantry:" hidden="false" id="62b1-d248-8c9b-8119" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
         <selectionEntry type="model" name="Greater Possessed Auxilia" id="7cf8-b10b-4cee-8a13" page="137" publicationId="892-6266-f55f-1b9d">
           <profiles>
-            <profile id="029e-2049-4a67-86d9" name="Greater Possessed Auxilia" typeId="4bb2-cb95-e6c8-5a21">
+            <profile id="029e-2049-4a67-86d9" name="Greater Possessed Auxilia" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
                 <characteristic typeId="893e-2d76-8f04-44e5" name="Move">6</characteristic>
                 <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">3</characteristic>
@@ -784,14 +947,27 @@ Could not find wargear in For every five models in the unit, one Possessed Auxil
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e642-3364-4ac6-b6a6"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Mutated Appendages" hidden="false" id="4070-d0e5-e362-833f" type="selectionEntry" targetId="8bbc-551e-4181-aeb1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d06d-d305-071d-b4b3-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d06d-d305-071d-b4b3-max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="b464-e097-4a00-abc5" name="Infantry:" primary="false"/>
             <categoryLink targetId="e69c-24ba-4ef9-8679" id="9f69-553d-459c-8393" name="Corrupted Unit Sub-Type:" primary="false"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Mutated Appendage (Greater Possessed Auxilia Only)
-	 Checked under Mutated Appendage (Greater Possessed Auxilia Only)</comment>
+          <constraints>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="2fbc-cbaf-9ec3-b700"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="2fbc-cbaf-9ec3-b700">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="067a-b938-c96f-6b47" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -823,8 +999,13 @@ Could not find wargear Mutated Appendage (Greater Possessed Auxilia Only)
           </modifiers>
         </infoLink>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Lasrifle is in two option lists for Possessed Auxilia, you will need to combine them by hand.</comment>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="force" childId="d0b6-712f-0b12-a308" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Solar Auxilia Extremis Boarding Rig Section" type="unit" id="c9f5-c244-40bc-9cb1" page="138" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
