@@ -552,23 +552,6 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
       </costs>
       <selectionEntries>
         <selectionEntry type="unit" name="Possessed Auxilia" id="da69-fbe8-4fac-aa5d" page="137" publicationId="892-6266-f55f-1b9d" subType="unit-group">
-          <profiles>
-            <profile id="3745-7964-4eab-b52e" name="Possessed Auxilia" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
-              <characteristics>
-                <characteristic typeId="893e-2d76-8f04-44e5" name="Move">6</characteristic>
-                <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">3</characteristic>
-                <characteristic typeId="74ae-c840-0036-d244" name="BS">2</characteristic>
-                <characteristic typeId="e478-41d4-a092-48a8" name="S">4</characteristic>
-                <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">4</characteristic>
-                <characteristic typeId="57ee-1126-32a9-5672" name="W">2</characteristic>
-                <characteristic typeId="62d3-22d7-2d49-52dc" name="I">3</characteristic>
-                <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">2</characteristic>
-                <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">7</characteristic>
-                <characteristic typeId="e593-6b3c-f169-04f0" name="Save">4+</characteristic>
-                <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Corrupted)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <constraints>
             <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="e295-236a-412c-818a"/>
             <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="9b7f-f069-4609-afca"/>
@@ -597,9 +580,6 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="9ed5-5fb9-40a1-a850" name="Infantry:" primary="false"/>
             <categoryLink targetId="e69c-24ba-4ef9-8679" id="44ef-0306-49ac-a8bc" name="Corrupted Unit Sub-Type:" primary="false"/>
           </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="11"/>
-          </costs>
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Possessed Auxilia" hidden="false" id="4b3e-5ac2-1a6c-536e">
               <profiles>
@@ -727,6 +707,9 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="11"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Possessed Auxilia w/ Laspistol w/Options" hidden="false" id="6a3b-7d8a-e02f-0a2b">
               <profiles>
@@ -806,6 +789,9 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
                 <categoryLink targetId="9055-7410-8ffd-b8e7" id="8fd8-a979-5c09-8cb1" primary="false" name="Corrupted Sub-type:"/>
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="555c-663d-7207-da09" primary="false" name="Infantry:"/>
               </categoryLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="11"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Possessed Auxilia w/Options" hidden="false" id="96e6-24c3-d744-9da3">
               <profiles>
@@ -907,6 +893,9 @@ Checked under Power Fist and Laspistol</comment>
                 <categoryLink name="Corrupted Sub-type:" hidden="false" id="9f6b-8ce7-e314-fecd" targetId="9055-7410-8ffd-b8e7" primary="false"/>
                 <categoryLink name="Infantry:" hidden="false" id="62b1-d248-8c9b-8119" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
               </categoryLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="11"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntry>
@@ -968,6 +957,9 @@ Checked under Power Fist and Laspistol</comment>
               </repeats>
             </modifier>
           </modifiers>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
