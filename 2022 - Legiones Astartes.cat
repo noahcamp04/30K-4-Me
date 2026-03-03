@@ -1109,9 +1109,9 @@ Additional rules are given to units based on Legion and Unit.</description>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2d54-6e68-4830-4ef3" name="Warpfire Cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2d54-6e68-4830-4ef3" name="Warpfire Cannon" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="set" value="true" field="hidden">
+        <modifier type="set" value="false" field="hidden">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
@@ -3430,9 +3430,9 @@ When a model has two Raven’s Talons, that model gains +2 Attacks instead of th
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="76c7-1d7c-206a-32a5" name="Warpfire Blaster" hidden="false" import="true" type="upgrade">
+    <selectionEntry id="76c7-1d7c-206a-32a5" name="Warpfire Blaster" hidden="true" import="true" type="upgrade">
       <modifiers>
-        <modifier type="set" value="true" field="hidden">
+        <modifier type="set" value="false" field="hidden">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
@@ -3465,9 +3465,9 @@ When a model has two Raven’s Talons, that model gains +2 Attacks instead of th
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a94d-1f53-2902-0237" name="Warpfire Pistol" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a94d-1f53-2902-0237" name="Warpfire Pistol" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="set" field="hidden" value="true">
+        <modifier type="set" field="hidden" value="false">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
