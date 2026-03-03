@@ -49430,7 +49430,8 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 </selectionEntryGroup>
                 <selectionEntryGroup name="2) Bolt Pistol Options:" id="e123-1c61-ccd0-0f33" hidden="false" collective="false" import="true" defaultSelectionEntryId="d861-d2fc-5945-51a0">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="99b2-793a-a4e7-76ae" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="99b2-793a-a4e7-76ae-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="99b2-793a-a4e7-76ae-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                   <entryLinks>
                     <entryLink import="true" name="Asphyx Bolt Pistol" hidden="false" id="3956-da11-3d0a-f656" collective="false" targetId="07f7-c486-f597-a1b9" type="selectionEntry">
@@ -49455,6 +49456,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Twin-linked Bolter" hidden="false" id="4f8b-935a-3703-39da" collective="false" targetId="e31a-fd70-35c7-8bed" type="selectionEntry">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="77b2-1eab-de5d-c764" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c30f-383c-7cb2-de48" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
             </selectionEntry>
           </selectionEntries>
           <constraints>
