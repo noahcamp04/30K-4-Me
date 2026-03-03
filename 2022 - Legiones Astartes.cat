@@ -32449,9 +32449,14 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
     <selectionEntry id="d39f-99d5-f7a4-7b86" name="Techmarine Covenant" publicationId="a716-c1c4-7b26-8424" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="ff7e-29e9-15ce-eb81" value="1">
-          <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="373b-ce5a-ddc5-cf8f" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="373b-ce5a-ddc5-cf8f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="373b-ce5a-ddc5-cf8f" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="remove" field="category" value="11f2-472f-c1d1-9ae9">
           <conditionGroups>

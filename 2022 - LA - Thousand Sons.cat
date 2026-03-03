@@ -5538,6 +5538,7 @@ Veil of Time (Psychic Power)</description>
     <selectionEntry id="ca26-b6e2-0bef-85a5" name="Numerologist Cabal" publicationId="f743-7ff9-a2f3-01c7" page="6" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eeb3-8dfb-9ebb-5eb0" type="max"/>
+        <constraint type="min" value="0" field="selections" scope="force" shared="true" id="600b-bfa4-d9ea-be4d" includeChildSelections="true"/>
       </constraints>
       <profiles>
         <profile id="93f9-cf71-b933-04ff" name="Psy-synchronicity" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
@@ -6006,6 +6007,18 @@ Additionally, a unit that includes any models with this special rule may not be 
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="1" field="600b-bfa4-d9ea-be4d">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="373b-ce5a-ddc5-cf8f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="373b-ce5a-ddc5-cf8f" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Sekhmet Tartaros Terminator Cabal" hidden="false" id="abbc-789d-2176-99dc" collective="false">
       <modifierGroups>
