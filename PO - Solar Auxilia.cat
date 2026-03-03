@@ -550,52 +550,6 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
-      <selectionEntries>
-        <selectionEntry type="model" name="Greater Possessed Auxilia" id="7cf8-b10b-4cee-8a13" page="137" publicationId="892-6266-f55f-1b9d">
-          <profiles>
-            <profile id="029e-2049-4a67-86d9" name="Greater Possessed Auxilia" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
-              <characteristics>
-                <characteristic typeId="893e-2d76-8f04-44e5" name="Move">6</characteristic>
-                <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">3</characteristic>
-                <characteristic typeId="74ae-c840-0036-d244" name="BS">-</characteristic>
-                <characteristic typeId="e478-41d4-a092-48a8" name="S">5</characteristic>
-                <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">4</characteristic>
-                <characteristic typeId="57ee-1126-32a9-5672" name="W">3</characteristic>
-                <characteristic typeId="62d3-22d7-2d49-52dc" name="I">3</characteristic>
-                <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">3</characteristic>
-                <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">7</characteristic>
-                <characteristic typeId="e593-6b3c-f169-04f0" name="Save">4+</characteristic>
-                <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Corrupted)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <entryLinks>
-            <entryLink import="true" name="Mutated Appendages" hidden="false" id="4070-d0e5-e362-833f" type="selectionEntry" targetId="8bbc-551e-4181-aeb1">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d06d-d305-071d-b4b3-min"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d06d-d305-071d-b4b3-max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="b464-e097-4a00-abc5" name="Infantry:" primary="false"/>
-            <categoryLink targetId="e69c-24ba-4ef9-8679" id="9f69-553d-459c-8393" name="Corrupted Unit Sub-Type:" primary="false"/>
-          </categoryLinks>
-          <constraints>
-            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="0e6e-7ce1-9223-1c92"/>
-          </constraints>
-          <modifiers>
-            <modifier type="increment" value="1" field="0e6e-7ce1-9223-1c92">
-              <repeats>
-                <repeat value="5" repeats="1" field="selections" scope="067a-b938-c96f-6b47" childId="model" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <infoLinks>
         <infoLink name="Feel No Pain (X)" hidden="false" type="rule" targetId="ec46-ff29-32e0-c2aa" id="24f6-ca8a-4441-89a8">
           <modifiers>
@@ -970,6 +924,50 @@ Checked under Power Fist and Laspistol</comment>
               <constraints>
                 <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="30b0-4413-f715-d929"/>
               </constraints>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Greater Possessed Auxilia" hidden="false" id="32b8-d97c-ea4d-936d" page="137" publicationId="892-6266-f55f-1b9d">
+              <profiles>
+                <profile name="Greater Possessed Auxilia" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="f784-1452-7492-95e6">
+                  <characteristics>
+                    <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Corrupted)</characteristic>
+                    <characteristic typeId="893e-2d76-8f04-44e5" name="Move">6</characteristic>
+                    <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">3</characteristic>
+                    <characteristic typeId="74ae-c840-0036-d244" name="BS">-</characteristic>
+                    <characteristic typeId="e478-41d4-a092-48a8" name="S">5</characteristic>
+                    <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">4</characteristic>
+                    <characteristic typeId="57ee-1126-32a9-5672" name="W">3</characteristic>
+                    <characteristic typeId="62d3-22d7-2d49-52dc" name="I">3</characteristic>
+                    <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">3</characteristic>
+                    <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">7</characteristic>
+                    <characteristic typeId="e593-6b3c-f169-04f0" name="Save">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Mutated Appendages" hidden="false" id="0c35-375c-6b3d-0f91" type="selectionEntry" targetId="8bbc-551e-4181-aeb1">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5f6f-78f6-8349-2933"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd77-58c2-1995-8207"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <categoryLinks>
+                <categoryLink name="Infantry:" hidden="false" id="dfc2-ba5c-bf18-c702" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
+                <categoryLink name="Corrupted Unit Sub-Type:" hidden="false" id="be46-a913-5c72-2225" targetId="e69c-24ba-4ef9-8679" primary="false"/>
+              </categoryLinks>
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="fec7-f629-a880-f684"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="fec7-f629-a880-f684">
+                  <repeats>
+                    <repeat value="5" repeats="1" field="selections" scope="067a-b938-c96f-6b47" childId="model" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <constraints>
