@@ -6013,7 +6013,7 @@ Additionally, a unit that includes any models with this special rule may not be 
             <conditionGroup type="and">
               <conditions>
                 <condition type="equalTo" value="1" field="selections" scope="force" childId="373b-ce5a-ddc5-cf8f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                <condition type="equalTo" value="0" field="selections" scope="force" childId="373b-ce5a-ddc5-cf8f" shared="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="46ed-d30e-31f7-53b2" shared="true" includeChildSelections="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
