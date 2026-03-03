@@ -7097,6 +7097,14 @@ A model with an activated Utan Jump Booster may move over both friendly and ene
                 <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Torrent (6&quot;)</characteristic>
               </characteristics>
             </profile>
+            <profile name="Hellmaw cannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="4035-ded7-430a-5b8d" publicationId="6bcf-2297-2bcd-51be" page="15">
+              <characteristics>
+                <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Torrent (6&quot;)</characteristic>
+              </characteristics>
+            </profile>
           </profiles>
           <infoLinks>
             <infoLink id="fc02-c37a-6b2c-14d6" name="Torrent (X)" hidden="false" targetId="5cfb-fc94-e6db-43b8" type="rule">
@@ -7116,6 +7124,14 @@ A model with an activated Utan Jump Booster may move over both friendly and ene
           </constraints>
           <profiles>
             <profile id="a329-556d-dfe3-790a" name="Hellcrusher claws" publicationId="6bcf-2297-2bcd-51be" page="15" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (2), Sunder</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Hellcrusher claws" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="a96a-8f52-4b5f-a5d3" publicationId="6bcf-2297-2bcd-51be" page="15">
               <characteristics>
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>

@@ -3434,16 +3434,43 @@
           </costs>
           <entryLinks>
             <entryLink import="true" name="Asphyx Bolter" hidden="false" id="debd-10d5-77b4-9557" collective="false" targetId="88c0-4623-9da3-f2b5" type="selectionEntry">
+              <modifiers>
+                <modifier type="prepend" value="2 " field="name"/>
+              </modifiers>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4dc9-50b6-be49-dbe1-min" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4dc9-50b6-be49-dbe1-max" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </constraints>
+              <profiles>
+                <profile name="Asphyx Bolter" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="2b29-09c0-54a3-c7ed" publicationId="09c5-eeae-f398-b653" page="258">
+                  <characteristics>
+                    <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+                    <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Rapid Fire, Shred</characteristic>
+                  </characteristics>
+                  <comment>validated nsh 2022/06/20</comment>
+                </profile>
+              </profiles>
             </entryLink>
             <entryLink import="true" name="Achea Force Claw" hidden="false" id="4370-7590-9b37-71dd" collective="false" targetId="ecf4-e882-7893-5a67" type="selectionEntry">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eecc-7c17-732b-a19a-min" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eecc-7c17-732b-a19a-max" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </constraints>
+              <modifiers>
+                <modifier type="prepend" value="2 " field="name"/>
+              </modifiers>
+              <profiles>
+                <profile name="Achea Force Claw" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="7972-e95d-a7d7-699f" publicationId="09c5-eeae-f398-b653" page="267">
+                  <characteristics>
+                    <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+                    <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Rending (5+), Achean Force</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>

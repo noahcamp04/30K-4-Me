@@ -1745,7 +1745,6 @@ During a Reaction made in any Phase, a player may not choose to activate a model
       </profiles>
       <infoLinks>
         <infoLink id="ead6-abf5-c5e2-a63c" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-        <infoLink id="1cad-e4dd-f448-ca10" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
