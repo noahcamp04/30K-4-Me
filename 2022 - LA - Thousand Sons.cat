@@ -3435,7 +3435,7 @@
           <entryLinks>
             <entryLink import="true" name="Asphyx Bolter" hidden="false" id="debd-10d5-77b4-9557" collective="false" targetId="88c0-4623-9da3-f2b5" type="selectionEntry">
               <modifiers>
-                <modifier type="prepend" value="2 " field="name"/>
+                <modifier type="prepend" value="2" field="name"/>
               </modifiers>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4dc9-50b6-be49-dbe1-min" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
@@ -3459,7 +3459,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eecc-7c17-732b-a19a-max" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </constraints>
               <modifiers>
-                <modifier type="prepend" value="2 " field="name"/>
+                <modifier type="prepend" value="2" field="name"/>
               </modifiers>
               <profiles>
                 <profile name="Achea Force Claw" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="7972-e95d-a7d7-699f" publicationId="09c5-eeae-f398-b653" page="267">

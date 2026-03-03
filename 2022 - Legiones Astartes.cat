@@ -7138,6 +7138,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
       <categoryLinks>
         <categoryLink id="09bf-3b6b-fba1-8fae" name="Infantry:" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
         <categoryLink id="566e-8e1f-ea26-51e1" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
+        <categoryLink targetId="6399-5c65-7833-1025" id="ff1c-be71-f136-3af7" primary="false" name="Line Sub-type:"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="846e-c9da-5b90-861d" name="Legion Tactical Support Sergeant" hidden="false" collective="false" import="true" type="model">
@@ -22656,15 +22657,7 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                   </constraints>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="a2d1-416d-54cd-0c8c" name="For every five models in the unit, one Breacher may exchange his Bolter for:" hidden="false" collective="false" import="true">
-                      <modifiers>
-                        <modifier type="increment" field="532e-6e3d-343d-ed42" value="1">
-                          <repeats>
-                            <repeat field="selections" scope="ad97-c090-fa67-696f" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                          </repeats>
-                        </modifier>
-                      </modifiers>
                       <constraints>
-                        <constraint field="selections" scope="ad97-c090-fa67-696f" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="532e-6e3d-343d-ed42" type="max"/>
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03ef-5706-3412-7041" type="max"/>
                       </constraints>
                       <entryLinks>
@@ -22882,6 +22875,16 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                   <comment>The Flesh Is Weak</comment>
                 </modifierGroup>
               </modifierGroups>
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="35ee-bf5e-6732-4fe2"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="35ee-bf5e-6732-4fe2">
+                  <repeats>
+                    <repeat value="5" repeats="1" field="selections" scope="ad97-c090-fa67-696f" childId="model" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -38756,6 +38759,11 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                     <condition type="equalTo" value="0" field="selections" scope="force" childId="c805-ca3a-ff93-5e2f" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
+                <modifier type="increment" value="10" field="d2ee-04cb-5f8a-2642">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="bac9-5389-e2e7-0b1f" childId="1f87-b709-2c56-cefd" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </repeats>
+                </modifier>
               </modifiers>
             </selectionEntry>
           </selectionEntries>
@@ -38947,7 +38955,7 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                     <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
                     <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
                     <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
-                    <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f"/>
+                    <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
                     <characteristic name="W" typeId="57ee-1126-32a9-5672">1</characteristic>
                     <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
                     <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
