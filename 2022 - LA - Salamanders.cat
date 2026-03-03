@@ -5937,7 +5937,6 @@ In addition, an army with Artellus Numeon as its Warlord may make an additional 
             <modifier type="set" value="Furious Charge (2)" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="independent character" id="a9a8-bcee-5754-6521" hidden="false" type="rule" targetId="65ab-8a7c-23fc-c108"/>
         <infoLink name="Precision Strikes (X)" id="83ee-4408-d202-eb3a" hidden="false" type="rule" targetId="2206-8497-8fe1-e973">
           <modifiers>
             <modifier type="set" value="Precision Strikes (5+)" field="name"/>

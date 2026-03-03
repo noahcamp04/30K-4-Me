@@ -172,6 +172,7 @@
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="ed3d-6a7f-4205-95e5" name="Infantry:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="6467-e753-4190-810c" name="Character" primary="false"/>
             <categoryLink targetId="9231-183c-b97b-63f9" id="577a-2ded-4c5e-b2c9" name="Heavy Sub-type:" primary="false"/>
+            <categoryLink targetId="4f07-3d45-4f28-a0c6" id="120b-44ee-b5f3-e7be" primary="false" name="Independent Character"/>
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Indomitus Terminator Armour" hidden="false" id="d854-3fb0-3df8-b087" type="selectionEntry" targetId="289a-3c8d-4151-83af"/>
@@ -196,7 +197,6 @@
           </modifiers>
         </infoLink>
         <infoLink name="Master of the Legion" hidden="false" type="rule" targetId="c772-87ea-d49c-c7ba" id="8049-0dfa-4fd7-b35b"/>
-        <infoLink name="independent character" id="a983-2aac-135f-270f" hidden="false" type="rule" targetId="65ab-8a7c-23fc-c108"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Centurion, Indomitus" type="unit" id="4d40-5fee-4219-8354" page="7" publicationId="3970-79bb-bdc6-9599">
@@ -542,6 +542,7 @@
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="61ff-af7b-4a4b-8194" name="Infantry:" primary="false"/>
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="f58b-ef8d-4b74-8337" name="Character" primary="false"/>
             <categoryLink targetId="9231-183c-b97b-63f9" id="f407-1a84-4aa3-9c45" name="Heavy Sub-type:" primary="false"/>
+            <categoryLink targetId="4f07-3d45-4f28-a0c6" id="a5c1-6f81-66fa-7a1f" primary="false" name="Independent Character"/>
           </categoryLinks>
           <entryLinks>
             <entryLink import="true" name="Indomitus Terminator Armour" hidden="false" id="46e9-496a-da78-60ae" type="selectionEntry" targetId="5a55-baa5-1602-7223"/>
@@ -562,7 +563,6 @@
           </modifiers>
         </infoLink>
         <infoLink name="Legiones Consularis" hidden="false" type="rule" targetId="5a1d-d2f6-692b-d834" id="e02c-1c52-4b52-82f4"/>
-        <infoLink name="independent character" id="9e69-fb49-9e36-e84a" hidden="false" type="rule" targetId="65ab-8a7c-23fc-c108"/>
       </infoLinks>
       <rules>
         <rule name="Legiones Consularis" id="107d-3d51-4a1c-a553" page="7" publicationId="3970-79bb-bdc6-9599">
@@ -2161,7 +2161,6 @@
             <modifier type="set" value="Battle Hardened (1)" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="independent character" id="9913-bf4d-1b0d-565d" hidden="false" type="rule" targetId="65ab-8a7c-23fc-c108"/>
       </infoLinks>
       <rules>
         <rule name="Legiones Consularis" id="e22a-267b-48c2-8dd5" page="8" publicationId="3970-79bb-bdc6-9599">

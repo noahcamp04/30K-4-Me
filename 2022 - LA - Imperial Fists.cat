@@ -5987,6 +5987,8 @@ In addition, an army that has Lord-Castellan Evander Garrius as its Warlord may 
           </profiles>
           <categoryLinks>
             <categoryLink id="8953-9e48-f498-dd3a" name="Character" hidden="false" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
+            <categoryLink targetId="9231-183c-b97b-63f9" id="4800-855e-4b59-5ec8" primary="false" name="Heavy Sub-type:"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="3085-3a51-9fb1-b91c" primary="false" name="Infantry:"/>
           </categoryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="e99c-1e9e-3716-6e7c" name="Melee Weapon Choice:" hidden="false" collective="false" import="true" defaultSelectionEntryId="4f2d-84c0-97b0-f8b2">
@@ -6111,6 +6113,10 @@ In addition, an army that has Lord-Castellan Evander Garrius as its Warlord may 
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="55"/>
               </costs>
+              <categoryLinks>
+                <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="61d7-befd-ab90-cc7d" primary="false" name="Infantry:"/>
+                <categoryLink targetId="9231-183c-b97b-63f9" id="f359-bcb2-a3b5-372b" primary="false" name="Heavy Sub-type:"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry id="aab1-ea90-a800-b351" name="Huscarl Indomitus w/Solarite Power Gauntlet" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
@@ -6145,6 +6151,10 @@ In addition, an army that has Lord-Castellan Evander Garrius as its Warlord may 
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="65"/>
               </costs>
+              <categoryLinks>
+                <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="0243-8698-abb4-8052" primary="false" name="Infantry:"/>
+                <categoryLink targetId="9231-183c-b97b-63f9" id="c193-f656-33b2-da37" primary="false" name="Heavy Sub-type:"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry id="8469-89f9-d16c-b2be" name="Huscarl Indomitus w/Power Maul" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
@@ -6176,6 +6186,10 @@ In addition, an army that has Lord-Castellan Evander Garrius as its Warlord may 
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="55"/>
               </costs>
+              <categoryLinks>
+                <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="aa86-f647-5df5-9fde" primary="false" name="Infantry:"/>
+                <categoryLink targetId="9231-183c-b97b-63f9" id="8e7f-a56d-df23-fe66" primary="false" name="Heavy Sub-type:"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry id="b7b7-9b23-0239-776f" name="Huscarl Indomitus w/Power Lance" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
@@ -6207,6 +6221,10 @@ In addition, an army that has Lord-Castellan Evander Garrius as its Warlord may 
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="55"/>
               </costs>
+              <categoryLinks>
+                <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="c35c-57d3-69e0-4aba" primary="false" name="Infantry:"/>
+                <categoryLink targetId="9231-183c-b97b-63f9" id="4e0b-5fd0-a1e2-a43e" primary="false" name="Heavy Sub-type:"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry id="e2dd-7182-a859-b6e6" name="Huscarl Indomitus w/Power Axe" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
@@ -6238,6 +6256,10 @@ In addition, an army that has Lord-Castellan Evander Garrius as its Warlord may 
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="55"/>
               </costs>
+              <categoryLinks>
+                <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="53f7-3693-7b52-f6ff" primary="false" name="Infantry:"/>
+                <categoryLink targetId="9231-183c-b97b-63f9" id="216a-10e1-3451-bdc7" primary="false" name="Heavy Sub-type:"/>
+              </categoryLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>

@@ -620,45 +620,6 @@ The Repulsor Grid cannot be activated by any weapon which does not roll to Hit.<
     <rule name="Zenith Protocol" id="dcc4-e9a5-4289-b3e5" page="93" publicationId="f856-58d6-ef02-7d3e">
       <description>As long as the Praetorian Retinue’s Leader is alive, all Praetorian Servitors in the Maniple gain a bonus of +1 to their Weapon Skill and Ballistic Skill Characteristics.</description>
     </rule>
-    <rule name="independent character" id="65ab-8a7c-23fc-c108" hidden="false">
-      <description>Independent Characters can join other units. They cannot, however, join units that contain Vehicles, Dreadnoughts, Automata or any model with the Monstrous Sub-type (unless the Independent Character also has that Unit Type or sub-type). They can join other Independent Characters though to form a powerful multicharacter unit.
-Joining and Leaving a Unit
-An Independent Character can begin the game already with a unit, either by being deployed in unit coherency with it or, if the unit is in Reserve, by you informing your opponent which unit it has joined.
-
-
-
-
-In order to join a unit, an Independent Character simply has to move so that they are within unit coherency distance of a friendly unit at the end of their Movement phase. If the Independent Character is within unit coherency of more than one unit at the end of its Movement phase, the player must declare which unit it is joining. If an Independent Character does not intend to, or cannot, join a unit, it must, where possible, remain outside of unit coherency with that unit at the end of the Movement phase. This is to make clear whether they have joined a unit or not. Note that after an Independent Character joins a unit, that unit can Move no further that Movement phase.
-An Independent Character can leave a unit during the Movement phase by moving out of unit coherency with it. They cannot join or leave during any other Phase – once shots are fired or Charges are declared.
-
-
-
-
-An Independent Character cannot leave a unit while either they or the unit are in Reserve, locked in combat, Falling Back or have been Pinned. They cannot join a unit that is in Reserve, locked in combat or Falling Back. If an Independent Character joins a unit, and all other models in that unit are killed, they again become a unit of one model at the start of the following Phase. While an Independent Character is part of a unit, they count as part of the unit for all rules purposes, though they still follow the rules for Characters.
-
-
-
-
-Special Rules
-When an Independent Character joins a unit, it might have different special rules from those of the unit. Unless specified in the rule itself (as in the Stubborn special rule), the unit’s special rules are not conferred upon the Independent Character, and the Independent Character’s special rules are not conferred upon the unit. Special rules that are conferred to the unit only apply for as long as the Independent Character is with them.
-
-
-
-
-Independent Characters and Infiltrate
-An Independent Character without the Infiltrate special rule cannot join a unit of Infiltrators during deployment, and vice versa.
-
-
-
-
-Independent Characters and Ongoing Effects
-Sometimes, a unit that an Independent Character has joined will be the target of a beneficial or harmful effect, such as those bestowed by the Blind special rule, for example. If the Independent Character leaves the unit, both the Independent Character and the unit continue to be affected by the effect, so you’ll need to mark the Independent Character accordingly.
-
-
-
-
-Conversely, if an Independent Character joins a unit after that unit has been the target of an ongoing effect (or joins a unit after they themselves have been the target of an ongoing effect), benefits and penalties from that effect are not shared.</description>
-    </rule>
     <rule name="Fire Points (Arc, X)" id="ae93-0355-aa32-7169" hidden="false">
       <description>A Fire Point is unique in that it is a mount that does not include any weapons, instead it allows models Embarked upon the Fortification to fire the weapons they are equipped with from the Building. A Fire Point will note both the arc into which it can fire as well as the number of embarked models that can fire from it. Embarked models firing from a Fire Point measure their range and line of sight from the openings on the model that denote the Fire Point and may fire any Ranged weapons they are equipped with as per the normal rules for Shooting. If not otherwise stated, two models may fire from a Fire Point.</description>
     </rule>
