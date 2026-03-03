@@ -658,7 +658,7 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
                 <categoryLink name="Corrupted Sub-type:" hidden="false" id="d30b-3248-7808-2590" targetId="9055-7410-8ffd-b8e7" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Any Possessed Auxilia may exchange their Lasrifle for one of the following options:" id="e960-916a-244d-9575" hidden="false" defaultSelectionEntryId="c701-7c5f-4e6e-8a6b">
+                <selectionEntryGroup name="Any Possessed Auxilia may exchange their Lasrifle for one of the following options:" id="e960-916a-244d-9575" hidden="false" defaultSelectionEntryId="4a1b-aff9-4f24-0255">
                   <entryLinks>
                     <entryLink import="true" name="Lasrifle" hidden="false" id="4a1b-aff9-4f24-0255" type="selectionEntry" targetId="2449-dc45-3441-b471">
                       <constraints>
@@ -824,7 +824,7 @@ Could not find type or subtype &apos;Dreadnought&apos;</comment>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="726c-beef-0867-dc11-max"/>
                   </constraints>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Melee Weapon" id="c300-a716-0b39-6bb5" hidden="false">
+                <selectionEntryGroup name="Melee Weapon" id="c300-a716-0b39-6bb5" hidden="false" defaultSelectionEntryId="8bdb-eb45-3675-02e2">
                   <entryLinks>
                     <entryLink import="true" name="Close Combat Weapon" hidden="false" id="8bdb-eb45-3675-02e2" type="selectionEntry" targetId="3d50-2f85-06ff-6aee"/>
                     <entryLink import="true" name="Chainsword" hidden="false" id="6413-d400-c8f6-6f53" type="selectionEntry" targetId="06e7-a6ae-ed1c-eb03">
