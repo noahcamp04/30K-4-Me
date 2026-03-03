@@ -9,147 +9,6 @@
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="135"/>
       </costs>
-      <selectionEntries>
-        <selectionEntry type="model" name="Ireton MaSade" id="5915-2e6b-40fb-bceb" page="130" publicationId="892-6266-f55f-1b9d">
-          <profiles>
-            <profile id="15df-f7df-443b-b8f8" name="Ireton MaSade" typeId="4bb2-cb95-e6c8-5a21">
-              <characteristics>
-                <characteristic typeId="893e-2d76-8f04-44e5" name="Move">6</characteristic>
-                <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">4</characteristic>
-                <characteristic typeId="74ae-c840-0036-d244" name="BS">5</characteristic>
-                <characteristic typeId="e478-41d4-a092-48a8" name="S">3</characteristic>
-                <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">3</characteristic>
-                <characteristic typeId="57ee-1126-32a9-5672" name="W">3</characteristic>
-                <characteristic typeId="62d3-22d7-2d49-52dc" name="I">3</characteristic>
-                <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">3</characteristic>
-                <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">10</characteristic>
-                <characteristic typeId="e593-6b3c-f169-04f0" name="Save">2+</characteristic>
-                <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Character, Unique)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bcff-6a7c-45ab-b0e8"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9fdb-4c9f-4216-8145"/>
-          </constraints>
-          <entryLinks>
-            <entryLink name="Archaeotech Pistol" hidden="false" type="selectionEntry" targetId="c22a-ed4d-af68-bf00" id="1d7b-38ca-4c46-ac60">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f3c7-d6ad-481d-9ddc"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="666d-5753-4b25-a2d0"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Paragon Blade" hidden="false" type="selectionEntry" targetId="2ab9-0e45-405e-056b" id="124f-7b7e-4120-98fd">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5030-ebba-4e41-9d80"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36d4-f57b-49a6-873a"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Frag Grenades" hidden="false" type="selectionEntry" targetId="4fd8-9e1f-ae28-3004" id="ff05-ad77-4f4e-9bf6">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d54c-94fb-47d4-b164"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b83c-c07e-4609-bd45"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Krak Grenades" hidden="false" type="selectionEntry" targetId="3739-1019-344e-761d" id="9bca-0ccb-4067-8bb6">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d44d-f9a1-44d1-a03b"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c451-f19c-42ef-a2d4"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Iron Halo" hidden="false" type="selectionEntry" targetId="b081-bf3c-f43d-4bd5" id="ead2-a0ef-41d5-8e50">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1df0-31b6-431f-84f8"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a50b-9375-48c0-a5d5"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Ireton MaSade may be equipped with:" id="512c-bd1d-407e-8c78">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8467-2cf6-43f9-8836"/>
-              </constraints>
-              <comment>!BSC Errors from 20240406-1603
-Could not find wargear Extremis Warsuit*
-	 Checked under Extremis Warsuit</comment>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="d22f-7aa0-4679-b724" name="Infantry:" primary="false"/>
-            <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="fa54-7cd0-4ba4-b5ef" name="Character" primary="false"/>
-            <categoryLink targetId="aa94-5c65-d1f1-46a4" id="54b0-ad04-4d07-864b" name="Unique Sub-type" primary="false"/>
-          </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Ambulator Frame
-	 Checked under Ambulator Frame
-Could not find wargear Psi-Jammer
-	 Checked under Psi-Jammer
-Could not find wargear in Ireton MaSade may be equipped with:</comment>
-        </selectionEntry>
-        <selectionEntry type="model" name="Ireton MaSade Mechanised" id="5d63-dbc1-4c89-bea4" page="130" publicationId="892-6266-f55f-1b9d">
-          <profiles>
-            <profile id="c7f6-7849-4488-9511" name="Ireton MaSade Mechanised" typeId="4bb2-cb95-e6c8-5a21">
-              <characteristics>
-                <characteristic typeId="893e-2d76-8f04-44e5" name="Move">8</characteristic>
-                <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">4</characteristic>
-                <characteristic typeId="74ae-c840-0036-d244" name="BS">5</characteristic>
-                <characteristic typeId="e478-41d4-a092-48a8" name="S">5</characteristic>
-                <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">5</characteristic>
-                <characteristic typeId="57ee-1126-32a9-5672" name="W">4</characteristic>
-                <characteristic typeId="62d3-22d7-2d49-52dc" name="I">3</characteristic>
-                <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">3</characteristic>
-                <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">10</characteristic>
-                <characteristic typeId="e593-6b3c-f169-04f0" name="Save">2+</characteristic>
-                <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Character, Unique, Light, Mechanised)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <entryLinks>
-            <entryLink name="Archaeotech Pistol" hidden="false" type="selectionEntry" targetId="c22a-ed4d-af68-bf00" id="77d8-9560-4b0c-b845">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2384-9510-4dfa-858c"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="97d4-1cb4-4e7a-bdcc"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Paragon Blade" hidden="false" type="selectionEntry" targetId="2ab9-0e45-405e-056b" id="b84c-07f3-4bba-ab38">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6c9b-2197-41bb-a486"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de17-e242-43a2-abf5"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Frag Grenades" hidden="false" type="selectionEntry" targetId="4fd8-9e1f-ae28-3004" id="c93d-951a-4445-ad92">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e48d-2efe-4705-bc5d"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36de-86a0-4e32-9b51"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Krak Grenades" hidden="false" type="selectionEntry" targetId="3739-1019-344e-761d" id="b719-12a4-45ed-9dbf">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5769-9195-4445-924b"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="45b6-51df-4805-88f6"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Iron Halo" hidden="false" type="selectionEntry" targetId="b081-bf3c-f43d-4bd5" id="7195-6358-4020-b928">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6c9c-6252-4640-9248"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72d7-4d89-471f-b312"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <categoryLinks>
-            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="f562-bcbe-43b5-9cbf" name="Infantry:" primary="false"/>
-            <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="9cf4-1c65-4497-bfc1" name="Character" primary="false"/>
-            <categoryLink targetId="aa94-5c65-d1f1-46a4" id="5887-b906-4da9-8877" name="Unique Sub-type" primary="false"/>
-            <categoryLink targetId="bff2-ae16-74a8-8712" id="c963-dedb-4111-a914" name="Light Sub-type:" primary="false"/>
-            <categoryLink targetId="ad48-f7f6-413d-afeb" id="0f22-7133-42d6-97df" name="Mechanised Unit Sub-Type:" primary="false"/>
-          </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Ambulator Frame
-	 Checked under Ambulator Frame
-Could not find wargear Psi-Jammer
-	 Checked under Psi-Jammer</comment>
-        </selectionEntry>
-      </selectionEntries>
       <infoLinks>
         <infoLink name="Battle-Hardened (X)" hidden="false" type="rule" targetId="5c3b-ed0b-4ad0-d547" id="e677-b864-4a33-b5b3">
           <modifiers>
@@ -164,11 +23,245 @@ Could not find wargear Psi-Jammer
         </infoLink>
         <infoLink name="Loyalist" hidden="false" type="rule" targetId="d1de-a45d-2b9b-c878" id="a5cf-7de7-45f9-9488"/>
         <infoLink name="Stubborn" hidden="false" type="rule" targetId="7989-1f2c-a43d-82ae" id="2749-3c5d-4f9b-af00"/>
+        <infoLink name="It Will Not Die (X)" id="5e9d-aa30-884c-5ef4" hidden="false" type="rule" targetId="2784-d0be-a4e2-890f">
+          <modifiers>
+            <modifier type="set" value="It Will Not Die (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
-      <comment>!BSC Errors from 20240406-1603
-Could not find rule: Cohort Doctrines
-Could not find rule: Independent Character
-Could not find rule: Warlord: Master of the Battlefield</comment>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="63b4-e710-7ac0-846d" type="selectionEntry" targetId="0176-56a3-d590-b103">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Warlord Trait: Master of the Battlefield" hidden="false" id="25a9-13b2-b8cd-1448">
+              <profiles>
+                <profile name="Warlord Trait: Master of the Battlefield" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait" hidden="false" id="e860-5c64-e9da-961d">
+                  <characteristics>
+                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">If chosen as the army’s Warlord, Ireton MaSade automatically has the Master of the Battlefield Warlord Trait and may not select any other Warlord Trait.
+At the start of the battle, once all players have deployed all of their units onto the battlefield (including Infiltrators and Scouts) and any rolls to Seize the Initiative have been made, but before the game begins, the Controlling Player may select up to three units that are under their control. The selected units may be redeployed as the Controlling Player wishes, within the constraints of the mission being played. The selected units may be placed into Reserves, but may not be assigned to a Deep Strike Assault, Subterranean Assault or Flanking Assault. If a unit with the Tercio Special Rule is selected, each unit is counted seperately, though that unit may ignore the normal rules for Tercio deployment when it is being redeployed.
+In addition, the Controlling Player of an army with Ireton MaSade as its Warlord may select one Phase at the start of the battle, before any models are deployed onto the battlefield. During the chosen Phase of their opponent’s turn, an army that includes Ireton MaSade gains an additional Reaction as long as Ireton MaSade has not been removed as a casualty.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8970-66a9-3c0d-7c5a-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8970-66a9-3c0d-7c5a-max"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+        <entryLink import="true" name="Cohort Doctrines" hidden="false" id="5299-6861-fc55-4c98" type="selectionEntryGroup" targetId="2df3-6ddf-c083-5985"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Ireton MaSade" id="013c-7326-99bb-ec26" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Ireton MaSade" hidden="false" id="ec9a-d34d-2a13-e33e" page="130" publicationId="892-6266-f55f-1b9d">
+              <profiles>
+                <profile name="Ireton MaSade" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="6156-3b69-eb15-10d5">
+                  <characteristics>
+                    <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Character, Unique)</characteristic>
+                    <characteristic typeId="893e-2d76-8f04-44e5" name="Move">6</characteristic>
+                    <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">4</characteristic>
+                    <characteristic typeId="74ae-c840-0036-d244" name="BS">5</characteristic>
+                    <characteristic typeId="e478-41d4-a092-48a8" name="S">3</characteristic>
+                    <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">3</characteristic>
+                    <characteristic typeId="57ee-1126-32a9-5672" name="W">3</characteristic>
+                    <characteristic typeId="62d3-22d7-2d49-52dc" name="I">3</characteristic>
+                    <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">3</characteristic>
+                    <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">10</characteristic>
+                    <characteristic typeId="e593-6b3c-f169-04f0" name="Save">2+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Archaeotech Pistol" hidden="false" id="f094-f2ff-3954-d953" type="selectionEntry" targetId="c22a-ed4d-af68-bf00">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="959e-392d-adba-11ba"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e9f2-07da-9bf7-5b7c"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Paragon Blade" hidden="false" id="512e-55a6-9db9-afe5" type="selectionEntry" targetId="2ab9-0e45-405e-056b">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="64ab-5cc3-4488-0378"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff1d-dcad-6586-0677"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Frag Grenades" hidden="false" id="479b-e31f-f12f-7e4b" type="selectionEntry" targetId="4fd8-9e1f-ae28-3004">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="43d2-35fc-91c7-32eb"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c77-de74-8d16-be29"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Krak Grenades" hidden="false" id="537f-0c93-b035-f13b" type="selectionEntry" targetId="3739-1019-344e-761d">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5cae-c23a-fae1-5954"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60be-cf18-cf31-c796"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Iron Halo" hidden="false" id="41e7-4e46-4621-7a78" type="selectionEntry" targetId="b081-bf3c-f43d-4bd5">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c1a2-598b-48b2-fe70"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24b6-b629-615d-294c"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <categoryLinks>
+                <categoryLink name="Infantry:" hidden="false" id="82a4-5fd6-b436-9db9" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
+                <categoryLink name="Character" hidden="false" id="a96c-88f6-cf88-f374" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
+                <categoryLink name="Unique Sub-type" hidden="false" id="2c8e-4937-81d6-ac4d" targetId="aa94-5c65-d1f1-46a4" primary="false"/>
+                <categoryLink name="Independent Character" hidden="false" id="b16f-5d69-39a8-0705" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
+                <categoryLink name="SA or IM Unit" hidden="false" id="3c3d-7630-2b35-f9fd" targetId="4aca-2849-7f41-0200" primary="false"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Ambulator Frame" hidden="false" id="4493-82c7-be7b-1176">
+                  <profiles>
+                    <profile name="Ambulator Frame" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="96b3-7053-9bc6-07a8">
+                      <characteristics>
+                        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">n Ambulator Frame provides a 2+ Armour Save and grants the It Will Not Die (5+) Special Rule</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c350-d3b4-a71c-0ae4-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c350-d3b4-a71c-0ae4-max"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Psi-Jammer" hidden="false" id="944b-f03a-a876-d799">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Psi-Jammer" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="cfba-9b79-016c-7840">
+                      <characteristics>
+                        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any enemy model within 18” and line of sight of a model with a Psi-Jammer must reduce its Leadership by -2 when making Psychic Checks. This
+modifier is not cumulative and no model may suffer penalties from more than one Psi-Jammer.
+In addition, a model with a Psi-Jammer and any unit they have joined gains the Adamantium Will (5+) Special Rule.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Adamantium Will (X+)" id="494e-4580-6609-34e3" hidden="false" type="rule" targetId="4380-44a5-f01a-d964">
+                      <modifiers>
+                        <modifier type="set" value="Adamantium Will (5+)" field="name"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="efd3-5400-1213-1002-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="efd3-5400-1213-1002-max"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Ireton MaSade Mechanised" hidden="false" id="33cd-76dd-1e4c-b3fa" page="130" publicationId="892-6266-f55f-1b9d">
+              <profiles>
+                <profile name="Ireton MaSade Mechanised" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="07fd-03cb-4c19-0f71">
+                  <characteristics>
+                    <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Infantry (Character, Unique, Light, Mechanised)</characteristic>
+                    <characteristic typeId="893e-2d76-8f04-44e5" name="Move">8</characteristic>
+                    <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">4</characteristic>
+                    <characteristic typeId="74ae-c840-0036-d244" name="BS">5</characteristic>
+                    <characteristic typeId="e478-41d4-a092-48a8" name="S">5</characteristic>
+                    <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">5</characteristic>
+                    <characteristic typeId="57ee-1126-32a9-5672" name="W">4</characteristic>
+                    <characteristic typeId="62d3-22d7-2d49-52dc" name="I">3</characteristic>
+                    <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">3</characteristic>
+                    <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">10</characteristic>
+                    <characteristic typeId="e593-6b3c-f169-04f0" name="Save">2+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Archaeotech Pistol" hidden="false" id="9e32-d197-ed1a-c77e" type="selectionEntry" targetId="c22a-ed4d-af68-bf00">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a503-8c86-4172-5777"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e09-fac4-85aa-74ae"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Paragon Blade" hidden="false" id="64cd-db65-74ed-f332" type="selectionEntry" targetId="2ab9-0e45-405e-056b">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="28c1-24e7-f657-df45"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da8c-3bfa-a1df-e317"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Frag Grenades" hidden="false" id="92b5-e7cf-749f-791f" type="selectionEntry" targetId="4fd8-9e1f-ae28-3004">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="db32-9b56-59f5-7c58"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d37-8f35-86fc-1150"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Krak Grenades" hidden="false" id="415d-4cdc-dc35-48ef" type="selectionEntry" targetId="3739-1019-344e-761d">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="13ff-41d3-bfd6-68ce"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d85-77c5-4c26-aae9"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Iron Halo" hidden="false" id="27a7-a48a-72e9-fc98" type="selectionEntry" targetId="b081-bf3c-f43d-4bd5">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="550d-ba6e-bb77-1879"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eee0-e097-e55b-2a54"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <categoryLinks>
+                <categoryLink name="Infantry:" hidden="false" id="bd65-7289-cd76-8526" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
+                <categoryLink name="Character" hidden="false" id="54c1-fa43-b2e0-e18e" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
+                <categoryLink name="Unique Sub-type" hidden="false" id="9f50-69d3-3c6e-05f0" targetId="aa94-5c65-d1f1-46a4" primary="false"/>
+                <categoryLink name="Light Sub-type:" hidden="false" id="3475-fd75-4c1f-72bc" targetId="bff2-ae16-74a8-8712" primary="false"/>
+                <categoryLink name="Mechanised Unit Sub-Type:" hidden="false" id="03e5-e2cc-11d5-5f5e" targetId="ad48-f7f6-413d-afeb" primary="false"/>
+                <categoryLink name="Independent Character" hidden="false" id="69f2-3f45-5546-d606" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
+                <categoryLink name="SA or IM Unit" hidden="false" id="2248-78b4-1d55-19ce" targetId="4aca-2849-7f41-0200" primary="false"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Ambulator Frame" hidden="false" id="1e52-147d-821e-b186">
+                  <profiles>
+                    <profile name="Ambulator Frame" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="61ce-b18e-62e0-207f">
+                      <characteristics>
+                        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">n Ambulator Frame provides a 2+ Armour Save and grants the It Will Not Die (5+) Special Rule</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e065-880b-48d8-0ea5-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e065-880b-48d8-0ea5-max"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Psi-Jammer" hidden="false" id="9f29-5db2-0e29-98fb">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Psi-Jammer" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="5ff2-c288-6039-aa17">
+                      <characteristics>
+                        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any enemy model within 18” and line of sight of a model with a Psi-Jammer must reduce its Leadership by -2 when making Psychic Checks. This
+modifier is not cumulative and no model may suffer penalties from more than one Psi-Jammer.
+In addition, a model with a Psi-Jammer and any unit they have joined gains the Adamantium Will (5+) Special Rule.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Adamantium Will (X+)" id="e17a-80c3-e598-5610" hidden="false" type="rule" targetId="4380-44a5-f01a-d964">
+                      <modifiers>
+                        <modifier type="set" value="Adamantium Will (5+)" field="name"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="843f-9811-ccc3-309d-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="843f-9811-ccc3-309d-max"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7080-d246-f28e-3cf7-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7080-d246-f28e-3cf7-max"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry name="Solar Auxilia Battle Psyker" type="unit" id="aeec-9d3a-4d2b-b235" page="132" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
@@ -1208,54 +1301,243 @@ Could not find wargear in Any model may select one of the following options:</co
         <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="6cd0-1e40-4501-85eb" name="Elites:"/>
       </categoryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="65"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
       </costs>
       <selectionEntries>
         <selectionEntry type="model" name="Enginseer Adept" id="f6fb-f08b-44d7-8e73" page="139" publicationId="892-6266-f55f-1b9d">
           <profiles>
-            <profile id="7ce1-fe42-4a22-8b8a" name="Enginseer Adept" typeId="4bb2-cb95-e6c8-5a21">
+            <profile id="7ce1-fe42-4a22-8b8a" name="Enginseer Adept" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
-                <characteristic typeId="893e-2d76-8f04-44e5" name="Move">6</characteristic>
-                <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">3</characteristic>
-                <characteristic typeId="74ae-c840-0036-d244" name="BS">3</characteristic>
-                <characteristic typeId="e478-41d4-a092-48a8" name="S">3</characteristic>
-                <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">3</characteristic>
-                <characteristic typeId="57ee-1126-32a9-5672" name="W">1</characteristic>
-                <characteristic typeId="62d3-22d7-2d49-52dc" name="I">3</characteristic>
-                <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">1</characteristic>
-                <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">7</characteristic>
-                <characteristic typeId="e593-6b3c-f169-04f0" name="Save">4+</characteristic>
-                <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type"/>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">3</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">1</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">3</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6b53-dc39-4546-8a38"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f1f0-6bc1-4747-a087"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="f1f0-6bc1-4747-a087"/>
           </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Laspistol" hidden="false" id="396d-20da-5ece-d59c" type="selectionEntry" targetId="654d-be88-b0a8-7ae5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="af3b-7178-5819-1cc3-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="af3b-7178-5819-1cc3-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Power Axe" hidden="false" id="426b-0a2c-1c88-3d17" type="selectionEntry" targetId="c066-2ace-f68c-e440">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="29f9-9d8b-6878-bcbe-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29f9-9d8b-6878-bcbe-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Servo-Arm" hidden="false" id="b739-dcd7-0b75-0e47" type="selectionEntry" targetId="4168-fc85-8912-7188">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bd7b-03ec-fda9-bcf9-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd7b-03ec-fda9-bcf9-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <categoryLinks>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="35a7-6ae8-fdc0-7f5f" primary="false" name="Infantry:"/>
+            <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="1cce-b629-ecc0-8d43" primary="false" name="Character"/>
+            <categoryLink targetId="86dd-51d8-3669-68ca" id="54a3-b07e-211e-616d" primary="false" name="Tech-Priest Auxilia"/>
+            <categoryLink targetId="4aca-2849-7f41-0200" id="46a5-54c2-f138-5fd2" primary="false" name="SA or IM Unit"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Any Engineer Adept may take any of the following options:" id="46de-fd63-c54d-7a76" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="Augury Scanner" hidden="false" id="97e1-a6e9-9991-1b0c" type="selectionEntry" targetId="67ee-7338-3b74-04b4">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="51a8-7c45-7c9a-47d4"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Vox Interlock" hidden="false" id="e0b6-1661-f355-7b6e" type="selectionEntry" targetId="c04e-5624-3615-0660">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d98-78f2-2b88-999d"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Nuncio-Vox" hidden="false" id="675c-a460-14aa-d178" type="selectionEntry" targetId="005e-aae6-ddac-bb45">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b9c0-2806-5c8f-87a3"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Volkite Charger" hidden="false" id="34ae-f041-ab9d-ae66" type="selectionEntry" targetId="6f6e-ad55-e093-6503">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="67c0-a6b0-63a3-4c28"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Cortex Controller" hidden="false" id="db98-d775-960e-5088" type="selectionEntry" targetId="2fda-455f-d34d-97e0">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a309-938f-c7d5-4da9"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Graviton Gun" hidden="false" id="e212-43ff-8962-2b88" type="selectionEntry" targetId="5303-5a3e-de51-1707">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70af-b1be-e173-a18c"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Melta Bomb" hidden="false" id="77a7-5c35-0235-7b52" type="selectionEntry" targetId="e55d-d31b-46a9-aeb6">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d61-61ee-87b3-94e4"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Cyber-Familiar" hidden="false" id="7b68-e1c4-bd40-6c3e" type="selectionEntry" targetId="6c85-4601-cf58-7b35">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="01e6-5665-9b61-ee40"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
         <selectionEntry type="model" name="Servo-Automata" id="8b16-63e2-4811-8523" page="139" publicationId="892-6266-f55f-1b9d">
           <profiles>
-            <profile id="0d3b-77f2-43a5-9d79" name="Servo-Automata" typeId="4bb2-cb95-e6c8-5a21">
+            <profile id="0d3b-77f2-43a5-9d79" name="Servo-Automata" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
-                <characteristic typeId="893e-2d76-8f04-44e5" name="Move">6</characteristic>
-                <characteristic typeId="cc42-7ed5-7092-5c84" name="WS">3</characteristic>
-                <characteristic typeId="74ae-c840-0036-d244" name="BS">3</characteristic>
-                <characteristic typeId="e478-41d4-a092-48a8" name="S">4</characteristic>
-                <characteristic typeId="c32b-5fdd-3fbe-9b1f" name="T">5</characteristic>
-                <characteristic typeId="57ee-1126-32a9-5672" name="W">1</characteristic>
-                <characteristic typeId="62d3-22d7-2d49-52dc" name="I">1</characteristic>
-                <characteristic typeId="f111-2ce5-dd12-d6b0" name="A">1</characteristic>
-                <characteristic typeId="e8a6-1da9-d384-8727" name="Ld">6</characteristic>
-                <characteristic typeId="e593-6b3c-f169-04f0" name="Save">5+</characteristic>
-                <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type"/>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Automata (Guardian)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">3</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">5</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">1</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">1</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">6</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">5+</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Close Combat Weapon" hidden="false" id="e6c8-7cb3-1956-39da" type="selectionEntry" targetId="3d50-2f85-06ff-6aee">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3177-a9d3-9e2e-10e7-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3177-a9d3-9e2e-10e7-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Any Servo-automata may take one of the following options:" id="b5b1-5a6b-ea7b-6af5" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="Las-lock" hidden="false" id="4532-f192-6b94-7e97" type="selectionEntry" targetId="6491-5e10-ba7e-e0d3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Flamer" hidden="false" id="30d0-606a-929a-10a9" type="selectionEntry" targetId="9f41-82e2-90f6-973a">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Maxima Bolter" hidden="false" id="31d3-42cd-5ef9-403e" type="selectionEntry" targetId="1e45-db2f-40cb-9bf4">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Servo-Arm" hidden="false" id="6855-c7a0-d6d8-8c10" type="selectionEntry" targetId="fbef-812d-4d20-9285">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Grenade Launcher" hidden="false" id="2201-c0d4-a214-80dc" type="selectionEntry" targetId="e0f3-3743-a9d0-f5f1">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Rotor Cannon" hidden="false" id="b20e-69ae-5b6c-7c4a" type="selectionEntry" targetId="5ce3-3aa5-3f5e-9ead">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Heavy Bolter" hidden="false" id="bb5c-3371-e82b-1cc5" type="selectionEntry" targetId="07fd-c24a-9235-4206">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Multi-Melta" hidden="false" id="5bcd-901e-ca75-531b" type="selectionEntry" targetId="9332-3834-cf3a-56b4">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c13-7513-b0d7-d396"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <categoryLinks>
+            <categoryLink targetId="d8ab-8e21-e193-63ba" id="f9d4-4dda-51ca-67c1" primary="false" name="Automata Unit-type:"/>
+            <categoryLink targetId="8745-b21e-8576-7c30" id="719e-c7b0-8a20-0a33" primary="false" name="Guardian Unit Sub-type"/>
+            <categoryLink targetId="4aca-2849-7f41-0200" id="adc0-52db-79a1-d249" primary="false" name="SA or IM Unit"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="fdc7-3230-501b-76e8"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="81cc-4b19-b5ed-4f08"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
-      <comment>!BSC Errors from 20240406-1603
-Could not find profile for Servo-automata in [&apos;Enginseer Adept&apos;, &apos;Servo-Automata&apos;]</comment>
+      <infoLinks>
+        <infoLink name="Battlesmith (X)" id="c2ed-0243-ae52-d384" hidden="false" type="rule" targetId="5d57-4d02-1e36-4a82">
+          <modifiers>
+            <modifier type="set" value="Battlesmith (6+) (Enginseer Adept only)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Battle-Automata" id="d8e0-2928-42d2-3aed" hidden="false" type="rule" targetId="2d31-1b1b-4e0b-a594">
+          <modifiers>
+            <modifier type="set" value="Battle-Automata (Enginseer Adept only)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Stubborn" id="e045-fb89-d705-a128" hidden="false" type="rule" targetId="7989-1f2c-a43d-82ae">
+          <modifiers>
+            <modifier type="set" value="Stubborn (Enginseer Adept only)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Techno-Arcana: Enginseer" id="23a4-75c6-2312-0e1a" hidden="false" type="rule" targetId="6ea0-bda5-48cc-98dd">
+          <modifiers>
+            <modifier type="set" value="Techo-Arcana: Enginseer
+(Enginseer Adept only)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry name="Auxilia Breacher Tercio Each Auxilia Breacher Tercio Is A Single Troops Choice, Using Up A Single Troops Slot On The Force Organisation Chart" type="unit" id="3310-b0ef-4e41-9a06" page="144" publicationId="892-6266-f55f-1b9d">
       <categoryLinks>
@@ -4807,6 +5089,7 @@ Could not find wargear in Any Auxilia Hellhound may select any of the following 
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="7da3-c7e9-43a7-b260" name="Vehicle:" primary="false"/>
             <categoryLink targetId="4e84-2d57-4986-2b23" id="1336-ee34-4c9c-8b77" name="Flyer Sub-type:" primary="false"/>
+            <categoryLink targetId="4aca-2849-7f41-0200" id="c4c1-6bc2-0e8c-80e5" primary="false" name="SA or IM Unit"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -6242,6 +6525,18 @@ Could not find rule: Countdown To Launch…</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5063-06fb-4267-a7a0"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Autocannon" hidden="false" id="2c2e-7b31-2b05-8f76" type="selectionEntry" targetId="56b3-de09-9fea-deb6">
+              <infoLinks>
+                <infoLink name="Twin-linked" id="0cef-7062-46b2-b277" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
+              </infoLinks>
+              <modifiers>
+                <modifier type="prepend" value="Centerline (Front) Mounted Twin-Linked " field="name"/>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="989b-e306-bb15-e9f8-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="989b-e306-bb15-e9f8-max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="The Auxilia Marauder Bomber may select the following option:" id="4a05-2c66-42af-9d86">
@@ -6264,10 +6559,8 @@ Could not find rule: Countdown To Launch…</comment>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="052d-978b-4d5f-8679" name="Vehicle:" primary="false"/>
             <categoryLink targetId="4e84-2d57-4986-2b23" id="39f8-a3cf-47bd-83d5" name="Flyer Sub-type:" primary="false"/>
             <categoryLink targetId="7f9b-c5ed-7edb-02dc" id="aca1-ae62-4138-b46d" name="Lumbering Sub-type:" primary="false"/>
+            <categoryLink targetId="4aca-2849-7f41-0200" id="b2d2-532b-60c6-37aa" primary="false" name="SA or IM Unit"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Centreline (Front) Mounted Twin-Linked Autocannon
-	 Checked under Twin-Linked Autocannon</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -6330,15 +6623,182 @@ Could not find wargear Centreline (Front) Mounted Twin-Linked Autocannon
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d0b8-519f-4373-90bc"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Fragmentation Bomb" hidden="false" id="31ef-609f-2d1c-40a9" type="selectionEntry" targetId="1a19-b6a4-dcc4-b7c4">
+              <modifiers>
+                <modifier type="prepend" value="Four Hull (Front) Mounted" field="name"/>
+              </modifiers>
+              <profiles>
+                <profile name="Fragmentation Bomb" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="4682-9648-82c5-7072">
+                  <characteristics>
+                    <characteristic name="Range" hidden="false" id="6e86-522e-c375-7f24" typeId="95ba-cda7-b831-6066">-</characteristic>
+                    <characteristic name="Strength" hidden="false" id="022f-f6b8-62c0-fe80" typeId="24d9-b8e1-a355-2458">5</characteristic>
+                    <characteristic name="AP" hidden="false" id="f6a9-ecd6-35dd-1c0a" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+                    <characteristic name="Type" hidden="false" id="bc9c-60b4-cfd0-425a" typeId="2f86-c8b4-b3b4-3ff9">Bomb 1, Blast (3&quot;), One Use</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Fragmentation Bomb" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="53ff-bc3c-333a-d692">
+                  <characteristics>
+                    <characteristic name="Range" hidden="false" id="d3fd-ecfe-e4f0-c12a" typeId="95ba-cda7-b831-6066">-</characteristic>
+                    <characteristic name="Strength" hidden="false" id="7eae-f37c-08a2-298a" typeId="24d9-b8e1-a355-2458">5</characteristic>
+                    <characteristic name="AP" hidden="false" id="54f8-9367-0096-7a0e" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+                    <characteristic name="Type" hidden="false" id="8526-367c-0260-085f" typeId="2f86-c8b4-b3b4-3ff9">Bomb 1, Blast (3&quot;), One Use</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Fragmentation Bomb" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="dbec-6b24-83d4-63fe">
+                  <characteristics>
+                    <characteristic name="Range" hidden="false" id="aafc-711c-803a-7c09" typeId="95ba-cda7-b831-6066">-</characteristic>
+                    <characteristic name="Strength" hidden="false" id="1b75-a818-05d2-3fa1" typeId="24d9-b8e1-a355-2458">5</characteristic>
+                    <characteristic name="AP" hidden="false" id="e755-c9da-7606-358f" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+                    <characteristic name="Type" hidden="false" id="b973-661c-ff33-571c" typeId="2f86-c8b4-b3b4-3ff9">Bomb 1, Blast (3&quot;), One Use</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e045-7ee5-390a-97eb-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e045-7ee5-390a-97eb-max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="The Auxilia Marauder Destroyer may exchange its eight Front (Hull) Mounted Hellstrike Missiles for the following option:" id="bd19-ca0e-4613-9524">
+            <selectionEntryGroup name="The Auxilia Marauder Destroyer may exchange its eight Front (Hull) Mounted Hellstrike Missiles for the following option:" id="bd19-ca0e-4613-9524" defaultSelectionEntryId="1600-327f-c3b5-8504">
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a3c-a753-4dd1-b8de"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4a3c-a753-4dd1-b8de-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a3c-a753-4dd1-b8de-max"/>
               </constraints>
               <comment>!BSC Errors from 20240406-1603
 Could not find wargear Eight Hull (Front) Mounted Skystrike Missiles
 	 Checked under Skystrike Missiles</comment>
+              <entryLinks>
+                <entryLink import="true" name="Hellstrike Missile" hidden="false" id="1600-327f-c3b5-8504" type="selectionEntry" targetId="5e24-bdca-a89c-0f40">
+                  <modifiers>
+                    <modifier type="prepend" value="Eight Hull (Front) Mounted" field="name"/>
+                  </modifiers>
+                  <profiles>
+                    <profile name="Hellstrike Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="00b0-e690-f71b-5e33" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder, One Shot</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Hellstrike Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="b48f-d225-62b1-69a9" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder, One Shot</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Hellstrike Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="18b9-5bc4-cf93-5252" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder, One Shot</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Hellstrike Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="4f1e-1010-850c-dbc9" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder, One Shot</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Hellstrike Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="48c6-d6c8-ef6a-131d" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder, One Shot</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Hellstrike Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="af86-c31f-bf08-e82e" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder, One Shot</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Hellstrike Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="1fbc-fd04-df0f-db0d" publicationId="a716-c1c4-7b26-8424" page="133">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder, One Shot</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </entryLink>
+                <entryLink import="true" name="Skystrike Missile" hidden="false" id="56af-a874-99e2-9389" type="selectionEntry" targetId="423f-5e6d-4427-a348">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="prepend" value="Eight Hull (Front) Mounted" field="name"/>
+                  </modifiers>
+                  <profiles>
+                    <profile name="Skystrike Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="5136-926e-35ee-b1a8">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Skyfire, Sunder, One Use</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Skystrike Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="042b-a768-c1f0-819f">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Skyfire, Sunder, One Use</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Skystrike Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="7a0b-cd34-d421-45fa">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Skyfire, Sunder, One Use</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Skystrike Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="3422-4281-0eb1-c448">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Skyfire, Sunder, One Use</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Skystrike Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="d059-4d7e-ab5f-dfb2">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Skyfire, Sunder, One Use</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Skystrike Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="b06f-4aaa-2e9a-2c74">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Skyfire, Sunder, One Use</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Skystrike Missile" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="3b06-9b88-591a-6856">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Skyfire, Sunder, One Use</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="The Auxilia Marauder Destroyer may select the following option:" id="e9a9-c684-40a3-92de">
               <entryLinks>
@@ -6360,13 +6820,8 @@ Could not find wargear Eight Hull (Front) Mounted Skystrike Missiles
             <categoryLink targetId="e2b6-b770-784c-9e95" id="02c7-578c-4464-9321" name="Vehicle:" primary="false"/>
             <categoryLink targetId="4e84-2d57-4986-2b23" id="cade-8bd2-4088-9744" name="Flyer Sub-type:" primary="false"/>
             <categoryLink targetId="7f9b-c5ed-7edb-02dc" id="f33b-eed4-47bc-bdd0" name="Lumbering Sub-type:" primary="false"/>
+            <categoryLink targetId="4aca-2849-7f41-0200" id="2bcd-66fa-b622-5131" primary="false" name="SA or IM Unit"/>
           </categoryLinks>
-          <comment>!BSC Errors from 20240406-1603
-Could not find wargear Eight Hull (Front) Mounted Hellstrike Missiles
-	 Checked under Hellstrike Missiles
-Could not find wargear Four Hull (Front) Mounted Fragmentation Bombs
-	 Checked under Fragmentation Bombs
-Could not find wargear in The Auxilia Marauder Destroyer may exchange its eight Front (Hull) Mounted Hellstrike Missiles for the following option:</comment>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -6417,4 +6872,343 @@ Could not find wargear in The Auxilia Marauder Destroyer may exchange its eight 
     <entryLink import="true" name="Solar Auxilia Verticalis Drop Section" hidden="false" id="2886-3bf8-99b7-4ca1" targetId="ac43-ffce-4f42-8220" type="selectionEntry"/>
     <entryLink import="true" name="Solar Auxilia Verticalis Drop Sentinel Squadron" hidden="false" id="7130-4727-cf09-fda7" targetId="d795-a6df-4632-a2b3" type="selectionEntry"/>
   </entryLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Cohort Doctrines" id="2df3-6ddf-c083-5985" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dca1-72a1-530e-6335" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Reborn Cohorts" hidden="false" id="c06a-d4c6-3d1a-4cb5" publicationId="15a4-fc68-502d-48a9" page="71" collective="false">
+          <rules>
+            <rule name="Reborn Cohorts" id="56da-883b-f000-13a7" hidden="false" publicationId="15a4-fc68-502d-48a9" page="71">
+              <description>Effects
+• All models with the Infantry Unit Type in a Detachment using this Cohort Doctrine gain a bonus of +1 to their Leadership Characteristic, to a maximum of Leadership 10, and the Stubborn Special Rule.
+• When making a Shooting Attack during any Game Turn in which the attacking unit has not Moved, a unit from a Detachment using this Cohort Doctrine may re-roll all failed To Hit rolls of ‘1’.
+
+Limitations
+• A Detachment using this Cohort Doctrine may not include more than a single Auxilia Armoured Tercio.
+• A Detachment using this Cohort Doctrine may not include more than a single Auxilia Artillery Tercio.
+• All models with the Infantry Unit Type in a Detachment using this Cohort Doctrine count their Initiative as ‘1’ for the purposes of determining the distance moved when Running, when rolling as part of a Sweeping Advance, or when making a Move as part of any Reaction; and when determining which Initiative Step they would attack in during an Assault their Initiative Characteristic is considered to be one lower than normal.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Ultramar Pattern Cohorts" hidden="false" id="d533-dece-1a01-4a56" publicationId="15a4-fc68-502d-48a9" page="70" collective="false">
+          <rules>
+            <rule name="Ultramar Pattern Cohorts" id="4308-5dbb-6fbd-3f86" hidden="false" publicationId="15a4-fc68-502d-48a9" page="70">
+              <description>Effects
+• A Detachment using this Cohort Doctrine uses the Organisation chart shown below to select all Auxilia Rifle Sections instead of the one found in the unit profile and may include up to 6 units.
+• All Solar Auxilia Rifle Sections and Solar Auxilia Line Command Sections gain a bonus of +1 to all To Hit rolls made during Shooting Attacks when all models in the unit are in base contact with at least one other model from the same unit.
+
+Ultramar Pattern Auxilia Rifle Tercio Organisation Chart
+An Ultramar Pattern Auxilia Infantry Tercio must include the following units:
+• 0-1 Line Command Section
+• 1-6 Auxilia Rifle Sections
+
+Limitations
+• A Detachment using this Cohort Doctrine may not select Dedicated Transports for any Solar Auxilia Rifle Sections or Solar Auxilia Line Command Sections.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Armoured Fist Pattern Cohorts (Check Limitations manually)" hidden="false" id="c55e-d167-ec97-2b13" publicationId="15a4-fc68-502d-48a9" page="71" collective="false">
+          <rules>
+            <rule name="Armoured Fist Pattern Cohorts" id="6f6c-fa29-165a-b01f" hidden="false" publicationId="15a4-fc68-502d-48a9" page="71">
+              <description>Effects
+• A Detachment using this Cohort Doctrine may select Auxilia Armoured Tercios as Troops choices. An Auxilia Armoured Tercio selected as a Troops choice may only consist of a single unit. Auxilia Armoured Tercios selected as Compulsory Troop Choices in a Primary Detachment using this Cohort Doctrine gain the Line Unit Sub-type. The first time in a game that any models with the Infantry Unit Type Disembark from their own Dedicated Transport, they gain the Relentless special rule until the end of that turn. (THIS MUST BE MANUALLY CHECKED)
+• In a Primary Detachment using this Cohort Doctrine, a single Solar Auxilia Armoured Command Section composed of only a single Leman Russ Command Tank, must be selected as a HQ choice. This Leman Russ Command Tank gains the Cohort Doctrines special rule and must be selected as the army’s Warlord and must use the Armoured Legate Warlord trait (see below). A model with the Vehicle Unit Type must be selected as the Warlord of an army using this Cohort Doctrine, regardless of any rules which would require a model to be selected as the army’s Warlord (note this means that some units and Characters cannot be selected as part of this army):
+
+Warlord Trait: Armoured Legate
+A Warlord with this Warlord Trait gains the Cohort Doctrines special rule, a 5+ Invulnerable Save and increases its BS by +1.
+
+Limitations (THIS MUST BE MANUALLY CHECKED)
+• All units composed entirely of models with the Infantry Unit Type must
+begin the battle Embarked on a model with the Transport Unit Sub-type
+or in Reserves, unless the unit has the Mechanised Unit Sub-type.
+• A Detachment using this Cohort Doctrine may not include any models
+with a Movement Characteristic of 0 or ‘-’.
+• An army which includes at least one Detachment using this Cohort
+Doctrine may not select any Fortifiction choice.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Penal Pattern Cohorts" hidden="false" id="c0aa-0587-7b36-e727" publicationId="15a4-fc68-502d-48a9" page="72" collective="false">
+          <rules>
+            <rule name="Penal Pattern Cohorts" id="da1e-65de-b749-7936" hidden="false" publicationId="15a4-fc68-502d-48a9" page="72">
+              <description>Effects
+• All models in a unit from a Detachment using this Cohort Doctrine that include models with the Tercio special rule also gain the Furious Charge (1) special rule.
+• Any model with the Infantry Unit Type in a Detachment using this Cohort Doctrine may replace a Lasrifle or Volkite Charger with a Lascarbine, Lasgun, Stubcarbine, Autorifle, Laspistol and Close Combat Weapon, or Shotgun for no additional points cost. In addition, one Auxilia in any Solar Auxilia Rifle Section may replace a Lasrifle with a Heavy Stubber for +5 points per model.
+• All models selected as part of a Solar Auxilia Rifle Section gain the Feel No Pain (6+) special rule – this does not stack with any other variant of this special rule and if the unit has access to any other Feel No Pain (X) special rule, the controlling player must select one to use.
+• Any model in a Detachment using this Cohort Doctrine may replace a
+Close Combat Weapon with a Chainsword for +1 point per model.”
+
+Limitations
+• All models in a Detachment using this Cohort Doctrine with the Close-order Unit Sub-type lose that Unit Sub-type.
+• A Detachment using this Cohort Doctrine may not include more than one Auxilia Veletaris Tercio.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Feral Pattern Cohorts" hidden="false" id="db14-68cd-860d-9721" publicationId="15a4-fc68-502d-48a9" page="72" collective="false">
+          <rules>
+            <rule name="Feral Pattern Cohorts" id="ead7-2f27-f76a-c04a" hidden="false" publicationId="9fab-fea7-a93c-2074" page="146">
+              <description>Effects (THIS MUST BE CHECKED MANUALLY)
+• Any unit made up entirely of models with the Infantry Unit Type may be given the Fear (1) special rule for a cost of +25 points per unit.
+• All units that include one or more models with the Tercio special rule gain the Counter-attack (1) special rule while ‘In Formation’.
+• All models with the Infantry Unit Type from a Detachment using this Cohort Doctrine gain a bonus of +1 to their Weapon Skill, to a maximum of 5, for the duration of any player turn in which they make a Successful Charge.
+• Any model in a Detachment using this Cohort Doctrine may replace a Bayonet with a Chain Bayonet for +1 point per model.
+• Any model with the Character Unit Sub-type in a Detachment using this Cohort Doctrine may exchange a Close Combat Weapon for a Chain Axe for +2 points per model.
+
+Limitations
+• All units in a Detachment using this Cohort Doctrine that begin the controlling player’s Assault phase with an enemy unit that is a valid target for a Charge must declare a Charge. If more than one enemy unit is a valid target, the controlling player chooses which enemy unit is the target of the Charge.
+• All other Detachments in an army with the Loyalist Allegiance that includes a Detachment using this Cohort Doctrine will consider the Detachment with this Cohort Doctrine to be Distrusted Allies, regardless of the normal result of the Allies Matrix.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Siege Pattern Cohorts" hidden="false" id="a45f-1552-5a52-e2cc" publicationId="15a4-fc68-502d-48a9" page="73" collective="false">
+          <rules>
+            <rule name="Siege Pattern Cohorts" id="036f-4362-04f5-ed47" hidden="false" publicationId="9fab-fea7-a93c-2074" page="146">
+              <description>Effects (THIS MUST BE CHECKED MANUALLY)
+• A Detachment using this Cohort Doctrine may select Auxilia Artillery Tercios and Solar Auxilia Armoured Batteries as both Elites and Heavy Support choices. In addition, they may select Solar Auxilia Artillery Battery squads as both Heavy Support and Fortification choices.
+• When a model from a Detachment using this Cohort Doctrine makes a Shooting Attack with any weapon with the Barrage and/or Blast special rules, the controlling player may choose to re-roll the Scatter dice (but not any D6 rolled to determine the distance of any scatter).
+• Any unit eligible to purchase a Dedicated Transport may instead elect to purchase a Defence Line without occupying a Fortification Force Organisation slot, but the cost in points must be counted towards the army total as usual.
+• When a model from a Detachment using this Cohort Doctrine makes a Shooting Attack with any weapon with the Barrage Special Rule, if the enemy unit they are targeting is in Line of Sight of a friendly model equipped with a Command Vox then it should be counted as firing directly at that enemy unit, even if it is outside of Line of Sight of the firing model.
+
+Limitations (THIS MUST BE CHECKED MANUALLY)
+• All units in a Detachment using this Cohort Doctrine with the option to select a Dedicated Transport must select that option, or have purchased a Defence Line, at the normal cost in points – If a Dedicated Transport was purchased for a unit, it does not have to start the battle Embarked on that Dedicated Transport.
+• A Detachment using this Cohort Doctrine may only be selected for an
+army’s Primary Detachment.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Iron Pattern Cohort" hidden="false" id="ab81-f3c8-74c2-d0e2" publicationId="15a4-fc68-502d-48a9" page="73" collective="false">
+          <rules>
+            <rule name="Iron Pattern Cohort" id="6a97-5e88-7e8b-691e" hidden="false" publicationId="15a4-fc68-502d-48a9" page="73">
+              <description>Effects
+• A Detachment using this Cohort Doctrine may select Castellax Maniples* and Thallax Squads* as Elites choices.
+• A Legate Marshal, Auxilia Marshal or Auxilia Captain in a Detachment using this Cohort Doctrine may select a cortex controller* for +15 points each.
+• A Legate Marshal in a Detachment using this Cohort Doctrine gains the Master of Automata special rule.
+*Unit profiles and rules for these can be found in Liber Mechanicum.
+
+Limitations
+• A Detachment using this Cohort Doctrine may not include more than a single Auxilia Armoured Tercio.
+• A Detachment using this Cohort Doctrine may not include more than a single Auxilia Artillery Tercio.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Solar Pattern Cohorts" hidden="false" id="e139-d88c-e712-1403" publicationId="15a4-fc68-502d-48a9" page="70" collective="false">
+          <rules>
+            <rule name="Solar Pattern Cohorts" id="6be8-fc07-c225-09fa" hidden="false" publicationId="15a4-fc68-502d-48a9" page="70">
+              <description>Effects
+• A Detachment using this Cohort Doctrine may select Auxilia Veletaris Tercios as Troops choices.
+• All units selected as part of an Auxilia Veletaris Tercio in a Detachment using this Cohort Doctrine may select an Arvus Transport as a Dedicated Transport.
+• All units in an Auxilia Veletaris Tercio selected as a Troops choice gain the Line Unit Sub-type.
+
+Limitations
+• A Detachment using this Cohort Doctrine may not include more than a single Auxilia Armoured Tercio.
+• A Detachment using this Cohort Doctrine may not include more than a single Auxilia Artillery Tercio.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Reconnaissance Pattern Cohorts" hidden="false" id="44ec-6b7d-412b-9fd8" publicationId="d882-d2a-5da1-92c4" page="179">
+          <rules>
+            <rule name="Reconnaissance Pattern Cohorts" id="d0fc-43e2-3bc4-1c4c" hidden="false" publicationId="d882-d2a-5da1-92c4" page="179">
+              <description>Effects
+• A Detachment using this Cohort Doctrine may select Solar Auxilia Hermes Light Sentinel Squadrons as Troops choices. Solar Auxilia Hermes Light Sentinel Squadrons selected as Compulsory Troops choices gain the Line Unit Sub-type.
+• Solar Auxilia Veletaris Assault Squadrons in this Detachment gain the Outflank special rule.
+• Aethon Heavy Sentinel Squadrons may include up to 4 additional Aethon Heavy Sentinels instead of up to 2 additional Aethon Heavy Sentinels.
+
+Limitations
+• A Detachment using this Cohort Doctrine may not include more than a single Auxilia Armoured Tercio.
+• A Detachment using this Cohort Doctrine may not include more than a single Auxilia Artillery Tercio.
+
+
+NOTE
+The 2nd bullet point about Veletaris Assault Squadrons getting Outflank is not implemented as no unit exists with that name, so it is unclear which unit it should go on.</description>
+            </rule>
+            <rule name="Outflank (Ambiguous Recon Cohorts)" id="2348-57d6-4890-5c2a" hidden="false">
+              <description>In Recon Cohort it says &quot;Solar Auxilia Veletaris Assault Squadrons in this Detachment gain the Outflank special rule.&quot; This seems to be the closest unit to this description as it is a sentinel based Cohort and this is the only Veletaris one.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Archeotechnological Relics" id="d0c1-695b-525d-2587" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Psi-Jammer" hidden="false" id="286d-19b9-be11-df54">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+          </costs>
+          <profiles>
+            <profile name="Psi-Jammer" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="b35f-bec7-64d3-2cf9">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any enemy model within 18” and line of sight of a model with a Psi-Jammer must reduce its Leadership by -2 when making Psychic Checks. This
+modifier is not cumulative and no model may suffer penalties from more than one Psi-Jammer.
+In addition, a model with a Psi-Jammer and any unit they have joined gains the Adamantium Will (5+) Special Rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Adamantium Will (X+)" id="c65d-98ae-3a62-d8ba" hidden="false" type="rule" targetId="4380-44a5-f01a-d964">
+              <modifiers>
+                <modifier type="set" value="Adamantium Will (5+)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Apex Digital Weapon" hidden="false" id="57e1-2334-dfca-0067">
+          <profiles>
+            <profile name="Apex Digital Weapon" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="84da-11fb-a6a7-6350">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Once per game when making a Shooting Attack, a model with an Apex Digital Weapon can declare it will fire either a Disintegrator, Lascannon,
+Multi-Melta, Plasma Cannon or Volkite Culverin. When firing this weapon, treat the model as if it had the Relentless Special Rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Relentless" id="c1a5-2926-2288-83cc" hidden="false" type="rule" targetId="7adf-ac9a-5035-522d"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Disintegrator" hidden="false" id="4b2e-9538-5200-c711" type="selectionEntry" targetId="a567-9434-36f3-5fd4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f56e-3c3b-4087-b2d6-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f56e-3c3b-4087-b2d6-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Lascannon" hidden="false" id="ddb6-ba50-922f-ad51" type="selectionEntry" targetId="b252-5a86-6e0f-218b">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dbd5-6505-7255-3533-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dbd5-6505-7255-3533-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Multi-Melta" hidden="false" id="cecf-9058-6c7a-dcdf" type="selectionEntry" targetId="9332-3834-cf3a-56b4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c954-126c-5bc0-a233-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c954-126c-5bc0-a233-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Plasma Cannon" hidden="false" id="2a68-aa2f-46ef-87cf" type="selectionEntry" targetId="43f5-3815-6b3a-a363">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ff2e-eeba-0e0e-be11-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff2e-eeba-0e0e-be11-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Volkite Culverin" hidden="false" id="79de-5409-e144-cdc1" type="selectionEntry" targetId="170d-44e0-455c-8207">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a72f-659c-8854-1257-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a72f-659c-8854-1257-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Displacer Matrix" hidden="false" id="caa2-2f75-cc65-2e12">
+          <profiles>
+            <profile name="Displacer Matrix" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="c7b3-c532-655f-7c2c">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Displacer Matrix provides a 3+ Invulnerable Save. This Invulnerable Save does not stack with other Invulnerable Saves, and cannot benefit from
+rules (like Cyber-Familiar wargear) that specifically increase existing saves. If a model has another Invulnerable Save then the Controlling Player must
+choose which one to use.
+In addition, the first time a roll of ‘1’ is made for an Invulnerable Save for a model with a Displacer Matrix, the Wound is ignored, and the model is
+removed from the battlefield, entering the Controlling Player’s Reserves assigned to a Deep Strike Assault (even if one had already been made earlier
+in the game). If the model was part of a unit, they count as having left the unit – even if they would not ordinarily be allowed to do so. No other units
+may be assigned to this Deep Strike Assault, and resolving this Deep Strike Assault does not prevent the Controlling Player from resolving another
+Deep Strike Assault later in the game if they have units still assigned to one. This Deep Strike Assault automatically arrives in the Controlling Player’s
+next game turn. If the Deep Strike Assault is Disordered, or the game does not continue into the next turn (in which this model would arrive), then
+the model is counted as Destroyed.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Grav-Wave Generator" hidden="false" id="4c6c-0ddb-9c5d-af3a">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+          </costs>
+          <profiles>
+            <profile name="Grav-Wave Generator" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="dff4-f6af-8265-0424">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">When an enemy unit declares a Charge targeting a unit which includes a model with a Grav-Wave Generator, the unit may make the Hold The Line
+Advanced Reaction (see the Horus Heresy: Age of Darkness rulebook, page 330) without expending a point of the Reactive Player’s Reaction
+Allotment, and automatically passes the associated Morale Check. This does not allow the unit to make more than one Reaction per Phase, but does
+allow the Controlling Player to exceed the normal three Reactions limit in a given phase.
+In addition, a model receives no benefit from the Hammer of Wrath (X) Special Rule if they Charge a unit which makes a Hold The Line Advanced
+Reaction that includes a model with a Grav-Wave Generator.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Metaphasic Reader" hidden="false" id="9712-3025-82e9-38e5">
+          <profiles>
+            <profile name="Metaphasic Reader" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="a703-f999-f79a-691d">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Metaphasic Reader gains the Night Vision Special Rule, and enemy models cannot be deployed using the Infiltrate Special Rule within
+18” of a model with a Metaphasic Reader.
+In addition, when any enemy unit is deployed to the battlefield from Reserves, a unit that includes at least one model with a Metaphasic Reader may
+make the Interceptor Advanced Reaction (see the Horus Heresy: Age of Darkness rulebook, page 309) without expending a point of the Reactive
+player’s Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the controlling player to exceed
+the normal three Reactions limit in a given Phase.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Night Vision" id="6d49-cf0c-c906-2230" hidden="false" type="rule" targetId="683e-b4f2-f032-d31b"/>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Void Shield Harness" hidden="false" id="d62b-a00d-72b7-998b">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+          </costs>
+          <profiles>
+            <profile name="Void Shield Harness" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="9a91-ab09-ef95-dd8e">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Void Shield Harness gains the Void Shields (2) Special Rule. Whenever a Shooting Attack is assigned to a unit containing a model with
+a Void Shield Harness, that Shooting Attack must instead target the Void Shields (even if that attack had the Sniper or Precision Shots (X) Special
+Rule), so long as they have not been collapsed earlier in the battle. In addition, when the Void Shields provided by a Void Shield Harness collapse, all
+models within D6” of a model with a Void Shield Harness suffer an immediate hit at S8 AP-.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Void Shields" id="42d2-9564-171c-022a" hidden="false" type="rule" targetId="c503-f5b8-3da0-16e6">
+              <modifiers>
+                <modifier type="append" value=" (2)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d27a-a27d-24ad-b396"/>
+      </constraints>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
 </catalogue>
