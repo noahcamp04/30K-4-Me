@@ -49180,7 +49180,7 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 </entryLink>
               </entryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="1) Spatha Combat Bike Weaponry." id="f365-91ca-358a-1896" hidden="false" collective="false" import="true" defaultSelectionEntryId="da06-7115-9200-c8b0">
+                <selectionEntryGroup name="1) Spatha Combat Bike Weaponry." id="f365-91ca-358a-1896" hidden="false" collective="false" import="true" defaultSelectionEntryId="8d42-7325-bebd-ec0b">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7582-845d-8fec-e46f-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7582-845d-8fec-e46f-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -49231,22 +49231,9 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="2) Bolt Pistol Options:" id="ccaf-2cd1-4a38-09ac" hidden="false" collective="false" import="true" defaultSelectionEntryId="d861-d2fc-5945-51a0">
-                  <modifiers>
-                    <modifier type="increment" value="1" field="f62d-2bf5-848d-0d66">
-                      <repeats>
-                        <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                      </repeats>
-                    </modifier>
-                    <modifier type="increment" value="1" field="4a36-575d-adc1-42e0">
-                      <repeats>
-                        <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                      </repeats>
-                    </modifier>
-                    <modifier type="decrement" value="1" field="4a36-575d-adc1-42e0"/>
-                  </modifiers>
                   <constraints>
-                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="f62d-2bf5-848d-0d66" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4a36-575d-adc1-42e0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4a36-575d-adc1-42e0-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a36-575d-adc1-42e0-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                   <entryLinks>
                     <entryLink import="true" name="Asphyx Bolt Pistol" hidden="false" id="0f30-93ea-c8e9-13aa" collective="false" targetId="07f7-c486-f597-a1b9" type="selectionEntry">
@@ -49442,21 +49429,7 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="2) Bolt Pistol Options:" id="e123-1c61-ccd0-0f33" hidden="false" collective="false" import="true" defaultSelectionEntryId="d861-d2fc-5945-51a0">
-                  <modifiers>
-                    <modifier type="increment" value="1" field="9aa4-85b1-f79a-cf57">
-                      <repeats>
-                        <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                      </repeats>
-                    </modifier>
-                    <modifier type="increment" value="1" field="99b2-793a-a4e7-76ae">
-                      <repeats>
-                        <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                      </repeats>
-                    </modifier>
-                    <modifier type="decrement" value="1" field="99b2-793a-a4e7-76ae"/>
-                  </modifiers>
                   <constraints>
-                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="9aa4-85b1-f79a-cf57" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="99b2-793a-a4e7-76ae" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                   <entryLinks>
