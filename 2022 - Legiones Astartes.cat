@@ -11058,6 +11058,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
           </constraints>
           <categoryLinks>
             <categoryLink id="8cab-696c-0b67-744c" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+            <categoryLink targetId="7b0a-a743-a8da-3a39" id="4d59-8d83-9710-c45f" primary="false" name="Transport Sub-type:"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -68167,6 +68168,13 @@ A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an
               </conditionGroups>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Hammer of Wrath (X)" id="4d80-94b5-46d9-e844" hidden="false" type="rule" targetId="aec0-c3aa-1e4e-1779">
+              <modifiers>
+                <modifier type="set" value="Hammer of Wrath (2) (Pyrae)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
         </entryLink>
         <entryLink id="4246-4ef1-047e-2535" name="Corvidae" hidden="false" collective="false" import="true" targetId="f040-f723-e145-9e1f" type="selectionEntry">
           <modifiers>
@@ -68220,6 +68228,13 @@ A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an
               </conditionGroups>
             </modifier>
           </modifiers>
+          <infoLinks>
+            <infoLink name="Breaching (X)" id="c092-9947-e2db-9e8a" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+              <modifiers>
+                <modifier type="set" value="Breaching (6+) (Aetheric Guidance)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>

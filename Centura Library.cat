@@ -79,7 +79,7 @@
             </selectionEntryGroup>
             <selectionEntryGroup name="A Legion Indomitus Praetor may exchange their Power Weapon with one of the following:" id="e5c9-779f-4abb-bf1f">
               <entryLinks>
-                <entryLink name="Power Weapon" hidden="false" type="selectionEntry" targetId="36a7-1c39-670c-5fec" id="9f3f-f308-46c1-8c5e">
+                <entryLink name="Power Weapon" hidden="false" type="selectionEntry" targetId="8d9c-9f80-c0fd-adcf" id="9f3f-f308-46c1-8c5e">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a95d-ccaa-465d-a08f"/>
                   </constraints>
@@ -457,7 +457,7 @@
             </selectionEntryGroup>
             <selectionEntryGroup name="A Legion Indomitus Centurion may exchange their Power Weapon with one of the following:" id="3965-760a-4528-b329">
               <entryLinks>
-                <entryLink name="Power Weapon" hidden="false" type="selectionEntry" targetId="36a7-1c39-670c-5fec" id="7e64-e2c4-4ed0-b025">
+                <entryLink name="Power Weapon" hidden="false" type="selectionEntry" targetId="8d9c-9f80-c0fd-adcf" id="7e64-e2c4-4ed0-b025">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c428-36e4-4ddc-8d42"/>
                   </constraints>

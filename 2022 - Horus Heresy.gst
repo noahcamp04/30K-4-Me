@@ -11827,6 +11827,52 @@ Melta, or Volkite Types.</characteristic>
         </modifier>
       </modifiers>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="fbeb-9def-9ee5-df4a">
+      <profiles>
+        <profile name="Twin-Linked Shrapnel Cannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="a056-6e5f-f17c-ffdf">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 4, Twin-Linked, Pinning</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Pinning" id="940b-9cc1-d0ce-9195" hidden="false" type="rule" targetId="1c96-205c-59a0-3cf2"/>
+        <infoLink name="Twin-linked" id="f9b7-0f9b-3029-6b9b" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="5f54-457a-fbb9-6730" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Gravis Shrapnel Cannon Battery" hidden="false" id="dc75-ea05-d8e8-d0fa">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="5f54-457a-fbb9-6730" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Gravis Shrapnel Cannon Battery" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="c1b4-edd7-0fb4-9d3c">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 7, Twin-Linked, Pinning</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Twin-linked" id="7551-84c3-95cc-7f9e" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
+        <infoLink name="Pinning" id="13ec-f8d1-5e23-feb9" hidden="false" type="rule" targetId="1c96-205c-59a0-3cf2"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4a48-4935-246d-0c2e" name="Legion" hidden="false" collective="false" import="true">
