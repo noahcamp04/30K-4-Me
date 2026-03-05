@@ -3084,6 +3084,21 @@
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink import="true" name="Praetor, Indomitus" hidden="false" id="ca21-c832-fec8-5103" type="selectionEntry" targetId="0293-aa91-4e32-bd5f">
+      <entryLinks>
+        <entryLink import="true" name="Retinue" hidden="false" id="f516-f226-eafb-e3ab" collective="false" targetId="39e7-5296-42e0-fe94" type="selectionEntryGroup">
+          <comment>template_id_fe8f-c701-4ebd-ae76    template_targetId_be38-a066-4f8e-ae54</comment>
+        </entryLink>
+        <entryLink import="true" name="Warlord Traits" hidden="false" id="482e-b024-1cd0-bbb7" collective="false" targetId="631b-b029-0909-b8f6" type="selectionEntryGroup">
+          <comment>template_id_4784-b370-444b-93ae    template_targetId_7dee-602c-4b47-be09</comment>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="9846-97d1-a59f-8c98" primary="true" name="HQ:"/>
+        <categoryLink targetId="f823-8c1d-6a87-26a1" id="1c73-a279-981d-7759" primary="false" name="Compulsory HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="da3e-bf46-cc2a-23ca" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="d3ad-275c-e22b-a28f" name="Ammitara Occult Intercession Cabal" hidden="false" collective="false" import="true" type="unit">

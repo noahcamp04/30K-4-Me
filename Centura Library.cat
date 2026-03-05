@@ -16259,7 +16259,7 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
     <catalogueLink id="2f60-4242-e6ed-8574" name="Legions Astartes" targetId="25e4-c9e5-8165-1337" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
   <entryLinks>
-    <entryLink import="true" name="Praetor, Indomitus" hidden="false" id="39a8-2d8b-f8cf-c8e7" type="selectionEntry" targetId="0293-aa91-4e32-bd5f"/>
+    <entryLink name="Praetor, Indomitus" hidden="false" id="39a8-2d8b-f8cf-c8e7" type="selectionEntry" targetId="0293-aa91-4e32-bd5f" import="false"/>
     <entryLink import="true" name="Legion Indomitus Command Squad" hidden="true" id="25bc-d368-378c-9ed1" targetId="10a1-9ca0-40bd-81fd" type="selectionEntry"/>
     <entryLink import="true" name="Basilisk Anti-Air Emplacement Battery" hidden="false" id="e08e-f74c-57c3-cf3c" targetId="ca32-4dab-4bf6-b3ed" type="selectionEntry"/>
     <entryLink import="true" name="Early Great Crusade Havoc Squad" hidden="false" id="a474-8d1c-2172-0331" targetId="e112-e4d2-45f7-b5bd" type="selectionEntry"/>

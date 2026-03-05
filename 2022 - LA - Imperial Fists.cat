@@ -3807,6 +3807,13 @@
         <categoryLink name="Heavy Support:" hidden="false" id="1afc-533-775e-cde1" targetId="7031-469a-1aeb-eab0" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Barabas Dantioch" hidden="false" id="a05f-8c77-7161-47fb" targetId="e960-5366-7a2e-7264" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="99a1-cc84-d24c-b0c7" primary="false" name="HQ:"/>
+        <categoryLink targetId="f823-8c1d-6a87-26a1" id="19ec-f099-d8b1-c810" primary="false" name="Compulsory HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="8bf6-a52e-796b-5246" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="19ce-b8dc-dd40-fee9" name="Phalanx Warder Squad" hidden="false" collective="false" import="true" type="unit">
@@ -6341,6 +6348,157 @@ In addition, an army that has Lord-Castellan Evander Garrius as its Warlord may 
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Barabas Dantioch" hidden="false" id="e960-5366-7a2e-7264">
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="175"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d0b6-712f-0b12-a308" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="8247-54dc-9194-948f" field="category"/>
+      </modifiers>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="The Death Mask" hidden="false" id="ab0f-b330-1301-3cb3">
+          <profiles>
+            <profile name="The Death Mask" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="bd5e-2042-f018-04bd">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Barabas Dantioch has the Fear (2) Special Rule, but this only applies to enemy units which contain Legiones Astartes (Iron Warriors).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Fear (X)" id="a52a-1f29-6e7e-5e10" hidden="false" type="rule" targetId="21f6-7842-df5c-d2e7">
+              <modifiers>
+                <modifier type="set" value="Fear (2) (The Death Mask)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="914f-1677-dd40-39f3-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="914f-1677-dd40-39f3-max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Plasma Pistol" hidden="false" id="a0c3-b928-87e8-4a51" type="selectionEntry" targetId="717f-cf0a-1593-4bd8">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b70d-3b03-008a-e357-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b70d-3b03-008a-e357-max"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Thunder Hammer" hidden="false" id="3ece-1c5a-05b1-9912" type="selectionEntry" targetId="838c-4002-713d-d7c6">
+          <infoLinks>
+            <infoLink name="Master-crafted" id="acfd-4916-303b-0089" hidden="false" type="rule" targetId="6de0-55b0-bf21-48b9"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="prepend" value="Master Crafted " field="name"/>
+          </modifiers>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8f8c-cfcf-8642-3bed-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f8c-cfcf-8642-3bed-max"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Artificer Armour" hidden="false" id="c4e9-e9ee-984c-5d86" type="selectionEntry" targetId="583e-62cb-53f1-f952">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5891-6f69-e96d-8767-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5891-6f69-e96d-8767-max"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Iron Halo" hidden="false" id="d898-7e36-791e-998f" type="selectionEntry" targetId="b081-bf3c-f43d-4bd5">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="031c-6648-4a0b-83a3-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="031c-6648-4a0b-83a3-max"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Frag Grenades" hidden="false" id="bf5d-1f5b-1a9e-8d23" type="selectionEntry" targetId="cf9c-327b-3449-00d7">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1590-48bb-c617-02f9-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1590-48bb-c617-02f9-max"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Krak Grenades" hidden="false" id="9ce4-b3dd-a9ba-2e9b" type="selectionEntry" targetId="99df-2421-acf7-a5ad">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6f79-7bb7-9232-161d-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f79-7bb7-9232-161d-max"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Warlord" hidden="false" id="c198-50e1-fd68-c89b" type="selectionEntry" targetId="0176-56a3-d590-b103">
+          <profiles>
+            <profile name="The Iron Litany" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait" hidden="false" id="0d37-41e2-b0e5-d8d5">
+              <characteristics>
+                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">If chosen as the army&apos;s Warlord, Barabas Dantioch automatically has The Iron Litany as his Warlord Trait and may not select any other Warlord Trait.
+Barabas Dantioch and any unit he joins gain the Fearless and Counter-Attack Special Rules.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Fearless" id="04dd-c223-291b-0f9f" hidden="false" type="rule" targetId="b48c-d7e1-2a83-2f5b"/>
+            <infoLink name="Counter-Attack (X)" id="8741-b45a-4248-874f" hidden="false" type="rule" targetId="fd6d-2a76-10e0-936a">
+              <modifiers>
+                <modifier type="set" value="Counter-Attack (1)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </entryLink>
+        <entryLink import="true" name="Retinue" hidden="false" id="4929-9e63-201a-d602" type="selectionEntryGroup" targetId="446f-102e-289b-bdc5"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Infantry:" hidden="false" id="9f4d-2b1b-7289-3012" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
+        <categoryLink name="Independent Character" hidden="false" id="bf06-9e1b-6571-647f" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
+        <categoryLink name="Unique Sub-type" hidden="false" id="08f4-eacb-eef7-8b25" targetId="aa94-5c65-d1f1-46a4" primary="false"/>
+        <categoryLink name="Legiones Astartes" hidden="false" id="1a20-ffc0-3040-13cb" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Master of the Legion" id="a23d-eeb7-cf43-372c" hidden="false" type="rule" targetId="c772-87ea-d49c-c7ba"/>
+        <infoLink name="Master of Automata" id="2f70-e37c-b7a3-5f95" hidden="false" type="rule" targetId="8eef-f84b-37cb-554b"/>
+        <infoLink name="Loyalist" id="bc80-29f9-5d83-b709" hidden="false" type="rule" targetId="d1de-a45d-2b9b-c878"/>
+        <infoLink name="Hatred (X)" id="b97d-8399-d8d0-4681" hidden="false" type="rule" targetId="dc0b-fe69-6b71-e0a4">
+          <modifiers>
+            <modifier type="set" value="Hatred (Traitors)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Battlesmith (X)" id="5e05-2a2c-2a3c-6714" hidden="false" type="rule" targetId="5d57-4d02-1e36-4a82">
+          <modifiers>
+            <modifier type="set" value="Battlesmith (3+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Feel No Pain (X)" id="9d72-08a3-5d8b-08e7" hidden="false" type="rule" targetId="ec46-ff29-32e0-c2aa">
+          <modifiers>
+            <modifier type="set" value="Feel No Pain (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <rules>
+        <rule name="Lord of the Schadenhold" id="4c86-ac92-adfe-1b10" hidden="false">
+          <description>Before the game begins, nominate up to two Fortifications or Terrain features in your deployment
+zone. The cover saves offered by these are increased by 1.</description>
+        </rule>
+        <rule name="Tetrach&apos;s Chosen" id="7a69-53b8-9309-f770" hidden="false">
+          <description>Barabas Dantioch may be included in an Iron Warriors detachment, or a detachment that has either the Legiones Astartes (Ultramarines) or (Imperial Fists) Special Rules. Barabas Dantioch retains his Legiones Astartes (Iron Warriors) rule, but may not be your Warlord in such a detachment. All units in such a detachment treat Barabas Dantioch as Sworn Brothers - however Barabas Dantioch may embark in Transports from the detachment.</description>
+        </rule>
+        <rule name="Legion Astartes (Iron Warriors)" id="1637-75a6-b4dd-6736" hidden="false"/>
+      </rules>
+      <profiles>
+        <profile name="Barabas Dantioch" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="d85f-567b-fde4-6130">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Unique)</characteristic>
+            <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6&quot;</characteristic>
+            <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+            <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+            <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+            <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+            <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
+            <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
+            <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
+            <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+            <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
