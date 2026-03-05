@@ -3049,6 +3049,24 @@
         <categoryLink targetId="36c3-e85e-97cc-c503" id="8166-78e2-c9df-0bdf" primary="false" name="Unit:"/>
         <categoryLink targetId="f823-8c1d-6a87-26a1" id="c79a-fb54-d1f3-a3e2" primary="false" name="Compulsory HQ:"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Retinue" hidden="false" id="e0ea-5922-a98d-f2b8" collective="false" targetId="39e7-5296-42e0-fe94" type="selectionEntryGroup">
+          <comment>template_id_a6a6-9bc7-4d4e-86a7    template_targetId_be38-a066-4f8e-ae54</comment>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <comment>node_id_1e43-c980-4508-8ec2</comment>
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="parent" childId="35d4-0dcd-f7d2-a6da" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_4140-36a7-4203-b5e9</comment>
+                </condition>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Warlord Traits" hidden="false" id="8e55-2f28-a60a-9c43" collective="false" targetId="631b-b029-0909-b8f6" type="selectionEntryGroup">
+          <comment>template_id_fafb-6414-474a-8a09    template_targetId_7dee-602c-4b47-be09</comment>
+        </entryLink>
+      </entryLinks>
     </entryLink>
     <entryLink import="false" name="Khenetai Isirian Cabal" hidden="false" id="a7e9-90d7-8633-f468" targetId="aa13-b1d7-3b16-7ad5" type="selectionEntry">
       <categoryLinks>

@@ -16259,7 +16259,6 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
     <catalogueLink id="2f60-4242-e6ed-8574" name="Legions Astartes" targetId="25e4-c9e5-8165-1337" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
   <entryLinks>
-    <entryLink name="Praetor, Indomitus" hidden="false" id="39a8-2d8b-f8cf-c8e7" type="selectionEntry" targetId="0293-aa91-4e32-bd5f" import="false"/>
     <entryLink import="true" name="Legion Indomitus Command Squad" hidden="true" id="25bc-d368-378c-9ed1" targetId="10a1-9ca0-40bd-81fd" type="selectionEntry"/>
     <entryLink import="true" name="Basilisk Anti-Air Emplacement Battery" hidden="false" id="e08e-f74c-57c3-cf3c" targetId="ca32-4dab-4bf6-b3ed" type="selectionEntry"/>
     <entryLink import="true" name="Early Great Crusade Havoc Squad" hidden="false" id="a474-8d1c-2172-0331" targetId="e112-e4d2-45f7-b5bd" type="selectionEntry"/>
@@ -16289,12 +16288,6 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
       <categoryLinks>
         <categoryLink targetId="4f85-eb33-30c9-8f51" id="39cc-0b11-f022-7532" primary="true" name="HQ:"/>
         <categoryLink targetId="36c3-e85e-97cc-c503" id="29c4-f6d2-a1ea-eb2a" primary="false" name="Unit:"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Centurion, Saturnine" hidden="false" id="edf5-8d2d-4f87-d709" targetId="3e29-1bf1-48c9-b302" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink targetId="4f85-eb33-30c9-8f51" id="bb19-8fd0-ef3d-d33b" primary="true" name="HQ:"/>
-        <categoryLink targetId="36c3-e85e-97cc-c503" id="327e-2b2a-7159-4096" primary="false" name="Unit:"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
