@@ -5097,7 +5097,12 @@ Barabas Dantioch and any unit he joins gain the Fearless and Counter-Attack Spec
           </selectionEntries>
         </entryLink>
         <entryLink import="true" name="Retinue" hidden="false" id="c3d7-1534-66c8-6f12" type="selectionEntryGroup" targetId="6590-c91a-fceb-8048"/>
-        <entryLink import="true" name="Master of the Legion" hidden="false" id="6471-6a0b-5e67-b6c8" type="selectionEntry" targetId="0068-6b0a-0086-3d6b"/>
+        <entryLink import="true" name="Master of the Legion" hidden="false" id="6471-6a0b-5e67-b6c8" type="selectionEntry" targetId="0068-6b0a-0086-3d6b">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="75a8-1fac-ff17-97d0-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="75a8-1fac-ff17-97d0-max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <categoryLinks>
         <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="f5c5-1e5c-2e47-87b5" primary="false" name="Infantry:"/>
@@ -5399,7 +5404,12 @@ In addition, an army with Barban Falk as the warlord gains an additional reactio
             </selectionEntry>
           </selectionEntries>
         </entryLink>
-        <entryLink import="true" name="Master of the Legion" hidden="false" id="de5c-7be7-0d0c-6adf" type="selectionEntry" targetId="0068-6b0a-0086-3d6b"/>
+        <entryLink import="true" name="Master of the Legion" hidden="false" id="de5c-7be7-0d0c-6adf" type="selectionEntry" targetId="0068-6b0a-0086-3d6b">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cdfa-0d06-15e1-8052-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cdfa-0d06-15e1-8052-max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="The Warsmith&apos;s Fist" hidden="false" id="636b-efb0-e562-3142">
