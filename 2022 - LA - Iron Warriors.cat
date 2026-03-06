@@ -5551,6 +5551,9 @@ In addition, an army with Barban Falk as the warlord gains an additional reactio
               </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d74b-defd-f733-cedf"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Warsmith Berossus" hidden="false" id="a552-111f-ffbc-83cd">
           <selectionEntries>
@@ -5646,12 +5649,11 @@ In addition, an army with Barban Falk as the warlord gains an additional reactio
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4839-df93-ba8e-2323"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6de8-65ea-b3c0-34ef-min"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6de8-65ea-b3c0-34ef-max"/>
-      </constraints>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
