@@ -10808,6 +10808,17 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="41b6-f42b-ac3b-0adc"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="084d-65e6-73e0-d78d" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3308-0d8a-e56b-248f"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="Hull (Front) Mounted Twin-Linked Shrapnel Cannon" field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="838a-0abd-40c2-80e3"/>
