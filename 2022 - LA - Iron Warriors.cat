@@ -4702,6 +4702,13 @@ Kyr Vhalen counts as a Warsmith.”</characteristic>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="175"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="f9c0-0c5a-3e24-58c7" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="1bfa-2413-beb9-5f32" name="Dominator Cohort" hidden="false" collective="false" import="true" type="unit" publicationId="7f9d-5e88-241d-e861" page="26">
       <rules>
@@ -4994,7 +5001,7 @@ Kyr Vhalen counts as a Warsmith.”</characteristic>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Barabas Dantioch" hidden="false" id="1ff7-931d-9b3e-ee65">
+    <selectionEntry type="unit" import="true" name="Barabas Dantioch" hidden="false" id="1ff7-931d-9b3e-ee65">
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="175"/>
       </costs>
@@ -5145,7 +5152,7 @@ zone. The cover saves offered by these are increased by 1.</description>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Volk-Sa&apos;ra&apos;ram" hidden="false" id="93fe-ed93-3628-e1a3">
+    <selectionEntry type="unit" import="true" name="Volk-Sa&apos;ra&apos;ram" hidden="false" id="93fe-ed93-3628-e1a3">
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="300"/>
       </costs>
@@ -5330,7 +5337,7 @@ In addition, an army with Volk-Sa’ra’ram as the warlord gains an additional 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Barban Falk" hidden="false" id="a2cf-30f0-e151-a39e">
+    <selectionEntry type="unit" import="true" name="Barban Falk" hidden="false" id="a2cf-30f0-e151-a39e">
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="180"/>
       </costs>
