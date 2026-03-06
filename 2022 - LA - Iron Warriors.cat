@@ -5071,14 +5071,6 @@ Kyr Vhalen counts as a Warsmith.”</characteristic>
           </constraints>
         </entryLink>
         <entryLink import="true" name="Warlord" hidden="false" id="0a5e-d7d5-3b24-be2f" type="selectionEntry" targetId="0176-56a3-d590-b103">
-          <profiles>
-            <profile name="The Iron Litany" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait" hidden="false" id="7e57-4ded-0abc-9e38">
-              <characteristics>
-                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">If chosen as the army&apos;s Warlord, Barabas Dantioch automatically has The Iron Litany as his Warlord Trait and may not select any other Warlord Trait.
-Barabas Dantioch and any unit he joins gain the Fearless and Counter-Attack Special Rules.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <infoLinks>
             <infoLink name="Fearless" id="af9c-13cf-434a-2ca7" hidden="false" type="rule" targetId="b48c-d7e1-2a83-2f5b"/>
             <infoLink name="Counter-Attack (X)" id="d72e-49e9-cff6-a286" hidden="false" type="rule" targetId="fd6d-2a76-10e0-936a">
@@ -5087,6 +5079,22 @@ Barabas Dantioch and any unit he joins gain the Fearless and Counter-Attack Spec
               </modifiers>
             </infoLink>
           </infoLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="The Iron Litany" hidden="false" id="dc1b-9299-2653-2630">
+              <profiles>
+                <profile name="The Iron Litany" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait" hidden="false" id="a6ff-f16c-db51-1292">
+                  <characteristics>
+                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">If chosen as the army&apos;s Warlord, Barabas Dantioch automatically has The Iron Litany as his Warlord Trait and may not select any other Warlord Trait.
+Barabas Dantioch and any unit he joins gain the Fearless and Counter-Attack Special Rules.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f38b-b006-7e74-37e5-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f38b-b006-7e74-37e5-max"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
         </entryLink>
         <entryLink import="true" name="Retinue" hidden="false" id="c3d7-1534-66c8-6f12" type="selectionEntryGroup" targetId="6590-c91a-fceb-8048"/>
       </entryLinks>
@@ -5282,18 +5290,6 @@ In addition, if a model with this wargear suffers an unsaved Wound with the Inst
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="2502-4d87-28ea-d5c1" type="selectionEntry" targetId="0176-56a3-d590-b103">
-          <profiles>
-            <profile name="Obliteration Protocols" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait" hidden="false" id="153e-5553-86f0-cd70">
-              <characteristics>
-                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">If chosen as the army&apos;s Warlord, Volk-Sa’ra’ram automatically has Obliteration Protocols as his Warlord Trait and may not select any other Warlord Trait.
-
-
-When Volk-Sa’ra’ram targets an enemy unit as part of a Shooting attack, if that unit has already been the target of a Shooting attack made by a friendly unit entirely composed of models with the Legiones Astartes (Iron Warriors) Special Rule in the same phase, he may choose to fire twice when making a Shooting Attack with any Heavy Weapon he is armed with, but all additional shots made in this manner gain the Gets Hot Special Rule. 
-If the weapon already had the Gets Hot special rule, it instead Gets Hot on a roll of a 1 or 2.
-In addition, an army with Volk-Sa’ra’ram as the warlord gains an additional reaction in the Opposing Player’s Shooting phase as long as Volk-Sa’ra’ram has not been removed as a casualty.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <infoLinks>
             <infoLink name="Gets Hot" id="5cef-b937-1973-87b2" hidden="false" type="rule" targetId="679f-9d97-5ace-a652">
               <modifiers>
@@ -5301,6 +5297,26 @@ In addition, an army with Volk-Sa’ra’ram as the warlord gains an additional 
               </modifiers>
             </infoLink>
           </infoLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Obliteration Protocols" hidden="false" id="10a5-7748-8719-8a09">
+              <profiles>
+                <profile name="Obliteration Protocols" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait" hidden="false" id="2508-001b-bd0a-c03c">
+                  <characteristics>
+                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">If chosen as the army&apos;s Warlord, Volk-Sa’ra’ram automatically has Obliteration Protocols as his Warlord Trait and may not select any other Warlord Trait.
+
+
+When Volk-Sa’ra’ram targets an enemy unit as part of a Shooting attack, if that unit has already been the target of a Shooting attack made by a friendly unit entirely composed of models with the Legiones Astartes (Iron Warriors) Special Rule in the same phase, he may choose to fire twice when making a Shooting Attack with any Heavy Weapon he is armed with, but all additional shots made in this manner gain the Gets Hot Special Rule. 
+If the weapon already had the Gets Hot special rule, it instead Gets Hot on a roll of a 1 or 2.
+In addition, an army with Volk-Sa’ra’ram as the warlord gains an additional reaction in the Opposing Player’s Shooting phase as long as Volk-Sa’ra’ram has not been removed as a casualty.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="20a0-fd9b-71e9-1911-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="20a0-fd9b-71e9-1911-max"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
         </entryLink>
       </entryLinks>
       <categoryLinks>
@@ -5361,19 +5377,27 @@ In addition, an army with Volk-Sa’ra’ram as the warlord gains an additional 
         </entryLink>
         <entryLink import="true" name="Retinue" hidden="false" id="20f9-d549-536d-8803" type="selectionEntryGroup" targetId="6590-c91a-fceb-8048"/>
         <entryLink import="true" name="Warlord" hidden="false" id="6597-8dd7-7aa7-9828" type="selectionEntry" targetId="0176-56a3-d590-b103">
-          <profiles>
-            <profile name="The Warsmith" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait" hidden="false" id="8f17-ccd0-7450-b2bf">
-              <characteristics>
-                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">If chosen as the army&apos;s Warlord, Barban Falk automatically has The Warsmith as his Warlord Trait and may not select any other Warlord Trait. 
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="The Warsmith" hidden="false" id="c62f-d784-01fe-d2c6">
+              <profiles>
+                <profile name="The Warsmith" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait" hidden="false" id="106a-a32c-0992-1525">
+                  <characteristics>
+                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">If chosen as the army&apos;s Warlord, Barban Falk automatically has The Warsmith as his Warlord Trait and may not select any other Warlord Trait. 
 
 
 Whenever a friendly unit from the same Detachment as Barban Falk with the Legiones Astartes (Iron Warriors) Special Rule within 12” of Barban Falk fails a Morale or Pinning test, they may choose to re-roll it, but must accept the second result, even if it is worse.
 
 
 In addition, an army with Barban Falk as the warlord gains an additional reaction in the Opposing Player’s Movement phase as long as Barban Falk has not been removed as a casualty.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3e96-5221-bc49-f26d-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e96-5221-bc49-f26d-max"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
         </entryLink>
       </entryLinks>
       <selectionEntries>
