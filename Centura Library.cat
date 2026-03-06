@@ -790,6 +790,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink import="true" name="Legiones Consularis" hidden="false" id="9aa8-f286-4b27-bf8d" collective="false" targetId="3cbf-9466-2558-2c22" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Consul Additional Wargear and Options" hidden="false" id="fb83-e508-357c-9821" collective="false" targetId="244a-2a7c-1349-94e7" type="selectionEntryGroup"/>
       </entryLinks>
       <modifiers>
         <modifier type="add" value="db6f-0311-834c-e6ff" field="category">
