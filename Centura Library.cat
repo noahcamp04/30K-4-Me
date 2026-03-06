@@ -6525,6 +6525,77 @@ Could not find wargear In-built Meltagun
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntryGroup>
+            <selectionEntryGroup name="Spatha Combat Bike (Hussar)" id="a6c3-ee8a-954b-4d39" hidden="false" defaultSelectionEntryId="e7c6-a3dd-6727-7f02">
+              <entryLinks>
+                <entryLink import="true" name="Rotor Cannon" hidden="true" id="991a-903c-2dc5-71c0" type="selectionEntry" targetId="5ce3-3aa5-3f5e-9ead">
+                  <infoLinks>
+                    <infoLink name="Twin-linked" id="5e98-0302-c4c7-4c10" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
+                  </infoLinks>
+                  <modifiers>
+                    <modifier type="set" value="Twin-linked Rotor Cannon" field="name"/>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4437-5f83-4383-9545" childId="7ae6-6242-32d6-0aed" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9a62-e4fd-349e-8937"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b54-ab0e-0736-4537"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Twin-linked Bolter" hidden="false" id="9d54-974c-8282-de45" collective="false" targetId="e31a-fd70-35c7-8bed" type="selectionEntry">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40da-542e-82b0-7af0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b1ab-3b06-aec1-d5e0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4437-5f83-4383-9545" childId="7ae6-6242-32d6-0aed" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b85e-8c88-7d1e-019c"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bec7-7d47-7a76-3548"/>
+              </constraints>
+              <profiles>
+                <profile name="Spatha Combat Bike" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="e1e3-5a6a-2c3a-fc62" publicationId="a716-c1c4-7b26-8424" page="144">
+                  <characteristics>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Legion Spatha combat bike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn.
+
+A model with the Infantry Unit Type that selects a Legion Spatha combat bike as an upgrade must change its Unit Type to Cavalry, keeping any Unit Sub-types it previously had, and may choose to gain the Skrimish Unit Sub-type. In addition the model must change its Movement Characteristic to 14 and gains the Firing Protocols (2), Battle-Hardened (1), Skilled Rider, and Hammer of Wrath (1) Special Rules.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Battle-Hardened (X)" id="dab6-3b7f-20fd-4cd2" hidden="false" targetId="5c3b-ed0b-4ad0-d547" type="rule"/>
+                <infoLink name="Firing Protocols (X)" id="30ff-2184-1052-f03c" hidden="false" targetId="32a3-f599-5c92-2945" type="rule">
+                  <modifiers>
+                    <modifier type="set" value="Firing Protocols (2)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Hammer of Wrath (X)" id="519a-e3fb-10d0-4763" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
+                  <modifiers>
+                    <modifier type="set" value="Hammer of Wrath (1)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Shrouded (X)" id="e859-4dd0-7681-2bc2" hidden="false" type="rule" targetId="10c3-fdb0-089f-ca65">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="0" field="selections" scope="force" childId="e01e-5cdd-e512-8353" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Shrouded (6+)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Skilled Rider" id="35ca-f696-470f-28fc" hidden="false" targetId="89cc-21e0-bee2-6a89" type="rule"/>
+              </infoLinks>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="22"/>
@@ -6536,79 +6607,6 @@ Could not find wargear In-built Meltagun
               </repeats>
             </modifier>
           </modifiers>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Spatha Combat Bike (Hussar)" hidden="false" id="dbed-868a-a4ba-9cd4">
-              <entryLinks>
-                <entryLink import="true" name="Twin-linked Bolter" hidden="false" id="e554-8423-7d45-2ba5" collective="false" targetId="e31a-fd70-35c7-8bed" type="selectionEntry">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e338-7e43-9495-49d7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="359d-7bbf-5367-b772" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="4437-5f83-4383-9545" childId="7ae6-6242-32d6-0aed" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </entryLink>
-                <entryLink import="true" name="Rotor Cannon" hidden="true" id="7bc7-ef34-f7df-24da" type="selectionEntry" targetId="5ce3-3aa5-3f5e-9ead">
-                  <infoLinks>
-                    <infoLink name="Twin-linked" id="8807-e26b-71d7-8422" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
-                  </infoLinks>
-                  <modifiers>
-                    <modifier type="set" value="Twin-linked Rotor Cannon" field="name"/>
-                    <modifier type="set" value="false" field="hidden">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="4437-5f83-4383-9545" childId="7ae6-6242-32d6-0aed" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d03c-a86e-249c-a322-min"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d03c-a86e-249c-a322-max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <profiles>
-                <profile name="Spatha Combat Bike" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="9d06-5f07-e9da-5cca" publicationId="a716-c1c4-7b26-8424" page="144">
-                  <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Legion Spatha combat bike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn.
-
-A model with the Infantry Unit Type that selects a Legion Spatha combat bike as an upgrade must change its Unit Type to Cavalry, keeping any Unit Sub-types it previously had, and may choose to gain the Skrimish Unit Sub-type. In addition the model must change its Movement Characteristic to 14 and gains the Firing Protocols (2), Battle-Hardened (1), Skilled Rider, and Hammer of Wrath (1) Special Rules.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Battle-Hardened (X)" id="f5da-b75d-cbdf-c69e" hidden="false" targetId="5c3b-ed0b-4ad0-d547" type="rule"/>
-                <infoLink name="Firing Protocols (X)" id="a436-c05d-697f-c490" hidden="false" targetId="32a3-f599-5c92-2945" type="rule">
-                  <modifiers>
-                    <modifier type="set" value="Firing Protocols (2)" field="name"/>
-                  </modifiers>
-                </infoLink>
-                <infoLink name="Hammer of Wrath (X)" id="39e1-2bfe-dedc-3363" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
-                  <modifiers>
-                    <modifier type="set" value="Hammer of Wrath (1)" field="name"/>
-                  </modifiers>
-                </infoLink>
-                <infoLink name="Shrouded (X)" id="2e44-fe9e-51ed-27ab" hidden="false" type="rule" targetId="10c3-fdb0-089f-ca65">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="equalTo" value="0" field="selections" scope="force" childId="e01e-5cdd-e512-8353" shared="true"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="set" value="Shrouded (6+)" field="name"/>
-                  </modifiers>
-                </infoLink>
-                <infoLink name="Skilled Rider" id="0fa9-5c9b-b003-f43d" hidden="false" targetId="89cc-21e0-bee2-6a89" type="rule"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="759c-0166-b9c6-fb3e-min"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="759c-0166-b9c6-fb3e-max"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
         </selectionEntry>
         <selectionEntry type="model" name="Legion Hussar Sergeant" id="d253-c1c8-44ed-acc8" page="26" publicationId="3970-79bb-bdc6-9599">
           <profiles>
@@ -6740,30 +6738,11 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="63e2-54df-4215-aa72"/>
               </constraints>
             </selectionEntryGroup>
-          </selectionEntryGroups>
-          <categoryLinks>
-            <categoryLink targetId="59a4-7b61-600a-c457" id="485a-2a4d-4873-bf7a" name="Skirmish Sub-type:" primary="false"/>
-            <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="2fee-4f20-486e-8637" name="Character" primary="false"/>
-          </categoryLinks>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Spatha Combat Bike (Hussar)" hidden="false" id="2219-6bb6-6b06-2fa9">
+            <selectionEntryGroup name="Spatha Combat Bike (Hussar)" id="02ed-a413-723c-fb11" hidden="false" defaultSelectionEntryId="e7c6-a3dd-6727-7f02">
               <entryLinks>
-                <entryLink import="true" name="Twin-linked Bolter" hidden="false" id="dbc8-8ba5-6a26-288f" collective="false" targetId="e31a-fd70-35c7-8bed" type="selectionEntry">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bae2-cf0e-463c-0189" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0f4f-67e2-a692-80a0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="4437-5f83-4383-9545" childId="7ae6-6242-32d6-0aed" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </entryLink>
-                <entryLink import="true" name="Rotor Cannon" hidden="true" id="4e5a-8bea-8cc7-4a7c" type="selectionEntry" targetId="5ce3-3aa5-3f5e-9ead">
+                <entryLink import="true" name="Rotor Cannon" hidden="true" id="8df2-bd1b-fb54-9f7a" type="selectionEntry" targetId="5ce3-3aa5-3f5e-9ead">
                   <infoLinks>
-                    <infoLink name="Twin-linked" id="b11a-4e76-6e3a-8a32" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
+                    <infoLink name="Twin-linked" id="bfc1-45fb-3dce-34e6" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
                   </infoLinks>
                   <modifiers>
                     <modifier type="set" value="Twin-linked Rotor Cannon" field="name"/>
@@ -6774,13 +6753,30 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="12c4-2d71-54cd-c02e-min"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="12c4-2d71-54cd-c02e-max"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="715a-7141-851a-f5e7"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa1a-2909-370d-df0a"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Twin-linked Bolter" hidden="false" id="c0d6-9b43-50ab-f3a9" collective="false" targetId="e31a-fd70-35c7-8bed" type="selectionEntry">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5bc3-a56e-2202-9f29" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f447-005d-d38c-41c0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4437-5f83-4383-9545" childId="7ae6-6242-32d6-0aed" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d797-a0b3-43e2-2315"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="adfe-4913-f8ac-776b"/>
+              </constraints>
               <profiles>
-                <profile name="Spatha Combat Bike" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="9bca-9646-9172-5d42" publicationId="a716-c1c4-7b26-8424" page="144">
+                <profile name="Spatha Combat Bike" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="8346-219d-dd28-8872" publicationId="a716-c1c4-7b26-8424" page="144">
                   <characteristics>
                     <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Legion Spatha combat bike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn.
 
@@ -6789,18 +6785,18 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink name="Battle-Hardened (X)" id="f844-ca5d-caa2-c417" hidden="false" targetId="5c3b-ed0b-4ad0-d547" type="rule"/>
-                <infoLink name="Firing Protocols (X)" id="9944-d0cd-ac7a-a7fc" hidden="false" targetId="32a3-f599-5c92-2945" type="rule">
+                <infoLink name="Battle-Hardened (X)" id="363c-029c-352a-7f1c" hidden="false" targetId="5c3b-ed0b-4ad0-d547" type="rule"/>
+                <infoLink name="Firing Protocols (X)" id="9c0d-9f6c-3ed6-0326" hidden="false" targetId="32a3-f599-5c92-2945" type="rule">
                   <modifiers>
                     <modifier type="set" value="Firing Protocols (2)" field="name"/>
                   </modifiers>
                 </infoLink>
-                <infoLink name="Hammer of Wrath (X)" id="c37a-8c8d-c983-2367" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
+                <infoLink name="Hammer of Wrath (X)" id="bc17-98e4-13dc-ef5e" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
                   <modifiers>
                     <modifier type="set" value="Hammer of Wrath (1)" field="name"/>
                   </modifiers>
                 </infoLink>
-                <infoLink name="Shrouded (X)" id="e6e5-e30d-3165-4dea" hidden="false" type="rule" targetId="10c3-fdb0-089f-ca65">
+                <infoLink name="Shrouded (X)" id="019e-1503-4379-0854" hidden="false" type="rule" targetId="10c3-fdb0-089f-ca65">
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
                       <conditions>
@@ -6810,14 +6806,14 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                     <modifier type="set" value="Shrouded (6+)" field="name"/>
                   </modifiers>
                 </infoLink>
-                <infoLink name="Skilled Rider" id="ed61-d9b7-cfc2-1052" hidden="false" targetId="89cc-21e0-bee2-6a89" type="rule"/>
+                <infoLink name="Skilled Rider" id="0968-b91c-9293-eeec" hidden="false" targetId="89cc-21e0-bee2-6a89" type="rule"/>
               </infoLinks>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="404d-9ad7-2087-9c4b-min"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="404d-9ad7-2087-9c4b-max"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <categoryLinks>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="485a-2a4d-4873-bf7a" name="Skirmish Sub-type:" primary="false"/>
+            <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="2fee-4f20-486e-8637" name="Character" primary="false"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="model" name="Legion Hussar" id="589f-b91d-8246-f5cc" page="26" publicationId="3970-79bb-bdc6-9599">
           <profiles>
@@ -6952,6 +6948,77 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
+            <selectionEntryGroup name="Spatha Combat Bike (Hussar)" id="14eb-aa26-5ac0-f2fa" hidden="false" defaultSelectionEntryId="e7c6-a3dd-6727-7f02">
+              <entryLinks>
+                <entryLink import="true" name="Rotor Cannon" hidden="true" id="7041-9fd9-b815-121e" type="selectionEntry" targetId="5ce3-3aa5-3f5e-9ead">
+                  <infoLinks>
+                    <infoLink name="Twin-linked" id="07c8-e929-77ff-b1ed" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
+                  </infoLinks>
+                  <modifiers>
+                    <modifier type="set" value="Twin-linked Rotor Cannon" field="name"/>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4437-5f83-4383-9545" childId="7ae6-6242-32d6-0aed" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6983-2984-bee7-77d6"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6305-c844-d07a-615d"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Twin-linked Bolter" hidden="false" id="e7c6-a3dd-6727-7f02" collective="false" targetId="e31a-fd70-35c7-8bed" type="selectionEntry">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f638-499d-9921-6a41" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0dcd-9dc5-0b9e-db77" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="4437-5f83-4383-9545" childId="7ae6-6242-32d6-0aed" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="565c-053e-41b5-7767"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b26d-d274-41e5-65a6"/>
+              </constraints>
+              <profiles>
+                <profile name="Spatha Combat Bike" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="72ea-5a82-a2a9-1074" publicationId="a716-c1c4-7b26-8424" page="144">
+                  <characteristics>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Legion Spatha combat bike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn.
+
+A model with the Infantry Unit Type that selects a Legion Spatha combat bike as an upgrade must change its Unit Type to Cavalry, keeping any Unit Sub-types it previously had, and may choose to gain the Skrimish Unit Sub-type. In addition the model must change its Movement Characteristic to 14 and gains the Firing Protocols (2), Battle-Hardened (1), Skilled Rider, and Hammer of Wrath (1) Special Rules.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Battle-Hardened (X)" id="becd-18dc-92f0-4366" hidden="false" targetId="5c3b-ed0b-4ad0-d547" type="rule"/>
+                <infoLink name="Firing Protocols (X)" id="48e2-b5af-aafb-64f3" hidden="false" targetId="32a3-f599-5c92-2945" type="rule">
+                  <modifiers>
+                    <modifier type="set" value="Firing Protocols (2)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Hammer of Wrath (X)" id="4896-9a38-6e09-38d6" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
+                  <modifiers>
+                    <modifier type="set" value="Hammer of Wrath (1)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Shrouded (X)" id="ffb5-161f-82d1-3ee2" hidden="false" type="rule" targetId="10c3-fdb0-089f-ca65">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="0" field="selections" scope="force" childId="e01e-5cdd-e512-8353" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Shrouded (6+)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Skilled Rider" id="0b75-946a-90c7-2c61" hidden="false" targetId="89cc-21e0-bee2-6a89" type="rule"/>
+              </infoLinks>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="22"/>
@@ -6964,79 +7031,6 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
               </constraints>
             </entryLink>
           </entryLinks>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Spatha Combat Bike (Hussar)" hidden="false" id="23c2-4846-c547-b93f">
-              <entryLinks>
-                <entryLink import="true" name="Twin-linked Bolter" hidden="false" id="fcf2-26c9-623f-4c04" collective="false" targetId="e31a-fd70-35c7-8bed" type="selectionEntry">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="69ae-ba34-135e-8acd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f852-6198-5e37-b32f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="4437-5f83-4383-9545" childId="7ae6-6242-32d6-0aed" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </entryLink>
-                <entryLink import="true" name="Rotor Cannon" hidden="true" id="6677-16b6-8a5c-1434" type="selectionEntry" targetId="5ce3-3aa5-3f5e-9ead">
-                  <infoLinks>
-                    <infoLink name="Twin-linked" id="8577-62d7-f3cf-6d6d" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
-                  </infoLinks>
-                  <modifiers>
-                    <modifier type="set" value="Twin-linked Rotor Cannon" field="name"/>
-                    <modifier type="set" value="false" field="hidden">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="4437-5f83-4383-9545" childId="7ae6-6242-32d6-0aed" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3de1-bb04-016e-d854-min"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3de1-bb04-016e-d854-max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <profiles>
-                <profile name="Spatha Combat Bike" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="2295-cdbf-b93a-e58b" publicationId="a716-c1c4-7b26-8424" page="144">
-                  <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Legion Spatha combat bike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn.
-
-A model with the Infantry Unit Type that selects a Legion Spatha combat bike as an upgrade must change its Unit Type to Cavalry, keeping any Unit Sub-types it previously had, and may choose to gain the Skrimish Unit Sub-type. In addition the model must change its Movement Characteristic to 14 and gains the Firing Protocols (2), Battle-Hardened (1), Skilled Rider, and Hammer of Wrath (1) Special Rules.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Battle-Hardened (X)" id="548f-9d85-4763-8655" hidden="false" targetId="5c3b-ed0b-4ad0-d547" type="rule"/>
-                <infoLink name="Firing Protocols (X)" id="5917-8c59-8a65-525c" hidden="false" targetId="32a3-f599-5c92-2945" type="rule">
-                  <modifiers>
-                    <modifier type="set" value="Firing Protocols (2)" field="name"/>
-                  </modifiers>
-                </infoLink>
-                <infoLink name="Hammer of Wrath (X)" id="df24-98d3-19a7-abd1" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
-                  <modifiers>
-                    <modifier type="set" value="Hammer of Wrath (1)" field="name"/>
-                  </modifiers>
-                </infoLink>
-                <infoLink name="Shrouded (X)" id="171e-8953-05e0-f16c" hidden="false" type="rule" targetId="10c3-fdb0-089f-ca65">
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="equalTo" value="0" field="selections" scope="force" childId="e01e-5cdd-e512-8353" shared="true"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="set" value="Shrouded (6+)" field="name"/>
-                  </modifiers>
-                </infoLink>
-                <infoLink name="Skilled Rider" id="3724-a5b1-2f37-94c5" hidden="false" targetId="89cc-21e0-bee2-6a89" type="rule"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="600a-e12b-d3d7-e448-min"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="600a-e12b-d3d7-e448-max"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
