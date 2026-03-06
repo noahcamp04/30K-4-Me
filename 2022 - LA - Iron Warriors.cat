@@ -5550,101 +5550,88 @@ In addition, an army with Barban Falk as the warlord gains an additional reactio
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Warsmith Berossus" hidden="false" id="a552-111f-ffbc-83cd">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Warsmith Berossus" hidden="false" id="c513-8b81-4292-e564">
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-              </costs>
-              <entryLinks>
-                <entryLink import="true" name="Meltagun" hidden="false" id="baf4-884f-5fee-7ced" type="selectionEntry" targetId="4ebd-57e0-3560-e568">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bc98-9c7d-c2a2-72b2"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a65-963b-cb9f-afec"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Artificer Armour" hidden="false" id="a541-8c02-5108-b627" type="selectionEntry" targetId="583e-62cb-53f1-f952">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9ae7-1f65-abc6-5dbf"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c81e-9aa0-43e7-a575"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Iron Halo" hidden="false" id="5e0d-9583-ffb3-4944" type="selectionEntry" targetId="b081-bf3c-f43d-4bd5">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f129-fcd7-5ecb-9df1"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1a9-3f3e-da4c-f6c0"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Cortex Controller" hidden="false" id="a46b-9ff6-ae34-7790" type="selectionEntry" targetId="2fda-455f-d34d-97e0">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a5ca-70fe-26a8-37bf"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="894d-14bb-ed74-7828"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Servo-Arm" hidden="false" id="fdde-28b1-d32f-7e98" type="selectionEntry" targetId="4168-fc85-8912-7188">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a118-ed47-bf90-9731"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17db-55c2-94d2-ccd7"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Frag Grenades" hidden="false" id="716e-65c0-1f20-eb7f" type="selectionEntry" targetId="cf9c-327b-3449-00d7">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1fc4-12b9-6b25-8e3e"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b175-5513-79af-07a7"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Krak Grenades" hidden="false" id="78da-307c-15fc-ff74" type="selectionEntry" targetId="99df-2421-acf7-a5ad">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="27a7-1c67-5f8b-2d3b"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1883-02e9-c1e4-32bf"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Retinue" hidden="false" id="a8ac-1b15-b2f8-3a05" type="selectionEntryGroup" targetId="6590-c91a-fceb-8048"/>
-              </entryLinks>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Olympian Reaper" hidden="false" id="202a-c58b-2528-c591">
-                  <profiles>
-                    <profile name="Olympian Reaper" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="875b-2704-c09f-e577">
-                      <characteristics>
-                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
-                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Rending (5+), Shred</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e970-07c1-7c3e-f24f"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f067-69b4-9cac-7684"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink name="Rending (X)" id="e566-93fa-e4ed-9680" hidden="false" type="rule" targetId="0ac9-fab7-aef3-de1d">
-                      <modifiers>
-                        <modifier type="set" value="Rending (5+)" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                    <infoLink name="Shred" id="6c0d-21c5-bfeb-2057" hidden="false" type="rule" targetId="5e7e-1628-8174-6f2c"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <categoryLinks>
-                <categoryLink name="Hammer of Olympia (Warsmith or Perturabo)" hidden="false" id="530a-26ee-362f-4745" targetId="7a92-1a29-c087-51c6" primary="false"/>
-                <categoryLink name="Infantry:" hidden="false" id="1cd8-0efb-d82f-a7b0" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
-                <categoryLink name="Independent Character" hidden="false" id="368a-b32c-3f29-f105" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
-                <categoryLink name="Unique Sub-type" hidden="false" id="6e4a-fc5b-e0e5-7b61" targetId="aa94-5c65-d1f1-46a4" primary="false"/>
-              </categoryLinks>
+            <selectionEntry type="upgrade" import="true" name="Olympian Reaper" hidden="false" id="f7b3-ad36-00af-70b5">
+              <profiles>
+                <profile name="Olympian Reaper" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="cd9c-f5a2-2953-f126">
+                  <characteristics>
+                    <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+                    <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Rending (5+), Shred</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="457c-b02b-72c7-a71c"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a2b-7fab-6909-e7c1"/>
+              </constraints>
               <infoLinks>
-                <infoLink name="Master of the Legion" id="4b8c-c434-a8eb-d208" hidden="false" type="rule" targetId="c772-87ea-d49c-c7ba"/>
-                <infoLink name="Master of Automata" id="009e-491f-6a89-d54c" hidden="false" type="rule" targetId="8eef-f84b-37cb-554b"/>
-                <infoLink name="Battlesmith (X)" id="07cc-7bcf-b5d1-d7f9" hidden="false" type="rule" targetId="5d57-4d02-1e36-4a82">
+                <infoLink name="Rending (X)" id="ecdb-932c-174c-0edf" hidden="false" type="rule" targetId="0ac9-fab7-aef3-de1d">
                   <modifiers>
-                    <modifier type="set" value="Battlesmith (3+)" field="name"/>
+                    <modifier type="set" value="Rending (5+)" field="name"/>
                   </modifiers>
                 </infoLink>
+                <infoLink name="Shred" id="b6b3-0fd0-0b42-8c26" hidden="false" type="rule" targetId="5e7e-1628-8174-6f2c"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4839-df93-ba8e-2323"/>
           </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Artificer Armour" hidden="false" id="da2c-cf9b-89f3-74c3" type="selectionEntry" targetId="583e-62cb-53f1-f952">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5413-a598-7936-4049"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9601-c53c-6152-511a"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Cortex Controller" hidden="false" id="bf90-f791-a18e-6e72" type="selectionEntry" targetId="2fda-455f-d34d-97e0">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="396e-5477-aa46-5fdc"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b4e0-ce2b-e645-ed92"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Frag Grenades" hidden="false" id="3917-e22b-1291-2086" type="selectionEntry" targetId="cf9c-327b-3449-00d7">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="734e-238b-f8bf-8309"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a80b-9f52-de93-cb78"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Iron Halo" hidden="false" id="fa1b-1edc-6fbe-c22a" type="selectionEntry" targetId="b081-bf3c-f43d-4bd5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cbb6-886a-afd2-0ec9"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="583a-2284-8453-30fe"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Krak Grenades" hidden="false" id="934b-57f2-e071-40a2" type="selectionEntry" targetId="99df-2421-acf7-a5ad">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6feb-d1cf-71cb-928a"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b90a-2545-a942-935a"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Meltagun" hidden="false" id="cb49-beda-246a-e104" type="selectionEntry" targetId="4ebd-57e0-3560-e568">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3368-f1a6-9ea6-17aa"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="078c-9ab6-f6bc-52a7"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Servo-Arm" hidden="false" id="e062-8b08-9f9f-4ad7" type="selectionEntry" targetId="4168-fc85-8912-7188">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4f1f-d0d7-7292-ae6f"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d3cf-bb47-3581-0ed2"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Retinue" hidden="false" id="5fbf-985f-49aa-19ab" type="selectionEntryGroup" targetId="6590-c91a-fceb-8048"/>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Battlesmith (X)" id="ea0c-ede4-f2ee-a37c" hidden="false" type="rule" targetId="5d57-4d02-1e36-4a82">
+              <modifiers>
+                <modifier type="set" value="Battlesmith (3+)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Master of Automata" id="f645-d729-635a-656c" hidden="false" type="rule" targetId="8eef-f84b-37cb-554b"/>
+            <infoLink name="Master of the Legion" id="cf95-c723-7449-70ce" hidden="false" type="rule" targetId="c772-87ea-d49c-c7ba"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <modifiers>
