@@ -5103,6 +5103,9 @@ Barabas Dantioch and any unit he joins gain the Fearless and Counter-Attack Spec
         <categoryLink targetId="aa94-5c65-d1f1-46a4" id="c920-109e-7f5a-fd9d" primary="false" name="Unique Sub-type"/>
         <categoryLink targetId="11f2-472f-c1d1-9ae9" id="ffba-f092-7924-cf1e" primary="false" name="Legiones Astartes"/>
         <categoryLink targetId="7a92-1a29-c087-51c6" id="993a-1c5a-e563-2b0a" primary="false" name="Hammer of Olympia (Warsmith or Perturabo)"/>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="8e4e-12e2-4b05-e84d" primary="false" name="HQ:"/>
+        <categoryLink targetId="f823-8c1d-6a87-26a1" id="6a1d-63fc-805d-9fe4" primary="false" name="Compulsory HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="ec7a-46cb-e2e9-5cc4" primary="false" name="Unit:"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Master of the Legion" id="6b96-24ef-2f5c-4b7d" hidden="false" type="rule" targetId="c772-87ea-d49c-c7ba"/>
@@ -5318,6 +5321,9 @@ In addition, an army with Volk-Sa’ra’ram as the warlord gains an additional 
         <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="76a6-98a4-cc89-e51b" primary="false" name="Character"/>
         <categoryLink targetId="aa94-5c65-d1f1-46a4" id="7a20-388d-2523-fae4" primary="false" name="Unique Sub-type"/>
         <categoryLink targetId="11f2-472f-c1d1-9ae9" id="7d05-320c-9053-06cf" primary="false" name="Legiones Astartes"/>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="6e72-8354-978f-4596" primary="false" name="HQ:"/>
+        <categoryLink targetId="f823-8c1d-6a87-26a1" id="18ab-57ae-b4e2-3ac2" primary="false" name="Compulsory HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="0899-1970-3dab-8506" primary="false" name="Unit:"/>
       </categoryLinks>
       <profiles>
         <profile name="Volk-Sa&apos;ra&apos;ram" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="a59a-93a5-5389-de5a">
@@ -5433,6 +5439,9 @@ In addition, an army with Barban Falk as the warlord gains an additional reactio
         <categoryLink targetId="aa94-5c65-d1f1-46a4" id="f3e5-41e1-2da5-0752" primary="false" name="Unique Sub-type"/>
         <categoryLink targetId="11f2-472f-c1d1-9ae9" id="eacd-5521-593d-7571" primary="false" name="Legiones Astartes"/>
         <categoryLink targetId="7a92-1a29-c087-51c6" id="315a-9e80-9c6a-f35d" primary="false" name="Hammer of Olympia (Warsmith or Perturabo)"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="dd8b-ceaa-7df9-0692" primary="false" name="Unit:"/>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="baca-21b7-057b-0e1f" primary="false" name="HQ:"/>
+        <categoryLink targetId="f823-8c1d-6a87-26a1" id="cdd9-eaf0-2e2c-ccaa" primary="false" name="Compulsory HQ:"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Relentless" id="1ea0-3858-71b9-15ac" hidden="false" type="rule" targetId="7adf-ac9a-5035-522d"/>
