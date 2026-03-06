@@ -129,14 +129,7 @@
         <categoryLink id="fbaf-2b4b-5a38-6925" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="7471-1a1e-4285-65cb" name="Erasmus Golg" hidden="true" collective="false" import="false" targetId="3feb-3ea1-97c2-9861" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <conditions>
-            <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d344-d97b-4687-8a62" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
+    <entryLink id="7471-1a1e-4285-65cb" name="Erasmus Golg" hidden="false" collective="false" import="false" targetId="3feb-3ea1-97c2-9861" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a813-57fa-9782-da6f" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
         <categoryLink id="621a-4766-c501-14df" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
