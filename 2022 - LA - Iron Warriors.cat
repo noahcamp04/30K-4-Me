@@ -5464,89 +5464,102 @@ In addition, an army with Barban Falk as the warlord gains an additional reactio
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
           </costs>
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Berossus, Interred" hidden="false" id="1660-ac2c-e348-c2e4">
-              <categoryLinks>
-                <categoryLink name="Dreadnought Unit-type:" hidden="false" id="6caf-01d5-b58a-5441" targetId="4280-4963-02b5-e31d" primary="false"/>
-                <categoryLink name="Character" hidden="false" id="d705-aee1-7653-7b14" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
-                <categoryLink name="Unique Sub-type" hidden="false" id="3ea9-c91e-dca7-1b7f" targetId="aa94-5c65-d1f1-46a4" primary="false"/>
-              </categoryLinks>
+            <selectionEntry type="upgrade" import="true" name="Graviton Mault w/ in-built Twin-Linked Shrapnel Bolter" hidden="false" id="dafb-738a-f216-f7dd">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cb7d-7337-ca44-b8f6"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2967-19aa-86d9-6a31"/>
+              </constraints>
               <entryLinks>
-                <entryLink import="true" name="Gravis Shrapnel Cannon" hidden="false" id="0839-f8ae-1064-8296" type="selectionEntry" targetId="ce7e-4548-10b5-8762">
+                <entryLink import="true" name="Graviton Maul" hidden="false" id="cdb3-0dae-9cca-823c" type="selectionEntry" targetId="b254-abfc-a57f-ab28">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="316f-fa66-c08d-8f54"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da0c-dae9-9904-a99d"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b02f-c0d2-1ca0-73e3"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="38a5-bf70-58a2-90ea"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Frag Launchers" hidden="false" id="30c1-e0f0-b3f8-d128" type="selectionEntry" targetId="768b-8315-4d0c-8eb7">
+                <entryLink import="true" name="Shrapnel Bolter" hidden="false" id="cf4e-c9a2-4887-fb35" type="selectionEntry" targetId="1941-21b5-932c-74d6">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c972-2ba0-fb9f-46df"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c88-096b-29ba-ef2b"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a9fb-d3e2-a17f-8e68"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="741c-c45f-71d3-c486"/>
                   </constraints>
-                </entryLink>
-                <entryLink import="true" name="Searchlights" hidden="false" id="46a3-e7b2-21e2-6daf" type="selectionEntry" targetId="4ae3-79b4-6051-505e">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7fb2-631d-3d92-ed0d"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c0d-4e3d-7c97-5f3a"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Ferromantic Deflector" hidden="false" id="539b-43ef-7065-4061" type="selectionEntry" targetId="91c7-aab8-8bd7-beda">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="44b4-9da7-b53b-a3b8"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9be9-5fc5-dee3-2fc2"/>
-                  </constraints>
+                  <modifiers>
+                    <modifier type="prepend" value="Twin-Linked " field="name"/>
+                  </modifiers>
+                  <infoLinks>
+                    <infoLink name="Twin-linked" id="d2f9-f074-7764-cfda" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
+                  </infoLinks>
                 </entryLink>
               </entryLinks>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Graviton Mault w/ in-built Twin-Linked Shrapnel Bolter" hidden="false" id="0e0a-b57e-185d-4eda">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0844-2d9d-1971-fa3f"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6785-3187-267f-24cf"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink import="true" name="Graviton Maul" hidden="false" id="94b9-5490-accb-2201" type="selectionEntry" targetId="b254-abfc-a57f-ab28">
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b64e-ea92-93c4-acb7"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3fe3-8bb6-f0be-a3aa"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Shrapnel Bolter" hidden="false" id="357b-4a47-e687-fd43" type="selectionEntry" targetId="1941-21b5-932c-74d6">
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="36e7-ebe0-d147-371f"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0586-6210-d84c-f5ef"/>
-                      </constraints>
-                      <modifiers>
-                        <modifier type="prepend" value="Twin-Linked " field="name"/>
-                      </modifiers>
-                      <infoLinks>
-                        <infoLink name="Twin-linked" id="0840-4b8e-1e14-cc52" hidden="false" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
-                      </infoLinks>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <infoLinks>
-                <infoLink name="Support Squad" id="8203-454a-4ad5-45bc" hidden="false" type="rule" targetId="768e-56d6-ca52-24ae"/>
-                <infoLink name="Reaping Blow (X)" id="8b1a-39f8-e5e2-36f0" hidden="false" type="rule" targetId="bd8c-4f52-d682-1b40">
-                  <modifiers>
-                    <modifier type="set" value="Reaping Blow (1)" field="name"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Dedicated Transport" id="e7d3-f099-7ac4-ccaa" hidden="false">
-                  <entryLinks>
-                    <entryLink import="true" name="Dreadnought Drop Pod" hidden="false" id="dcf2-3315-ab82-49a1" type="selectionEntry" targetId="1ffe-82e4-12db-538d"/>
-                  </entryLinks>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="521c-e782-1408-acac"/>
-                  </constraints>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d74b-defd-f733-cedf"/>
           </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Ferromantic Deflector" hidden="false" id="1c6f-1d4c-1258-cc6d" type="selectionEntry" targetId="91c7-aab8-8bd7-beda">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0d25-b5b9-ea3f-99c0"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7708-8297-84e8-8743"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Frag Launchers" hidden="false" id="7d3b-c551-a494-a083" type="selectionEntry" targetId="768b-8315-4d0c-8eb7">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ccd5-23e8-e7b1-ba43"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ebd6-cf0f-9b0d-479b"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Gravis Shrapnel Cannon" hidden="false" id="acc3-9e95-bc5f-3447" type="selectionEntry" targetId="ce7e-4548-10b5-8762">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3989-13ad-8617-6c5f"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b5ad-0ae5-2e4a-c0e0"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Searchlights" hidden="false" id="97ba-89ea-aabb-c158" type="selectionEntry" targetId="4ae3-79b4-6051-505e">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8091-416b-8311-2f45"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a23-dbe6-075d-18d7"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Dedicated Transport" id="3bcc-95e6-f11b-8db9" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="Dreadnought Drop Pod" hidden="false" id="9b5d-30fd-934c-b9e3" type="selectionEntry" targetId="1ffe-82e4-12db-538d"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d4ca-dfeb-1d1b-9c85"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <infoLinks>
+            <infoLink name="Reaping Blow (X)" id="9ac6-3b5f-64fb-5256" hidden="false" type="rule" targetId="bd8c-4f52-d682-1b40">
+              <modifiers>
+                <modifier type="set" value="Reaping Blow (1)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Support Squad" id="f0b8-745e-0776-2bc2" hidden="false" type="rule" targetId="768e-56d6-ca52-24ae"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Berossus, Interred" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="af34-94d9-b5b6-d77f">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Dreadnought (Character, Unique)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6&quot;</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">6</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">6</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">5</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">4</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="4280-4963-02b5-e31d" id="28d0-bacc-b857-a589" primary="false" name="Dreadnought Unit-type:"/>
+            <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="02fb-2150-0f4a-741c" primary="false" name="Character"/>
+            <categoryLink targetId="aa94-5c65-d1f1-46a4" id="55c3-3aa0-4b23-d524" primary="false" name="Unique Sub-type"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Warsmith Berossus" hidden="false" id="a552-111f-ffbc-83cd">
           <selectionEntries>
@@ -5632,6 +5645,29 @@ In addition, an army with Barban Falk as the warlord gains an additional reactio
             <infoLink name="Master of Automata" id="f645-d729-635a-656c" hidden="false" type="rule" targetId="8eef-f84b-37cb-554b"/>
             <infoLink name="Master of the Legion" id="cf95-c723-7449-70ce" hidden="false" type="rule" targetId="c772-87ea-d49c-c7ba"/>
           </infoLinks>
+          <profiles>
+            <profile name="Warsmith Berossus" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="5c0c-d72b-3abc-84af">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Unique)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7&quot;</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">4</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="8247-54dc-9194-948f" id="9b9d-348b-e7ff-6708" primary="false" name="Siege Breaker:"/>
+            <categoryLink targetId="7a92-1a29-c087-51c6" id="cbff-c24a-e17a-1a86" primary="false" name="Hammer of Olympia (Warsmith or Perturabo)"/>
+            <categoryLink targetId="4f07-3d45-4f28-a0c6" id="d24b-2900-536f-b937" primary="false" name="Independent Character"/>
+            <categoryLink targetId="aa94-5c65-d1f1-46a4" id="c425-8388-3298-1caa" primary="false" name="Unique Sub-type"/>
+          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
       <modifiers>
