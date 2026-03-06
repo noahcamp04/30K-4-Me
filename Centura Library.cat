@@ -6525,7 +6525,7 @@ Could not find wargear In-built Meltagun
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Spatha Combat Bike (Hussar)" id="a6c3-ee8a-954b-4d39" hidden="false" defaultSelectionEntryId="e7c6-a3dd-6727-7f02">
+            <selectionEntryGroup name="Spatha Combat Bike (Hussar)" id="a6c3-ee8a-954b-4d39" hidden="false" defaultSelectionEntryId="9d54-974c-8282-de45">
               <entryLinks>
                 <entryLink import="true" name="Rotor Cannon" hidden="true" id="991a-903c-2dc5-71c0" type="selectionEntry" targetId="5ce3-3aa5-3f5e-9ead">
                   <infoLinks>
@@ -6738,7 +6738,7 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="63e2-54df-4215-aa72"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Spatha Combat Bike (Hussar)" id="02ed-a413-723c-fb11" hidden="false" defaultSelectionEntryId="e7c6-a3dd-6727-7f02">
+            <selectionEntryGroup name="Spatha Combat Bike (Hussar)" id="02ed-a413-723c-fb11" hidden="false" defaultSelectionEntryId="c0d6-9b43-50ab-f3a9">
               <entryLinks>
                 <entryLink import="true" name="Rotor Cannon" hidden="true" id="8df2-bd1b-fb54-9f7a" type="selectionEntry" targetId="5ce3-3aa5-3f5e-9ead">
                   <infoLinks>
