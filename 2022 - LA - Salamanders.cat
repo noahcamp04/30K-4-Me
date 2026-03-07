@@ -5931,7 +5931,11 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fcbe-0f95-36eb-ffbc-max"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Mantle of the Elder Drake" hidden="false" id="4f53-9a30-a0ea-16e6" type="selectionEntry" targetId="bba6-42e4-5147-fe4f"/>
+        <entryLink import="true" name="Mantle of the Elder Drake" hidden="false" id="4f53-9a30-a0ea-16e6" type="selectionEntry" targetId="bba6-42e4-5147-fe4f">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bf1c-6be7-7d9c-0f64"/>
+          </constraints>
+        </entryLink>
         <entryLink import="true" name="Iron Halo" hidden="false" id="feb3-ff08-6abb-600c" type="selectionEntry" targetId="b081-bf3c-f43d-4bd5">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ff84-c382-b935-63fd-min"/>
@@ -5966,7 +5970,12 @@ In addition, an army with Artellus Numeon as its Warlord may make an additional 
             </profile>
           </profiles>
         </entryLink>
-        <entryLink import="true" name="Master of the Legion" hidden="false" id="f806-99de-e217-2ed9" type="selectionEntry" targetId="0068-6b0a-0086-3d6b"/>
+        <entryLink import="true" name="Master of the Legion" hidden="false" id="f806-99de-e217-2ed9" type="selectionEntry" targetId="0068-6b0a-0086-3d6b">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="66cb-92fa-7235-1b99-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66cb-92fa-7235-1b99-max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="205"/>
