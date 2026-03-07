@@ -15487,6 +15487,17 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96f9-99f9-0fc6-8a1f"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="9e24-06bb-24e0-d48a" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="set" value="Hull (Front) Mounted Twin-Linked shrapnel cannon" field="name"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abeb-e06d-a366-61fb"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5860-d552-48cb-af95-min"/>
@@ -15538,6 +15549,17 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1993-dea3-8a25-2d5f-min"/>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1993-dea3-8a25-2d5f-max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="7324-ce84-bf1e-5515" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                      </costs>
+                      <modifiers>
+                        <modifier type="set" value="Hull (Front) Mounted Twin-Linked shrapnel cannon" field="name"/>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d103-c57f-4a39-3238"/>
                       </constraints>
                     </entryLink>
                   </entryLinks>

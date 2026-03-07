@@ -10159,6 +10159,11 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                 <entryLink id="0056-bbd4-b8bb-d1a1" name="Twin-linked Heavy Flamer" hidden="false" collective="false" import="true" targetId="18ea-34ad-326b-281b" type="selectionEntry"/>
                 <entryLink id="9cb4-7a6b-d7a3-8c16" name="Twin-linked Heavy Bolter" hidden="false" collective="false" import="true" targetId="d03c-9f7e-84fa-d6e8" type="selectionEntry"/>
                 <entryLink id="c6aa-2c75-2a05-25f3" name="Twin-linked Heavy Dragon&apos;s Breath Flamer" hidden="false" collective="false" import="true" targetId="8dbf-d9fa-6fbc-07af" type="selectionEntry"/>
+                <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="1283-9070-1c20-9c72" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="e17b-1c8b-e853-3880" name="3) Missile Options:" hidden="false" collective="false" import="true" defaultSelectionEntryId="cbc5-b9b9-3996-1669">
@@ -11933,6 +11938,14 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                   <modifiers>
                     <modifier type="set" field="name" value="Hull (Front) Mounted Twin-linked Heavy Dragon&apos;s Breath Flamer"/>
                   </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="7efd-8dbf-ed0d-5da9" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+                  <modifiers>
+                    <modifier type="set" value="Hull (Front) Mounted Twin-Linked Shrapnel Cannon" field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -36662,6 +36675,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="8110-8d89-1659-da04" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+              <modifiers>
+                <modifier type="set" value="Hull (Front) Mounted Twin-Linked Shrapnel Cannon" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="22"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="66a4-aa73-ca5c-2155" name="3) May take:" hidden="false" collective="false" import="true">
@@ -40434,6 +40455,11 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="b1f4-cdbd-5318-8669" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="5cc4-976e-f5c1-49d9" name="2) Wing Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="96da-5850-ce9e-180d">
@@ -42460,6 +42486,11 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <modifier type="set" field="name" value="Hull (Front) Mounted twin-linkedTwin-linked Heavy Dragon&apos;s Breath Flamer"/>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="856c-52c9-ed57-90e2" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -42666,6 +42697,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <modifier type="set" field="name" value="Turret Mounted twin-linked Heavy Dragon&apos;s Breath Flamer"/>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="3028-5c18-ab64-6fee" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+              <modifiers>
+                <modifier type="set" value="Hull (Front) Mounted Twin-Linked Shrapnel Cannon" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="7a94-6af7-0813-a80f" name="2) Sponson Mounted Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="e99d-73d8-7052-7d2f">
@@ -42683,6 +42722,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
               <modifiers>
                 <modifier type="set" field="name" value="2x Sponson Mounted twin-linked Heavy Dragon&apos;s Breath Flamer"/>
               </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="9177-3b82-2a46-8db8" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+              <modifiers>
+                <modifier type="set" value="2x Sponson Mounted Twin-Linked Shrapnel Cannon" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -42800,6 +42847,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
               <modifiers>
                 <modifier type="set" field="name" value="Hull (Front) Mounted twin-linked Heavy Dragon&apos;s Breath Flamer"/>
               </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="395c-d280-d725-6784" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+              <modifiers>
+                <modifier type="set" value="Hull (Front) Mounted Twin-Linked Shrapnel Cannon" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -43947,6 +44002,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <modifier type="set" field="name" value="2x Turret Mounted twin-linked Heavy Dragon&apos;s Breath Flamer"/>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="1e06-af97-a262-4a5e" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+              <modifiers>
+                <modifier type="set" value="2x Turrent Mounted Twin-Linked Shrapnel Cannon" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="e7d2-4063-069c-a2fa" name="4) Wing Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="d6ff-f302-c7d9-fc9f">
@@ -44197,6 +44260,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <modifier type="set" field="name" value="2x Sponson Mounted twin-linked Heavy Dragon&apos;s Breath Flamer"/>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="6d90-fa46-c8e1-e2a0" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+              <modifiers>
+                <modifier type="set" value="2x Sponson Mounted Twin-Linked Shrapnel Cannon" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="4d50-ae6a-df38-26da" name="3) Pintle mounted Weapon:" hidden="false" collective="false" import="true">
@@ -44428,6 +44499,11 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
             <entryLink id="bb49-c8b3-ac6d-66d4" name="Twin-linked Heavy Flamer" hidden="false" collective="false" import="true" targetId="18ea-34ad-326b-281b" type="selectionEntry"/>
             <entryLink id="9d6b-4a72-62ea-1317" name="Twin-linked Heavy Bolter" hidden="false" collective="false" import="true" targetId="d03c-9f7e-84fa-d6e8" type="selectionEntry"/>
             <entryLink id="2569-5380-0841-fe7d" name="Twin-linked Heavy Dragon&apos;s Breath Flamer" hidden="false" collective="false" import="true" targetId="8dbf-d9fa-6fbc-07af" type="selectionEntry"/>
+            <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="4b71-7529-a575-0bd3" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="1aff-f646-45aa-9c37" name="3) May take:" hidden="false" collective="false" import="true">
@@ -49789,6 +49865,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <modifier type="set" field="name" value="2x Sponson Mounted twin-linked Heavy Dragon&apos;s Breath Flamers"/>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="bc2e-80ef-3db3-059b" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+              <modifiers>
+                <modifier type="set" value="2x Sponson Mounted Twin-Linked Shrapnel Cannon" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -50118,6 +50202,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <modifier type="set" field="name" value="2x Sponson Mounted twin-linked Heavy Dragon&apos;s Breath Flamers"/>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="b4dc-289f-fe52-68fb" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+              <modifiers>
+                <modifier type="set" value="2x Sponson Mounted Twin-Linked Shrapnel Cannon" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -50413,6 +50505,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <modifier type="set" field="name" value="2x Sponson Mounted twin-linked Heavy Dragon&apos;s Breath Flamer"/>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="a408-6b79-f348-bae2" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+              <modifiers>
+                <modifier type="set" value="2x Sponson Mounted Twin-Linked Shrapnel Cannon" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -50702,6 +50802,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <modifier type="set" field="name" value="Hull (Front) Mounted twin-linked Heavy Dragon&apos;s Breath Flamer"/>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="28f0-d704-1125-8f06" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+              <modifiers>
+                <modifier type="set" value="Hull (Front) Mounted Twin-Linked Shrapnel Cannon" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="7598-ae00-ef97-1f8d" name="2) Sponson Mounted Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="9da2-5913-a030-475c">
@@ -50719,6 +50827,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
               <modifiers>
                 <modifier type="set" field="name" value="2x Sponson Mounted twin-linked Heavy Dragon&apos;s Breath Flamer"/>
               </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="82b3-7bb6-7544-ad4b" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+              <modifiers>
+                <modifier type="set" value="2x Sponson Mounted Twin-Linked Shrapnel Cannon" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -50915,6 +51031,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <modifier type="set" field="name" value="Hull (Front) Mounted twin-linked Heavy Dragon&apos;s Breath Flamer"/>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="f044-4588-3ec7-fc08" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+              <modifiers>
+                <modifier type="set" value="Hull (Front) Mounted Twin-Linked Shrapnel Cannon" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="619c-6d88-ec7d-a419" name="3) Pintle mounted Weapon:" hidden="false" collective="false" import="true">
@@ -51022,6 +51146,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
               <modifiers>
                 <modifier type="set" field="name" value="2x Sponson Mounted twin-linked Heavy Dragon&apos;s Breath Flamer"/>
               </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="1054-935e-8ad2-4449" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+              <modifiers>
+                <modifier type="set" value="2x Sponson Mounted Twin-Linked Shrapnel Cannon" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -53880,6 +54012,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                   </modifiers>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="24c6-191c-fe3f-56bc" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+                  <modifiers>
+                    <modifier type="set" value="Hull (Front) Mounted Twin-Linked Shrapnel Cannon" field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -62854,6 +62994,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <modifier type="set" field="name" value="4x Turret Mounted twin-linked Heavy Dragon&apos;s Breath Flamerr"/>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="9351-79d7-f04a-b9e4" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+              <modifiers>
+                <modifier type="set" value="4x Turret Mounted Twin-Linked Shrapnel Cannon" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -62981,6 +63129,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <modifier type="set" field="name" value="Centreline (Rear) Mounted twin-linked Heavy Dragon&apos;s Breath Flamerr"/>
               </modifiers>
             </entryLink>
+            <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="233d-c3bb-b87a-b636" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+              <modifiers>
+                <modifier type="set" value="Centerline (Rear) Mounted Twin-Linked Shrapnel Cannon" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="1b71-53f3-833d-1a76" name="2) Turret Mounted Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="82cd-7eee-716e-866d">
@@ -62998,6 +63154,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
               <modifiers>
                 <modifier type="set" field="name" value="Turret Mounted twin-linked Heavy Dragon&apos;s Breath Flamer"/>
               </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="da12-1e2e-b133-15ce" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+              <modifiers>
+                <modifier type="set" value="Turret Mounted Twin-Linked Shrapnel Cannon" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -63880,6 +64044,14 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
               <modifiers>
                 <modifier type="set" field="name" value="Turret Mounted twin-linked Heavy Dragon&apos;s Breath Flamer"/>
               </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Twin-Linked Shrapnel Cannon" hidden="false" id="0499-d5d5-3e0e-b041" type="selectionEntry" targetId="fbeb-9def-9ee5-df4a">
+              <modifiers>
+                <modifier type="set" value="Turret Mounted Twin-Linked Shrapnel Cannon" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
