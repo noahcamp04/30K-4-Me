@@ -3814,13 +3814,6 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="0a85-fbcb-f946-530f" name="One Contemptor-Osiron may take a Magus Upgrade" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1626-a09f-d9ed-dca1" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17bc-0cbc-df7b-53ee" type="max"/>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cce-2169-075f-860c" type="min"/>
