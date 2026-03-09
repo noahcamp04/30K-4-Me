@@ -3629,11 +3629,6 @@
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Gravis Force Blade" hidden="false" id="7b8a-ba13-499f-3917" collective="false" targetId="96aa-954e-b2e9-92df" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="append" value="with in-built combi-bolter" field="name"/>
-                      </modifiers>
-                    </entryLink>
                     <entryLink import="true" name="Volkite Dual-Culverin" hidden="false" id="0497-88b3-aeb6-5aea" collective="false" targetId="fead-f3b9-f7c7-1081" type="selectionEntry">
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
@@ -3645,42 +3640,70 @@
                       </costs>
                     </entryLink>
                   </entryLinks>
-                </selectionEntryGroup>
-                <selectionEntryGroup name="2) May replace an in-built combi-bolter on a Gravis force blade with one of the following:" id="8cc9-e82b-6e96-60c5" hidden="true" collective="false" import="true" defaultSelectionEntryId="ef9d-06a1-ebd4-a3af">
-                  <modifiers>
-                    <modifier type="set" value="false" field="hidden">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="a8a9-44a7-ad8d-71e6" childId="7b8a-ba13-499f-3917" shared="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c0ec-f5f8-e909-b37b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d01-60f7-6e10-7dc5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink import="true" name="Combi-Bolter" hidden="false" id="86bb-4d0b-f721-375c" collective="false" targetId="a498-c66f-9eb7-ca9a" type="selectionEntry"/>
-                    <entryLink import="true" name="Heavy Flamer" hidden="false" id="0727-90e8-0de8-bb32" collective="false" targetId="5507-b432-3b4c-df12" type="selectionEntry">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink import="true" name="Graviton Gun" hidden="false" id="becb-cc76-5292-609d" collective="false" targetId="5303-5a3e-de51-1707" type="selectionEntry">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink import="true" name="Meltagun" hidden="false" id="682d-21bd-93f8-9adf" collective="false" targetId="4ebd-57e0-3560-e568" type="selectionEntry">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink import="true" name="Æther-Fire Blaster" hidden="false" id="e905-77f3-eb63-945f" collective="false" targetId="d078-5f42-c02b-c73d" type="selectionEntry">
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                      </costs>
-                    </entryLink>
-                  </entryLinks>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Gravis Force Blade" hidden="false" id="fb25-2e68-c483-39dd">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Gravis Force Blade" hidden="false" id="77e9-555c-3476-a206" collective="false">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="06d8-1ecb-3574-01ba" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1efd-f2f9-8e63-411a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                          </constraints>
+                          <profiles>
+                            <profile name="Gravis Force Blade" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="0e90-7610-909b-8187" publicationId="09c5-eeae-f398-b653" page="265">
+                              <characteristics>
+                                <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+                                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Achean Force, Brutal (2)</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink name="Achean Force" id="876d-01fd-7762-20de" hidden="false" targetId="c56f-80ff-5d8e-1af4" type="rule"/>
+                            <infoLink name="Brutal (X)" id="42a9-159c-6eed-8cd6" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+                              <modifiers>
+                                <modifier type="set" value="Brutal (2)" field="name"/>
+                              </modifiers>
+                            </infoLink>
+                          </infoLinks>
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="2) May replace an in-built combi-bolter on a Gravis force blade with one of the following:" id="6802-3e91-50b3-b903" hidden="false" collective="false" import="true" defaultSelectionEntryId="e1d5-9f00-a150-90ae">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7934-d210-b853-3611" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="91de-72c6-6197-9da0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                          </constraints>
+                          <entryLinks>
+                            <entryLink import="true" name="Combi-Bolter" hidden="false" id="e1d5-9f00-a150-90ae" collective="false" targetId="a498-c66f-9eb7-ca9a" type="selectionEntry"/>
+                            <entryLink import="true" name="Heavy Flamer" hidden="false" id="7645-d4f9-9de2-6e80" collective="false" targetId="5507-b432-3b4c-df12" type="selectionEntry">
+                              <costs>
+                                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                              </costs>
+                            </entryLink>
+                            <entryLink import="true" name="Graviton Gun" hidden="false" id="6149-b7e1-1726-a258" collective="false" targetId="5303-5a3e-de51-1707" type="selectionEntry">
+                              <costs>
+                                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                              </costs>
+                            </entryLink>
+                            <entryLink import="true" name="Meltagun" hidden="false" id="39fb-b651-1ff6-6494" collective="false" targetId="4ebd-57e0-3560-e568" type="selectionEntry">
+                              <costs>
+                                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                              </costs>
+                            </entryLink>
+                            <entryLink import="true" name="Æther-Fire Blaster" hidden="false" id="4c81-5d03-fd86-5af9" collective="false" targetId="d078-5f42-c02b-c73d" type="selectionEntry">
+                              <costs>
+                                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                              </costs>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                    </selectionEntry>
+                  </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
