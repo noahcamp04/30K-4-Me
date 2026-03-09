@@ -3816,47 +3816,6 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="2572-555b-d054-1ad2" name="2) May replace an in-built combi-bolter on a Gravis force blade with one of the following:" hidden="false" collective="false" import="true" defaultSelectionEntryId="ef9d-06a1-ebd4-a3af">
-              <modifiers>
-                <modifier type="set" field="8d22-ecdd-65cd-534a" value="2">
-                  <conditions>
-                    <condition field="selections" scope="1626-a09f-d9ed-dca1" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96aa-954e-b2e9-92df" type="equalTo"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="ce2c-6462-a0ce-5894" value="2">
-                  <conditions>
-                    <condition field="selections" scope="1626-a09f-d9ed-dca1" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96aa-954e-b2e9-92df" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce2c-6462-a0ce-5894" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d22-ecdd-65cd-534a" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="ef9d-06a1-ebd4-a3af" name="Combi-Bolter" hidden="false" collective="false" import="true" targetId="a498-c66f-9eb7-ca9a" type="selectionEntry"/>
-                <entryLink id="be4e-bbac-8934-4c94" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="5507-b432-3b4c-df12" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="6651-1fc0-3b7a-81ea" name="Graviton Gun" hidden="false" collective="false" import="true" targetId="5303-5a3e-de51-1707" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="0807-a778-877b-9910" name="Meltagun" hidden="false" collective="false" import="true" targetId="4ebd-57e0-3560-e568" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="21b7-9560-500c-bd4c" name="Æther-Fire Blaster" hidden="false" collective="false" import="true" targetId="d078-5f42-c02b-c73d" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
             <entryLink id="cfb7-7546-a17c-0c4c" name="Atomantic Deflector" hidden="false" collective="false" import="true" targetId="38fb-9a0b-edef-a497" type="selectionEntry">
