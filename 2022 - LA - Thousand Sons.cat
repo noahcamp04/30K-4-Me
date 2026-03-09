@@ -6255,7 +6255,6 @@ Additionally, a unit that includes any models with this special rule may not be 
       <categoryLinks>
         <categoryLink name="Legiones Astartes" hidden="false" id="83ef-db33-06eb-b2fb" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
         <categoryLink name="Infantry:" hidden="false" id="c2b9-25d6-859e-c053" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
-        <categoryLink name="Heavy Sub-type:" hidden="false" id="4757-7a77-2561-2b9d" targetId="9231-183c-b97b-63f9" primary="false"/>
         <categoryLink name="Terminators:" hidden="false" id="14a9-e452-f8f2-5888" targetId="bab3-f50d-3e5f-2f78" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -6267,7 +6266,7 @@ Additionally, a unit that includes any models with this special rule may not be 
           <profiles>
             <profile name="Sekhmet Inceptor" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="c20d-a1dd-9c55-0521" publicationId="09c5-eeae-f398-b653" page="262">
               <characteristics>
-                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Heavy, Character, Psyker)</characteristic>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Psyker)</characteristic>
                 <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6&quot;</characteristic>
                 <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
@@ -6284,7 +6283,6 @@ Additionally, a unit that includes any models with this special rule may not be 
           <categoryLinks>
             <categoryLink name="Character" hidden="false" id="697d-367a-d176-6dc4" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
             <categoryLink name="Infantry:" hidden="false" id="8ab1-ece3-031d-0124" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
-            <categoryLink name="Heavy Sub-type:" hidden="false" id="0f72-9043-b72b-e9cb" targetId="9231-183c-b97b-63f9" primary="false"/>
             <categoryLink name="Psyker:" hidden="false" id="1692-316b-dca3-fb8b" targetId="6e0c-29ba-a445-8321" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
@@ -6521,7 +6519,7 @@ Veil of Time (Psychic Power)</description>
           <profiles>
             <profile name="Sekhmet" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="9260-4a7a-6986-0ef2" publicationId="09c5-eeae-f398-b653" page="262">
               <characteristics>
-                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Heavy, Psyker)</characteristic>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Psyker)</characteristic>
                 <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6&quot;</characteristic>
                 <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
@@ -6537,7 +6535,6 @@ Veil of Time (Psychic Power)</description>
           </profiles>
           <categoryLinks>
             <categoryLink name="Infantry:" hidden="false" id="211e-6cf6-f32b-86be" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
-            <categoryLink name="Heavy Sub-type:" hidden="false" id="8e32-e530-6bfb-dbec" targetId="9231-183c-b97b-63f9" primary="false"/>
             <categoryLink name="Psyker:" hidden="false" id="e3fa-a5b9-08f9-c882" targetId="6e0c-29ba-a445-8321" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
