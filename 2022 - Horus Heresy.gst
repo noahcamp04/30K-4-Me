@@ -17729,7 +17729,16 @@ To determine whether a unit wounded by an Apocalyptic Mega-blast weapon is allow
 Hits from Apocalyptic Mega-blast weapons made against Vehicles are always resolved against their Side Armour Value.</description>
     </rule>
     <rule id="d836-747d-07d6-2b63" name="Blind" publicationId="9fab-fea7-a93c-2074" page="114" hidden="false">
-      <description>Any unit hit by one or more models or weapons with this Special Rule must take an Initiative test once the attack is fully resolved. If the test is passed, there is no further effect. If the Initiative test is failed, all models in the unit are reduced to Weapon Skill 1 and Ballistic Skill 1 until the end of their Controlling Player’s next turn. Should the attacking unit hit themselves, they automatically pass the Initiative test. Any model that does not have an Initiative Characteristic (for example, Vehicles, Buildings, etc) are unaffected by this Special Rule.</description>
+      <description>If a non-Vehicle unit suffers one or more unsaved Wounds from a
+weapon with the Blind Special Rule, it must take a Initiative test once
+the firing unit has finished its Shooting Attacks for that Phase. This is
+called a Blind test. If the unit fails the Test, it is Blinded. If the test is
+passed, there is no further effect. If the Initiative test is failed, all models
+in the unit are reduced to Weapon Skill 1 and Ballistic Skill 1 until the
+end of their Controlling Player’s next turn. Should the attacking unit
+hit themselves, they automatically pass the Initiative test. Any model
+that does not have an Initiative Characteristic (for example, Vehicles,
+Buildings, etc) are unaffected by this Special Rule.</description>
     </rule>
     <rule id="676c-7b75-4b6f-9405" name="Bulky (X)" publicationId="e77a-823a-da94-16b9" page="236" hidden="false">
       <description>Bulky models count as a number of models equal to the value X in brackets after the rule’s name for the purposes of Transport Capacity and whether a given unit outnumbers another in combat.
