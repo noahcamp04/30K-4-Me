@@ -3594,7 +3594,7 @@
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Any Contemptor-Osiron Dreadnought in the unit may replace its Gravis bolt cannon with one of the following:" hidden="false" id="a8a9-44a7-ad8d-71e6">
               <selectionEntryGroups>
-                <selectionEntryGroup name="1) May replace its Gravis bolt cannon with one of the following:" id="a0ae-5806-794c-abbc" hidden="false" collective="false" import="true" defaultSelectionEntryId="e55e-1905-46b8-71ba">
+                <selectionEntryGroup name="1) May replace its Gravis bolt cannon with one of the following:" id="a0ae-5806-794c-abbc" hidden="false" collective="false" import="true" defaultSelectionEntryId="aefa-687c-846c-6098">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="921b-349f-4eda-901e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2fa4-1313-239d-2d47" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
