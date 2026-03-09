@@ -3139,6 +3139,13 @@
         <categoryLink targetId="36c3-e85e-97cc-c503" id="8154-4b76-0d90-5a13" primary="false" name="Unit:"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Warsmith Toramino" hidden="false" id="9fed-c9cc-f375-d723" targetId="f560-0625-d80a-9d96" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="5543-02b3-88ff-af47" primary="true" name="HQ:"/>
+        <categoryLink targetId="f823-8c1d-6a87-26a1" id="e840-a74c-7fdf-b494" primary="false" name="Compulsory HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="e9d7-6016-7644-2d53" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="ac97-c8ce-16ba-9c49" name="Nârik Dreygur" hidden="false" collective="false" import="true" type="model">
