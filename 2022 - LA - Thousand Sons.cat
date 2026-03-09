@@ -3716,18 +3716,6 @@
               </selectionEntries>
               <selectionEntryGroups>
                 <selectionEntryGroup name="2) May replace an in-built combi-bolter on a Gravis force blade with one of the following:" id="4276-d2c1-2762-d83c" hidden="false" collective="false" import="true" defaultSelectionEntryId="ef9d-06a1-ebd4-a3af">
-                  <modifiers>
-                    <modifier type="set" value="2" field="a28c-8c36-b2cf-b070">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="1626-a09f-d9ed-dca1" childId="96aa-954e-b2e9-92df" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="set" value="2" field="c67c-1f55-18a5-c776">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="1626-a09f-d9ed-dca1" childId="96aa-954e-b2e9-92df" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c67c-1f55-18a5-c776" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a28c-8c36-b2cf-b070" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
