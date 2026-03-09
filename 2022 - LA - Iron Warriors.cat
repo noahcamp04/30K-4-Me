@@ -3146,6 +3146,31 @@
         <categoryLink targetId="36c3-e85e-97cc-c503" id="e9d7-6016-7644-2d53" primary="false" name="Unit:"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Centurion, Indomitus" hidden="false" id="906c-a9b5-2b55-575b" type="selectionEntry" targetId="4d40-5fee-4219-8354">
+      <entryLinks>
+        <entryLink import="true" name="Warlord Traits" hidden="false" id="473b-b98c-dc17-f020" collective="false" targetId="3447-379d-6e6b-6794" type="selectionEntryGroup">
+          <comment>template_id_2a38-6544-4267-b584    template_targetId_7dee-602c-4b47-be09</comment>
+        </entryLink>
+        <entryLink import="true" name="Retinue" hidden="false" id="0d7f-f311-1d9d-971c" collective="false" targetId="6590-c91a-fceb-8048" type="selectionEntryGroup">
+          <comment>template_id_a6a6-9bc7-4d4e-86a7    template_targetId_be38-a066-4f8e-ae54</comment>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <comment>node_id_1e43-c980-4508-8ec2</comment>
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="parent" childId="35d4-0dcd-f7d2-a6da" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_4140-36a7-4203-b5e9</comment>
+                </condition>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="4064-089d-260c-f9fc" primary="true" name="HQ:"/>
+        <categoryLink targetId="f823-8c1d-6a87-26a1" id="b4e5-21ac-b574-9211" primary="false" name="Compulsory HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="da1a-e035-ec5f-a20e" primary="false" name="Unit:"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="ac97-c8ce-16ba-9c49" name="Nârik Dreygur" hidden="false" collective="false" import="true" type="model">
@@ -5560,6 +5585,8 @@ In addition, an army with Barban Falk as the warlord gains an additional reactio
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a23-dbe6-075d-18d7"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Warlord" hidden="false" id="2e23-dec0-1122-955a" type="selectionEntry" targetId="0176-56a3-d590-b103"/>
+            <entryLink import="true" name="Warlord Traits" hidden="false" id="47aa-fc2a-456d-cf89" type="selectionEntryGroup" targetId="3447-379d-6e6b-6794"/>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Dedicated Transport" id="3bcc-95e6-f11b-8db9" hidden="false">
@@ -5601,6 +5628,13 @@ In addition, an army with Barban Falk as the warlord gains an additional reactio
             <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="02fb-2150-0f4a-741c" primary="false" name="Character"/>
             <categoryLink targetId="aa94-5c65-d1f1-46a4" id="55c3-3aa0-4b23-d524" primary="false" name="Unique Sub-type"/>
           </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="0" field="d74b-defd-f733-cedf">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="a552-111f-ffbc-83cd" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Warsmith Berossus" hidden="false" id="a552-111f-ffbc-83cd">
           <selectionEntries>
@@ -5676,6 +5710,8 @@ In addition, an army with Barban Falk as the warlord gains an additional reactio
               </constraints>
             </entryLink>
             <entryLink import="true" name="Retinue" hidden="false" id="5fbf-985f-49aa-19ab" type="selectionEntryGroup" targetId="6590-c91a-fceb-8048"/>
+            <entryLink import="true" name="Warlord" hidden="false" id="2ced-2d2d-6355-d10b" type="selectionEntry" targetId="0176-56a3-d590-b103"/>
+            <entryLink import="true" name="Warlord Traits" hidden="false" id="9acc-73ca-aea0-388c" type="selectionEntryGroup" targetId="3447-379d-6e6b-6794"/>
           </entryLinks>
           <infoLinks>
             <infoLink name="Battlesmith (X)" id="ea0c-ede4-f2ee-a37c" hidden="false" type="rule" targetId="5d57-4d02-1e36-4a82">
@@ -5709,6 +5745,13 @@ In addition, an army with Barban Falk as the warlord gains an additional reactio
             <categoryLink targetId="4f07-3d45-4f28-a0c6" id="d24b-2900-536f-b937" primary="false" name="Independent Character"/>
             <categoryLink targetId="aa94-5c65-d1f1-46a4" id="c425-8388-3298-1caa" primary="false" name="Unique Sub-type"/>
           </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="0" field="4839-df93-ba8e-2323">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="9e45-83c8-5c99-d370" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
       <modifiers>

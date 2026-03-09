@@ -201,11 +201,7 @@
     </selectionEntry>
     <selectionEntry name="Centurion, Indomitus" type="unit" id="4d40-5fee-4219-8354" page="7" publicationId="3970-79bb-bdc6-9599">
       <categoryLinks>
-        <categoryLink targetId="4f07-3d45-4f28-a0c6" id="4a73-7020-745a-8bfd" primary="false" name="Independent Character"/>
-        <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="1856-a7e6-d046-2a69" primary="false" name="Character"/>
-        <categoryLink targetId="9231-183c-b97b-63f9" id="b38f-ca61-a5ec-d134" primary="false" name="Heavy Sub-type:"/>
         <categoryLink targetId="11f2-472f-c1d1-9ae9" id="2b4e-729e-18dc-502f" primary="false" name="Legiones Astartes"/>
-        <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="7def-e5e8-8b31-6971" primary="false" name="Infantry:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="70"/>
@@ -16330,12 +16326,6 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
     <entryLink import="true" name="Legion Vindicator Thunderer Squadron" hidden="false" id="2c8a-ce33-f75a-b9cc" targetId="0154-d7ea-4dcf-8db1" type="selectionEntry"/>
     <entryLink import="true" name="Mutated Spawn" hidden="false" id="f824-0556-39b6-47fa" targetId="d20c-e065-4357-b70c" type="selectionEntry"/>
     <entryLink import="true" name="Possessed Legionnaires" hidden="false" id="703c-9f61-0bdb-46da" targetId="f928-6ae6-4699-ba2b" type="selectionEntry"/>
-    <entryLink import="true" name="Centurion, Indomitus" hidden="false" id="bde0-4cfc-9e50-7b4c" targetId="4d40-5fee-4219-8354" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink targetId="4f85-eb33-30c9-8f51" id="39cc-0b11-f022-7532" primary="true" name="HQ:"/>
-        <categoryLink targetId="36c3-e85e-97cc-c503" id="29c4-f6d2-a1ea-eb2a" primary="false" name="Unit:"/>
-      </categoryLinks>
-    </entryLink>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Pater Consularis" id="b93b-ea03-1f8f-654b" hidden="false" defaultSelectionEntryId="9d66-295a-5af3-4e38">
