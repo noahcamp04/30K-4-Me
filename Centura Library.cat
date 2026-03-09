@@ -791,6 +791,11 @@
       <entryLinks>
         <entryLink import="true" name="Legiones Consularis" hidden="false" id="9aa8-f286-4b27-bf8d" collective="false" targetId="3cbf-9466-2558-2c22" type="selectionEntryGroup"/>
         <entryLink import="true" name="Consul Additional Wargear and Options" hidden="false" id="fb83-e508-357c-9821" collective="false" targetId="244a-2a7c-1349-94e7" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="71b4-ff4a-0bfa-1525" type="selectionEntry" targetId="0176-56a3-d590-b103">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed57-e2c3-62b8-2bc8"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <modifiers>
         <modifier type="add" value="db6f-0311-834c-e6ff" field="category">
@@ -2169,6 +2174,13 @@
 ● Legion Forge Lord................................................. +40 points ● Legion Siege Breaker ............................................ +45 points ● Legion Mortificator .............................................. +25 points</description>
         </rule>
       </rules>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="6daf-0f3c-869b-eafc" type="selectionEntry" targetId="0176-56a3-d590-b103">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f583-0dde-4a8d-7bc4"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry name="Legion Indomitus Command Squad" type="unit" id="10a1-9ca0-40bd-81fd" page="9" publicationId="3970-79bb-bdc6-9599">
       <categoryLinks>
