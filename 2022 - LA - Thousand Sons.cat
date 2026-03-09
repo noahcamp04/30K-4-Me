@@ -3706,6 +3706,10 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ba58-9b23-cc2e-27a5-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba58-9b23-cc2e-27a5-max"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Gravis Force Blade" hidden="false" id="29bd-f780-3da5-775d">
               <selectionEntries>
@@ -3775,58 +3779,6 @@
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="0d4e-fb30-c8db-6ebc" name="1) May replace its Gravis bolt cannon with one of the following:" hidden="false" collective="false" import="true" defaultSelectionEntryId="e55e-1905-46b8-71ba">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0507-8004-69dd-c821" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c019-a938-8ace-c4bf" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="e55e-1905-46b8-71ba" name="Gravis Bolt Cannon" hidden="false" collective="false" import="true" targetId="3b5f-52ab-6534-94a3" type="selectionEntry"/>
-                <entryLink id="a933-01ae-318a-db08" name="Gravis Melta Cannon" hidden="false" collective="false" import="true" targetId="ef6c-f656-171a-03e1" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="ec39-c1ca-0bc3-09ba" name="Æther-Fire Magna-Cannon" hidden="false" collective="false" import="true" targetId="ab6a-176c-e2e4-e902" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="false"/>
-                  </modifiers>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="7cd1-0b22-b462-fece" name="Kheres Assault Cannon" hidden="false" collective="false" import="true" targetId="fe77-2e74-160d-c7af" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="0f43-5237-a49e-b443" name="Conversion Beam Cannon" hidden="false" collective="false" import="true" targetId="5775-0d94-8e13-8c1f" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="4801-a1f6-ca0c-5617" name="Gravis Lascannon" hidden="false" collective="false" import="true" targetId="1fe0-7c96-5200-0e39" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="2881-e11d-8a07-78a3" name="Gravis Force Blade" hidden="false" collective="false" import="true" targetId="96aa-954e-b2e9-92df" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="append" field="name" value="with in-built combi-bolter"/>
-                  </modifiers>
-                </entryLink>
-                <entryLink id="ea68-705f-0f67-b5fc" name="Volkite Dual-Culverin" hidden="false" collective="false" import="true" targetId="fead-f3b9-f7c7-1081" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="b21b-1107-8f46-8ada" name="Gravis Autocannon" hidden="false" collective="false" import="true" targetId="8a23-e57d-b4a8-14a9" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
             <selectionEntryGroup id="e1be-b698-edc3-9111" name="May take one of the following:" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c6c-321b-760f-f46a" type="max"/>
