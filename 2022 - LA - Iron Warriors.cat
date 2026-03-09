@@ -5712,6 +5712,12 @@ In addition, an army with Barban Falk as the warlord gains an additional reactio
             <entryLink import="true" name="Retinue" hidden="false" id="5fbf-985f-49aa-19ab" type="selectionEntryGroup" targetId="6590-c91a-fceb-8048"/>
             <entryLink import="true" name="Warlord" hidden="false" id="2ced-2d2d-6355-d10b" type="selectionEntry" targetId="0176-56a3-d590-b103"/>
             <entryLink import="true" name="Warlord Traits" hidden="false" id="9acc-73ca-aea0-388c" type="selectionEntryGroup" targetId="3447-379d-6e6b-6794"/>
+            <entryLink import="true" name="Master of the Legion" hidden="false" id="bc38-0f86-087f-1d22" type="selectionEntry" targetId="0068-6b0a-0086-3d6b">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0b2d-8163-b64b-95cc-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b2d-8163-b64b-95cc-max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <infoLinks>
             <infoLink name="Battlesmith (X)" id="ea0c-ede4-f2ee-a37c" hidden="false" type="rule" targetId="5d57-4d02-1e36-4a82">
@@ -5720,7 +5726,6 @@ In addition, an army with Barban Falk as the warlord gains an additional reactio
               </modifiers>
             </infoLink>
             <infoLink name="Master of Automata" id="f645-d729-635a-656c" hidden="false" type="rule" targetId="8eef-f84b-37cb-554b"/>
-            <infoLink name="Master of the Legion" id="cf95-c723-7449-70ce" hidden="false" type="rule" targetId="c772-87ea-d49c-c7ba"/>
           </infoLinks>
           <profiles>
             <profile name="Warsmith Berossus" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="5c0c-d72b-3abc-84af">
