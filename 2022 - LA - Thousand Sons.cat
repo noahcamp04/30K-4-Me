@@ -3136,6 +3136,11 @@
           <comment>template_id_2a38-6544-4267-b584    template_targetId_7dee-602c-4b47-be09</comment>
         </entryLink>
       </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="4f85-eb33-30c9-8f51" id="cf90-7961-9577-1c94" primary="true" name="HQ:"/>
+        <categoryLink targetId="f823-8c1d-6a87-26a1" id="ec0c-ab1f-8492-d039" primary="false" name="Compulsory HQ:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="4662-ab43-f097-c4b8" primary="false" name="Unit:"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
