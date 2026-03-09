@@ -3715,7 +3715,7 @@
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup name="2) May replace an in-built combi-bolter on a Gravis force blade with one of the following:" id="4276-d2c1-2762-d83c" hidden="false" collective="false" import="true" defaultSelectionEntryId="ef9d-06a1-ebd4-a3af">
+                <selectionEntryGroup name="2) May replace an in-built combi-bolter on a Gravis force blade with one of the following:" id="4276-d2c1-2762-d83c" hidden="false" collective="false" import="true" defaultSelectionEntryId="7248-d05b-1298-42af">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c67c-1f55-18a5-c776" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a28c-8c36-b2cf-b070" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
