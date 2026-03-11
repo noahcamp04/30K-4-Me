@@ -3928,6 +3928,11 @@
           <infoLinks>
             <infoLink id="77e5-69bc-2466-f310" name="Infiltrate" hidden="false" targetId="0e32-5b92-a95a-8464" type="rule"/>
             <infoLink id="df88-a557-b6da-db45" name="Relentless" hidden="false" targetId="7adf-ac9a-5035-522d" type="rule"/>
+            <infoLink name="Psychic Mastery (X)" id="c35b-c8ae-1538-ccac" hidden="false" type="rule" targetId="33c9-6e05-39be-8577" publicationId="9fab-fea7-a93c-2074" page="130">
+              <modifiers>
+                <modifier type="set" value="Psychic Master (2)" field="name"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="6ca9-7834-d332-aa0c" name="Independent Character" hidden="false" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
