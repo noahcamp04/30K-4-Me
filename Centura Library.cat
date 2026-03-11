@@ -11923,14 +11923,6 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1fb5-f9f9-4119-973f"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Graviton Gun" hidden="false" type="selectionEntry" targetId="5303-5a3e-de51-1707" id="ec25-0e6e-4575-bb74">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd05-cb33-421f-acf9"/>
-                  </constraints>
-                </entryLink>
                 <entryLink name="Meltagun" hidden="false" type="selectionEntry" targetId="7447-495d-4b86-c92c" id="76c2-e38b-48bd-b782">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
@@ -11951,6 +11943,25 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5287-a818-0a9e-9a01"/>
                   </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Æther-Fire Blaster" hidden="false" id="89c6-fd3d-6c82-191e" type="selectionEntry" targetId="d078-5f42-c02b-c73d">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78be-2d2f-42ec-2bf5"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Æther-Fire Pistol" hidden="false" id="bae1-e662-01c8-bde9" type="selectionEntry" targetId="ae13-0ae8-a3ba-f6ff">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f1b-0db9-a843-1f0a"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <constraints>
@@ -11980,6 +11991,7 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
                   </costs>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84f2-f469-41fa-8858"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c509-3eb1-b7f2-3406"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Nuncio-Vox" hidden="false" type="selectionEntry" targetId="005e-aae6-ddac-bb45" id="e8fb-c264-4de8-b9e1">
@@ -11991,6 +12003,7 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
                   </modifiers>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c912-3da1-4aeb-871b"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2806-d270-e505-1891"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Legion Vexilla" hidden="false" type="selectionEntry" targetId="21b1-2a90-9826-1782" id="564d-6bf8-4f52-93fd">
@@ -11999,22 +12012,26 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
                   </costs>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="715b-2ace-4fe4-8887"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2d2-fcdd-7100-82fa"/>
                   </constraints>
                 </entryLink>
                 <entryLink import="true" name="Cyber-Familiar" hidden="false" id="4980-ae5e-fb02-a172" type="selectionEntry" targetId="6c85-4601-cf58-7b35">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="deb2-b074-dce8-f0cf"/>
+                  </constraints>
                 </entryLink>
                 <entryLink import="true" name="Melta Bomb" hidden="false" id="99ee-1aeb-c908-8999" type="selectionEntry" targetId="e55d-d31b-46a9-aeb6">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65a1-9563-551f-413d"/>
+                  </constraints>
                 </entryLink>
               </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fc83-1484-4c0d-aab7"/>
-              </constraints>
             </selectionEntryGroup>
             <selectionEntryGroup name="4) May take:" id="ade1-6357-170e-fb55" hidden="false" collective="false" import="true">
               <entryLinks>

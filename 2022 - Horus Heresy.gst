@@ -4100,6 +4100,11 @@ THIS IS A TEMPORARY NOTIFICATION THAT WILL BE REMOVED IN A FEW MONTHS WHEN HOPEF
         <infoLink id="e6d4-7d81-b610-6358" name="Bolter (Primary)" hidden="false" targetId="ace5-c6fe-e205-07d1" type="profile"/>
         <infoLink id="ed62-62b5-171c-155a" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
         <infoLink id="c8b8-9218-cf90-6751" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink name="Rupture (X)" id="15a2-92e5-b7a3-f6dd" hidden="false" type="rule" targetId="0031-12d9-3b2e-a574">
+          <modifiers>
+            <modifier type="set" value="Rupture (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
