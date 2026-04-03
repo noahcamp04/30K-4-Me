@@ -15925,13 +15925,9 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
-                  <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1b8-c224-8f33-10fe" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
                 </entryLink>
               </entryLinks>
               <selectionEntries>
