@@ -4718,17 +4718,6 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1056-701d-2289-1e38" type="max"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a852-ade7-7de0-f1ca" type="min"/>
                   </constraints>
-                  <entryLinks>
-                    <entryLink id="0450-d715-3c18-4f3f" name="Power Sword" hidden="false" collective="true" import="true" targetId="fa06-cac0-3d98-125e" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e03-f4b6-2689-b463" type="max"/>
-                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7fe-928f-15af-991e" type="min"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
-                      </costs>
-                    </entryLink>
-                  </entryLinks>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
