@@ -2336,7 +2336,7 @@ During a Reaction made in any Phase, a player may not choose to activate a model
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist Weapon, Shred, Reaping blow (1)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist Weapon, Shred, Reaping blow (1), Paired Talons</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2352,6 +2352,12 @@ During a Reaction made in any Phase, a player may not choose to activate a model
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
+      <rules>
+        <rule name="Paired Talons" id="c265-a4de-789f-28f6" hidden="false">
+          <description>A model armed with two Frost Claws gains +2 Attacks, instead of the
+normal +1 for two melee weapons.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry id="ee1c-6b24-699a-ef1e" name="Frost Sword" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -4447,6 +4453,11 @@ When a model has two Raven’s Talons, that model gains +2 Attacks instead of th
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="302d-5bc4-1d83-bd45" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
+                </entryLink>
+                <entryLink import="true" name="Helfrost Pistol" hidden="false" id="68e4-3dee-1695-6d70" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <selectionEntries>
@@ -7472,6 +7483,11 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                     </modifier>
                   </modifiers>
                 </entryLink>
+                <entryLink import="true" name="Helfrost Pistol" hidden="false" id="cce7-f8a5-d3d8-327c" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Xenos Doomlock" hidden="true" id="7b51-2f5-e8a0-6fbb" publicationId="d882-d2a-5da1-92c4">
@@ -8794,6 +8810,11 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                 <entryLink import="true" name="Volkite Serpenta" hidden="false" id="e662-e151-93f3-43c6" collective="false" targetId="d535-1da8-290d-69a6" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Helfrost Pistol" hidden="false" id="62fe-46a3-f9b0-3a1b" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -12879,6 +12900,21 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                     </modifier>
                   </modifiers>
                 </entryLink>
+                <entryLink import="true" name="Helfrost Pistol" hidden="false" id="58b6-59d6-3ecf-e0ba" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5001-1930-8a5f-1863"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Xenos Doomlock" hidden="true" id="f531-29cf-dbc1-ecd2" publicationId="d882-d2a-5da1-92c4">
@@ -15088,6 +15124,11 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                     <condition type="equalTo" value="1" field="selections" scope="25a2-7a52-632a-6b2c" childId="1022-f14c-9e20-cd96" shared="true"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" value="Priest of Iron" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="25a2-7a52-632a-6b2c" childId="b23e-0c59-f4d3-8776" shared="true"/>
+                  </conditions>
+                </modifier>
               </modifiers>
             </modifierGroup>
             <modifierGroup type="and">
@@ -15880,6 +15921,18 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                     </modifier>
                   </modifiers>
                 </entryLink>
+                <entryLink import="true" name="Helfrost Pistol" hidden="false" id="beee-d57f-b82e-9b61" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Exchange Bolt Pistol for Force Weapon" hidden="true" id="b325-8b6f-36af-2bc0">
@@ -16468,6 +16521,14 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                       </conditions>
                     </modifier>
                   </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Helfrost Pistol" hidden="false" id="077f-3722-f46a-c7b5" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="08eb-de20-556e-a7a1"/>
+                  </constraints>
                 </entryLink>
               </entryLinks>
               <selectionEntries>
@@ -19732,6 +19793,11 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                     </modifier>
                   </modifiers>
                 </entryLink>
+                <entryLink import="true" name="Helfrost Pistol" hidden="false" id="3f78-a0f5-7cf6-e802" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Xenos Doomlock" hidden="true" id="a36b-390c-ed88-7f2" publicationId="d882-d2a-5da1-92c4">
@@ -21882,6 +21948,11 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                     </modifier>
                   </modifiers>
                 </entryLink>
+                <entryLink import="true" name="Helfrost Pistol" hidden="false" id="8f53-e548-89df-7479" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Xenos Doomlock" hidden="true" id="c615-8b07-d012-afb1" publicationId="d882-d2a-5da1-92c4">
@@ -23440,6 +23511,11 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="9f02-eba9-9c86-b9a0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Helfrost Pistol" hidden="false" id="cf31-03a5-e49e-42c6" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Xenos Doomlock" hidden="true" id="a37-7c91-3df1-f6c2" publicationId="d882-d2a-5da1-92c4">
@@ -24854,6 +24930,11 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="2012-1719-7a09-5006" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
+                </entryLink>
+                <entryLink import="true" name="Helfrost Pistol" hidden="false" id="bea8-94ca-6334-12a0" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <selectionEntries>
@@ -27235,6 +27316,26 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                 <modifier type="set" value="Terran-Born Crusader" field="name">
                   <conditions>
                     <condition type="equalTo" value="1" field="selections" scope="3766-ea98-0aa7-62d0" childId="1022-f14c-9e20-cd96" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Priest of Iron" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="3766-ea98-0aa7-62d0" childId="b23e-0c59-f4d3-8776" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Caster of Runes" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="3766-ea98-0aa7-62d0" childId="b625-1cef-3057-156c" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Speaker of The Dead" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="3766-ea98-0aa7-62d0" childId="e9ab-2cc5-4507-eded" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Pack Thegn" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="3766-ea98-0aa7-62d0" childId="aab9-d1c0-a5cb-9788" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -30022,6 +30123,11 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                         </modifier>
                       </modifiers>
                     </entryLink>
+                    <entryLink import="true" name="Helfrost Pistol" hidden="false" id="98f8-401f-e06a-9e8d" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Xenos Doomlock" hidden="true" id="e23a-ac2d-20e8-7d45" publicationId="d882-d2a-5da1-92c4">
@@ -30849,6 +30955,21 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                     <modifier type="set" value="true" field="hidden">
                       <conditions>
                         <condition type="equalTo" value="0" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Helfrost Pistol" hidden="false" id="7bae-17b2-7055-353c" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7720-7c92-d125-b63c"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="c7be-f327-8718-3dfb" shared="true" includeChildSelections="true"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -31838,6 +31959,11 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                       </conditions>
                     </modifier>
                   </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Helfrost Pistol" hidden="false" id="af44-1226-23c3-05b2" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <selectionEntries>
@@ -33101,6 +33227,11 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                     </modifier>
                   </modifiers>
                 </entryLink>
+                <entryLink import="true" name="Helfrost Pistol" hidden="false" id="36db-e18b-544f-b22b" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <modifiers>
                 <modifier type="set" value="9a89-dc00-3d41-daf3" field="defaultSelectionEntryId">
@@ -33723,6 +33854,26 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                 <modifier type="set" value="Terran-Born Crusader" field="name">
                   <conditions>
                     <condition type="equalTo" value="1" field="selections" scope="f806-8a4e-d0d6-beaa" childId="1022-f14c-9e20-cd96" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Priest of Iron" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="f806-8a4e-d0d6-beaa" childId="b23e-0c59-f4d3-8776" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Caster of Runes" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="f806-8a4e-d0d6-beaa" childId="b625-1cef-3057-156c" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Speaker of The Dead" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="f806-8a4e-d0d6-beaa" childId="e9ab-2cc5-4507-eded" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Pack Thegn" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="f806-8a4e-d0d6-beaa" childId="aab9-d1c0-a5cb-9788" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -38555,6 +38706,14 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                     </modifier>
                   </modifiers>
                 </entryLink>
+                <entryLink import="true" name="Helfrost Pistol" hidden="false" id="6b11-3590-86fb-cd99" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c68-56dc-252b-251e"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <modifiers>
                 <modifier type="set" value="533f-7a1c-adfb-afe4" field="defaultSelectionEntryId">
@@ -40224,6 +40383,11 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 <entryLink id="eebd-7319-7671-90f9" name="Dragon&apos;s Breath Pistol" hidden="false" collective="false" import="true" targetId="c1cb-0fa7-0d39-73ae" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Helfrost Pistol" hidden="false" id="f47b-3802-d59c-b416" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -49548,6 +49712,11 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
                       </costs>
                     </entryLink>
+                    <entryLink import="true" name="Helfrost Pistol" hidden="false" id="c0cb-6a69-0a59-678a" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -56134,6 +56303,82 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                   </conditions>
                 </modifier>
               </modifiers>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Helfrost Pistol &amp; Bolt Pistol" hidden="false" id="d9b8-7598-e1d8-6a89">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a922-c09d-9ff7-32d5"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Helfrost Pistol" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="d6ea-8628-4bfd-4e16">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 1, Blind, Breaching (3+)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Blind" id="403b-81e5-4a79-64e3" hidden="false" type="rule" targetId="d836-747d-07d6-2b63"/>
+                    <infoLink name="Breaching (X)" id="4d5b-de5c-943f-2f74" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+                      <modifiers>
+                        <modifier type="set" value="Breaching (3+)" field="name"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="0" field="selections" scope="force" childId="4916-965e-8339-44f6" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Two Helfrost Pistols" hidden="false" id="75f5-6d0c-939a-6902">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e3a1-11b5-310b-07f5"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Helfrost Pistol" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="4191-2e32-cd33-777a">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 1, Blind, Breaching (3+)</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Helfrost Pistol" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="a945-2dc6-a6fa-ea5f">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 1, Blind, Breaching (3+)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Blind" id="26ae-e9d0-faf5-1bb5" hidden="false" type="rule" targetId="d836-747d-07d6-2b63"/>
+                    <infoLink name="Breaching (X)" id="e1fa-1442-f644-d72a" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+                      <modifiers>
+                        <modifier type="set" value="Breaching (3+)" field="name"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="0" field="selections" scope="force" childId="4916-965e-8339-44f6" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntryGroup>
             <selectionEntryGroup id="138c-1acf-14ad-9625" name="Armor" hidden="false" collective="false" import="true" defaultSelectionEntryId="a523-64b3-39d4-ab8f">
               <constraints>
@@ -58902,6 +59147,11 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                     </modifier>
                   </modifiers>
                 </entryLink>
+                <entryLink import="true" name="Helfrost Pistol" hidden="false" id="aa3d-685e-0654-f869" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Xenos Doomlock" hidden="true" id="ebda-e441-875d-2187" publicationId="d882-d2a-5da1-92c4" sortIndex="18">
@@ -60122,6 +60372,82 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                   </conditions>
                 </modifier>
               </modifiers>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Two Helfrost Pistols" hidden="false" id="5c19-6dc9-744d-67ef">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24b6-6407-599f-1a3c"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Helfrost Pistol" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="6311-36d3-344b-9deb">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 1, Blind, Breaching (3+)</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Helfrost Pistol" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="bddd-08dd-5d06-b72d">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 1, Blind, Breaching (3+)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Blind" id="e7a7-8fcd-c1f7-a0df" hidden="false" type="rule" targetId="d836-747d-07d6-2b63"/>
+                    <infoLink name="Breaching (X)" id="fd09-1f4e-dcf7-3c6f" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+                      <modifiers>
+                        <modifier type="set" value="Breaching (3+)" field="name"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="0" field="selections" scope="force" childId="4916-965e-8339-44f6" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Helfrost Pistol &amp; Bolt Pistol" hidden="false" id="629b-2adc-dfdc-19c1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="028f-5d9c-fafe-2f5f"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Helfrost Pistol" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="20b7-ef88-88cc-f13c">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 1, Blind, Breaching (3+)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Blind" id="57c3-6c2f-9715-c6c7" hidden="false" type="rule" targetId="d836-747d-07d6-2b63"/>
+                    <infoLink name="Breaching (X)" id="ae26-dcc2-0428-6195" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+                      <modifiers>
+                        <modifier type="set" value="Breaching (3+)" field="name"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="0" field="selections" scope="force" childId="4916-965e-8339-44f6" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntryGroup>
             <selectionEntryGroup id="b35f-e705-7a21-8b32" name="Armor" hidden="false" collective="false" import="true" defaultSelectionEntryId="963c-2bbb-fd15-7b41">
               <constraints>
@@ -67043,6 +67369,14 @@ If the Psychic check is successful then until that Shooting Attack is resolved, 
                     </modifier>
                   </modifiers>
                 </entryLink>
+                <entryLink import="true" name="Helfrost Pistol" hidden="false" id="e721-ca29-f6ed-5ea9" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4988-c01d-3172-07d4"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="2) May take one:" id="f9ab-e5fc-7d03-2216" hidden="false" collective="false" import="true">
@@ -69385,6 +69719,7 @@ A Legion Primus Nullificator Consul gains the Psyker Sub-type and has only the P
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="25a2-7a52-632a-6b2c" type="notInstanceOf"/>
                     <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b5b7-3410-a8e5-95a6" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
@@ -69972,6 +70307,71 @@ the purposes of determining whether they are controlling Objectives. If the Lodg
 zone at the end of the game, you gain 1 Victory Point.
 ● Killer of Gods and Kings – If an enemy model with the Primarch Unit type is slain by a model with the same Legiones Astartes (X) Special Rule as
 the Lodge Master, you gain 1 Victory Point.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Priest of Iron" hidden="false" id="b23e-0c59-f4d3-8776">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="45"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="4171-e276-e90d-b8e5" id="5a00-6dde-c29d-8263" primary="false" name="Legion Consularis:"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="0" field="selections" scope="force" childId="b5b7-3410-a8e5-95a6" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="4916-965e-8339-44f6" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="equalTo" value="0" field="selections" scope="force" childId="ae4a-f95c-968e-eb46" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Machinator Array" hidden="false" id="6b82-2623-37bb-b536" type="selectionEntry" targetId="66f5-697c-605c-f1bb">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f27c-0a12-f0ee-e2b5-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f27c-0a12-f0ee-e2b5-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Helfrost Pistol" hidden="false" id="3ebe-d189-4ee9-2458" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0bf8-22a8-d061-2319-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0bf8-22a8-d061-2319-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Cortex Controller" hidden="false" id="8fc3-cdc6-2806-90da" type="selectionEntry" targetId="2fda-455f-d34d-97e0">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="34aa-8992-7def-0f3a"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Cyber-Familiar" hidden="false" id="e358-3542-f0b3-82df" type="selectionEntry" targetId="6c85-4601-cf58-7b35">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe18-ebf1-fef4-e716"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Battlesmith (X)" id="8084-c79e-03ea-345f" hidden="false" type="rule" targetId="5d57-4d02-1e36-4a82">
+              <modifiers>
+                <modifier type="set" value="Battlesmith (4+)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Master of Automata" id="9e14-3785-0ed1-a9d0" hidden="false" type="rule" targetId="8eef-f84b-37cb-554b"/>
+          </infoLinks>
+          <rules>
+            <rule name="Runis Machinator" id="4884-097f-0d79-e59c" hidden="false">
+              <description>Before the game begins, you may select up to two vehicles in the same detachment as the Priest of Iron. For the duration of the game, these vehicles
+can move at up to Crusing speed in the movement phase, but are counted as not having moved for the purposes of their shooting attacks.</description>
             </rule>
           </rules>
         </selectionEntry>

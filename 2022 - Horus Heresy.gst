@@ -11878,6 +11878,33 @@ Melta, or Volkite Types.</characteristic>
         <infoLink name="Pinning" id="13ec-f8d1-5e23-feb9" hidden="false" type="rule" targetId="1c96-205c-59a0-3cf2"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Helfrost Pistol" hidden="false" id="dbbf-ec31-c546-1d2e">
+      <profiles>
+        <profile name="Helfrost Pistol" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="cf6b-fdb5-da4a-9bcb">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 1, Blind, Breaching (3+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blind" id="f63a-4b05-0ef1-c2e7" hidden="false" type="rule" targetId="d836-747d-07d6-2b63"/>
+        <infoLink name="Breaching (X)" id="c8f5-76de-8dd4-c93b" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+          <modifiers>
+            <modifier type="set" value="Breaching (3+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="4916-965e-8339-44f6" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4a48-4935-246d-0c2e" name="Legion" hidden="false" collective="false" import="true">
