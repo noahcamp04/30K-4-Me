@@ -15921,12 +15921,12 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Helfrost Pistol" hidden="false" id="beee-d57f-b82e-9b61" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
+                <entryLink import="true" name="Helfrost Pistol" hidden="false" id="bdd4-e14d-e31f-c009" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1b8-c224-8f33-10fe" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf1c-b3ee-97aa-2d41"/>
                   </constraints>
                 </entryLink>
               </entryLinks>

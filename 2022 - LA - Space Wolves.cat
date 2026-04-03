@@ -3058,6 +3058,10 @@
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="7aee-565f-b0ae-294e" id="447c-8132-d85d-0d3d" primary="true" name="Elites:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="5674-45fb-eb7a-f523" primary="false" name="Unit:"/>
+      </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Varagyr Wolf Guard Tartaros Terminator Squad" hidden="false" id="8d0c-e245-777e-241c" type="selectionEntry" targetId="e9af-6cdd-54fe-5631">
       <modifiers>
@@ -3075,6 +3079,11 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="9b5d-fac7-799b-d7e7" id="7979-3f50-5a5b-81ce" primary="false" name="Troops:"/>
+        <categoryLink targetId="8f42-a824-fb5f-8fea" id="1fec-d547-b131-23eb" primary="false" name="Compulsory Troops:"/>
+        <categoryLink targetId="36c3-e85e-97cc-c503" id="9352-4f8d-4fa9-cde7" primary="false" name="Unit:"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
