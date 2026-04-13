@@ -11270,7 +11270,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="08be-6994-6a63-6279" type="equalTo"/>
+                        <condition field="selections" scope="b9fd-2c7d-ab6a-89af" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="08be-6994-6a63-6279" type="equalTo"/>
                         <condition field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b254-abfc-a57f-ab28" type="equalTo"/>
                         <condition field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ffe-2820-9b97-99db" type="equalTo"/>
                       </conditions>
