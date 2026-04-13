@@ -11271,26 +11271,26 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                     <conditionGroup type="or">
                       <conditions>
                         <condition field="selections" scope="b9fd-2c7d-ab6a-89af" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="08be-6994-6a63-6279" type="equalTo"/>
-                        <condition field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b254-abfc-a57f-ab28" type="equalTo"/>
-                        <condition field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ffe-2820-9b97-99db" type="equalTo"/>
+                        <condition field="selections" scope="b9fd-2c7d-ab6a-89af" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b254-abfc-a57f-ab28" type="equalTo"/>
+                        <condition field="selections" scope="b9fd-2c7d-ab6a-89af" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ffe-2820-9b97-99db" type="equalTo"/>
                       </conditions>
                       <conditionGroups>
                         <conditionGroup type="and">
                           <conditions>
-                            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b254-abfc-a57f-ab28" type="equalTo"/>
-                            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="08be-6994-6a63-6279" type="equalTo"/>
+                            <condition field="selections" scope="b9fd-2c7d-ab6a-89af" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b254-abfc-a57f-ab28" type="equalTo"/>
+                            <condition field="selections" scope="b9fd-2c7d-ab6a-89af" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="08be-6994-6a63-6279" type="equalTo"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="and">
                           <conditions>
-                            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ffe-2820-9b97-99db" type="equalTo"/>
-                            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="08be-6994-6a63-6279" type="equalTo"/>
+                            <condition field="selections" scope="b9fd-2c7d-ab6a-89af" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ffe-2820-9b97-99db" type="equalTo"/>
+                            <condition field="selections" scope="b9fd-2c7d-ab6a-89af" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="08be-6994-6a63-6279" type="equalTo"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="and">
                           <conditions>
-                            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b254-abfc-a57f-ab28" type="equalTo"/>
-                            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ffe-2820-9b97-99db" type="equalTo"/>
+                            <condition field="selections" scope="b9fd-2c7d-ab6a-89af" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b254-abfc-a57f-ab28" type="equalTo"/>
+                            <condition field="selections" scope="b9fd-2c7d-ab6a-89af" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ffe-2820-9b97-99db" type="equalTo"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -54829,6 +54829,10 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
           <modifiers>
             <modifier type="set" field="name" value="Centreline-mounted Magna-Melta Cannon"/>
           </modifiers>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8b7d-6c3d-104e-78ec-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b7d-6c3d-104e-78ec-max"/>
+          </constraints>
         </entryLink>
         <entryLink import="true" name="Magma Plating" hidden="false" id="9be2-1be5-c854-f27a" type="selectionEntry" targetId="c8d2-418f-5e23-1d6a">
           <constraints>

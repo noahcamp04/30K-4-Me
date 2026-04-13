@@ -3085,6 +3085,90 @@
         <categoryLink targetId="36c3-e85e-97cc-c503" id="9352-4f8d-4fa9-cde7" primary="false" name="Unit:"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Centurion, Indomitus" hidden="false" id="955d-e427-dfa1-bb94" type="selectionEntry" targetId="4d40-5fee-4219-8354">
+      <entryLinks>
+        <entryLink import="true" name="Retinue" hidden="false" id="80dd-79b7-c7e7-568a" collective="false" targetId="5408-6204-0336-0ce2" type="selectionEntryGroup">
+          <comment>template_id_6e59-4592-47ef-b76d    template_targetId_be38-a066-4f8e-ae54</comment>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <comment>node_id_8287-16ff-46ba-9838</comment>
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="parent" childId="35d4-0dcd-f7d2-a6da" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_81c1-fca9-44dc-ba4c</comment>
+                </condition>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Retinue (Caster/Speaker)" hidden="false" id="2dea-0e41-e209-732b" collective="false" targetId="e6b4-bd3b-1d71-963c" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <comment>node_id_8287-16ff-46ba-9838</comment>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="0" field="selections" scope="parent" childId="e9ab-2cc5-4507-eded" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                      <comment>node_id_81c1-fca9-44dc-ba4c</comment>
+                    </condition>
+                    <condition type="equalTo" value="0" field="selections" scope="parent" childId="b625-1cef-3057-156c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                      <comment>node_id_81c1-fca9-44dc-ba4c</comment>
+                    </condition>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Warlord Traits" hidden="false" id="2499-6fcd-da94-a808" collective="false" targetId="4d59-1610-09c5-1991" type="selectionEntryGroup">
+          <comment>template_id_2a38-6544-4267-b584    template_targetId_7dee-602c-4b47-be09</comment>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="HQ:" hidden="false" id="f3bb-0068-1469-2ab5" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink name="Compulsory HQ:" hidden="false" id="621a-c9bd-313d-5f97" targetId="f823-8c1d-6a87-26a1" primary="false"/>
+        <categoryLink name="Unit:" hidden="false" id="1d77-615a-e218-2f98" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Centurion, Saturnine" hidden="false" id="abcf-c41e-5c0e-a648" type="selectionEntry" targetId="3e29-1bf1-48c9-b302">
+      <categoryLinks>
+        <categoryLink name="HQ:" hidden="false" id="1cd0-d298-bc4a-966a" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink name="Unit:" hidden="false" id="20ee-ac19-7dc3-1989" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink name="Compulsory HQ:" hidden="false" id="5b12-6aed-a217-3f6a" targetId="f823-8c1d-6a87-26a1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Retinue" hidden="false" id="7c24-908d-bb2d-00cb" collective="false" targetId="5408-6204-0336-0ce2" type="selectionEntryGroup">
+          <comment>template_id_6e59-4592-47ef-b76d    template_targetId_be38-a066-4f8e-ae54</comment>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <comment>node_id_8287-16ff-46ba-9838</comment>
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="parent" childId="35d4-0dcd-f7d2-a6da" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false">
+                  <comment>node_id_81c1-fca9-44dc-ba4c</comment>
+                </condition>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Warlord Traits" hidden="false" id="27e7-cb76-7417-b004" collective="false" targetId="4d59-1610-09c5-1991" type="selectionEntryGroup">
+          <comment>template_id_2a38-6544-4267-b584    template_targetId_7dee-602c-4b47-be09</comment>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink import="true" name="Praetor, Indomitus" hidden="false" id="c165-4440-10e2-ab97" type="selectionEntry" targetId="0293-aa91-4e32-bd5f">
+      <entryLinks>
+        <entryLink import="true" name="Retinue" hidden="false" id="8f51-c89a-362a-9ba9" collective="false" targetId="5408-6204-0336-0ce2" type="selectionEntryGroup">
+          <comment>template_id_831f-3373-456a-8fbc    template_targetId_be38-a066-4f8e-ae54</comment>
+        </entryLink>
+        <entryLink import="true" name="Warlord Traits" hidden="false" id="8d78-952c-9e53-40ec" collective="false" targetId="4d59-1610-09c5-1991" type="selectionEntryGroup">
+          <comment>template_id_741d-8c09-4211-ada6    template_targetId_7dee-602c-4b47-be09</comment>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="HQ:" hidden="false" id="fb84-591f-545f-5079" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink name="Compulsory HQ:" hidden="false" id="16c6-583e-13c9-c5cd" targetId="f823-8c1d-6a87-26a1" primary="false"/>
+        <categoryLink name="Unit:" hidden="false" id="7339-a0da-058a-b4b4" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="c028-dc90-e4b6-8b43" name="Leman Russ" hidden="false" collective="false" import="true" type="unit">
