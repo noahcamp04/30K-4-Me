@@ -3285,7 +3285,7 @@
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">=</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Murderous Strike (4+), Brutal (2), Fearsome Ruin, Master-0crafted</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Murderous Strike (4+), Brutal (2), Fearsome Ruin, Master-crafted</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7735,6 +7735,7 @@
             <categoryLink id="ca0e-7a88-0585-5f44" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
           </categoryLinks>
         </entryLink>
+        <entryLink import="true" name="Legion Indomitus Command Squad" hidden="false" id="e569-3770-d791-1361" type="selectionEntry" targetId="10a1-9ca0-40bd-81fd"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="e6b4-bd3b-1d71-963c" name="Retinue (Caster/Speaker)" hidden="false" collective="false" import="true">
