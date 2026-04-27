@@ -8566,6 +8566,11 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
         <infoLink id="5a4d-9a53-9faf-fbda" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
         <infoLink id="4dc3-e17b-d90a-f373" name="Grenade launcher - Krak (Secondary)" hidden="false" targetId="71e6-ddb0-279a-7101" type="profile" publicationId="9fab-fea7-a93c-2074" page="171"/>
         <infoLink id="beb1-60fd-93a6-0eda" name="Grenade launcher - Frag (Secondary)" hidden="false" targetId="5bff-6214-348d-0536" type="profile"/>
+        <infoLink name="Rupture (X)" id="4d8f-6600-41c8-479a" hidden="false" type="rule" targetId="0031-12d9-3b2e-a574">
+          <modifiers>
+            <modifier type="set" value="Rupture (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -10021,6 +10026,11 @@ Note that this is an exception to the normal rules for Fortifications, and if as
       <infoLinks>
         <infoLink id="eb7a-1305-afa8-6362" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
         <infoLink id="40e8-b20c-77ad-0282" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink name="Rupture (X)" id="9a82-e53f-6b38-ffdf" hidden="false" type="rule" targetId="0031-12d9-3b2e-a574">
+          <modifiers>
+            <modifier type="set" value="Rupture (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -10032,6 +10042,11 @@ Note that this is an exception to the normal rules for Fortifications, and if as
         <infoLink id="2013-d374-760f-d5e6" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
         <infoLink id="76f0-c871-4618-dc2a" name="Grenade launcher - Frag" hidden="false" targetId="7223-39b1-9ee8-bbc0" type="profile"/>
         <infoLink id="b1e5-639f-5e03-46d4" name="Grenade launcher - Krak" hidden="false" targetId="9edf-5b4f-f269-c98e" type="profile"/>
+        <infoLink name="Rupture (X)" id="d697-ca8f-7cfa-2fc4" hidden="false" type="rule" targetId="0031-12d9-3b2e-a574">
+          <modifiers>
+            <modifier type="set" value="Rupture (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>

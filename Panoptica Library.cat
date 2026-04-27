@@ -5659,13 +5659,9 @@ In addition, at the start of your turn, a Pater Consularis Master of Signals may
       <profiles>
         <profile name="Legion Estoc Jetbike" typeName="Wargear Item" hidden="false" typeId="2a1f-7837-f0ef-be44" id="6caa-e549-4d9c-a0bf" page="91" publicationId="3970-79bb-bdc6-9599">
           <characteristics>
-            <characteristic typeId="347e-ee4a-764f-6be3" name="Description">A Legion Estoc Jetbike has a Twin-Linked Bolter and an Oracle Array. In addition, a model with a Legion Estoc Jetbike that chooses to Run gains the Shrouded (5+) Special Rule until the start of the controlling player’s next turn.
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Legion Estoc Jetbike has a Twin-Linked Bolter and an Oracle Array. In addition, a model with a Legion Estoc Jetbike that chooses to Run gains the Shrouded (5+) Special Rule until the start of the controlling player’s next turn.
 A model with the Infantry Unit Type that selects a Legion Estoc Jetbike as an upgrade must change its Unit Type to Cavalry (Antigrav), keeping any other Unit Sub-types it previously had, changes its Movement Characteristic to 16, and gains the Firing Protocols (2), Battle-Hardened (1), and Hammer of Wrath (1) Special Rules.
-Legion Saturnine Terminator Armour The technology for Exo-Armour was originally developed during Mankind&apos;s Dark Age of Technology. These sealed environment suits enabled maintenance crews of spacecraft to operate in extremely hazardous environments such as hard vacuum, the interior of plasma or fusion reactors, and in otherwise adverse atmospheric conditions. It was from here that the Mechanicum started their work, and in short order they had created working prototypes, the first suits of which were completed shortly before the beginning of the Great Crusade.
-By the end of the crusade, however, the inferno of war hungered for more materiel, and into such flames were suits old and new cast…
-Legion Saturnine Terminator Armour confers a 2+ Armour Save and a 4+ Invulnerable save, as well as the Hammer of Wrath (1) Special Rule.
-A unit that includes any models with Saturnine Terminator armour may not make Sweeping Advances.
-In addition, a model armed with Saturnine Terminator Armour is immune to the effects of both the Rad-Phage Special Rule and of the effects of Rad Grenades and Rad Furnace wargear.</characteristic>
+</characteristic>
           </characteristics>
         </profile>
       </profiles>
