@@ -567,6 +567,163 @@
           <infoLinks>
             <infoLink name="Independent Character" id="b0a4-beb8-67d4-8bf3" hidden="false" targetId="4f07-3d45-4f28-a0c6"/>
           </infoLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <comment>Set Name to (X)</comment>
+              <modifiers>
+                <modifier type="set" value="Warmonger" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="d6cc-2e7f-16e3-e66c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Delegatus" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="35d4-0dcd-f7d2-a6da" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Armistos" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="31f5-cbc4-58e0-ed6e" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Pathfinder" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="a28d-408e-c833-9055" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Librarian" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="8846-2f93-a2be-18dc" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Stormseer" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="0b6c-5897-3790-2940" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Dark Emissary" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="84ac-ebaf-8c66-3c1d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Forge Lord" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="62c8-8f27-9673-8450" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Champion" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="05a2-a69e-0c9e-1544" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Herald" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="b6d0-40f1-d82f-c01e" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Speaker of the Dead" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="e9ab-2cc5-4507-eded" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Siege Breaker" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="9335-7da8-087e-30de" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Saboteur" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="c2a0-636c-9918-f851" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Primus Medicae" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="7df3-04e8-c056-47cb" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Vigilator" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="27e9-630d-4cf4-6d68" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Caster of Runes" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="b625-1cef-3057-156c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Esoterist" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="d332-0e64-7ecf-6c35" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Pack Thegn" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="aab9-d1c0-a5cb-9788" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Praevian" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="3c8b-1020-32f3-3b2a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Chaplain" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="4831-6948-851c-3925" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Diabolist" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="4e1a-275e-e691-5b92" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Castellan" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="7962-e835-2ae5-c6f1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Master of Signals" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="35ac-992e-97a7-1612" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Phoenix Warden" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="5aff-6654-f53b-c5ac" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Paladin of Hekatonystika" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="6f69-f2bd-fe7e-12c4" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Moritat" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="384d-df82-14cb-f918" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Mortificator" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="368d-0cdc-5ce6-eb38" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Lodge Master" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="3faa-2b82-bb51-ce89" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Terran-Born Crusader" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="1022-f14c-9e20-cd96" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Priest of Iron" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="4d40-5fee-4219-8354" childId="b23e-0c59-f4d3-8776" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -580,12 +737,6 @@
         </infoLink>
         <infoLink name="Legiones Consularis" hidden="false" type="rule" targetId="5a1d-d2f6-692b-d834" id="e02c-1c52-4b52-82f4"/>
       </infoLinks>
-      <rules>
-        <rule name="Legiones Consularis" id="107d-3d51-4a1c-a553" page="7" publicationId="3970-79bb-bdc6-9599">
-          <description>Any Legion Indomitus Centurion may select a single Consul upgrade; no model may take more than one such upgrade. The various Consul types are listed here, but full rules for them can be found in the Liber Astartes rulebooks:
-●    Legion Librarian.................................................... +45 points ●    Legion Esoterist .................................................... +35 points ●    Legion Champion ................................................. +35 points ●    Legion Forge Lord................................................. +40 points ●    Legion Primus Medicae ....................................... +45 points ●    Legion Siege Breaker ............................................ +45 points ●    Legion Chaplain .................................................... +35 points ●    Legion Delegatus .................................................. +25 points ●    Legion Herald........................................................ +20 points ●    Legion Mortificator .............................................. +25 points</description>
-        </rule>
-      </rules>
       <selectionEntryGroups>
         <selectionEntryGroup name="0) Legion-specific Upgrades" id="dd48-d56b-d839-7453" hidden="false" collective="false" import="true">
           <entryLinks>

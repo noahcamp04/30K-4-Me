@@ -6620,6 +6620,14 @@ A model with an activated Utan Jump Booster may move over both friendly and ene
               <comment>The Flesh Is Weak</comment>
             </modifierGroup>
           </modifierGroups>
+          <entryLinks>
+            <entryLink import="true" name="Lightning Gun" hidden="false" id="21d7-d496-dba7-eeac" collective="false" targetId="f65c-633a-5865-7f6b" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dab2-b3e6-40ff-785b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3491-42c3-c3ce-92d2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -6756,12 +6764,6 @@ A model with an activated Utan Jump Booster may move over both friendly and ene
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40d0-09b4-56f9-8132" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="6469-e45e-61cf-3df3" name="Lightning Gun" hidden="false" collective="false" import="true" targetId="f65c-633a-5865-7f6b" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b4a-f9fa-fe41-07d7" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4994-716d-8fc9-10a5" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="4313-e88a-35fc-3717" name="Meltabombs" hidden="false" collective="false" import="true" targetId="b9dd-3b21-f3f8-78e3" type="selectionEntry">
           <modifiers>
             <modifier type="increment" field="d2ee-04cb-5f8a-2642" value="5">
@@ -6769,6 +6771,7 @@ A model with an activated Utan Jump Booster may move over both friendly and ene
                 <repeat field="selections" scope="25c8-3e0f-e22d-a7eb" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
+            <modifier type="set" value="Entire squad may take Meltabombs" field="name"/>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f7c-9bb3-e108-2372" type="max"/>
