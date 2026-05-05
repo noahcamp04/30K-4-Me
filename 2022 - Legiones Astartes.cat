@@ -35297,11 +35297,31 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                       </conditions>
                     </modifier>
                   </modifiers>
+                  <profiles>
+                    <profile name="Heavy Bolter" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="a179-3b4d-ee85-96f6" publicationId="a716-c1c4-7b26-8424" page="130">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 4</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
                 </entryLink>
                 <entryLink id="2d73-933a-d4bf-8e17" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="5507-b432-3b4c-df12" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="name" value="2x Heavy Flamers"/>
                   </modifiers>
+                  <profiles>
+                    <profile name="Heavy Flamer" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="503d-f5b0-4a12-2108" publicationId="a716-c1c4-7b26-8424" page="132">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
                 </entryLink>
                 <entryLink id="754b-98e3-faa6-1253" name="Volkite Culverin" hidden="false" collective="false" import="true" targetId="170d-44e0-455c-8207" type="selectionEntry">
                   <modifiers>
@@ -35310,6 +35330,16 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
+                  <profiles>
+                    <profile name="Volkite Culverin" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="d908-7efd-5035-cf74" publicationId="a716-c1c4-7b26-8424" page="134">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">45&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 5, Deflagrate</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
                 </entryLink>
                 <entryLink id="6a0d-07fc-c711-2390" name="Lascannon" hidden="false" collective="false" import="true" targetId="b252-5a86-6e0f-218b" type="selectionEntry">
                   <modifiers>
@@ -35318,16 +35348,46 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
+                  <profiles>
+                    <profile name="Lascannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="3573-82c4-723a-2774" publicationId="a716-c1c4-7b26-8424" page="132">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
                 </entryLink>
                 <entryLink id="4179-877e-4858-775a" name="Dragon&apos;s Breath Heavy Flamer" hidden="false" collective="false" import="true" targetId="1a5c-0c5f-d798-a067" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="name" value="2x Dragon&apos;s Breath Heavy Flamers"/>
                   </modifiers>
+                  <profiles>
+                    <profile name="Dragon&apos;s Breath Heavy Flamer" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="7621-12ae-dc3f-0856" publicationId="817a-6288-e016-7469" page="312">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Dragon&apos;s Breath</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
                 </entryLink>
                 <entryLink id="c5d7-3770-d65b-9eb4" name="Heavy Alchem Flamer" hidden="false" collective="false" import="true" targetId="2a3d-a4bb-5326-a16a" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="name" value="2x Heavy Alchem Flamers"/>
                   </modifiers>
+                  <profiles>
+                    <profile name="Heavy Alchem Flamer" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="b104-6be2-7e74-b578" publicationId="09c5-eeae-f398-b653" page="236">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Fleshbane, Gets Hot</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
                 </entryLink>
                 <entryLink id="90cf-eee0-d339-ab10" name="Iliastus Assault Cannon" hidden="false" collective="false" import="true" targetId="10aa-3c70-2bbe-9509" type="selectionEntry">
                   <modifiers>
@@ -35336,6 +35396,16 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
                   </costs>
+                  <profiles>
+                    <profile name="Iliastus Assault Cannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="eabc-d131-42eb-8c18">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 4, Rending (6+), Malfunction</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
                 </entryLink>
                 <entryLink id="674c-e595-b5bd-b4f9" name="Shrapnel Cannon" hidden="false" collective="false" import="true" targetId="975e-14eb-caed-4b5b" type="selectionEntry">
                   <modifiers>
@@ -35344,6 +35414,23 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="4"/>
                   </costs>
+                  <profiles>
+                    <profile name="Shrapnel Cannon" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="3b8b-c0bd-24c7-da76">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 4, Pinning</characteristic>
+                      </characteristics>
+                      <modifiers>
+                        <modifier type="append" value="Reroll 1s to hit (Hammer of Olympia)" field="2f86-c8b4-b3b4-3ff9">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="force" childId="1d51-72ff-c102-09d3" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </profile>
+                  </profiles>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
