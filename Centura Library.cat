@@ -5438,6 +5438,7 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
       <categoryLinks>
         <categoryLink targetId="36c3-e85e-97cc-c503" name="Unit:" primary="false" id="b320-9501-4ade-913b"/>
         <categoryLink targetId="7aee-565f-b0ae-294e" primary="true" id="a662-f9a5-446d-b806" name="Elites:"/>
+        <categoryLink targetId="4280-4963-02b5-e31d" id="021e-6ff6-efba-f62c" primary="false" name="Dreadnought Unit-type:"/>
       </categoryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -5459,6 +5460,53 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
                 <characteristic typeId="e593-6b3c-f169-04f0" name="Save">2+</characteristic>
                 <characteristic typeId="ddd7-6f5c-a939-b69e" name="Unit Type">Dreadnought</characteristic>
               </characteristics>
+              <modifiers>
+                <modifier type="set" value="4" field="f111-2ce5-dd12-d6b0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="2" field="selections" scope="8436-de6f-fd52-2cef" childId="6f2c-6294-43c1-a2ec" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" childName="Gravis Power Fist"/>
+                        <condition type="equalTo" value="2" field="selections" scope="8436-de6f-fd52-2cef" childId="0411-d0be-4b2a-968a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" childName="Gravis Chainfist"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="8436-de6f-fd52-2cef" childId="0411-d0be-4b2a-968a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" childName="Gravis Chainfist"/>
+                            <condition type="equalTo" value="1" field="selections" scope="8436-de6f-fd52-2cef" childId="6f2c-6294-43c1-a2ec" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" childName="Gravis Power Fist"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="append" value="(Corrupted)" field="ddd7-6f5c-a939-b69e">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="8436-de6f-fd52-2cef" childId="555f-3998-a06e-f415" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="equalTo" value="1" field="selections" scope="8436-de6f-fd52-2cef" childId="f783-f0ea-fe35-cdeb" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="9*" field="893e-2d76-8f04-44e5">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="e01e-5cdd-e512-8353" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <comment>In Disgrace All Are Equal</comment>
+                  <modifiers>
+                    <modifier type="decrement" value="1" field="e8a6-1da9-d384-8727">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="ced-ce18-5d5b-e54" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
             </profile>
           </profiles>
           <constraints>
@@ -6195,6 +6243,13 @@ Could not find wargear In-built Meltagun
         <infoLink name="Relentless" hidden="false" type="rule" targetId="7adf-ac9a-5035-522d" id="a73b-2a5c-40f8-be52"/>
         <infoLink name="Traitor" hidden="false" type="rule" targetId="eff2-8b0e-21da-2f0d" id="0658-be0b-48fa-bd47"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="parent" childId="f9c0-0c5a-3e24-58c7" shared="true" childName="Traitor"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry name="Legion Servo-Automata Maniple" type="unit" id="6c47-ea09-4079-82bb" page="22" publicationId="3970-79bb-bdc6-9599">
       <categoryLinks>

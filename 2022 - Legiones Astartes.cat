@@ -46209,7 +46209,7 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 </entryLink>
                 <entryLink id="e844-44ed-af33-4c9f" name="Gravis Melta Cannon" hidden="false" collective="false" import="true" targetId="ef6c-f656-171a-03e1" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
                 <entryLink id="d00e-7fbc-c412-122b" name="Gravis Autocannon" hidden="false" collective="false" import="true" targetId="8a23-e57d-b4a8-14a9" type="selectionEntry">
@@ -46321,7 +46321,7 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                 </entryLink>
                 <entryLink id="f5fb-ee23-cf29-4383" name="Gravis Melta Cannon" hidden="false" collective="false" import="true" targetId="ef6c-f656-171a-03e1" type="selectionEntry" publicationId="9fab-fea7-a93c-2074" page="132">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
                 <entryLink id="bb47-c453-cff3-e7ff" name="Gravis Autocannon" hidden="false" collective="false" import="true" targetId="8a23-e57d-b4a8-14a9" type="selectionEntry">
