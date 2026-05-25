@@ -3601,7 +3601,7 @@
               <modifiers>
                 <modifier type="set" value="4" field="f111-2ce5-dd12-d6b0">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="96aa-954e-b2e9-92df" shared="true" childName="Gravis Force Blade" includeChildSelections="false"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="96aa-954e-b2e9-92df" shared="true" childName="Gravis Force Blade" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
