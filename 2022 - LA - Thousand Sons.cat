@@ -3600,9 +3600,13 @@
               </characteristics>
               <modifiers>
                 <modifier type="set" value="4" field="f111-2ce5-dd12-d6b0">
-                  <conditions>
-                    <condition type="equalTo" value="2" field="selections" scope="1626-a09f-d9ed-dca1" childId="96aa-954e-b2e9-92df" shared="true" childName="Gravis Force Blade"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="2" field="selections" scope="1626-a09f-d9ed-dca1" childId="fb25-2e68-c483-39dd" shared="true" childName="Gravis Force Blade"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
             </profile>
@@ -3766,6 +3770,10 @@
                   </constraints>
                 </entryLink>
               </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dc81-d5b5-9fb4-b160" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e9a2-f162-1859-9bbb" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
