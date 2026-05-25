@@ -70397,7 +70397,7 @@ the Lodge Master, you gain 1 Victory Point.</description>
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Priest of Iron" hidden="false" id="b23e-0c59-f4d3-8776">
+        <selectionEntry type="upgrade" import="true" name="Priest of Iron" hidden="true" id="b23e-0c59-f4d3-8776">
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="45"/>
           </costs>
