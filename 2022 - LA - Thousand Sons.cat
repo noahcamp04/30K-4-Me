@@ -3601,7 +3601,7 @@
               <modifiers>
                 <modifier type="set" value="4" field="f111-2ce5-dd12-d6b0">
                   <conditions>
-                    <condition type="equalTo" value="2" field="selections" scope="1626-a09f-d9ed-dca1" childId="29bd-f780-3da5-775d" shared="true" childName="Gravis Force Blade"/>
+                    <condition type="equalTo" value="2" field="selections" scope="1626-a09f-d9ed-dca1" childId="a905-bc2f-9e8d-631e" shared="true" childName="Gravis Force Blade"/>
                   </conditions>
                 </modifier>
               </modifiers>
