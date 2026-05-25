@@ -6397,7 +6397,7 @@ Could not find wargear In-built Meltagun
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="equalTo" value="0" field="selections" scope="parent" childId="f9c0-0c5a-3e24-58c7" shared="true" childName="Traitor"/>
+            <condition type="equalTo" value="0" field="selections" scope="parent" childId="f9c0-0c5a-3e24-58c7" shared="true" childName="Traitor" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -10999,7 +10999,7 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="equalTo" value="0" field="selections" scope="parent" childId="f9c0-0c5a-3e24-58c7" shared="true" childName="Traitor"/>
+            <condition type="equalTo" value="0" field="selections" scope="parent" childId="f9c0-0c5a-3e24-58c7" shared="true" childName="Traitor" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
