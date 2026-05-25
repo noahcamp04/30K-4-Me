@@ -3599,7 +3599,11 @@
                 <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
               </characteristics>
               <modifiers>
-                <modifier type="set" value="4" field="f111-2ce5-dd12-d6b0"/>
+                <modifier type="set" value="4" field="f111-2ce5-dd12-d6b0">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="fb25-2e68-c483-39dd" shared="true" childName="Gravis Force Blade"/>
+                  </conditions>
+                </modifier>
               </modifiers>
             </profile>
           </profiles>
