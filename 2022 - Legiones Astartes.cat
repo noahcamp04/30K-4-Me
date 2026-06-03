@@ -33075,6 +33075,15 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Achea Force Axe" hidden="false" id="0651-c732-e6cd-284f" type="selectionEntry" targetId="d27f-9247-2c27-4450">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="equalTo" value="0" field="selections" scope="force" childId="21c3-2f28-7820-e51a" shared="true" includeChildSelections="true" childName="XV: Thousand Sons"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="9192-581b-f084-c977" name="4) May take on of the following (Wargear):" hidden="false" collective="false" import="true">
