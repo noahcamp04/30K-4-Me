@@ -2377,7 +2377,7 @@ normal +1 for two melee weapons.</description>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Rending (5+), Reaping blow (1)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Rending (6+), Reaping blow (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2389,7 +2389,7 @@ normal +1 for two melee weapons.</description>
         </infoLink>
         <infoLink name="Rending (X)" id="2119-fa06-6ad1-9623" hidden="false" type="rule" targetId="0ac9-fab7-aef3-de1d">
           <modifiers>
-            <modifier type="set" value="Rending (5+)" field="name"/>
+            <modifier type="set" value="Rending (6+)" field="name"/>
           </modifiers>
         </infoLink>
       </infoLinks>
