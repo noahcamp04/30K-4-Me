@@ -12927,6 +12927,9 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d66-c3cf-5fa0-1011" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
                 </entryLink>
               </entryLinks>
               <selectionEntries>
@@ -15946,6 +15949,22 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2fc4-4f8c-6de2-5f79" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="25a2-7a52-632a-6b2c" childId="7df3-04e8-c056-47cb" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                            <condition type="equalTo" value="1" field="selections" scope="25a2-7a52-632a-6b2c" childId="35ac-992e-97a7-1612" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                            <condition type="atLeast" value="1" field="selections" scope="25a2-7a52-632a-6b2c" childId="7962-e835-2ae5-c6f1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
               <selectionEntries>
@@ -17621,15 +17640,6 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
               <infoLinks>
                 <infoLink id="34a7-80f4-3af9-4031" name="Tartaros" hidden="false" targetId="7aea-92c5-6016-dfaf" type="profile"/>
               </infoLinks>
-              <entryLinks>
-                <entryLink id="3b20-2b8d-19d2-6fed" name="Pair of Lightning Claws" hidden="false" collective="false" import="true" targetId="405f-030d-0343-ade8" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b7d-9690-7d0f-7910" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ef1-56c8-139e-dfdb" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="19fb-5829-c049-5cc7" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3"/>
-              </entryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
               </costs>
@@ -17658,6 +17668,34 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                   <comment>The Flesh Is Weak</comment>
                 </modifierGroup>
               </modifierGroups>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Chosen Claws" id="0bd2-a0e2-3864-d01f" hidden="false" defaultSelectionEntryId="e0c3-3092-3f42-544d">
+                  <entryLinks>
+                    <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="a261-631e-764d-0b24" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Pair of Lightning Claws" hidden="false" id="dbed-3d05-054c-a115" collective="false" targetId="405f-030d-0343-ade8" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5602-faa6-8690-f63d" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Pair of Raven&apos;s Talons" hidden="false" id="95ee-4346-5ce6-8ed5" collective="false" targetId="08e4-5e02-da82-f296" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b2b-4c69-6657-4860" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5133-e915-209b-9b32" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e16f-99f3-0d45-e9b2" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry id="e5a1-0860-c88a-3023" name="Tartaros w/Raven&apos;s Talons" hidden="true" collective="false" import="true" type="model">
               <modifiers>
@@ -18400,15 +18438,6 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
               <infoLinks>
                 <infoLink id="e0a3-f96d-3e2f-3567" name="Cataphractii" hidden="false" targetId="9767-9cdc-ef59-6d7f" type="profile"/>
               </infoLinks>
-              <entryLinks>
-                <entryLink id="8f24-c794-b5c4-8bf3" name="Pair of Lightning Claws" hidden="false" collective="false" import="true" targetId="405f-030d-0343-ade8" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2fd8-bc8e-694e-345f" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b848-7da5-e905-a9b2" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="69e6-4a56-3595-2d54" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3"/>
-              </entryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
               </costs>
@@ -18438,6 +18467,34 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                   <comment>The Flesh Is Weak</comment>
                 </modifierGroup>
               </modifierGroups>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Chosen Claws" id="cc95-4eba-c0c0-1c21" hidden="false" defaultSelectionEntryId="e0c3-3092-3f42-544d">
+                  <entryLinks>
+                    <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="88f1-82d4-e506-3dde" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Pair of Lightning Claws" hidden="false" id="3935-2d63-2d1c-54b1" collective="false" targetId="405f-030d-0343-ade8" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f70-0c6f-caaa-9019" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Pair of Raven&apos;s Talons" hidden="false" id="082a-97e0-5735-4bb3" collective="false" targetId="08e4-5e02-da82-f296" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9775-160e-d5ed-4b48" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5fae-1b6d-cdd8-c198" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="912b-cc4e-69ab-e183" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry id="8232-6423-eea3-ef5b" name="Cataphractii w/Heavy Weapon (1 in 5)" hidden="false" collective="false" import="true" type="model">
               <modifiers>
@@ -26281,6 +26338,21 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de28-29bd-1c35-4d64" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="0aca-632d-1642-8af9" childId="6fb4-adf6-dbe8-86af" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                            <condition type="atLeast" value="1" field="selections" scope="0aca-632d-1642-8af9" childId="e8a8-b526-beab-bb82" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
               <selectionEntries>
@@ -26775,6 +26847,9 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4cf0-18e1-4df2-839e" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
                 </entryLink>
               </entryLinks>
               <selectionEntries>
@@ -28055,13 +28130,6 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                   </conditionGroups>
                 </modifier>
               </modifiers>
-              <entryLinks>
-                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="0592-f08b-750b-d34c" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
             </entryLink>
             <entryLink id="4a21-5405-9fa9-29f0" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
             <entryLink import="true" name="The Legacy of Nikaea" hidden="false" id="3be6-ff06-2bff-93d7" type="selectionEntryGroup" targetId="4930-e52e-883d-11a7"/>
@@ -28351,18 +28419,37 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
               <infoLinks>
                 <infoLink id="96b8-a7b8-9551-c98d" name="Legion Tartaros Chosen" hidden="false" targetId="e3a2-6a24-fc63-8685" type="profile"/>
               </infoLinks>
-              <entryLinks>
-                <entryLink id="0f46-5178-bf60-1374" name="Pair of Lightning Claws" hidden="false" collective="false" import="true" targetId="405f-030d-0343-ade8" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9a65-797e-5f05-86fb" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b142-fd42-7611-cd99" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="4590-2f78-97af-a4d3" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3"/>
-              </entryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
               </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Chosen Claws" id="ebe9-796c-daef-1d20" hidden="false" defaultSelectionEntryId="e0c3-3092-3f42-544d">
+                  <entryLinks>
+                    <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="b726-b57b-c665-7e9e" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Pair of Lightning Claws" hidden="false" id="094e-64fb-04b6-a711" collective="false" targetId="405f-030d-0343-ade8" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98cb-20df-c9a9-4e74" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Pair of Raven&apos;s Talons" hidden="false" id="2a98-24e8-043d-52b4" collective="false" targetId="08e4-5e02-da82-f296" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="43d8-f928-7630-9166" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="114b-a337-49ff-1117" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6af8-8235-3d0e-dc3f" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry id="29d8-226b-1c88-0d1b" name="Tartaros Chosen" hidden="false" collective="false" import="true" type="model">
               <profiles>
@@ -34560,13 +34647,6 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                   </conditionGroups>
                 </modifier>
               </modifiers>
-              <entryLinks>
-                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="0f71-297d-f104-0e16" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
             </entryLink>
             <entryLink id="2d91-a334-2daa-1c3d" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
             <entryLink import="true" name="The Legacy of Nikaea" hidden="false" id="4f53-fed8-99cf-2ffe" type="selectionEntryGroup" targetId="4930-e52e-883d-11a7"/>
@@ -38213,18 +38293,37 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
               <infoLinks>
                 <infoLink id="1d60-743e-e023-b6d7" name="Cataphractii Chosen" hidden="false" targetId="aa0f-9154-4a0e-38c8" type="profile"/>
               </infoLinks>
-              <entryLinks>
-                <entryLink id="4c7e-a77e-6a81-2a19" name="Pair of Lightning Claws" hidden="false" collective="false" import="true" targetId="405f-030d-0343-ade8" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d90f-8b87-0c7e-ae2a" type="max"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4ca2-41b0-386f-b165" type="min"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="60fb-84e5-282b-4e54" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3"/>
-              </entryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="45"/>
               </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Chosen Claws" id="66a4-af0e-be31-91a2" hidden="false" defaultSelectionEntryId="e0c3-3092-3f42-544d">
+                  <entryLinks>
+                    <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="ddcc-81b4-ff54-38e1" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Pair of Lightning Claws" hidden="false" id="e0c3-3092-3f42-544d" collective="false" targetId="405f-030d-0343-ade8" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d38-0738-3471-3527" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Pair of Raven&apos;s Talons" hidden="false" id="b730-4d28-12c6-07ca" collective="false" targetId="08e4-5e02-da82-f296" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="705e-909e-8777-eec3" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6641-a4fd-f00d-f58e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f37-4ebe-bff5-3000" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry id="d374-c07c-eafc-36fa" name="Cataphractii Chosen w/Raven&apos;s Talons" hidden="true" collective="false" import="true" type="model">
               <modifiers>
@@ -47372,15 +47471,6 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
               <infoLinks>
                 <infoLink id="b95b-24a5-e52f-2079" name="Indomitus" hidden="false" targetId="91ea-705e-8062-f938" type="profile"/>
               </infoLinks>
-              <entryLinks>
-                <entryLink id="d6ea-550d-949d-a842" name="Pair of Lightning Claws" hidden="false" collective="false" import="true" targetId="405f-030d-0343-ade8" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7386-d8f2-a611-9c33" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f81-352c-9e47-eb8b" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="229c-e744-f308-05bb" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3"/>
-              </entryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
               </costs>
@@ -47410,6 +47500,34 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                   <comment>The Flesh Is Weak</comment>
                 </modifierGroup>
               </modifierGroups>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Chosen Claws" id="6dfc-16f6-ab13-9625" hidden="false" defaultSelectionEntryId="e0c3-3092-3f42-544d">
+                  <entryLinks>
+                    <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="50d7-6f66-375e-59c4" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Pair of Lightning Claws" hidden="false" id="fee8-019d-a749-c8f0" collective="false" targetId="405f-030d-0343-ade8" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="92ef-8925-e004-a51f" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Pair of Raven&apos;s Talons" hidden="false" id="71af-7f23-c94b-fd15" collective="false" targetId="08e4-5e02-da82-f296" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="91d9-91f8-d51c-9958" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6a6c-0692-2f0c-673d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e13-f31c-c57a-164f" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry id="d9f5-1c2c-98d3-113f" name="Indomitus w/Heavy Weapon (1 in 5)" hidden="false" collective="false" import="true" type="model">
               <modifiers>
@@ -67579,6 +67697,9 @@ If the Psychic check is successful then until that Shooting Attack is resolved, 
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4fcd-37e1-df12-8c5e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -70944,7 +71065,7 @@ can move at up to Crusing speed in the movement phase, but are counted as not ha
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4f07-3d45-4f28-a0c6" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f75a-d5c1-59ba-5c5a" type="instanceOf" childName="Character"/>
                     <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4916-965e-8339-44f6" type="greaterThan"/>
                   </conditions>
                 </conditionGroup>

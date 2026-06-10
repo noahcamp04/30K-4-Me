@@ -530,7 +530,7 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4033-782b-410e-95f4"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="cb78-505c-8a9b-cd7e" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="5a53-fd88-7466-8da9" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
@@ -16602,6 +16602,7 @@ Could not find wargear Four Hull (Front) Mounted Hellstrike Missiles
     <catalogueLink id="5f24-4626-0547-71c3" name="Panoptica Library" targetId="69b7-3f60-9f7f-8ce5" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="5f24-4242-71c3-0547" name="Mech Library" targetId="7265-8b7a-50ae-51ec" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="2f60-4242-e6ed-8574" name="Legions Astartes" targetId="25e4-c9e5-8165-1337" type="catalogue" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="New Catalogue (link)" id="5025-8a94-ba30-afd5"/>
   </catalogueLinks>
   <entryLinks>
     <entryLink import="true" name="Legion Indomitus Command Squad" hidden="true" id="25bc-d368-378c-9ed1" targetId="10a1-9ca0-40bd-81fd" type="selectionEntry"/>
