@@ -147,6 +147,11 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ebd-8c8c-4dcb-87b5"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="4114-d2a9-bef3-1d38" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="27a7-6158-4fd7-922d"/>
@@ -507,14 +512,6 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a02c-14d7-4278-babf"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Chainfist" hidden="false" type="selectionEntry" targetId="9c9c-346a-4c47-8715" id="badb-27ad-44cb-a070">
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3dea-43b9-4169-b080"/>
-                  </constraints>
-                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa5c-f165-447b-b781"/>
@@ -532,6 +529,11 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4033-782b-410e-95f4"/>
                   </constraints>
+                </entryLink>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="cb78-505c-8a9b-cd7e" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <constraints>
@@ -1305,6 +1307,11 @@
                   <infoLinks>
                     <infoLink name="Lightning Claw" id="b6a6-e2ed-d401-4a49" hidden="false" targetId="00a9-04d4-17d3-3442" type="profile"/>
                   </infoLinks>
+                </entryLink>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="c660-c78c-45e0-cc6c" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <constraints>
@@ -2553,6 +2560,11 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d47-a12a-468b-bf37"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="9082-1481-5020-c9cb" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="880b-f6b9-467c-890a"/>
@@ -2710,6 +2722,11 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="816f-613d-d1a1-c694"/>
                   </constraints>
+                </entryLink>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="05f2-4b7c-8728-e3cd" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <constraints>
@@ -2876,6 +2893,11 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be73-c02a-a6f7-fd39"/>
                   </constraints>
+                </entryLink>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="b760-0858-c29d-12ac" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <constraints>
@@ -4590,6 +4612,11 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0a3-d8b7-41a9-aea8"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="d592-cafe-8538-7c9a" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abca-9015-4c7a-bcfa"/>
@@ -4798,6 +4825,11 @@ Could not find wargear Two Sponson Mounted Gravis Heavy Bolter Batteries
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fafd-95be-4362-b567"/>
                   </constraints>
+                </entryLink>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="e865-3e7c-5d99-eff7" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <constraints>
@@ -6106,6 +6138,11 @@ Could not find wargear In-built Meltagun
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c9a0-9a2a-35be-2228"/>
                   </constraints>
+                </entryLink>
+                <entryLink import="true" name="Frost Claw" hidden="false" id="8c76-3fda-368b-2a0b" type="selectionEntry" targetId="e919-d961-d007-ad34">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <constraints>

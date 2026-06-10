@@ -2303,14 +2303,13 @@ During a Reaction made in any Phase, a player may not choose to activate a model
         <profile id="1f6d-2f0d-7241-e769" name="Frost Axe" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+2</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist weapon, Unwieldy, Reaping blow (1)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Unwieldy, Reaping blow (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="70a7-5476-cc93-21fe" name="Specialist Weapon" hidden="false" targetId="1a1f-3c9b-b097-5886" type="rule"/>
         <infoLink id="f952-6d5a-7290-5129" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
         <infoLink id="edbf-5d42-e8c3-0d6a" name="Reaping Blow (X)" hidden="false" targetId="bd8c-4f52-d682-1b40" type="rule">
           <modifiers>
@@ -2336,18 +2335,23 @@ During a Reaction made in any Phase, a player may not choose to activate a model
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist Weapon, Shred, Reaping blow (1), Paired Talons</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred, Rending (5+), Reaping blow (1), Paired Talons, Specialist Weapon</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="3001-ced0-588f-2e74" name="Specialist Weapon" hidden="false" targetId="1a1f-3c9b-b097-5886" type="rule"/>
         <infoLink id="a0da-e9fc-e06a-0501" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
         <infoLink id="a71c-0c8d-1d63-f974" name="Reaping Blow (X)" hidden="false" targetId="bd8c-4f52-d682-1b40" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Reaping Blow (1)"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Rending (X)" id="f77e-c9f5-53ea-39b8" hidden="false" type="rule" targetId="0ac9-fab7-aef3-de1d">
+          <modifiers>
+            <modifier type="set" value="Rending (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Specialist Weapon" id="feba-be60-e338-e6ca" hidden="false" type="rule" targetId="1a1f-3c9b-b097-5886"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -2373,7 +2377,7 @@ normal +1 for two melee weapons.</description>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist weapon, Reaping blow (1)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Rending (5+), Reaping blow (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2383,7 +2387,11 @@ normal +1 for two melee weapons.</description>
             <modifier type="set" field="name" value="Reaping Blow (1)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="80c9-38cb-32e1-c660" name="Specialist Weapon" hidden="false" targetId="1a1f-3c9b-b097-5886" type="rule"/>
+        <infoLink name="Rending (X)" id="2119-fa06-6ad1-9623" hidden="false" type="rule" targetId="0ac9-fab7-aef3-de1d">
+          <modifiers>
+            <modifier type="set" value="Rending (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -12915,6 +12923,11 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                     </modifier>
                   </modifiers>
                 </entryLink>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="87e5-940a-c7a3-242d" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Xenos Doomlock" hidden="true" id="f531-29cf-dbc1-ecd2" publicationId="d882-d2a-5da1-92c4">
@@ -15929,6 +15942,11 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf1c-b3ee-97aa-2d41"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="cb00-f299-464e-bef9" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Exchange Bolt Pistol for Force Weapon" hidden="true" id="b325-8b6f-36af-2bc0">
@@ -16525,6 +16543,11 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="08eb-de20-556e-a7a1"/>
                   </constraints>
+                </entryLink>
+                <entryLink import="true" name="Frost Claw" hidden="false" id="2250-d453-b1f8-8a00" type="selectionEntry" targetId="e919-d961-d007-ad34">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <selectionEntries>
@@ -17605,6 +17628,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ef1-56c8-139e-dfdb" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="19fb-5829-c049-5cc7" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3"/>
               </entryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
@@ -18383,6 +18407,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b848-7da5-e905-a9b2" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="69e6-4a56-3595-2d54" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3"/>
               </entryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
@@ -22034,6 +22059,11 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                 <entryLink id="5552-1469-46e0-deba" name="Solarite Power Gauntlet" hidden="false" collective="false" import="true" targetId="b682-2c89-f979-aa74" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Frost Claw" hidden="false" id="49b2-deaa-d731-0868" type="selectionEntry" targetId="e919-d961-d007-ad34">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -26247,6 +26277,11 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="false" id="fc32-6f79-5891-9511" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="4371-e9f1-7f50-dcb3" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Xenos Doomlock" hidden="true" id="555b-6bd9-ca4e-b9ae" publicationId="d882-d2a-5da1-92c4">
@@ -26734,6 +26769,11 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                   </constraints>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="d302-bba9-8527-a0d7" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -28015,6 +28055,13 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                   </conditionGroups>
                 </modifier>
               </modifiers>
+              <entryLinks>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="0592-f08b-750b-d34c" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
             </entryLink>
             <entryLink id="4a21-5405-9fa9-29f0" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
             <entryLink import="true" name="The Legacy of Nikaea" hidden="false" id="3be6-ff06-2bff-93d7" type="selectionEntryGroup" targetId="4930-e52e-883d-11a7"/>
@@ -28311,6 +28358,7 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b142-fd42-7611-cd99" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="4590-2f78-97af-a4d3" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3"/>
               </entryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
@@ -29190,6 +29238,11 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
+                    <entryLink import="true" name="Frost Claw" hidden="false" id="bdde-e15e-a652-2e0c" type="selectionEntry" targetId="e919-d961-d007-ad34">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -29512,6 +29565,11 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
+                    <entryLink import="true" name="Frost Claw" hidden="false" id="8c9c-fd0c-f4f4-c2e4" type="selectionEntry" targetId="e919-d961-d007-ad34">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -29566,6 +29624,11 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                     <entryLink id="3f90-6fbe-8414-e549" name="Pair of Raven&apos;s Talons" hidden="false" collective="false" import="true" targetId="c363-1c4d-6ea1-e5d6" type="selectionEntry">
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="9b4d-53ae-a155-53c3" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                       </costs>
                     </entryLink>
                   </entryLinks>
@@ -29853,6 +29916,11 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                     <entryLink id="71b6-992a-8bd6-3f5e" name="Charnabal Tabar" hidden="false" collective="false" import="true" targetId="4611-c33e-f360-7246" type="selectionEntry">
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Frost Claw" hidden="false" id="81cd-f84c-0f83-1aec" type="selectionEntry" targetId="e919-d961-d007-ad34">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
                   </entryLinks>
@@ -34492,6 +34560,13 @@ A Legion Whispercutter counts its entire hull as an access point.</description>
                   </conditionGroups>
                 </modifier>
               </modifiers>
+              <entryLinks>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="0f71-297d-f104-0e16" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
             </entryLink>
             <entryLink id="2d91-a334-2daa-1c3d" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
             <entryLink import="true" name="The Legacy of Nikaea" hidden="false" id="4f53-fed8-99cf-2ffe" type="selectionEntryGroup" targetId="4930-e52e-883d-11a7"/>
@@ -38145,6 +38220,7 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4ca2-41b0-386f-b165" type="min"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="60fb-84e5-282b-4e54" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3"/>
               </entryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="45"/>
@@ -47103,6 +47179,11 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
+                    <entryLink import="true" name="Frost Claw" hidden="false" id="e52e-3712-a782-4f50" type="selectionEntry" targetId="e919-d961-d007-ad34">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="1af2-262c-0278-6061" name="1) Ranged Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="ce8a-5c75-47b6-8fcd">
@@ -47298,6 +47379,7 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f81-352c-9e47-eb8b" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="229c-e744-f308-05bb" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3"/>
               </entryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
@@ -47370,6 +47452,11 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                     <entryLink import="true" name="Lightning Claw*" hidden="false" id="74b3-d3d1-447f-eb04" type="selectionEntry" targetId="ab93-cdb4-41f6-a354">
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Frost Claw" hidden="false" id="d5a3-04b7-fee1-0f1d" type="selectionEntry" targetId="e919-d961-d007-ad34">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
                   </entryLinks>
@@ -47644,6 +47731,11 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
                     <entryLink import="true" name="Lightning Claw*" hidden="false" id="67bb-3258-95c2-46ff" type="selectionEntry" targetId="ab93-cdb4-41f6-a354">
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Frost Claw" hidden="false" id="6077-d306-f0d9-dd0c" type="selectionEntry" targetId="e919-d961-d007-ad34">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
                   </entryLinks>
@@ -59071,6 +59163,11 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Frost Claw" hidden="false" id="c296-4e15-751a-6e04" type="selectionEntry" targetId="e919-d961-d007-ad34">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Xenos Doomlock" hidden="true" id="50ea-23fb-fc1d-4eb7" publicationId="d882-d2a-5da1-92c4">
@@ -59246,6 +59343,11 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to 
                 <entryLink import="true" name="Helfrost Pistol" hidden="false" id="aa3d-685e-0654-f869" type="selectionEntry" targetId="dbbf-ec31-c546-1d2e">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Frost Claw" hidden="false" id="6e5f-3910-affb-cea5" type="selectionEntry" targetId="e919-d961-d007-ad34">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -67473,6 +67575,11 @@ If the Psychic check is successful then until that Shooting Attack is resolved, 
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4988-c01d-3172-07d4"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="8483-9385-4bb8-5bbb" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="2) May take one:" id="f9ab-e5fc-7d03-2216" hidden="false" collective="false" import="true">
@@ -72121,6 +72228,11 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
           </costs>
         </entryLink>
+        <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="0269-b422-1aa5-b1f2" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="bf84-ba90-0a9c-fc3d" name="Terminator Lightning Claws (Optional)" hidden="false" collective="false" import="true">
@@ -72161,6 +72273,11 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
           </modifiers>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="6359-dc43-5c07-5532" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
           </costs>
         </entryLink>
       </entryLinks>

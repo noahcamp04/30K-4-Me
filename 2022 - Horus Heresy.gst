@@ -7652,6 +7652,7 @@ Thaumaturge’s Cleansing (Psychic Weapon)</description>
         <infoLink id="02f1-88d2-d3e6-2164" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
         <infoLink id="81bb-d70b-debf-9d17" name="Specialist Weapon" hidden="false" targetId="1a1f-3c9b-b097-5886" type="rule"/>
         <infoLink id="aee2-5411-5923-8b3e" name="Lightning Claw" hidden="false" targetId="00a9-04d4-17d3-3442" type="profile"/>
+        <infoLink name="Lightning Claw" id="fe2c-b1b8-07ea-5354" hidden="false" targetId="00a9-04d4-17d3-3442" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -9143,6 +9144,7 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
         <infoLink id="8550-3d5a-f4fb-a95c" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
         <infoLink id="43c5-bb96-8a32-b64d" name="Specialist Weapon" hidden="false" targetId="1a1f-3c9b-b097-5886" type="rule"/>
         <infoLink id="8817-eeb2-f439-a1c9" name="Lightning Claw" hidden="false" targetId="00a9-04d4-17d3-3442" type="profile" publicationId="9fab-fea7-a93c-2074" page="121"/>
+        <infoLink name="Lightning Claw" id="ff19-75d1-bfde-c976" hidden="false" targetId="00a9-04d4-17d3-3442" type="profile" publicationId="9fab-fea7-a93c-2074" page="121"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -11916,6 +11918,53 @@ Melta, or Volkite Types.</characteristic>
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="equalTo" value="0" field="selections" scope="force" childId="4916-965e-8339-44f6" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pair of Frost Claws" hidden="false" id="ff3d-a2f1-0f8c-dff3">
+      <profiles>
+        <profile name="Frost Claw" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="894c-c324-fec4-5931">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred, Rending (5+), Reaping blow (1), Paired Talons, Specialist Weapon</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Frost Claw" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="2f0b-ed30-e568-32a2">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred, Rending (5+), Reaping blow (1), Paired Talons, Specialist Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Paired Talons" id="56f3-c90d-93f8-43a5" hidden="false">
+          <description>A model armed with two Frost Claws gains +2 Attacks, instead of the
+normal +1 for two melee weapons.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink name="Reaping Blow (X)" id="5a47-8585-360c-a8bb" hidden="false" targetId="bd8c-4f52-d682-1b40" type="rule">
+          <modifiers>
+            <modifier type="set" value="Reaping Blow (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Rending (X)" id="cbe3-ea53-9add-f986" hidden="false" type="rule" targetId="0ac9-fab7-aef3-de1d">
+          <modifiers>
+            <modifier type="set" value="Rending (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Shred" id="a174-350a-b9a2-cf01" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
+        <infoLink name="Specialist Weapon" id="53ea-c2a4-43a9-403e" hidden="false" targetId="1a1f-3c9b-b097-5886" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="4916-965e-8339-44f6" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
           </conditions>
         </modifier>
       </modifiers>

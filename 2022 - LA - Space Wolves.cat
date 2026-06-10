@@ -4404,6 +4404,11 @@
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="4bc9-3a04-b331-2767" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="7e70-e3b5-190a-c272" name="2) May exchange his Bolt Pistol for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="1f4b-6771-0f9b-0e7d">
@@ -4917,6 +4922,11 @@
                           </constraints>
                           <costs>
                             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Frost Claw" hidden="false" id="6aac-dbb7-3ce2-83b9" type="selectionEntry" targetId="e919-d961-d007-ad34">
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                           </costs>
                         </entryLink>
                       </entryLinks>
@@ -5536,6 +5546,14 @@
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
+                <entryLink import="true" name="Pair of Frost Claws" hidden="false" id="d731-dc51-eb89-3dce" type="selectionEntry" targetId="ff3d-a2f1-0f8c-dff3">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden"/>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="a426-18d1-5c9f-4a53" name="2) Bolt Pistol Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="c610-649b-5621-5183">
@@ -6050,6 +6068,14 @@
                           </constraints>
                           <costs>
                             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Frost Claw" hidden="false" id="5771-9276-d8c6-8224" type="selectionEntry" targetId="e919-d961-d007-ad34">
+                          <modifiers>
+                            <modifier type="set" value="false" field="hidden"/>
+                          </modifiers>
+                          <costs>
+                            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                           </costs>
                         </entryLink>
                       </entryLinks>
