@@ -3529,14 +3529,14 @@ When a model has two Raven’s Talons, that model gains +2 Attacks instead of th
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2, Rending (6+), Achean Force</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2, Rending (5+), Achean Force</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="e972-4a93-ae33-c6be" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Rending (6+)"/>
+            <modifier type="set" field="name" value="Rending (5+)"/>
           </modifiers>
         </infoLink>
         <infoLink id="0325-11ef-9ba1-efd7" name="Achean Force" hidden="false" targetId="c56f-80ff-5d8e-1af4" type="rule"/>
@@ -3560,14 +3560,14 @@ When a model has two Raven’s Talons, that model gains +2 Attacks instead of th
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (3&quot;), Rending (6+), Achean Force</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (3&quot;), Rending (5+), Achean Force</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="eaa3-e66a-1773-557b" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Rending (6+)"/>
+            <modifier type="set" field="name" value="Rending (5+)"/>
           </modifiers>
         </infoLink>
         <infoLink id="7872-4ae2-84e2-bfcb" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
@@ -3592,7 +3592,7 @@ When a model has two Raven’s Talons, that model gains +2 Attacks instead of th
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5”), Rending (6+), Achean Force</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5”), Rending (5+), Achean Force</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3600,7 +3600,7 @@ When a model has two Raven’s Talons, that model gains +2 Attacks instead of th
         <infoLink id="bad5-d3ae-e348-726c" name="Achean Force" hidden="false" targetId="c56f-80ff-5d8e-1af4" type="rule"/>
         <infoLink id="df8a-897b-4df2-65aa" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Rending (6+)"/>
+            <modifier type="set" field="name" value="Rending (5+)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -3623,14 +3623,14 @@ When a model has two Raven’s Talons, that model gains +2 Attacks instead of th
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">10&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 1, Rending (6+), Achean Force</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 1, Rending (5+), Achean Force</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="759e-e69b-42ef-f446" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Rending (6+)"/>
+            <modifier type="set" field="name" value="Rending (5+)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
