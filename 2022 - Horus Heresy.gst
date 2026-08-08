@@ -6831,9 +6831,9 @@ Additionally, a machinator array incorporates a flamer and a meltagun. A model w
       <infoLinks>
         <infoLink id="5931-51a2-d990-afd6" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
         <infoLink id="c515-b7df-cd3f-c684" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-        <infoLink id="8153-542e-e27d-4193" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="8153-542e-e27d-4193" name="Rupture (X)" hidden="false" targetId="0031-12d9-3b2e-a574" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Rending (6+)"/>
+            <modifier type="set" field="name" value="Rupture (6+)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -9106,9 +9106,9 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
         <infoLink id="ed07-ed20-2ceb-eb42" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
         <infoLink id="2f52-5e86-e23b-b794" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
         <infoLink id="986b-495f-439b-3769" name="Heavy Chainsword" hidden="false" targetId="362e-4589-11b9-6517" type="profile"/>
-        <infoLink id="f230-e73a-af02-98c9" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="f230-e73a-af02-98c9" name="Rupture (X)" hidden="false" targetId="0031-12d9-3b2e-a574" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Rending (6+)"/>
+            <modifier type="set" field="name" value="Rupture (6+)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
