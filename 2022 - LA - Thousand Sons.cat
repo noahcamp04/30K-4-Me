@@ -4135,22 +4135,32 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d49-664e-7ddf-3696" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Psychic Discipline: Sinistrum (Thousand Sons Only)" hidden="true" id="c53f-c863-c59b-bf3e">
+                <selectionEntry type="upgrade" import="true" name="Psychic Discipline: Sinistrum (Thousand Sons Only)" hidden="true" id="7bd2-9a8e-2ddb-8b89">
                   <infoLinks>
-                    <infoLink name="Aetheric Lightning" id="37b4-eeed-9229-5fab" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
-                    <infoLink name="Psychic Focus" id="08af-40e9-0ae1-de29" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
-                    <infoLink name="Force" id="28f0-49fa-0dac-6120" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
-                    <infoLink name="Heavy Beam" id="4a1b-8b4c-dbac-6514" hidden="false" type="rule" targetId="24e7-27da-9bf7-f096"/>
-                    <infoLink name="Crawling Fire" id="5d96-e68d-5553-2195" hidden="false" type="rule" targetId="8258-a7af-e4df-531d"/>
-                    <infoLink name="Blast" id="d56a-523a-54e4-4b6d" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8"/>
-                    <infoLink name="Breaching (X)" id="5bc1-5dd3-0170-ea56" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+                    <infoLink name="Aetheric Lightning" id="ad12-3684-d8fb-f045" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
+                    <infoLink name="Psychic Focus" id="a353-3ad7-d77b-5462" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
+                    <infoLink name="Force" id="9346-89e6-e941-4185" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
+                    <infoLink name="Heavy Beam" id="7845-b177-d54c-f209" hidden="false" type="rule" targetId="24e7-27da-9bf7-f096"/>
+                    <infoLink name="Crawling Fire" id="ce4c-b6c4-f15d-61a2" hidden="false" type="rule" targetId="8258-a7af-e4df-531d"/>
+                    <infoLink name="Blast" id="b433-7778-3865-f99c" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8"/>
+                    <infoLink name="Breaching (X)" id="9409-1d8b-2c1c-a2fc" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
                       <modifiers>
                         <modifier type="set" value="Breaching (5+)" field="name"/>
                       </modifiers>
                     </infoLink>
+                    <infoLink name="Shrouded (X)" id="1027-1714-3a10-8cd8" hidden="false" type="rule" targetId="10c3-fdb0-089f-ca65">
+                      <modifiers>
+                        <modifier type="set" value="Shrouded (5+), (Veil of Time)" field="name"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink name="Fleet (X)" id="b51a-2b16-c8cd-b567" hidden="false" type="rule" targetId="ddc9-0b4b-78da-bbd2">
+                      <modifiers>
+                        <modifier type="set" value="Fleet (2), (Veil of Time)" field="name"/>
+                      </modifiers>
+                    </infoLink>
                   </infoLinks>
                   <profiles>
-                    <profile name="Ancient Fury" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="2cb6-7783-6d2f-d1ea">
+                    <profile name="Ancient Fury" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="20f6-7577-2b9f-5603">
                       <characteristics>
                         <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">18&quot;</characteristic>
                         <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">6</characteristic>
@@ -4158,7 +4168,7 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
                         <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Heavy Beam, Breaching (5+), Psychic Focus</characteristic>
                       </characteristics>
                     </profile>
-                    <profile name="Wrathful Fire" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="3950-8df6-d13e-ba56">
+                    <profile name="Wrathful Fire" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="abbf-954a-6877-34d1">
                       <characteristics>
                         <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">18&quot;</characteristic>
                         <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">5</characteristic>
@@ -4166,7 +4176,7 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
                         <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Blast (3&quot;), Crawling Fire, Psychic Focus</characteristic>
                       </characteristics>
                     </profile>
-                    <profile name="Veil of Time" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power" hidden="false" id="7479-7eb8-939f-f302">
+                    <profile name="Veil of Time" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power" hidden="false" id="fdb6-6081-51d2-57ac">
                       <characteristics>
                         <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Psyker with this Psychic Power may choose to take a Psychic Test. If the test is passed, select a single friendly
 unit within 6” – this unit gains the Shrouded (5+) and Fleet (2) Special Rules until the start of the Controlling Player’s Next Game Turn. If the test is
@@ -4175,7 +4185,7 @@ failed, then the target unit gains no benefit and the Psyker suffers Perils of t
                     </profile>
                   </profiles>
                   <rules>
-                    <rule name="Psychic Discipline: Sinistrum" id="8456-d469-dd9a-aa24" hidden="false">
+                    <rule name="Psychic Discipline: Sinistrum" id="5128-48cc-281e-0511" hidden="false">
                       <description>A Psyker with this Discipline gains all the listed Powers, weapons and other Special Rules, as well as the Aetheric Lightning Psychic Weapon
 
 Ancient Fury (Psychic Weapon)
@@ -4191,7 +4201,7 @@ Veil of Time (Psychic Power)</description>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e5d3-3ccb-fd21-4108" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a8a-f590-9a3c-b0ac" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                   </constraints>
                 </selectionEntry>
               </selectionEntries>
@@ -4472,22 +4482,32 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f5c7-929f-5570-e630" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Psychic Discipline: Sinistrum (Thousand Sons Only)" hidden="true" id="0d12-f65e-51aa-50b0">
+                <selectionEntry type="upgrade" import="true" name="Psychic Discipline: Sinistrum (Thousand Sons Only)" hidden="true" id="99f5-cfd4-be6b-c947">
                   <infoLinks>
-                    <infoLink name="Aetheric Lightning" id="cede-e991-a013-cbc6" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
-                    <infoLink name="Psychic Focus" id="cac3-f66f-8c93-13bd" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
-                    <infoLink name="Force" id="ba5c-ba44-fe18-d456" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
-                    <infoLink name="Heavy Beam" id="ed88-27b7-6dcf-9fc8" hidden="false" type="rule" targetId="24e7-27da-9bf7-f096"/>
-                    <infoLink name="Crawling Fire" id="6734-2629-31dd-bf0a" hidden="false" type="rule" targetId="8258-a7af-e4df-531d"/>
-                    <infoLink name="Blast" id="7efc-e369-384c-3271" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8"/>
-                    <infoLink name="Breaching (X)" id="c387-9eec-fb23-8108" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+                    <infoLink name="Aetheric Lightning" id="0026-e769-2018-74de" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
+                    <infoLink name="Psychic Focus" id="9b67-5316-4408-a26a" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
+                    <infoLink name="Force" id="a989-e099-d0e8-babf" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
+                    <infoLink name="Heavy Beam" id="66e6-653d-4e69-50d2" hidden="false" type="rule" targetId="24e7-27da-9bf7-f096"/>
+                    <infoLink name="Crawling Fire" id="78fd-47cf-3605-5e65" hidden="false" type="rule" targetId="8258-a7af-e4df-531d"/>
+                    <infoLink name="Blast" id="53a9-3e50-9ec1-aadf" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8"/>
+                    <infoLink name="Breaching (X)" id="9d87-baab-4e51-fee2" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
                       <modifiers>
                         <modifier type="set" value="Breaching (5+)" field="name"/>
                       </modifiers>
                     </infoLink>
+                    <infoLink name="Shrouded (X)" id="6730-16b5-abd6-1498" hidden="false" type="rule" targetId="10c3-fdb0-089f-ca65">
+                      <modifiers>
+                        <modifier type="set" value="Shrouded (5+), (Veil of Time)" field="name"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink name="Fleet (X)" id="4f54-0447-a623-3382" hidden="false" type="rule" targetId="ddc9-0b4b-78da-bbd2">
+                      <modifiers>
+                        <modifier type="set" value="Fleet (2), (Veil of Time)" field="name"/>
+                      </modifiers>
+                    </infoLink>
                   </infoLinks>
                   <profiles>
-                    <profile name="Ancient Fury" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="c627-14b8-8335-3f23">
+                    <profile name="Ancient Fury" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="c7e1-919b-c291-594a">
                       <characteristics>
                         <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">18&quot;</characteristic>
                         <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">6</characteristic>
@@ -4495,7 +4515,7 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
                         <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Heavy Beam, Breaching (5+), Psychic Focus</characteristic>
                       </characteristics>
                     </profile>
-                    <profile name="Wrathful Fire" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="f971-b10f-1366-418d">
+                    <profile name="Wrathful Fire" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="b257-ff48-1c93-5eb4">
                       <characteristics>
                         <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">18&quot;</characteristic>
                         <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">5</characteristic>
@@ -4503,7 +4523,7 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
                         <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Blast (3&quot;), Crawling Fire, Psychic Focus</characteristic>
                       </characteristics>
                     </profile>
-                    <profile name="Veil of Time" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power" hidden="false" id="eb91-4fbd-8224-b926">
+                    <profile name="Veil of Time" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power" hidden="false" id="5d82-f135-fe4c-a472">
                       <characteristics>
                         <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Psyker with this Psychic Power may choose to take a Psychic Test. If the test is passed, select a single friendly
 unit within 6” – this unit gains the Shrouded (5+) and Fleet (2) Special Rules until the start of the Controlling Player’s Next Game Turn. If the test is
@@ -4512,7 +4532,7 @@ failed, then the target unit gains no benefit and the Psyker suffers Perils of t
                     </profile>
                   </profiles>
                   <rules>
-                    <rule name="Psychic Discipline: Sinistrum" id="eedc-9a89-ee3b-7e58" hidden="false">
+                    <rule name="Psychic Discipline: Sinistrum" id="2b71-71d0-8dfc-23ab" hidden="false">
                       <description>A Psyker with this Discipline gains all the listed Powers, weapons and other Special Rules, as well as the Aetheric Lightning Psychic Weapon
 
 Ancient Fury (Psychic Weapon)
@@ -4528,7 +4548,7 @@ Veil of Time (Psychic Power)</description>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4015-4dd1-0829-9cee" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="003e-1601-aa67-632f" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                   </constraints>
                 </selectionEntry>
               </selectionEntries>
@@ -4762,6 +4782,16 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
                     <infoLink name="Breaching (X)" id="f5b9-b543-1693-4ef3" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
                       <modifiers>
                         <modifier type="set" value="Breaching (5+)" field="name"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink name="Shrouded (X)" id="08db-0133-2730-5ee1" hidden="false" type="rule" targetId="10c3-fdb0-089f-ca65">
+                      <modifiers>
+                        <modifier type="set" value="Shrouded (5+), (Veil of Time)" field="name"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink name="Fleet (X)" id="9803-06d4-a27a-ef0d" hidden="false" type="rule" targetId="ddc9-0b4b-78da-bbd2">
+                      <modifiers>
+                        <modifier type="set" value="Fleet (2), (Veil of Time)" field="name"/>
                       </modifiers>
                     </infoLink>
                   </infoLinks>
@@ -5541,22 +5571,32 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e63e-c32f-fec8-3267" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Psychic Discipline: Sinistrum (Thousand Sons Only)" hidden="true" id="c6d8-520a-0599-28e5">
+                <selectionEntry type="upgrade" import="true" name="Psychic Discipline: Sinistrum (Thousand Sons Only)" hidden="true" id="c1e8-3c4b-05a9-6ee6">
                   <infoLinks>
-                    <infoLink name="Aetheric Lightning" id="c556-68dd-284c-d6c3" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
-                    <infoLink name="Psychic Focus" id="5014-1d83-84b4-22c4" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
-                    <infoLink name="Force" id="9765-a67d-e448-e28f" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
-                    <infoLink name="Heavy Beam" id="a386-061a-803f-48fc" hidden="false" type="rule" targetId="24e7-27da-9bf7-f096"/>
-                    <infoLink name="Crawling Fire" id="26fa-d27f-0a32-bfb3" hidden="false" type="rule" targetId="8258-a7af-e4df-531d"/>
-                    <infoLink name="Blast" id="2dbb-ebe7-01d2-bb34" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8"/>
-                    <infoLink name="Breaching (X)" id="8ab0-0b14-0a4e-d595" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+                    <infoLink name="Aetheric Lightning" id="254b-5829-f312-c3bc" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
+                    <infoLink name="Psychic Focus" id="37a3-80d2-8fd9-c15f" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
+                    <infoLink name="Force" id="a965-8f8d-8807-fe1d" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
+                    <infoLink name="Heavy Beam" id="7db5-026d-6571-ffc4" hidden="false" type="rule" targetId="24e7-27da-9bf7-f096"/>
+                    <infoLink name="Crawling Fire" id="1d6b-473c-b99f-b131" hidden="false" type="rule" targetId="8258-a7af-e4df-531d"/>
+                    <infoLink name="Blast" id="06e5-6a1e-ce1c-f6a9" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8"/>
+                    <infoLink name="Breaching (X)" id="5c11-eaad-cdaf-ef78" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
                       <modifiers>
                         <modifier type="set" value="Breaching (5+)" field="name"/>
                       </modifiers>
                     </infoLink>
+                    <infoLink name="Shrouded (X)" id="0b2d-404b-ef36-9f8e" hidden="false" type="rule" targetId="10c3-fdb0-089f-ca65">
+                      <modifiers>
+                        <modifier type="set" value="Shrouded (5+), (Veil of Time)" field="name"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink name="Fleet (X)" id="d85d-992a-9554-095c" hidden="false" type="rule" targetId="ddc9-0b4b-78da-bbd2">
+                      <modifiers>
+                        <modifier type="set" value="Fleet (2), (Veil of Time)" field="name"/>
+                      </modifiers>
+                    </infoLink>
                   </infoLinks>
                   <profiles>
-                    <profile name="Ancient Fury" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="c940-d908-8059-02e8">
+                    <profile name="Ancient Fury" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="dd84-acb0-d656-3730">
                       <characteristics>
                         <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">18&quot;</characteristic>
                         <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">6</characteristic>
@@ -5564,7 +5604,7 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
                         <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Heavy Beam, Breaching (5+), Psychic Focus</characteristic>
                       </characteristics>
                     </profile>
-                    <profile name="Wrathful Fire" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="a477-9540-30ea-dedd">
+                    <profile name="Wrathful Fire" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="4163-d772-ab6a-b924">
                       <characteristics>
                         <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">18&quot;</characteristic>
                         <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">5</characteristic>
@@ -5572,7 +5612,7 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
                         <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Blast (3&quot;), Crawling Fire, Psychic Focus</characteristic>
                       </characteristics>
                     </profile>
-                    <profile name="Veil of Time" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power" hidden="false" id="a967-f5b1-900f-fc3a">
+                    <profile name="Veil of Time" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power" hidden="false" id="419b-8eb1-9e6f-5610">
                       <characteristics>
                         <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Psyker with this Psychic Power may choose to take a Psychic Test. If the test is passed, select a single friendly
 unit within 6” – this unit gains the Shrouded (5+) and Fleet (2) Special Rules until the start of the Controlling Player’s Next Game Turn. If the test is
@@ -5581,7 +5621,7 @@ failed, then the target unit gains no benefit and the Psyker suffers Perils of t
                     </profile>
                   </profiles>
                   <rules>
-                    <rule name="Psychic Discipline: Sinistrum" id="3041-758f-d7e8-f79f" hidden="false">
+                    <rule name="Psychic Discipline: Sinistrum" id="4414-1765-258c-bfd8" hidden="false">
                       <description>A Psyker with this Discipline gains all the listed Powers, weapons and other Special Rules, as well as the Aetheric Lightning Psychic Weapon
 
 Ancient Fury (Psychic Weapon)
@@ -5597,8 +5637,7 @@ Veil of Time (Psychic Power)</description>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e05a-5863-c2fb-2dbe" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e74d-7252-04fa-dfe7" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abf5-4e45-95fb-b801" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                   </constraints>
                 </selectionEntry>
               </selectionEntries>
@@ -6413,22 +6452,32 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10fe-8f74-acf3-831a" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Psychic Discipline: Sinistrum (Thousand Sons Only)" hidden="true" id="ed8b-c9d0-462e-5cf5">
+                <selectionEntry type="upgrade" import="true" name="Psychic Discipline: Sinistrum (Thousand Sons Only)" hidden="true" id="07f8-7e52-3a33-0b9d">
                   <infoLinks>
-                    <infoLink name="Aetheric Lightning" id="fd88-77da-bad2-7189" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
-                    <infoLink name="Psychic Focus" id="dddd-123d-bc58-2ddb" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
-                    <infoLink name="Force" id="2519-a69a-b870-d201" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
-                    <infoLink name="Heavy Beam" id="8f08-3a10-e2b8-522f" hidden="false" type="rule" targetId="24e7-27da-9bf7-f096"/>
-                    <infoLink name="Crawling Fire" id="f217-8144-f9a1-06fb" hidden="false" type="rule" targetId="8258-a7af-e4df-531d"/>
-                    <infoLink name="Blast" id="9d46-2a3d-545f-e5d8" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8"/>
-                    <infoLink name="Breaching (X)" id="b3ea-b8dc-b81b-5c79" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
+                    <infoLink name="Aetheric Lightning" id="24e5-c4e6-f1e7-6b5c" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
+                    <infoLink name="Psychic Focus" id="093c-bdec-27a2-fc8b" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
+                    <infoLink name="Force" id="55c9-82e7-7f12-fc40" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
+                    <infoLink name="Heavy Beam" id="383d-414b-a7b8-753a" hidden="false" type="rule" targetId="24e7-27da-9bf7-f096"/>
+                    <infoLink name="Crawling Fire" id="cd96-3cec-2221-efd7" hidden="false" type="rule" targetId="8258-a7af-e4df-531d"/>
+                    <infoLink name="Blast" id="4ebe-5383-f8fa-7197" hidden="false" type="rule" targetId="1d9a-73ef-5f4f-8bd8"/>
+                    <infoLink name="Breaching (X)" id="d24b-dfc1-add1-7b31" hidden="false" type="rule" targetId="a760-f736-1bf3-fa3c">
                       <modifiers>
                         <modifier type="set" value="Breaching (5+)" field="name"/>
                       </modifiers>
                     </infoLink>
+                    <infoLink name="Shrouded (X)" id="cf67-0bb0-cce3-56e8" hidden="false" type="rule" targetId="10c3-fdb0-089f-ca65">
+                      <modifiers>
+                        <modifier type="set" value="Shrouded (5+), (Veil of Time)" field="name"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink name="Fleet (X)" id="68a1-3e8b-3961-dd47" hidden="false" type="rule" targetId="ddc9-0b4b-78da-bbd2">
+                      <modifiers>
+                        <modifier type="set" value="Fleet (2), (Veil of Time)" field="name"/>
+                      </modifiers>
+                    </infoLink>
                   </infoLinks>
                   <profiles>
-                    <profile name="Ancient Fury" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="d431-3df0-33d7-7f02">
+                    <profile name="Ancient Fury" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="0886-cb4e-3480-9351">
                       <characteristics>
                         <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">18&quot;</characteristic>
                         <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">6</characteristic>
@@ -6436,7 +6485,7 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
                         <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Heavy Beam, Breaching (5+), Psychic Focus</characteristic>
                       </characteristics>
                     </profile>
-                    <profile name="Wrathful Fire" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="3fb4-3e8e-1efe-8530">
+                    <profile name="Wrathful Fire" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="86fe-1de2-0640-ae1b">
                       <characteristics>
                         <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">18&quot;</characteristic>
                         <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">5</characteristic>
@@ -6444,7 +6493,7 @@ If the test is failed, then a target unit may not be selected, and the Psyker su
                         <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Blast (3&quot;), Crawling Fire, Psychic Focus</characteristic>
                       </characteristics>
                     </profile>
-                    <profile name="Veil of Time" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power" hidden="false" id="c298-af70-35c6-2408">
+                    <profile name="Veil of Time" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power" hidden="false" id="9124-59e2-9d4a-5bcd">
                       <characteristics>
                         <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Psyker with this Psychic Power may choose to take a Psychic Test. If the test is passed, select a single friendly
 unit within 6” – this unit gains the Shrouded (5+) and Fleet (2) Special Rules until the start of the Controlling Player’s Next Game Turn. If the test is
@@ -6453,7 +6502,7 @@ failed, then the target unit gains no benefit and the Psyker suffers Perils of t
                     </profile>
                   </profiles>
                   <rules>
-                    <rule name="Psychic Discipline: Sinistrum" id="1b84-a32e-699a-1df5" hidden="false">
+                    <rule name="Psychic Discipline: Sinistrum" id="6652-fadc-a4e4-e772" hidden="false">
                       <description>A Psyker with this Discipline gains all the listed Powers, weapons and other Special Rules, as well as the Aetheric Lightning Psychic Weapon
 
 Ancient Fury (Psychic Weapon)
@@ -6469,7 +6518,7 @@ Veil of Time (Psychic Power)</description>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4011-dd12-beba-e864" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c50-a613-6f8d-f60b" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                   </constraints>
                 </selectionEntry>
               </selectionEntries>
