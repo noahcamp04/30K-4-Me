@@ -72245,6 +72245,16 @@ can move at up to Crusing speed in the movement phase, but are counted as not ha
                 <modifier type="set" value="Breaching (5+)" field="name"/>
               </modifiers>
             </infoLink>
+            <infoLink name="Fleet (X)" id="46a5-005f-c302-b4d8" hidden="false" type="rule" targetId="ddc9-0b4b-78da-bbd2">
+              <modifiers>
+                <modifier type="set" value="Fleet (2), (Veil of Time)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Shrouded (X)" id="6719-3f8c-b3bb-8b88" hidden="false" type="rule" targetId="10c3-fdb0-089f-ca65">
+              <modifiers>
+                <modifier type="set" value="Shrouded (5+), (Veil of Time)" field="name"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <profiles>
             <profile name="Ancient Fury" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon" hidden="false" id="8306-9820-5395-329a">

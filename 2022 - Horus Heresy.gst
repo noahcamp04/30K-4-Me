@@ -7490,8 +7490,16 @@ Diviner’s Dart (Psychic Weapon)</description>
         <infoLink id="fda9-e4f2-4f6b-6384" name="Sniper" hidden="false" targetId="9cd8-e726-5dbe-b106" type="rule"/>
         <infoLink id="d79f-aa47-a6fb-ec22" name="Guided Fire" hidden="false" targetId="fa1e-0112-943e-b1f6" type="rule"/>
         <infoLink id="0a17-e440-94c8-c6b3" name="Psychic Focus" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
-        <infoLink id="8568-89f5-75e0-4f0a" name="Precision Shots (X)" hidden="false" targetId="4b71-81ee-31f4-fa09" type="rule"/>
-        <infoLink id="4625-3e22-bd5a-84bf" name="Precision Strikes (X)" hidden="false" targetId="2206-8497-8fe1-e973" type="rule"/>
+        <infoLink id="8568-89f5-75e0-4f0a" name="Precision Shots (X)" hidden="false" targetId="4b71-81ee-31f4-fa09" type="rule">
+          <modifiers>
+            <modifier type="set" value="Precision Shots (Aegis)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4625-3e22-bd5a-84bf" name="Precision Strikes (X)" hidden="false" targetId="2206-8497-8fe1-e973" type="rule">
+          <modifiers>
+            <modifier type="set" value="Precision Strikes (Aegis)" field="name"/>
+          </modifiers>
+        </infoLink>
         <infoLink id="21d2-337b-f1cb-62b9" name="Aetheric Lightning" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
         <infoLink id="6f9a-d33f-54fc-8bbb" name="Force" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
       </infoLinks>
