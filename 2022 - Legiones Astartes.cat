@@ -49463,6 +49463,16 @@ It is not know if this is a mistake or not, as previously like with the Mech boo
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
       </costs>
+      <entryLinks>
+        <entryLink import="true" name="Prosperine Spirestave" hidden="false" id="1564-8a8f-ae4e-23be" type="selectionEntry" targetId="3aae-9404-37b0-674b">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="48a6-0584-765f-dcff"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry id="cb35-21a5-c296-ddd9" name="Warsmith" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>

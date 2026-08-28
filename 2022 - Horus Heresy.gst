@@ -11977,6 +11977,33 @@ normal +1 for two melee weapons.</description>
         </modifier>
       </modifiers>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Prosperine Spirestave" hidden="true" id="3aae-9404-37b0-674b">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="force" childId="21c3-2f28-7820-e51a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Prosperine Spirestave" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="f758-4918-c91a-9a4c">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (2), Conduit</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Brutal (X)" id="fefa-5fb2-286b-5b8a" hidden="false" type="rule" targetId="5079-1fec-d32b-8b84">
+          <modifiers>
+            <modifier type="set" value="Brutal (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Conduit" id="37ca-c4a8-d185-e413" hidden="false" type="rule" targetId="30d8-323b-561d-fffe"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4a48-4935-246d-0c2e" name="Legion" hidden="false" collective="false" import="true">
@@ -18729,6 +18756,10 @@ Blackshields Detachment, you can include Death Guard Mortus
 Poisoner Squads as part of that Detachment. If you do so, replace
 their Legiones Astartes (Death Guard) Special Rule with the
 Legiones Astartes (Blackshields) Special Rule.</description>
+    </rule>
+    <rule name="Conduit" id="30d8-323b-561d-fffe" hidden="false">
+      <description>When a Model that has a Weapon with this Special Rule manifests a Psychic Weapon increase the strength of the manifested Psychic Weapon.
+</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
