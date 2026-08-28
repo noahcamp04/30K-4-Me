@@ -11991,7 +11991,7 @@ normal +1 for two melee weapons.</description>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (2), Conduit</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Reach (1), Brutal (2), Conduit</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12002,6 +12002,11 @@ normal +1 for two melee weapons.</description>
           </modifiers>
         </infoLink>
         <infoLink name="Conduit" id="37ca-c4a8-d185-e413" hidden="false" type="rule" targetId="30d8-323b-561d-fffe"/>
+        <infoLink name="Reach (X)" id="c69c-0f8e-c3aa-f33b" hidden="false" type="rule" targetId="19bf-62a2-5737-890b">
+          <modifiers>
+            <modifier type="set" value="Reach (1)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -18758,7 +18763,7 @@ their Legiones Astartes (Death Guard) Special Rule with the
 Legiones Astartes (Blackshields) Special Rule.</description>
     </rule>
     <rule name="Conduit" id="30d8-323b-561d-fffe" hidden="false">
-      <description>When a Model that has a Weapon with this Special Rule manifests a Psychic Weapon increase the strength of the manifested Psychic Weapon.
+      <description>When a Model that has a Weapon with this Special Rule manifests a Psychic Weapon increase the strength of the manifested Psychic Weapon by 1.
 </description>
     </rule>
   </sharedRules>
